@@ -1,0 +1,22 @@
+{
+  "source_commit": "adcb9fce486ca612ae916a8a9c8c0a5c637cacc0",
+  "workflow_url": "https://github.com/Elitebigboss90/Sigma-Cortex-Zeus/actions/runs/41536326694",
+  "status": "published-and-download-verified",
+  "release_url": "https://github.com/Elitebigboss90/Sigma-Cortex-Zeus/releases/tag/zeus-dev3-sigma-1.1.8",
+  "tag": "zeus-dev3-sigma-1.1.8",
+  "prerelease": true,
+  "assets": [
+    {
+      "name": "windows-detection-check-1.1.8.zip",
+      "size": 2065609,
+      "sha256": "461b72e580b84bafe5611ff5277dd6506c906e1e5ec5a3dbf285250316fa9123",
+      "browser_download_url": "https://github.com/Elitebigboss90/Sigma-Cortex-Zeus/releases/download/untagged-8e8fc29fa3c2cbab48b2/windows-detection-check-1.1.8.zip"
+    },
+    {
+      "name": "zeus-dev3.zip",
+      "size": 2600458,
+      "sha256": "ad02c399e8df2318738cf1691d6fd7261786d2b7e6d70cf3920717b70a261b80",
+      "browser_download_url": "https://github.com/Elitebigboss90/Sigma-Cortex-Zeus/releases/download/untagged-8e8fc29fa3c2cbab48b2/zeus-dev3.zip"
+    }
+  ]
+}
