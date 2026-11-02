@@ -101,7 +101,15 @@ def publish():
     assert len(existing.keys() - {Path(s['path']).name for s in CONFIG['assets']}) == 0, 'Unexpected existing assets'
     if release['draft']:
         release = request(release['url'], 'PATCH', {'draft': False, 'prerelease': True, 'make_latest': 'false'})
+    # Draft asset URLs can contain GitHub's temporary untagged identifier.
+    # Refresh after publication so the receipt contains stable download URLs.
+    release = request(release['url'])
     assert release['draft'] is False and release['prerelease'] is True
+    published = {item['name']: item for item in release['assets']}
+    for item in verified:
+        item['browser_download_url'] = published[item['name']]['browser_download_url']
+        assert urllib.parse.urlsplit(item['browser_download_url']).path == (
+            f'/{REPO}/releases/download/{tag}/' + item['name'])
     return {'status': 'published-and-download-verified', 'release_url': release['html_url'],
             'tag': tag, 'prerelease': True, 'assets': verified}
 
