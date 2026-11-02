@@ -1,0 +1,19 @@
+{
+  "repository": "Elitebigboss90/Sigma-Cortex-Zeus",
+  "tag": "zeus-dev3-sigma-1.1.8",
+  "title": "Sigma 1.1.8: stock detection kit and Zeus dev3 experimental candidate",
+  "assets": [
+    {
+      "path": "work/sigma/windows-detection-check-1.1.8.zip",
+      "sha256": "461b72e580b84bafe5611ff5277dd6506c906e1e5ec5a3dbf285250316fa9123",
+      "updater_member": "windows-detection-check-1.1.8/SIGMA_Converter_V1.1.8.exe",
+      "updater_sha256": "233658402f99fdb47cb35a498706af34acdde77574c56b315a158228d48eec1a"
+    },
+    {
+      "path": "work/sigma/zeus-dev3.zip",
+      "sha256": "ad02c399e8df2318738cf1691d6fd7261786d2b7e6d70cf3920717b70a261b80",
+      "updater_member": "zeus-dev3/NOT_FOR_FLASHING-SIGMA_Converter_V1.1.8-zeus-dev3.exe.disabled",
+      "updater_sha256": "4a5d5eddbef1fe80fd8415448a9bd152929fdd365a8de757ccbbe91b3a977295"
+    }
+  ]
+}

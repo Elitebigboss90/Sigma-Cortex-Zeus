@@ -1,0 +1,35 @@
+name: Publish verified dev3 ZIP assets
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/releases/**'
+      - '.github/workflows/publish-dev3.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-zeus-dev3
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+          lfs: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /.github/releases/
+            /work/sigma/windows-detection-check-1.1.8.zip
+            /work/sigma/zeus-dev3.zip
+      - name: Verify, upload, download-check and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/releases/publish_dev3.py
