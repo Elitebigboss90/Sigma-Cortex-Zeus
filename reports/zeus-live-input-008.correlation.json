@@ -1,0 +1,70 @@
+{
+  "capture": "reports/zeus-live-input-008.jsonl",
+  "capture_sha256": "233b7cbda4c4d3e1d265cc343a4d309dbff8ec9a45b9e2f8069cb6ca588e5193",
+  "analysis": "reports/zeus-live-input-008.analysis.json",
+  "analysis_sha256": "3ee29f64c243c6d863bdef160315a02182d0d10394c743d199bba785fd5128d8",
+  "confirmation_source": "User confirmation relayed by parent agent /root in this session",
+  "prompt_semantics_not_verbatim": "Right seven-way Up, Right, Down, Left, with releases",
+  "user_answer_verbatim": "Finished right directions in that order",
+  "mapping_basis": "Order of isolated control events correlated with the requested and confirmed physical sequence",
+  "events": [
+    {
+      "physical_action_label": "right up",
+      "usage": 63,
+      "used_for_mapping": true,
+      "first_elapsed_ns": 62426038000,
+      "release_or_change_elapsed_ns": 62696036000,
+      "first_line": 12543,
+      "first_file_offset": 1608185,
+      "reports": 54,
+      "raw_report_hex": "0100000000000000000040000000000000008080808000",
+      "report_byte_offset": 10,
+      "report_bit_mask": "0x40"
+    },
+    {
+      "physical_action_label": "right right",
+      "usage": 66,
+      "used_for_mapping": true,
+      "first_elapsed_ns": 64026026000,
+      "release_or_change_elapsed_ns": 64226058000,
+      "first_line": 12864,
+      "first_file_offset": 1649355,
+      "reports": 40,
+      "raw_report_hex": "0100000000000000000000020000000000008080808000",
+      "report_byte_offset": 11,
+      "report_bit_mask": "0x02"
+    },
+    {
+      "physical_action_label": "right down",
+      "usage": 65,
+      "used_for_mapping": true,
+      "first_elapsed_ns": 66076045000,
+      "release_or_change_elapsed_ns": 66391074000,
+      "first_line": 13276,
+      "first_file_offset": 1702255,
+      "reports": 63,
+      "raw_report_hex": "0100000000000000000000010000000000008080808000",
+      "report_byte_offset": 11,
+      "report_bit_mask": "0x01"
+    },
+    {
+      "physical_action_label": "right left",
+      "usage": 64,
+      "used_for_mapping": true,
+      "first_elapsed_ns": 67966064000,
+      "release_or_change_elapsed_ns": 68236027000,
+      "first_line": 13656,
+      "first_file_offset": 1751059,
+      "reports": 54,
+      "raw_report_hex": "0100000000000000000080000000000000008080808000",
+      "report_byte_offset": 10,
+      "report_bit_mask": "0x80"
+    }
+  ],
+  "device_writes": false,
+  "limits": [
+    "Current wheel configuration and KVM topology only; saved user presets can change usages.",
+    "No Sigma firmware or PS5 behavior is validated by this capture.",
+    "Unrequested directional transients in capture007 are retained and excluded from assigning directions."
+  ]
+}

@@ -1,0 +1,3 @@
+SIGMA v1.1.8 BETA - Patch Notes:
+------------------------------
+1. Add Support for NeoX Hub.

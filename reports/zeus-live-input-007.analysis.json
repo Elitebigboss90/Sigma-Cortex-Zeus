@@ -1,0 +1,331 @@
+{
+  "capture": "reports/zeus-live-input-007.jsonl",
+  "capture_sha256": "01753493a346b8f168514b408337470e933b8c48028ca6279f5250ada567b900",
+  "size": 1396787,
+  "complete": true,
+  "start": {
+    "event": "start",
+    "vid": 13936,
+    "pid": 2052,
+    "seconds": 600,
+    "exclusive": false,
+    "device_writes": false,
+    "start_unix_seconds": 1793154438,
+    "start_monotonic_ns": 4815019929992000
+  },
+  "end": {
+    "event": "end",
+    "reports": 10894,
+    "stopped_early": true,
+    "elapsed_ns": 54221721000
+  },
+  "callback_count": 10894,
+  "callback_result_counts": {
+    "0": 10894
+  },
+  "report_groups": [
+    {
+      "group": "id_0x01_length_23_type_0",
+      "count": 10841,
+      "timing": {
+        "samples": 10841,
+        "first_elapsed_ns": 512000,
+        "last_elapsed_ns": 54217950000,
+        "interval_count": 10840,
+        "interval_ns_min": 825000,
+        "interval_ns_median": 4999000.0,
+        "interval_ns_max": 9999000,
+        "interpretation": "Host callback arrival intervals; not measured USB transactions."
+      },
+      "unique_raw_reports": 5,
+      "variants": [
+        {
+          "hex": "0100000000000000000000000000000000008080808000",
+          "count": 10738
+        },
+        {
+          "hex": "0100000000000000800000000000000000008080808000",
+          "count": 53
+        },
+        {
+          "hex": "0100000000000000040000000000000000008080808000",
+          "count": 34
+        },
+        {
+          "hex": "0100000000000000400000000000000000008080808000",
+          "count": 13
+        },
+        {
+          "hex": "0100000000000000200000000000000000008080808000",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "group": "id_0x02_length_64_type_0",
+      "count": 53,
+      "timing": {
+        "samples": 53,
+        "first_elapsed_ns": 354538000,
+        "last_elapsed_ns": 53391993000,
+        "interval_count": 52,
+        "interval_ns_min": 1019002000,
+        "interval_ns_median": 1020001500.0,
+        "interval_ns_max": 1020167000,
+        "interpretation": "Host callback arrival intervals; not measured USB transactions."
+      },
+      "unique_raw_reports": 1,
+      "variants": [
+        {
+          "hex": "021e88ff0104002d0101121008d490d1990410bbbc889aa4e8cd9c1418c182845020013080809c103880a08086c2e6859c2f4080809c10000000000000000000",
+          "count": 53
+        }
+      ]
+    }
+  ],
+  "descriptors": {
+    "observation": "reports/zeus-live-hid-kvm.json",
+    "observation_sha256": "dae8cb7b86fbb294f22db4d8fc2b23fd4ab3387c49e1459ebd1f207340997776",
+    "observed_utc": "2026-10-28T00:31:13.257508+00:00",
+    "static_descriptor": "work/simagic/zeus-hid_report.bin",
+    "static_descriptor_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d",
+    "devices": [
+      {
+        "vid": 13936,
+        "pid": 2052,
+        "transport": "USB",
+        "product": "Simagic Zeus Formula Steering Wheel",
+        "bcd_device": 282,
+        "bcd_device_hex": "0x011A",
+        "descriptor_size": 164,
+        "descriptor_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d",
+        "equals_static_descriptor": true
+      }
+    ],
+    "limit": "Descriptor observation and input recording are separate artifacts; no hardware serial identity is inferred."
+  },
+  "report_1": {
+    "valid_reports": 10841,
+    "invalid_reports": [],
+    "axis_ranges": {
+      "rx": {
+        "min": 0,
+        "max": 0
+      },
+      "ry": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "observed_pressed_usages": [
+      43,
+      46,
+      47,
+      48
+    ],
+    "unique_control_states": 5,
+    "unique_vendor_tails": [
+      {
+        "hex": "8080808000",
+        "count": 10841
+      }
+    ],
+    "initial_control_state": {
+      "rx": 0,
+      "ry": 0,
+      "pressed_button_usages": []
+    },
+    "control_changes": [
+      {
+        "elapsed_ns": 36218798000,
+        "line": 7279,
+        "file_offset": 932339,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            43
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 36328907000,
+        "line": 7301,
+        "file_offset": 935155,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            46
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 36343835000,
+        "line": 7304,
+        "file_offset": 935539,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 36358881000,
+        "line": 7307,
+        "file_offset": 935923,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            47
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 36423838000,
+        "line": 7320,
+        "file_offset": 937587,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            43
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 36483840000,
+        "line": 7332,
+        "file_offset": 939123,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 39633840000,
+        "line": 7965,
+        "file_offset": 1020393,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            48
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 39898868000,
+        "line": 8018,
+        "file_offset": 1027177,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      }
+    ],
+    "nonbaseline_segments": [
+      {
+        "first_elapsed_ns": 36218798000,
+        "last_elapsed_ns": 36323851000,
+        "first_line": 7279,
+        "last_line": 7300,
+        "first_file_offset": 932339,
+        "reports": 22,
+        "control_key": "0000000000000004000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            43
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 36328907000
+      },
+      {
+        "first_elapsed_ns": 36328907000,
+        "last_elapsed_ns": 36338814000,
+        "first_line": 7301,
+        "last_line": 7303,
+        "first_file_offset": 935155,
+        "reports": 3,
+        "control_key": "0000000000000020000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            46
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 36343835000
+      },
+      {
+        "first_elapsed_ns": 36358881000,
+        "last_elapsed_ns": 36418845000,
+        "first_line": 7307,
+        "last_line": 7319,
+        "first_file_offset": 935923,
+        "reports": 13,
+        "control_key": "0000000000000040000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            47
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 36423838000
+      },
+      {
+        "first_elapsed_ns": 36423838000,
+        "last_elapsed_ns": 36478829000,
+        "first_line": 7320,
+        "last_line": 7331,
+        "first_file_offset": 937587,
+        "reports": 12,
+        "control_key": "0000000000000004000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            43
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 36483840000
+      },
+      {
+        "first_elapsed_ns": 39633840000,
+        "last_elapsed_ns": 39893876000,
+        "first_line": 7965,
+        "last_line": 8017,
+        "first_file_offset": 1020393,
+        "reports": 53,
+        "control_key": "0000000000000080000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            48
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 39898868000
+      }
+    ],
+    "zero_control_reports": 10738
+  },
+  "limits": [
+    "No device commands are sent by this analysis.",
+    "Initial control state is a numerical baseline, not confirmed physical idle.",
+    "No control changes cannot distinguish inactivity from alternate routing without confirmed user actions.",
+    "Report 0x02 and other vendor payloads are inventoried as opaque bytes; no version/status fields are asserted.",
+    "Callback intervals include operating-system and KVM scheduling effects."
+  ]
+}

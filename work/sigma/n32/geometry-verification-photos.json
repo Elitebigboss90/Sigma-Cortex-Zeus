@@ -1,0 +1,54 @@
+{
+  "status": "PASS_FOR_PHOTOGRAPHED_PART_MARKING",
+  "sources": {
+    "originals/Nations-documentation/EN_DS_N32G455_Series_Datasheet_V2.6.0.pdf": "3a2cda0075958b47d5d815facbe5b37dc3cb2650e3377473cb01a8591eed92f8",
+    "originals/Nations-documentation/EN_UM_N32G45x_Series_User_Manual_V3.5.0.pdf": "c345230a200209e522c7cde6c00970e26b1ac2076ae1a0949662aa2e01ce6e8f",
+    "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7.pack": "b4eed0b822131d0563c848f332c914bf558a840b1b4d912d8029e0db148de60a"
+  },
+  "device": "N32G455REL7",
+  "physical_unit_identified": true,
+  "flash_range": [
+    "0x8000000",
+    "0x8080000"
+  ],
+  "page_bytes": 2048,
+  "images": [
+    {
+      "path": "work/sigma/1.1.5/sigma-decoded.bin",
+      "sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622",
+      "size": 189056,
+      "start": "0x8020000",
+      "end_exclusive": "0x804e280",
+      "last_page_start": "0x804e000",
+      "page_rounded_end_exclusive": "0x804e800",
+      "application_pages": 93,
+      "last_page_unused_bytes": 1408
+    },
+    {
+      "path": "work/sigma/zeus-dev2/NOT_FOR_FLASHING-sigma-1.1.5-zeus-dev2.plaintext.bin",
+      "sha256": "0152f4f17e23f47f452d2290fe782afb7b70d65b7a854be5e357da36910ab4a8",
+      "size": 190112,
+      "start": "0x8020000",
+      "end_exclusive": "0x804e6a0",
+      "last_page_start": "0x804e000",
+      "page_rounded_end_exclusive": "0x804e800",
+      "application_pages": 93,
+      "last_page_unused_bytes": 352
+    }
+  ],
+  "additional_flash_pages_for_dev2": 0,
+  "ram_reservation": [
+    "0x20005490",
+    "0x20005590"
+  ],
+  "ram_reservation_within_main_sram": true,
+  "bootloader_acceptance_verified": false,
+  "limitations": "Address containment and photographed marking do not establish partition permissions, integrity rules, recovery, electrical connectivity or protection state.",
+  "identification_method": "Manual visual observation of N32G455 and REL7 on U1; not automatic image recognition or an electronic chip-ID read",
+  "electronic_chip_id_read": false,
+  "photo_sources": {
+    "originals/hardware-photos/IMG_0171.HEIC": "e1077adcd1b6787e0bd65593163c494b24a81ace1c7f2c73254642c7495497e9",
+    "originals/hardware-photos/IMG_0173.HEIC": "28df6991db93974fc69259dfa6e76b03379b55ff55e30ffd93eb0dee591f119f"
+  },
+  "photo_report": "reports/sigma-hardware-photos.md"
+}

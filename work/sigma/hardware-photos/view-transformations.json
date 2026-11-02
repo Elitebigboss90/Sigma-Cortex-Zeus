@@ -1,0 +1,62 @@
+[
+  {
+    "source": "work/sigma/hardware-photos/IMG_0171.png",
+    "source_sha256": "79c3e871941488fca3dd8b949f68c4182ae2bcda6a4f0ad0badfdee678e3293a",
+    "operation": "ImageIO orientation transform 6 to upright PNG; maximum thumbnail edge 6000 exceeds source edge, no requested downscale",
+    "source_dimensions": [
+      5712,
+      4284
+    ],
+    "output": "work/sigma/hardware-photos/IMG_0171-oriented.png",
+    "output_dimensions": [
+      4284,
+      5712
+    ],
+    "output_sha256": "62d24b7ca025960ccfaed09eaf64c88302b3e570f1e43404702f3a519a74b20a",
+    "script": "work/sigma/hardware-photos/inspect-image.swift"
+  },
+  {
+    "source": "work/sigma/hardware-photos/IMG_0173.png",
+    "source_sha256": "5f698fd870e4999fbb588af143a9b76459d1c1006ca16a785c864a110e5d4fe2",
+    "operation": "ImageIO orientation transform 6 to upright PNG; maximum thumbnail edge 6000 exceeds source edge, no requested downscale",
+    "source_dimensions": [
+      5712,
+      4284
+    ],
+    "output": "work/sigma/hardware-photos/IMG_0173-oriented.png",
+    "output_dimensions": [
+      4284,
+      5712
+    ],
+    "output_sha256": "34a64688f93fe6878aa46ad015182d1ae763d259f8dabaad304a360ae9ec21a3",
+    "script": "work/sigma/hardware-photos/inspect-image.swift"
+  },
+  {
+    "source": "work/sigma/hardware-photos/IMG_0171-oriented.png",
+    "source_sha256": "62d24b7ca025960ccfaed09eaf64c88302b3e570f1e43404702f3a519a74b20a",
+    "operation": "CGImage pixel crop for inspection; no sharpening, repainting or generated content",
+    "rectangle_xywh": [
+      1200,
+      1900,
+      1700,
+      1500
+    ],
+    "output": "work/sigma/hardware-photos/front-detail.png",
+    "output_sha256": "de27226f69440dc5258b8d75cb378ce5a4d69632510dce305179385ded3bae3e",
+    "script": "work/sigma/hardware-photos/crop-image.swift"
+  },
+  {
+    "source": "work/sigma/hardware-photos/IMG_0173-oriented.png",
+    "source_sha256": "34a64688f93fe6878aa46ad015182d1ae763d259f8dabaad304a360ae9ec21a3",
+    "operation": "CGImage pixel crop for inspection; no sharpening, repainting or generated content",
+    "rectangle_xywh": [
+      1500,
+      2150,
+      1450,
+      1250
+    ],
+    "output": "work/sigma/hardware-photos/rear-detail.png",
+    "output_sha256": "70992cb8c5cd64c8bea82a77fcbbf5fa48093b3bc8febf767dafc9f2948a0742",
+    "script": "work/sigma/hardware-photos/crop-image.swift"
+  }
+]

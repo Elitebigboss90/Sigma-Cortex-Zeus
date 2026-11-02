@@ -1,0 +1,13 @@
+Collecting pefile
+  Downloading pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+Collecting capstone
+  Downloading capstone-5.0.9-py3-none-macosx_11_0_arm64.whl.metadata (3.3 kB)
+Downloading pefile-2024.8.26-py3-none-any.whl (74 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 74.8/74.8 kB 4.4 MB/s eta 0:00:00
+Downloading capstone-5.0.9-py3-none-macosx_11_0_arm64.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 20.8 MB/s eta 0:00:00
+Installing collected packages: pefile, capstone
+Successfully installed capstone-5.0.9 pefile-2024.8.26
+
+[notice] A new release of pip is available: 24.0 -> 26.2.2
+[notice] To update, run: /Users/ethan/Devs/sigma-re/work/tools/python/bin/python3 -m pip install --upgrade pip

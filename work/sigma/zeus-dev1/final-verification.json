@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "candidate_plaintext_sha256": "788ffe72fb2ca1307b1743a2f4768f7757d9a92dc52eb1c495f348b70c155b14",
+  "candidate_encoded_sha256": "5613b44afd4e5e1fc0bfb43078bfca473ac1d75f855ea6b8106b024f9e6dbb70",
+  "disabled_updater_sha256": "d28ee379d8552d6057e804207af67e2b6b36472b9da2bcb7b515cc83eaa66ae2",
+  "original_images_unchanged": true,
+  "source_files_match_build": true,
+  "emulator_checks_passed": 13,
+  "other_updater_resources_unchanged": 749,
+  "local_report_links_valid": true,
+  "hardware_flashed": false,
+  "bootloader_acceptance_verified": false,
+  "physical_controls_verified": false,
+  "verification_script_sha256": "b0fbfb26dd4a5585972a2c0f052b8c8235562239c77b972fc3f1a22a86f390e5"
+}

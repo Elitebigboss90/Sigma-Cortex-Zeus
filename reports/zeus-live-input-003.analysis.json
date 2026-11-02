@@ -1,0 +1,2931 @@
+{
+  "capture": "reports/zeus-live-input-003.jsonl",
+  "capture_sha256": "2b5c448434f5cd68c39c5a15c564738f4e668cb8b51dd910dc4ca67e2705b981",
+  "size": 3397454,
+  "complete": true,
+  "start": {
+    "event": "start",
+    "vid": 13936,
+    "pid": 2052,
+    "seconds": 900,
+    "exclusive": false,
+    "device_writes": false,
+    "start_unix_seconds": 1793153736,
+    "start_monotonic_ns": 4814318511865000
+  },
+  "end": {
+    "event": "end",
+    "reports": 26426,
+    "stopped_early": true,
+    "elapsed_ns": 131527287000
+  },
+  "callback_count": 26426,
+  "callback_result_counts": {
+    "0": 26426
+  },
+  "report_groups": [
+    {
+      "group": "id_0x01_length_23_type_0",
+      "count": 26297,
+      "timing": {
+        "samples": 26297,
+        "first_elapsed_ns": 2463000,
+        "last_elapsed_ns": 131527169000,
+        "interval_count": 26296,
+        "interval_ns_min": 20000,
+        "interval_ns_median": 4999000.0,
+        "interval_ns_max": 13566000,
+        "interpretation": "Host callback arrival intervals; not measured USB transactions."
+      },
+      "unique_raw_reports": 83,
+      "variants": [
+        {
+          "hex": "0100000000000000000000000000000000008080808000",
+          "count": 25534
+        },
+        {
+          "hex": "0100000020000000000000000000000000008080808000",
+          "count": 241
+        },
+        {
+          "hex": "0100000010000000000000000000000000008080808000",
+          "count": 220
+        },
+        {
+          "hex": "017f000000000000000000000000000000008080808000",
+          "count": 167
+        },
+        {
+          "hex": "01007f0000000000000000000000000000008080808000",
+          "count": 49
+        },
+        {
+          "hex": "017e000000000000000000000000000000008080808000",
+          "count": 3
+        },
+        {
+          "hex": "0101000000000000000000000000000000008080808000",
+          "count": 2
+        },
+        {
+          "hex": "0104000000000000000000000000000000008080808000",
+          "count": 2
+        },
+        {
+          "hex": "010e000000000000000000000000000000008080808000",
+          "count": 2
+        },
+        {
+          "hex": "0127000000000000000000000000000000008080808000",
+          "count": 2
+        },
+        {
+          "hex": "017c000000000000000000000000000000008080808000",
+          "count": 2
+        },
+        {
+          "hex": "017d000000000000000000000000000000008080808000",
+          "count": 2
+        },
+        {
+          "hex": "0100040000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01000b0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01001b0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01002e0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01005b0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01007e0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01007b0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100720000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01006b0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100600000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100580000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01004f0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100490000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100430000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01003f0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100390000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100360000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100300000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01002d0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100270000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100240000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01001d0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100190000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100130000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "01000f0000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100090000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100050000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0100010000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0107000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0114000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "011e000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0137000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0145000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0161000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "017b000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "017a000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0179000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0178000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0177000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0174000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0172000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0170000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "016d000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0168000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0164000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "015e000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "015a000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0153000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "014f000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0148000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0144000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "013e000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "013b000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0135000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0132000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "012e000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "012b000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0125000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0121000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "011f000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "011c000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "011a000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0118000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0115000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0113000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0112000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "010d000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "010a000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0108000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0106000000000000000000000000000000008080808000",
+          "count": 1
+        },
+        {
+          "hex": "0102000000000000000000000000000000008080808000",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "group": "id_0x02_length_64_type_0",
+      "count": 129,
+      "timing": {
+        "samples": 129,
+        "first_elapsed_ns": 31420000,
+        "last_elapsed_ns": 130586255000,
+        "interval_count": 128,
+        "interval_ns_min": 1019000000,
+        "interval_ns_median": 1019999000.0,
+        "interval_ns_max": 1020211000,
+        "interpretation": "Host callback arrival intervals; not measured USB transactions."
+      },
+      "unique_raw_reports": 1,
+      "variants": [
+        {
+          "hex": "021e88ff0104002d0101121008d490d1990410bbbc889aa4e8cd9c1418c182845020013080809c103880a08086c2e6859c2f4080809c10000000000000000000",
+          "count": 129
+        }
+      ]
+    }
+  ],
+  "descriptors": {
+    "observation": "reports/zeus-live-hid-kvm.json",
+    "observation_sha256": "dae8cb7b86fbb294f22db4d8fc2b23fd4ab3387c49e1459ebd1f207340997776",
+    "observed_utc": "2026-10-28T00:31:13.257508+00:00",
+    "static_descriptor": "work/simagic/zeus-hid_report.bin",
+    "static_descriptor_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d",
+    "devices": [
+      {
+        "vid": 13936,
+        "pid": 2052,
+        "transport": "USB",
+        "product": "Simagic Zeus Formula Steering Wheel",
+        "bcd_device": 282,
+        "bcd_device_hex": "0x011A",
+        "descriptor_size": 164,
+        "descriptor_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d",
+        "equals_static_descriptor": true
+      }
+    ],
+    "limit": "Descriptor observation and input recording are separate artifacts; no hardware serial identity is inferred."
+  },
+  "report_1": {
+    "valid_reports": 26297,
+    "invalid_reports": [],
+    "axis_ranges": {
+      "rx": {
+        "min": 0,
+        "max": 127
+      },
+      "ry": {
+        "min": 0,
+        "max": 127
+      }
+    },
+    "observed_pressed_usages": [
+      13,
+      14
+    ],
+    "unique_control_states": 83,
+    "unique_vendor_tails": [
+      {
+        "hex": "8080808000",
+        "count": 26297
+      }
+    ],
+    "initial_control_state": {
+      "rx": 0,
+      "ry": 0,
+      "pressed_button_usages": []
+    },
+    "control_changes": [
+      {
+        "elapsed_ns": 90722997000,
+        "line": 18228,
+        "file_offset": 2338161,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            13
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 91112994000,
+        "line": 18307,
+        "file_offset": 2348355,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 91682965000,
+        "line": 18421,
+        "file_offset": 2362947,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            13
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 91972987000,
+        "line": 18480,
+        "file_offset": 2370581,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 92643043000,
+        "line": 18614,
+        "file_offset": 2387733,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            13
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 93062969000,
+        "line": 18699,
+        "file_offset": 2398695,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 95428009000,
+        "line": 19174,
+        "file_offset": 2459659,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            14
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 95722991000,
+        "line": 19233,
+        "file_offset": 2467211,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 96397968000,
+        "line": 19369,
+        "file_offset": 2484701,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            14
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 96613075000,
+        "line": 19412,
+        "file_offset": 2490205,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 97433074000,
+        "line": 19577,
+        "file_offset": 2511407,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            14
+          ]
+        }
+      },
+      {
+        "elapsed_ns": 98127997000,
+        "line": 19717,
+        "file_offset": 2529409,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103012994000,
+        "line": 20698,
+        "file_offset": 2655909,
+        "state": {
+          "rx": 0,
+          "ry": 4,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103018168000,
+        "line": 20699,
+        "file_offset": 2656038,
+        "state": {
+          "rx": 0,
+          "ry": 11,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103023124000,
+        "line": 20700,
+        "file_offset": 2656167,
+        "state": {
+          "rx": 0,
+          "ry": 27,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103028061000,
+        "line": 20701,
+        "file_offset": 2656296,
+        "state": {
+          "rx": 0,
+          "ry": 46,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103033065000,
+        "line": 20702,
+        "file_offset": 2656425,
+        "state": {
+          "rx": 0,
+          "ry": 91,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103038116000,
+        "line": 20703,
+        "file_offset": 2656554,
+        "state": {
+          "rx": 0,
+          "ry": 127,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103283019000,
+        "line": 20753,
+        "file_offset": 2663086,
+        "state": {
+          "rx": 0,
+          "ry": 126,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103288024000,
+        "line": 20754,
+        "file_offset": 2663215,
+        "state": {
+          "rx": 0,
+          "ry": 123,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103293060000,
+        "line": 20755,
+        "file_offset": 2663344,
+        "state": {
+          "rx": 0,
+          "ry": 114,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103298022000,
+        "line": 20756,
+        "file_offset": 2663473,
+        "state": {
+          "rx": 0,
+          "ry": 107,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103303138000,
+        "line": 20757,
+        "file_offset": 2663602,
+        "state": {
+          "rx": 0,
+          "ry": 96,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103308083000,
+        "line": 20758,
+        "file_offset": 2663731,
+        "state": {
+          "rx": 0,
+          "ry": 88,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103313040000,
+        "line": 20759,
+        "file_offset": 2663860,
+        "state": {
+          "rx": 0,
+          "ry": 79,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103318033000,
+        "line": 20760,
+        "file_offset": 2663989,
+        "state": {
+          "rx": 0,
+          "ry": 73,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103323027000,
+        "line": 20761,
+        "file_offset": 2664118,
+        "state": {
+          "rx": 0,
+          "ry": 67,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103328015000,
+        "line": 20762,
+        "file_offset": 2664247,
+        "state": {
+          "rx": 0,
+          "ry": 63,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103333018000,
+        "line": 20763,
+        "file_offset": 2664376,
+        "state": {
+          "rx": 0,
+          "ry": 57,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103338100000,
+        "line": 20764,
+        "file_offset": 2664505,
+        "state": {
+          "rx": 0,
+          "ry": 54,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103343146000,
+        "line": 20765,
+        "file_offset": 2664634,
+        "state": {
+          "rx": 0,
+          "ry": 48,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103348022000,
+        "line": 20766,
+        "file_offset": 2664763,
+        "state": {
+          "rx": 0,
+          "ry": 45,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103352991000,
+        "line": 20767,
+        "file_offset": 2664892,
+        "state": {
+          "rx": 0,
+          "ry": 39,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103358025000,
+        "line": 20768,
+        "file_offset": 2665021,
+        "state": {
+          "rx": 0,
+          "ry": 36,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103363051000,
+        "line": 20769,
+        "file_offset": 2665150,
+        "state": {
+          "rx": 0,
+          "ry": 29,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103368036000,
+        "line": 20770,
+        "file_offset": 2665279,
+        "state": {
+          "rx": 0,
+          "ry": 25,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103373138000,
+        "line": 20771,
+        "file_offset": 2665408,
+        "state": {
+          "rx": 0,
+          "ry": 19,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103378041000,
+        "line": 20772,
+        "file_offset": 2665537,
+        "state": {
+          "rx": 0,
+          "ry": 15,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103383033000,
+        "line": 20773,
+        "file_offset": 2665666,
+        "state": {
+          "rx": 0,
+          "ry": 9,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103387988000,
+        "line": 20774,
+        "file_offset": 2665795,
+        "state": {
+          "rx": 0,
+          "ry": 5,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103392975000,
+        "line": 20775,
+        "file_offset": 2665924,
+        "state": {
+          "rx": 0,
+          "ry": 1,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 103397999000,
+        "line": 20776,
+        "file_offset": 2666053,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104198111000,
+        "line": 20937,
+        "file_offset": 2686904,
+        "state": {
+          "rx": 1,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104203048000,
+        "line": 20938,
+        "file_offset": 2687033,
+        "state": {
+          "rx": 4,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104208104000,
+        "line": 20939,
+        "file_offset": 2687162,
+        "state": {
+          "rx": 7,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104213037000,
+        "line": 20940,
+        "file_offset": 2687291,
+        "state": {
+          "rx": 14,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104218029000,
+        "line": 20941,
+        "file_offset": 2687420,
+        "state": {
+          "rx": 20,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104223042000,
+        "line": 20942,
+        "file_offset": 2687549,
+        "state": {
+          "rx": 30,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104228033000,
+        "line": 20943,
+        "file_offset": 2687678,
+        "state": {
+          "rx": 39,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104233032000,
+        "line": 20944,
+        "file_offset": 2687807,
+        "state": {
+          "rx": 55,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104238065000,
+        "line": 20945,
+        "file_offset": 2687936,
+        "state": {
+          "rx": 69,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104243124000,
+        "line": 20946,
+        "file_offset": 2688065,
+        "state": {
+          "rx": 97,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104248038000,
+        "line": 20947,
+        "file_offset": 2688194,
+        "state": {
+          "rx": 124,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 104252983000,
+        "line": 20948,
+        "file_offset": 2688323,
+        "state": {
+          "rx": 127,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105088029000,
+        "line": 21116,
+        "file_offset": 2710077,
+        "state": {
+          "rx": 126,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105103125000,
+        "line": 21119,
+        "file_offset": 2710464,
+        "state": {
+          "rx": 125,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105113041000,
+        "line": 21121,
+        "file_offset": 2710722,
+        "state": {
+          "rx": 124,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105118034000,
+        "line": 21122,
+        "file_offset": 2710851,
+        "state": {
+          "rx": 123,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105123026000,
+        "line": 21123,
+        "file_offset": 2710980,
+        "state": {
+          "rx": 122,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105128058000,
+        "line": 21124,
+        "file_offset": 2711109,
+        "state": {
+          "rx": 121,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105133036000,
+        "line": 21125,
+        "file_offset": 2711238,
+        "state": {
+          "rx": 120,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105138064000,
+        "line": 21126,
+        "file_offset": 2711367,
+        "state": {
+          "rx": 119,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105143115000,
+        "line": 21127,
+        "file_offset": 2711496,
+        "state": {
+          "rx": 116,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105148033000,
+        "line": 21128,
+        "file_offset": 2711625,
+        "state": {
+          "rx": 114,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105153040000,
+        "line": 21129,
+        "file_offset": 2711754,
+        "state": {
+          "rx": 112,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105158035000,
+        "line": 21130,
+        "file_offset": 2711883,
+        "state": {
+          "rx": 109,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105163051000,
+        "line": 21131,
+        "file_offset": 2712012,
+        "state": {
+          "rx": 104,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105168037000,
+        "line": 21132,
+        "file_offset": 2712141,
+        "state": {
+          "rx": 100,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105173083000,
+        "line": 21133,
+        "file_offset": 2712270,
+        "state": {
+          "rx": 94,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105178058000,
+        "line": 21134,
+        "file_offset": 2712399,
+        "state": {
+          "rx": 90,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105183030000,
+        "line": 21135,
+        "file_offset": 2712528,
+        "state": {
+          "rx": 83,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105188043000,
+        "line": 21136,
+        "file_offset": 2712657,
+        "state": {
+          "rx": 79,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105193097000,
+        "line": 21137,
+        "file_offset": 2712786,
+        "state": {
+          "rx": 72,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105198055000,
+        "line": 21138,
+        "file_offset": 2712915,
+        "state": {
+          "rx": 68,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105203072000,
+        "line": 21139,
+        "file_offset": 2713044,
+        "state": {
+          "rx": 62,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105208151000,
+        "line": 21140,
+        "file_offset": 2713173,
+        "state": {
+          "rx": 59,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105213064000,
+        "line": 21141,
+        "file_offset": 2713302,
+        "state": {
+          "rx": 53,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105218037000,
+        "line": 21142,
+        "file_offset": 2713431,
+        "state": {
+          "rx": 50,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105223024000,
+        "line": 21143,
+        "file_offset": 2713560,
+        "state": {
+          "rx": 46,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105227990000,
+        "line": 21144,
+        "file_offset": 2713689,
+        "state": {
+          "rx": 43,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105233037000,
+        "line": 21145,
+        "file_offset": 2713818,
+        "state": {
+          "rx": 39,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105238134000,
+        "line": 21146,
+        "file_offset": 2713947,
+        "state": {
+          "rx": 37,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105243115000,
+        "line": 21147,
+        "file_offset": 2714076,
+        "state": {
+          "rx": 33,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105248038000,
+        "line": 21148,
+        "file_offset": 2714205,
+        "state": {
+          "rx": 31,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105253046000,
+        "line": 21149,
+        "file_offset": 2714334,
+        "state": {
+          "rx": 28,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105258190000,
+        "line": 21150,
+        "file_offset": 2714463,
+        "state": {
+          "rx": 26,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105263124000,
+        "line": 21151,
+        "file_offset": 2714592,
+        "state": {
+          "rx": 24,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105268036000,
+        "line": 21152,
+        "file_offset": 2714721,
+        "state": {
+          "rx": 21,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105273098000,
+        "line": 21153,
+        "file_offset": 2714850,
+        "state": {
+          "rx": 19,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105278044000,
+        "line": 21154,
+        "file_offset": 2714979,
+        "state": {
+          "rx": 18,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105283054000,
+        "line": 21155,
+        "file_offset": 2715108,
+        "state": {
+          "rx": 14,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105288039000,
+        "line": 21156,
+        "file_offset": 2715237,
+        "state": {
+          "rx": 13,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105293082000,
+        "line": 21157,
+        "file_offset": 2715366,
+        "state": {
+          "rx": 10,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105298047000,
+        "line": 21158,
+        "file_offset": 2715495,
+        "state": {
+          "rx": 8,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105303055000,
+        "line": 21159,
+        "file_offset": 2715624,
+        "state": {
+          "rx": 6,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105308058000,
+        "line": 21160,
+        "file_offset": 2715753,
+        "state": {
+          "rx": 4,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105313080000,
+        "line": 21161,
+        "file_offset": 2715882,
+        "state": {
+          "rx": 2,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105318037000,
+        "line": 21162,
+        "file_offset": 2716011,
+        "state": {
+          "rx": 1,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      },
+      {
+        "elapsed_ns": 105323036000,
+        "line": 21163,
+        "file_offset": 2716140,
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": []
+        }
+      }
+    ],
+    "nonbaseline_segments": [
+      {
+        "first_elapsed_ns": 90722997000,
+        "last_elapsed_ns": 91107982000,
+        "first_line": 18228,
+        "last_line": 18306,
+        "first_file_offset": 2338161,
+        "reports": 78,
+        "control_key": "0000001000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            13
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 91112994000
+      },
+      {
+        "first_elapsed_ns": 91682965000,
+        "last_elapsed_ns": 91967948000,
+        "first_line": 18421,
+        "last_line": 18479,
+        "first_file_offset": 2362947,
+        "reports": 58,
+        "control_key": "0000001000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            13
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 91972987000
+      },
+      {
+        "first_elapsed_ns": 92643043000,
+        "last_elapsed_ns": 93057974000,
+        "first_line": 18614,
+        "last_line": 18698,
+        "first_file_offset": 2387733,
+        "reports": 84,
+        "control_key": "0000001000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            13
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 93062969000
+      },
+      {
+        "first_elapsed_ns": 95428009000,
+        "last_elapsed_ns": 95717969000,
+        "first_line": 19174,
+        "last_line": 19232,
+        "first_file_offset": 2459659,
+        "reports": 59,
+        "control_key": "0000002000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            14
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 95722991000
+      },
+      {
+        "first_elapsed_ns": 96397968000,
+        "last_elapsed_ns": 96607952000,
+        "first_line": 19369,
+        "last_line": 19411,
+        "first_file_offset": 2484701,
+        "reports": 43,
+        "control_key": "0000002000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            14
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 96613075000
+      },
+      {
+        "first_elapsed_ns": 97433074000,
+        "last_elapsed_ns": 98123004000,
+        "first_line": 19577,
+        "last_line": 19716,
+        "first_file_offset": 2511407,
+        "reports": 139,
+        "control_key": "0000002000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 0,
+          "pressed_button_usages": [
+            14
+          ]
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 98127997000
+      },
+      {
+        "first_elapsed_ns": 103012994000,
+        "last_elapsed_ns": 103012994000,
+        "first_line": 20698,
+        "last_line": 20698,
+        "first_file_offset": 2655909,
+        "reports": 1,
+        "control_key": "0004000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 4,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103018168000
+      },
+      {
+        "first_elapsed_ns": 103018168000,
+        "last_elapsed_ns": 103018168000,
+        "first_line": 20699,
+        "last_line": 20699,
+        "first_file_offset": 2656038,
+        "reports": 1,
+        "control_key": "000b000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 11,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103023124000
+      },
+      {
+        "first_elapsed_ns": 103023124000,
+        "last_elapsed_ns": 103023124000,
+        "first_line": 20700,
+        "last_line": 20700,
+        "first_file_offset": 2656167,
+        "reports": 1,
+        "control_key": "001b000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 27,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103028061000
+      },
+      {
+        "first_elapsed_ns": 103028061000,
+        "last_elapsed_ns": 103028061000,
+        "first_line": 20701,
+        "last_line": 20701,
+        "first_file_offset": 2656296,
+        "reports": 1,
+        "control_key": "002e000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 46,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103033065000
+      },
+      {
+        "first_elapsed_ns": 103033065000,
+        "last_elapsed_ns": 103033065000,
+        "first_line": 20702,
+        "last_line": 20702,
+        "first_file_offset": 2656425,
+        "reports": 1,
+        "control_key": "005b000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 91,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103038116000
+      },
+      {
+        "first_elapsed_ns": 103038116000,
+        "last_elapsed_ns": 103278048000,
+        "first_line": 20703,
+        "last_line": 20752,
+        "first_file_offset": 2656554,
+        "reports": 49,
+        "control_key": "007f000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 127,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103283019000
+      },
+      {
+        "first_elapsed_ns": 103283019000,
+        "last_elapsed_ns": 103283019000,
+        "first_line": 20753,
+        "last_line": 20753,
+        "first_file_offset": 2663086,
+        "reports": 1,
+        "control_key": "007e000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 126,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103288024000
+      },
+      {
+        "first_elapsed_ns": 103288024000,
+        "last_elapsed_ns": 103288024000,
+        "first_line": 20754,
+        "last_line": 20754,
+        "first_file_offset": 2663215,
+        "reports": 1,
+        "control_key": "007b000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 123,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103293060000
+      },
+      {
+        "first_elapsed_ns": 103293060000,
+        "last_elapsed_ns": 103293060000,
+        "first_line": 20755,
+        "last_line": 20755,
+        "first_file_offset": 2663344,
+        "reports": 1,
+        "control_key": "0072000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 114,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103298022000
+      },
+      {
+        "first_elapsed_ns": 103298022000,
+        "last_elapsed_ns": 103298022000,
+        "first_line": 20756,
+        "last_line": 20756,
+        "first_file_offset": 2663473,
+        "reports": 1,
+        "control_key": "006b000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 107,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103303138000
+      },
+      {
+        "first_elapsed_ns": 103303138000,
+        "last_elapsed_ns": 103303138000,
+        "first_line": 20757,
+        "last_line": 20757,
+        "first_file_offset": 2663602,
+        "reports": 1,
+        "control_key": "0060000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 96,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103308083000
+      },
+      {
+        "first_elapsed_ns": 103308083000,
+        "last_elapsed_ns": 103308083000,
+        "first_line": 20758,
+        "last_line": 20758,
+        "first_file_offset": 2663731,
+        "reports": 1,
+        "control_key": "0058000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 88,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103313040000
+      },
+      {
+        "first_elapsed_ns": 103313040000,
+        "last_elapsed_ns": 103313040000,
+        "first_line": 20759,
+        "last_line": 20759,
+        "first_file_offset": 2663860,
+        "reports": 1,
+        "control_key": "004f000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 79,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103318033000
+      },
+      {
+        "first_elapsed_ns": 103318033000,
+        "last_elapsed_ns": 103318033000,
+        "first_line": 20760,
+        "last_line": 20760,
+        "first_file_offset": 2663989,
+        "reports": 1,
+        "control_key": "0049000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 73,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103323027000
+      },
+      {
+        "first_elapsed_ns": 103323027000,
+        "last_elapsed_ns": 103323027000,
+        "first_line": 20761,
+        "last_line": 20761,
+        "first_file_offset": 2664118,
+        "reports": 1,
+        "control_key": "0043000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 67,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103328015000
+      },
+      {
+        "first_elapsed_ns": 103328015000,
+        "last_elapsed_ns": 103328015000,
+        "first_line": 20762,
+        "last_line": 20762,
+        "first_file_offset": 2664247,
+        "reports": 1,
+        "control_key": "003f000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 63,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103333018000
+      },
+      {
+        "first_elapsed_ns": 103333018000,
+        "last_elapsed_ns": 103333018000,
+        "first_line": 20763,
+        "last_line": 20763,
+        "first_file_offset": 2664376,
+        "reports": 1,
+        "control_key": "0039000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 57,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103338100000
+      },
+      {
+        "first_elapsed_ns": 103338100000,
+        "last_elapsed_ns": 103338100000,
+        "first_line": 20764,
+        "last_line": 20764,
+        "first_file_offset": 2664505,
+        "reports": 1,
+        "control_key": "0036000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 54,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103343146000
+      },
+      {
+        "first_elapsed_ns": 103343146000,
+        "last_elapsed_ns": 103343146000,
+        "first_line": 20765,
+        "last_line": 20765,
+        "first_file_offset": 2664634,
+        "reports": 1,
+        "control_key": "0030000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 48,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103348022000
+      },
+      {
+        "first_elapsed_ns": 103348022000,
+        "last_elapsed_ns": 103348022000,
+        "first_line": 20766,
+        "last_line": 20766,
+        "first_file_offset": 2664763,
+        "reports": 1,
+        "control_key": "002d000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 45,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103352991000
+      },
+      {
+        "first_elapsed_ns": 103352991000,
+        "last_elapsed_ns": 103352991000,
+        "first_line": 20767,
+        "last_line": 20767,
+        "first_file_offset": 2664892,
+        "reports": 1,
+        "control_key": "0027000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 39,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103358025000
+      },
+      {
+        "first_elapsed_ns": 103358025000,
+        "last_elapsed_ns": 103358025000,
+        "first_line": 20768,
+        "last_line": 20768,
+        "first_file_offset": 2665021,
+        "reports": 1,
+        "control_key": "0024000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 36,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103363051000
+      },
+      {
+        "first_elapsed_ns": 103363051000,
+        "last_elapsed_ns": 103363051000,
+        "first_line": 20769,
+        "last_line": 20769,
+        "first_file_offset": 2665150,
+        "reports": 1,
+        "control_key": "001d000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 29,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103368036000
+      },
+      {
+        "first_elapsed_ns": 103368036000,
+        "last_elapsed_ns": 103368036000,
+        "first_line": 20770,
+        "last_line": 20770,
+        "first_file_offset": 2665279,
+        "reports": 1,
+        "control_key": "0019000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 25,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103373138000
+      },
+      {
+        "first_elapsed_ns": 103373138000,
+        "last_elapsed_ns": 103373138000,
+        "first_line": 20771,
+        "last_line": 20771,
+        "first_file_offset": 2665408,
+        "reports": 1,
+        "control_key": "0013000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 19,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103378041000
+      },
+      {
+        "first_elapsed_ns": 103378041000,
+        "last_elapsed_ns": 103378041000,
+        "first_line": 20772,
+        "last_line": 20772,
+        "first_file_offset": 2665537,
+        "reports": 1,
+        "control_key": "000f000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 15,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103383033000
+      },
+      {
+        "first_elapsed_ns": 103383033000,
+        "last_elapsed_ns": 103383033000,
+        "first_line": 20773,
+        "last_line": 20773,
+        "first_file_offset": 2665666,
+        "reports": 1,
+        "control_key": "0009000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 9,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103387988000
+      },
+      {
+        "first_elapsed_ns": 103387988000,
+        "last_elapsed_ns": 103387988000,
+        "first_line": 20774,
+        "last_line": 20774,
+        "first_file_offset": 2665795,
+        "reports": 1,
+        "control_key": "0005000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 5,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103392975000
+      },
+      {
+        "first_elapsed_ns": 103392975000,
+        "last_elapsed_ns": 103392975000,
+        "first_line": 20775,
+        "last_line": 20775,
+        "first_file_offset": 2665924,
+        "reports": 1,
+        "control_key": "0001000000000000000000000000000000",
+        "state": {
+          "rx": 0,
+          "ry": 1,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 103397999000
+      },
+      {
+        "first_elapsed_ns": 104198111000,
+        "last_elapsed_ns": 104198111000,
+        "first_line": 20937,
+        "last_line": 20937,
+        "first_file_offset": 2686904,
+        "reports": 1,
+        "control_key": "0100000000000000000000000000000000",
+        "state": {
+          "rx": 1,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104203048000
+      },
+      {
+        "first_elapsed_ns": 104203048000,
+        "last_elapsed_ns": 104203048000,
+        "first_line": 20938,
+        "last_line": 20938,
+        "first_file_offset": 2687033,
+        "reports": 1,
+        "control_key": "0400000000000000000000000000000000",
+        "state": {
+          "rx": 4,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104208104000
+      },
+      {
+        "first_elapsed_ns": 104208104000,
+        "last_elapsed_ns": 104208104000,
+        "first_line": 20939,
+        "last_line": 20939,
+        "first_file_offset": 2687162,
+        "reports": 1,
+        "control_key": "0700000000000000000000000000000000",
+        "state": {
+          "rx": 7,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104213037000
+      },
+      {
+        "first_elapsed_ns": 104213037000,
+        "last_elapsed_ns": 104213037000,
+        "first_line": 20940,
+        "last_line": 20940,
+        "first_file_offset": 2687291,
+        "reports": 1,
+        "control_key": "0e00000000000000000000000000000000",
+        "state": {
+          "rx": 14,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104218029000
+      },
+      {
+        "first_elapsed_ns": 104218029000,
+        "last_elapsed_ns": 104218029000,
+        "first_line": 20941,
+        "last_line": 20941,
+        "first_file_offset": 2687420,
+        "reports": 1,
+        "control_key": "1400000000000000000000000000000000",
+        "state": {
+          "rx": 20,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104223042000
+      },
+      {
+        "first_elapsed_ns": 104223042000,
+        "last_elapsed_ns": 104223042000,
+        "first_line": 20942,
+        "last_line": 20942,
+        "first_file_offset": 2687549,
+        "reports": 1,
+        "control_key": "1e00000000000000000000000000000000",
+        "state": {
+          "rx": 30,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104228033000
+      },
+      {
+        "first_elapsed_ns": 104228033000,
+        "last_elapsed_ns": 104228033000,
+        "first_line": 20943,
+        "last_line": 20943,
+        "first_file_offset": 2687678,
+        "reports": 1,
+        "control_key": "2700000000000000000000000000000000",
+        "state": {
+          "rx": 39,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104233032000
+      },
+      {
+        "first_elapsed_ns": 104233032000,
+        "last_elapsed_ns": 104233032000,
+        "first_line": 20944,
+        "last_line": 20944,
+        "first_file_offset": 2687807,
+        "reports": 1,
+        "control_key": "3700000000000000000000000000000000",
+        "state": {
+          "rx": 55,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104238065000
+      },
+      {
+        "first_elapsed_ns": 104238065000,
+        "last_elapsed_ns": 104238065000,
+        "first_line": 20945,
+        "last_line": 20945,
+        "first_file_offset": 2687936,
+        "reports": 1,
+        "control_key": "4500000000000000000000000000000000",
+        "state": {
+          "rx": 69,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104243124000
+      },
+      {
+        "first_elapsed_ns": 104243124000,
+        "last_elapsed_ns": 104243124000,
+        "first_line": 20946,
+        "last_line": 20946,
+        "first_file_offset": 2688065,
+        "reports": 1,
+        "control_key": "6100000000000000000000000000000000",
+        "state": {
+          "rx": 97,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104248038000
+      },
+      {
+        "first_elapsed_ns": 104248038000,
+        "last_elapsed_ns": 104248038000,
+        "first_line": 20947,
+        "last_line": 20947,
+        "first_file_offset": 2688194,
+        "reports": 1,
+        "control_key": "7c00000000000000000000000000000000",
+        "state": {
+          "rx": 124,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 104252983000
+      },
+      {
+        "first_elapsed_ns": 104252983000,
+        "last_elapsed_ns": 105083034000,
+        "first_line": 20948,
+        "last_line": 21114,
+        "first_file_offset": 2688323,
+        "reports": 167,
+        "control_key": "7f00000000000000000000000000000000",
+        "state": {
+          "rx": 127,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105088029000
+      },
+      {
+        "first_elapsed_ns": 105088029000,
+        "last_elapsed_ns": 105098038000,
+        "first_line": 21116,
+        "last_line": 21118,
+        "first_file_offset": 2710077,
+        "reports": 3,
+        "control_key": "7e00000000000000000000000000000000",
+        "state": {
+          "rx": 126,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105103125000
+      },
+      {
+        "first_elapsed_ns": 105103125000,
+        "last_elapsed_ns": 105108039000,
+        "first_line": 21119,
+        "last_line": 21120,
+        "first_file_offset": 2710464,
+        "reports": 2,
+        "control_key": "7d00000000000000000000000000000000",
+        "state": {
+          "rx": 125,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105113041000
+      },
+      {
+        "first_elapsed_ns": 105113041000,
+        "last_elapsed_ns": 105113041000,
+        "first_line": 21121,
+        "last_line": 21121,
+        "first_file_offset": 2710722,
+        "reports": 1,
+        "control_key": "7c00000000000000000000000000000000",
+        "state": {
+          "rx": 124,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105118034000
+      },
+      {
+        "first_elapsed_ns": 105118034000,
+        "last_elapsed_ns": 105118034000,
+        "first_line": 21122,
+        "last_line": 21122,
+        "first_file_offset": 2710851,
+        "reports": 1,
+        "control_key": "7b00000000000000000000000000000000",
+        "state": {
+          "rx": 123,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105123026000
+      },
+      {
+        "first_elapsed_ns": 105123026000,
+        "last_elapsed_ns": 105123026000,
+        "first_line": 21123,
+        "last_line": 21123,
+        "first_file_offset": 2710980,
+        "reports": 1,
+        "control_key": "7a00000000000000000000000000000000",
+        "state": {
+          "rx": 122,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105128058000
+      },
+      {
+        "first_elapsed_ns": 105128058000,
+        "last_elapsed_ns": 105128058000,
+        "first_line": 21124,
+        "last_line": 21124,
+        "first_file_offset": 2711109,
+        "reports": 1,
+        "control_key": "7900000000000000000000000000000000",
+        "state": {
+          "rx": 121,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105133036000
+      },
+      {
+        "first_elapsed_ns": 105133036000,
+        "last_elapsed_ns": 105133036000,
+        "first_line": 21125,
+        "last_line": 21125,
+        "first_file_offset": 2711238,
+        "reports": 1,
+        "control_key": "7800000000000000000000000000000000",
+        "state": {
+          "rx": 120,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105138064000
+      },
+      {
+        "first_elapsed_ns": 105138064000,
+        "last_elapsed_ns": 105138064000,
+        "first_line": 21126,
+        "last_line": 21126,
+        "first_file_offset": 2711367,
+        "reports": 1,
+        "control_key": "7700000000000000000000000000000000",
+        "state": {
+          "rx": 119,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105143115000
+      },
+      {
+        "first_elapsed_ns": 105143115000,
+        "last_elapsed_ns": 105143115000,
+        "first_line": 21127,
+        "last_line": 21127,
+        "first_file_offset": 2711496,
+        "reports": 1,
+        "control_key": "7400000000000000000000000000000000",
+        "state": {
+          "rx": 116,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105148033000
+      },
+      {
+        "first_elapsed_ns": 105148033000,
+        "last_elapsed_ns": 105148033000,
+        "first_line": 21128,
+        "last_line": 21128,
+        "first_file_offset": 2711625,
+        "reports": 1,
+        "control_key": "7200000000000000000000000000000000",
+        "state": {
+          "rx": 114,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105153040000
+      },
+      {
+        "first_elapsed_ns": 105153040000,
+        "last_elapsed_ns": 105153040000,
+        "first_line": 21129,
+        "last_line": 21129,
+        "first_file_offset": 2711754,
+        "reports": 1,
+        "control_key": "7000000000000000000000000000000000",
+        "state": {
+          "rx": 112,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105158035000
+      },
+      {
+        "first_elapsed_ns": 105158035000,
+        "last_elapsed_ns": 105158035000,
+        "first_line": 21130,
+        "last_line": 21130,
+        "first_file_offset": 2711883,
+        "reports": 1,
+        "control_key": "6d00000000000000000000000000000000",
+        "state": {
+          "rx": 109,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105163051000
+      },
+      {
+        "first_elapsed_ns": 105163051000,
+        "last_elapsed_ns": 105163051000,
+        "first_line": 21131,
+        "last_line": 21131,
+        "first_file_offset": 2712012,
+        "reports": 1,
+        "control_key": "6800000000000000000000000000000000",
+        "state": {
+          "rx": 104,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105168037000
+      },
+      {
+        "first_elapsed_ns": 105168037000,
+        "last_elapsed_ns": 105168037000,
+        "first_line": 21132,
+        "last_line": 21132,
+        "first_file_offset": 2712141,
+        "reports": 1,
+        "control_key": "6400000000000000000000000000000000",
+        "state": {
+          "rx": 100,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105173083000
+      },
+      {
+        "first_elapsed_ns": 105173083000,
+        "last_elapsed_ns": 105173083000,
+        "first_line": 21133,
+        "last_line": 21133,
+        "first_file_offset": 2712270,
+        "reports": 1,
+        "control_key": "5e00000000000000000000000000000000",
+        "state": {
+          "rx": 94,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105178058000
+      },
+      {
+        "first_elapsed_ns": 105178058000,
+        "last_elapsed_ns": 105178058000,
+        "first_line": 21134,
+        "last_line": 21134,
+        "first_file_offset": 2712399,
+        "reports": 1,
+        "control_key": "5a00000000000000000000000000000000",
+        "state": {
+          "rx": 90,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105183030000
+      },
+      {
+        "first_elapsed_ns": 105183030000,
+        "last_elapsed_ns": 105183030000,
+        "first_line": 21135,
+        "last_line": 21135,
+        "first_file_offset": 2712528,
+        "reports": 1,
+        "control_key": "5300000000000000000000000000000000",
+        "state": {
+          "rx": 83,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105188043000
+      },
+      {
+        "first_elapsed_ns": 105188043000,
+        "last_elapsed_ns": 105188043000,
+        "first_line": 21136,
+        "last_line": 21136,
+        "first_file_offset": 2712657,
+        "reports": 1,
+        "control_key": "4f00000000000000000000000000000000",
+        "state": {
+          "rx": 79,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105193097000
+      },
+      {
+        "first_elapsed_ns": 105193097000,
+        "last_elapsed_ns": 105193097000,
+        "first_line": 21137,
+        "last_line": 21137,
+        "first_file_offset": 2712786,
+        "reports": 1,
+        "control_key": "4800000000000000000000000000000000",
+        "state": {
+          "rx": 72,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105198055000
+      },
+      {
+        "first_elapsed_ns": 105198055000,
+        "last_elapsed_ns": 105198055000,
+        "first_line": 21138,
+        "last_line": 21138,
+        "first_file_offset": 2712915,
+        "reports": 1,
+        "control_key": "4400000000000000000000000000000000",
+        "state": {
+          "rx": 68,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105203072000
+      },
+      {
+        "first_elapsed_ns": 105203072000,
+        "last_elapsed_ns": 105203072000,
+        "first_line": 21139,
+        "last_line": 21139,
+        "first_file_offset": 2713044,
+        "reports": 1,
+        "control_key": "3e00000000000000000000000000000000",
+        "state": {
+          "rx": 62,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105208151000
+      },
+      {
+        "first_elapsed_ns": 105208151000,
+        "last_elapsed_ns": 105208151000,
+        "first_line": 21140,
+        "last_line": 21140,
+        "first_file_offset": 2713173,
+        "reports": 1,
+        "control_key": "3b00000000000000000000000000000000",
+        "state": {
+          "rx": 59,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105213064000
+      },
+      {
+        "first_elapsed_ns": 105213064000,
+        "last_elapsed_ns": 105213064000,
+        "first_line": 21141,
+        "last_line": 21141,
+        "first_file_offset": 2713302,
+        "reports": 1,
+        "control_key": "3500000000000000000000000000000000",
+        "state": {
+          "rx": 53,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105218037000
+      },
+      {
+        "first_elapsed_ns": 105218037000,
+        "last_elapsed_ns": 105218037000,
+        "first_line": 21142,
+        "last_line": 21142,
+        "first_file_offset": 2713431,
+        "reports": 1,
+        "control_key": "3200000000000000000000000000000000",
+        "state": {
+          "rx": 50,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105223024000
+      },
+      {
+        "first_elapsed_ns": 105223024000,
+        "last_elapsed_ns": 105223024000,
+        "first_line": 21143,
+        "last_line": 21143,
+        "first_file_offset": 2713560,
+        "reports": 1,
+        "control_key": "2e00000000000000000000000000000000",
+        "state": {
+          "rx": 46,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105227990000
+      },
+      {
+        "first_elapsed_ns": 105227990000,
+        "last_elapsed_ns": 105227990000,
+        "first_line": 21144,
+        "last_line": 21144,
+        "first_file_offset": 2713689,
+        "reports": 1,
+        "control_key": "2b00000000000000000000000000000000",
+        "state": {
+          "rx": 43,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105233037000
+      },
+      {
+        "first_elapsed_ns": 105233037000,
+        "last_elapsed_ns": 105233037000,
+        "first_line": 21145,
+        "last_line": 21145,
+        "first_file_offset": 2713818,
+        "reports": 1,
+        "control_key": "2700000000000000000000000000000000",
+        "state": {
+          "rx": 39,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105238134000
+      },
+      {
+        "first_elapsed_ns": 105238134000,
+        "last_elapsed_ns": 105238134000,
+        "first_line": 21146,
+        "last_line": 21146,
+        "first_file_offset": 2713947,
+        "reports": 1,
+        "control_key": "2500000000000000000000000000000000",
+        "state": {
+          "rx": 37,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105243115000
+      },
+      {
+        "first_elapsed_ns": 105243115000,
+        "last_elapsed_ns": 105243115000,
+        "first_line": 21147,
+        "last_line": 21147,
+        "first_file_offset": 2714076,
+        "reports": 1,
+        "control_key": "2100000000000000000000000000000000",
+        "state": {
+          "rx": 33,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105248038000
+      },
+      {
+        "first_elapsed_ns": 105248038000,
+        "last_elapsed_ns": 105248038000,
+        "first_line": 21148,
+        "last_line": 21148,
+        "first_file_offset": 2714205,
+        "reports": 1,
+        "control_key": "1f00000000000000000000000000000000",
+        "state": {
+          "rx": 31,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105253046000
+      },
+      {
+        "first_elapsed_ns": 105253046000,
+        "last_elapsed_ns": 105253046000,
+        "first_line": 21149,
+        "last_line": 21149,
+        "first_file_offset": 2714334,
+        "reports": 1,
+        "control_key": "1c00000000000000000000000000000000",
+        "state": {
+          "rx": 28,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105258190000
+      },
+      {
+        "first_elapsed_ns": 105258190000,
+        "last_elapsed_ns": 105258190000,
+        "first_line": 21150,
+        "last_line": 21150,
+        "first_file_offset": 2714463,
+        "reports": 1,
+        "control_key": "1a00000000000000000000000000000000",
+        "state": {
+          "rx": 26,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105263124000
+      },
+      {
+        "first_elapsed_ns": 105263124000,
+        "last_elapsed_ns": 105263124000,
+        "first_line": 21151,
+        "last_line": 21151,
+        "first_file_offset": 2714592,
+        "reports": 1,
+        "control_key": "1800000000000000000000000000000000",
+        "state": {
+          "rx": 24,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105268036000
+      },
+      {
+        "first_elapsed_ns": 105268036000,
+        "last_elapsed_ns": 105268036000,
+        "first_line": 21152,
+        "last_line": 21152,
+        "first_file_offset": 2714721,
+        "reports": 1,
+        "control_key": "1500000000000000000000000000000000",
+        "state": {
+          "rx": 21,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105273098000
+      },
+      {
+        "first_elapsed_ns": 105273098000,
+        "last_elapsed_ns": 105273098000,
+        "first_line": 21153,
+        "last_line": 21153,
+        "first_file_offset": 2714850,
+        "reports": 1,
+        "control_key": "1300000000000000000000000000000000",
+        "state": {
+          "rx": 19,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105278044000
+      },
+      {
+        "first_elapsed_ns": 105278044000,
+        "last_elapsed_ns": 105278044000,
+        "first_line": 21154,
+        "last_line": 21154,
+        "first_file_offset": 2714979,
+        "reports": 1,
+        "control_key": "1200000000000000000000000000000000",
+        "state": {
+          "rx": 18,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105283054000
+      },
+      {
+        "first_elapsed_ns": 105283054000,
+        "last_elapsed_ns": 105283054000,
+        "first_line": 21155,
+        "last_line": 21155,
+        "first_file_offset": 2715108,
+        "reports": 1,
+        "control_key": "0e00000000000000000000000000000000",
+        "state": {
+          "rx": 14,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105288039000
+      },
+      {
+        "first_elapsed_ns": 105288039000,
+        "last_elapsed_ns": 105288039000,
+        "first_line": 21156,
+        "last_line": 21156,
+        "first_file_offset": 2715237,
+        "reports": 1,
+        "control_key": "0d00000000000000000000000000000000",
+        "state": {
+          "rx": 13,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105293082000
+      },
+      {
+        "first_elapsed_ns": 105293082000,
+        "last_elapsed_ns": 105293082000,
+        "first_line": 21157,
+        "last_line": 21157,
+        "first_file_offset": 2715366,
+        "reports": 1,
+        "control_key": "0a00000000000000000000000000000000",
+        "state": {
+          "rx": 10,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105298047000
+      },
+      {
+        "first_elapsed_ns": 105298047000,
+        "last_elapsed_ns": 105298047000,
+        "first_line": 21158,
+        "last_line": 21158,
+        "first_file_offset": 2715495,
+        "reports": 1,
+        "control_key": "0800000000000000000000000000000000",
+        "state": {
+          "rx": 8,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105303055000
+      },
+      {
+        "first_elapsed_ns": 105303055000,
+        "last_elapsed_ns": 105303055000,
+        "first_line": 21159,
+        "last_line": 21159,
+        "first_file_offset": 2715624,
+        "reports": 1,
+        "control_key": "0600000000000000000000000000000000",
+        "state": {
+          "rx": 6,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105308058000
+      },
+      {
+        "first_elapsed_ns": 105308058000,
+        "last_elapsed_ns": 105308058000,
+        "first_line": 21160,
+        "last_line": 21160,
+        "first_file_offset": 2715753,
+        "reports": 1,
+        "control_key": "0400000000000000000000000000000000",
+        "state": {
+          "rx": 4,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105313080000
+      },
+      {
+        "first_elapsed_ns": 105313080000,
+        "last_elapsed_ns": 105313080000,
+        "first_line": 21161,
+        "last_line": 21161,
+        "first_file_offset": 2715882,
+        "reports": 1,
+        "control_key": "0200000000000000000000000000000000",
+        "state": {
+          "rx": 2,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105318037000
+      },
+      {
+        "first_elapsed_ns": 105318037000,
+        "last_elapsed_ns": 105318037000,
+        "first_line": 21162,
+        "last_line": 21162,
+        "first_file_offset": 2716011,
+        "reports": 1,
+        "control_key": "0100000000000000000000000000000000",
+        "state": {
+          "rx": 1,
+          "ry": 0,
+          "pressed_button_usages": []
+        },
+        "zero_axes_and_no_pressed_usages": false,
+        "next_change_elapsed_ns": 105323036000
+      }
+    ],
+    "zero_control_reports": 25534
+  },
+  "limits": [
+    "No device commands are sent by this analysis.",
+    "Initial control state is a numerical baseline, not confirmed physical idle.",
+    "No control changes cannot distinguish inactivity from alternate routing without confirmed user actions.",
+    "Report 0x02 and other vendor payloads are inventoried as opaque bytes; no version/status fields are asserted.",
+    "Callback intervals include operating-system and KVM scheduling effects."
+  ]
+}

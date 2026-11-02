@@ -1,0 +1,14 @@
+[
+  {
+    "source": "firmware/SIGMA v1.1.5 BETA/SIGMA_Converter_V1.1.5.exe",
+    "original_copy": "originals/SIGMA v1.1.5 BETA/SIGMA_Converter_V1.1.5.exe",
+    "size": 3628544,
+    "sha256": "585a72f0fc40b33e374f67bdf8df4c537b0f0d879e9d2f7b65a598253196fc7a"
+  },
+  {
+    "source": "firmware/SIGMA v1.1.5 BETA/SIGMA v1.1.5 BETA Patch Notes.txt",
+    "original_copy": "originals/SIGMA v1.1.5 BETA/SIGMA v1.1.5 BETA Patch Notes.txt",
+    "size": 318,
+    "sha256": "b5c58f64722db6073263552c02fdd9b2b3cac152f6f1195739b73e25b2b965ee"
+  }
+]

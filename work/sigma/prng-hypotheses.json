@@ -1,0 +1,12 @@
+{
+  "assumption": "If payload offset zero holds a Cortex-M vector table, words at 0x1c..0x2b are zero plaintext; not established",
+  "source": "work/sigma/1.1.5/resources/resource_TEXTFILE_IDR_APP_FILE_1033.bin",
+  "assumed_keystream_words": [
+    "0xac102c5e",
+    "0xb1362be8",
+    "0xd437bb33",
+    "0x3c0f8384"
+  ],
+  "xorshift32_3stage_matches": [],
+  "lcg32_impossible_reason": "First difference is even (0x0525ff8a), second odd (0x23018f4b); no constant multiplicative LCG modulo 2^32 can produce this sequence."
+}

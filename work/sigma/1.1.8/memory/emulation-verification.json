@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "cpu_model": "Unicorn ARM Cortex-M4 Thumb",
+  "checks": [
+    "original decompress routine matches transcribed RAM fixture and source endpoint",
+    "original zero-fill writes exactly the BSS extent and preserves end canary",
+    "original heap helper returns independently recovered four bounds",
+    "emulation-only heaplimit edit reserves 256 bytes without changing stack bounds"
+  ],
+  "hardware_io": false,
+  "firmware_file_written_by_emulation": false,
+  "source_sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+  "initial_data_sha256": "56df6503e19c10d9687591be7124de7c849f2a33b2c8cdc4225988b3d40c0ce9"
+}

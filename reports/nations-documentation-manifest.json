@@ -1,0 +1,34 @@
+[
+  {
+    "source_url": "https://www.nsing.com.sg/public/uploads/DS/EN_DS_N32G455.pdf",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "path": "originals/Nations-documentation/EN_UM_N32G45x_Series_User_Manual.pdf",
+    "source_url": "https://www.nsing.com.sg/uploads/MCUProducts/N32G455/Chip_Documentation/User_Manual/EN_UM_N32G45x_Series_User_Manual.pdf",
+    "final_url": "https://www.nsing.com.sg/uploads/MCUProducts/N32G455/Chip_Documentation/User_Manual/EN_UM_N32G45x_Series_User_Manual.pdf",
+    "size": 26943705,
+    "sha256": "ab65dd17891590e4ef6c195a3dd6ef5679627124a4bef8b624946fe128517467"
+  },
+  {
+    "path": "originals/Nations-documentation/EN_UG_N32G45x&N32G4FR&N32WB452_Series_BOOT_interface_instruction_use_guide_V1.2.pdf",
+    "source_url": "https://www.nationstech.com/uploads/Microcontrollers/N32G4FRxx_V3.2.0/8-User_Guide/EN_UG_N32G45x%26N32G4FR%26N32WB452_Series_BOOT_interface_instruction_use_guide_V1.2.pdf",
+    "final_url": "https://www.nationstech.com/uploads/Microcontrollers/N32G4FRxx_V3.2.0/8-User_Guide/EN_UG_N32G45x%26N32G4FR%26N32WB452_Series_BOOT_interface_instruction_use_guide_V1.2.pdf",
+    "size": 553108,
+    "sha256": "f6ded490b328f8e817bd19d9170dc7d4cdd61b50478afd559b4e97bc527dde19"
+  },
+  {
+    "path": "originals/Nations-documentation/EN_DS_N32G455_Series_Datasheet_V2.6.0.pdf",
+    "source_url": "https://www.nsing.com.sg/api/dowfilebefore?did=5068",
+    "final_url": "https://www.nsing.com.sg/uploads/Microcontrollers/N32G455xx_V3.5.0/2-Datasheet/EN_DS_N32G455_Series_Datasheet_V2.6.0.pdf",
+    "size": 2497192,
+    "sha256": "3a2cda0075958b47d5d815facbe5b37dc3cb2650e3377473cb01a8591eed92f8"
+  },
+  {
+    "path": "originals/Nations-documentation/EN_UM_N32G45x_Series_User_Manual_V3.5.0.pdf",
+    "source_url": "https://www.nsing.com.sg/api/dowfilebefore?did=5069",
+    "final_url": "https://www.nsing.com.sg/uploads/Microcontrollers/N32G455xx_V3.5.0/3-User_Manual/EN_UM_N32G45x_Series_User_Manual_V3.5.0.pdf",
+    "size": 15117626,
+    "sha256": "c345230a200209e522c7cde6c00970e26b1ac2076ae1a0949662aa2e01ce6e8f"
+  }
+]

@@ -1,0 +1,701 @@
+{
+    "telemetry_items": [
+        {
+            "type": "flag",
+            "key": "light_groups",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 49,
+                            "foregroud_color": [ "#D32029", "#49AA19", "#2B4ACB" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 49,
+                            "foregroud_color": [ "#D32029", "#49AA19", "#2B4ACB" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 49,
+                            "foregroud_color": [ "#D32029", "#49AA19", "#2B4ACB" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 49,
+                            "foregroud_color": [ "#D32029", "#49AA19", "#2B4ACB" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 49,
+                        "foregroud_color": [ "#D32029", "#49AA19", "#2B4ACB" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "side_lights",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 5,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 5,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 5,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 5,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 5,
+                        "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "rpm_lights",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 14,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 14,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 14,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 14,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 14,
+                        "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "rpm_lights_34537472_1",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 9,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 9,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 9,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 9,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 9,
+                        "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "led_buttons",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 0,
+                        "foregroud_color": [ "#FF0000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "encoders",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 11,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 11,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 11,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 11,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        },
+                        "abs_model1": {
+                            "backgroud_color": "#D32029",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 11,
+                            "foregroud_color": [ "#13A8A8" ],
+                            "interval": 200,
+                            "select_lights": [ 0 ],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "abs_model2": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 11,
+                            "foregroud_color": [ "#13A8A8" ],
+                            "interval": 200,
+                            "select_lights": [ 0 ],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 11,
+                        "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "leds",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 0,
+                            "foregroud_color": [ "#FF0000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 0,
+                        "foregroud_color": [ "#FF0000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "rpm_lights_34209793_1",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 8,
+                        "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        },
+        {
+            "type": "flag",
+            "key": "rpm_lights_34340864_1",
+            "label": "",
+            "default_preset": {
+                "enabled": true,
+                "index": 1,
+                "label": "",
+                "light": {
+                    "active_effect": "mono",
+                    "configs": {
+                        "breath": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "flow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "follow": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "normal",
+                            "start_index": 0
+                        },
+                        "mono": {
+                            "backgroud_color": "#000000",
+                            "brightness": 100,
+                            "direction": "cw",
+                            "end_index": 8,
+                            "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                            "interval": 200,
+                            "select_lights": [],
+                            "speed_level": "zero",
+                            "start_index": 0
+                        }
+                    },
+                    "default_effect": {
+                        "backgroud_color": "#000000",
+                        "brightness": 100,
+                        "direction": "cw",
+                        "end_index": 8,
+                        "foregroud_color": [ "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000" ],
+                        "interval": 200,
+                        "select_lights": [],
+                        "speed_level": "normal",
+                        "start_index": 0
+                    }
+                },
+                "telemtery_item": {
+                    "flags": {
+                        "flags": 1
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "image_sha256": "788ffe72fb2ca1307b1743a2f4768f7757d9a92dc52eb1c495f348b70c155b14",
+  "checks": [
+    "original scatter routine independently reconstructs exact initialized RAM",
+    "patched original constructor chain preserves five classes and adds Zeus as sixth",
+    "heap reservation changes limit only and preserves original stack bounds",
+    "VID/PID and interface gate rejects unrelated devices including existing handbrake/base",
+    "failed first initialization releases allocated address; busy existing binding is preserved",
+    "without Zeus controls, original console report remains byte identical",
+    "120 single-bit input cases map only declared controls and preserve other report fields",
+    "axes scale at boundaries; invalid lengths and management report IDs do not alter controls",
+    "original generic poll delivers USB buffer through new vtable and actual fifth-argument ABI",
+    "timeout remains correct across counter wrap and sends button releases",
+    "detach clears independent controls and requests a fresh original report",
+    "patched BL instruction reaches appended merge code",
+    "state boundary canaries remain intact across constructor and all callback cases"
+  ],
+  "emulation": "Unicorn ARM Thumb M-class Cortex-M4 instruction model; not identification of actual MCU; actual compiled patch and selected original helpers",
+  "stubs": [
+    "Original USB Init transaction boundary 08023BA0 for wrapper tests",
+    "Original USB Release08023EC8 for wrapper tests",
+    "Original USB Poll08024A8C for timeout tests",
+    "Low-level USB IN08022490 for real generic-poll callback integration"
+  ],
+  "limitations": [
+    "No bootloader orflashvalidation",
+    "No emulatedUSBcontroller orPS5",
+    "No proof of all targettiming/interleavings",
+    "Physicalusage map remainscapturedependent"
+  ]
+}

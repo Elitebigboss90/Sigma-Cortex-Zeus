@@ -1,0 +1,130 @@
+{
+  "report_layout": "Report ID1, length23 including ID; button usages begin at report byte3, usage1 in bit0",
+  "seven_way_mapping": [
+    {
+      "physical_control": "left seven-way up",
+      "usage": 44,
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x08",
+      "capture": "reports/zeus-live-input-005.jsonl",
+      "capture_sha256": "6c5d95ed41c909b750efc34004d071b0bf657942db3167757e8fd15638c277af",
+      "source_line": 3110,
+      "source_file_offset": 396986,
+      "correlation": "reports/zeus-live-input-005.correlation.json"
+    },
+    {
+      "physical_control": "left seven-way right",
+      "usage": 47,
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x40",
+      "capture": "reports/zeus-live-input-005.jsonl",
+      "capture_sha256": "6c5d95ed41c909b750efc34004d071b0bf657942db3167757e8fd15638c277af",
+      "source_line": 3412,
+      "source_file_offset": 435806,
+      "correlation": "reports/zeus-live-input-005.correlation.json"
+    },
+    {
+      "physical_control": "left seven-way down",
+      "usage": 46,
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x20",
+      "capture": "reports/zeus-live-input-005.jsonl",
+      "capture_sha256": "6c5d95ed41c909b750efc34004d071b0bf657942db3167757e8fd15638c277af",
+      "source_line": 3640,
+      "source_file_offset": 465072,
+      "correlation": "reports/zeus-live-input-005.correlation.json"
+    },
+    {
+      "physical_control": "left seven-way left",
+      "usage": 45,
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x10",
+      "capture": "reports/zeus-live-input-005.jsonl",
+      "capture_sha256": "6c5d95ed41c909b750efc34004d071b0bf657942db3167757e8fd15638c277af",
+      "source_line": 3923,
+      "source_file_offset": 501378,
+      "correlation": "reports/zeus-live-input-005.correlation.json"
+    },
+    {
+      "physical_control": "left seven-way center",
+      "usage": 43,
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x04",
+      "capture": "reports/zeus-live-input-005.jsonl",
+      "capture_sha256": "6c5d95ed41c909b750efc34004d071b0bf657942db3167757e8fd15638c277af",
+      "source_line": 4675,
+      "source_file_offset": 597962,
+      "correlation": "reports/zeus-live-input-005.correlation.json"
+    },
+    {
+      "physical_control": "right seven-way up",
+      "usage": 63,
+      "report_byte_offset": 10,
+      "report_bit_mask": "0x40",
+      "capture": "reports/zeus-live-input-008.jsonl",
+      "capture_sha256": "233b7cbda4c4d3e1d265cc343a4d309dbff8ec9a45b9e2f8069cb6ca588e5193",
+      "source_line": 12543,
+      "source_file_offset": 1608185,
+      "correlation": "reports/zeus-live-input-008.correlation.json"
+    },
+    {
+      "physical_control": "right seven-way right",
+      "usage": 66,
+      "report_byte_offset": 11,
+      "report_bit_mask": "0x02",
+      "capture": "reports/zeus-live-input-008.jsonl",
+      "capture_sha256": "233b7cbda4c4d3e1d265cc343a4d309dbff8ec9a45b9e2f8069cb6ca588e5193",
+      "source_line": 12864,
+      "source_file_offset": 1649355,
+      "correlation": "reports/zeus-live-input-008.correlation.json"
+    },
+    {
+      "physical_control": "right seven-way down",
+      "usage": 65,
+      "report_byte_offset": 11,
+      "report_bit_mask": "0x01",
+      "capture": "reports/zeus-live-input-008.jsonl",
+      "capture_sha256": "233b7cbda4c4d3e1d265cc343a4d309dbff8ec9a45b9e2f8069cb6ca588e5193",
+      "source_line": 13276,
+      "source_file_offset": 1702255,
+      "correlation": "reports/zeus-live-input-008.correlation.json"
+    },
+    {
+      "physical_control": "right seven-way left",
+      "usage": 64,
+      "report_byte_offset": 10,
+      "report_bit_mask": "0x80",
+      "capture": "reports/zeus-live-input-008.jsonl",
+      "capture_sha256": "233b7cbda4c4d3e1d265cc343a4d309dbff8ec9a45b9e2f8069cb6ca588e5193",
+      "source_line": 13656,
+      "source_file_offset": 1751059,
+      "correlation": "reports/zeus-live-input-008.correlation.json"
+    },
+    {
+      "physical_control": "right seven-way center",
+      "usage": 48,
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x80",
+      "capture": "reports/zeus-live-input-007.jsonl",
+      "capture_sha256": "01753493a346b8f168514b408337470e933b8c48028ca6279f5250ada567b900",
+      "source_line": 7965,
+      "source_file_offset": 1020393,
+      "correlation": "reports/zeus-live-input-007.correlation.json"
+    }
+  ],
+  "excluded_or_unresolved_captures": [
+    {
+      "capture": "reports/zeus-live-input-004.jsonl",
+      "reason": "User stated the sequence was performed incorrectly, relayed by parent. Excluded from physical-label inference."
+    },
+    {
+      "capture": "reports/zeus-live-input-006.jsonl",
+      "reason": "User confirmed the right-switch sequence but the completed capture has no control changes. Timing/action discrepancy is unresolved; successful capture008 establishes the right direction mapping. No hardware-failure inference."
+    }
+  ],
+  "limits": [
+    "User profiles may alter usage assignment.",
+    "Seven-way rotation directions have not been labeled by these captures.",
+    "Candidate console hat/center mappings are design decisions distinct from observed wheel HID usages."
+  ]
+}

@@ -1,0 +1,82 @@
+{
+    "en":{
+        "showSimpro":"Show Simpro",
+        "hideSimpro":"Hide Simpro",
+        "showDebugLog":"Show Debug Log",
+        "exit":"Exit",
+		"feedback.fileLimitError":"File size must not exceed",
+		"feedback":"Feedback",
+		"feedback.success":"Submitted Successfully",
+		"feedback.fail":"Submission Failed"
+    },
+    "zh":{
+        "showSimpro":"打开 Simpro",
+        "hideSimpro":"隐藏 Simpro",
+        "showDebugLog":"显示日志",
+        "exit":"退出",
+		"feedback.fileLimitError":"文件大小不能超过",
+		"feedback":"意见反馈",
+		"feedback.success":"提交成功",
+		"feedback.fail":"提交失败"
+    },
+    "fr":{
+        "showSimpro":"Show Simpro",
+        "hideSimpro":"Hide Simpro",
+        "showDebugLog":"Show Debug Log",
+        "exit":"Exit",
+		"feedback.fileLimitError":"La taille du fichier ne peut pas dépasser",
+		"feedback":"Retour d'information",
+		"feedback.success":"feedback.success",
+		"feedback.fail":"Échec de l'envoi"
+    },
+    "zh-Hant":{
+        "showSimpro":"打開 Simpro",
+        "hideSimpro":"隱藏 Simpro",
+        "showDebugLog":"顯示日誌",
+        "exit":"退出",
+		"feedback.fileLimitError":"檔案大小不能超過",
+		"feedback":"意見反饋",
+		"feedback.success":"提交成功",
+		"feedback.fail":"提交失敗"
+    },
+    "es":{
+        "showSimpro":"Show Simpro",
+        "hideSimpro":"Hide Simpro",
+        "showDebugLog":"Show Debug Log",
+        "exit":"Exit",
+		"feedback.fileLimitError":"El tamaño del archivo no puede superar",
+		"feedback":"Comentarios",
+		"feedback.success":"Enviado con éxito",
+		"feedback.fail":"Envío fallido"
+    },
+    "it":{
+        "showSimpro":"Show Simpro",
+        "hideSimpro":"Hide Simpro",
+        "showDebugLog":"Show Debug Log",
+        "exit":"Exit",
+		"feedback.fileLimitError":"La dimensione del file non può superare",
+		"feedback":"Feedback",
+		"feedback.success":"Inviato con successo",
+		"feedback.fail":"Invio non riuscito"
+    },
+    "kr":{
+        "showSimpro":"Show Simpro",
+        "hideSimpro":"Hide Simpro",
+        "showDebugLog":"Show Debug Log",
+        "exit":"Exit",
+		"feedback.fileLimitError":"파일 크기는 다음을 초과할 수 없습니다",
+		"feedback":"피드백",
+		"feedback.success":"제출 성공",
+		"feedback.fail":"제출 실패"
+    },
+    "ja":{
+        "showSimpro":"Show Simpro",
+        "hideSimpro":"Hide Simpro",
+        "showDebugLog":"Show Debug Log",
+        "exit":"Exit",
+		"feedback.fileLimitError":"ファイルサイズは次を超えることはできません",
+		"feedback":"フィードバック",
+		"feedback.success":"送信成功",
+		"feedback.fail":"送信失敗"
+    }
+}

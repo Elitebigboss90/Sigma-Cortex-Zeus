@@ -1,0 +1,14 @@
+[
+    {
+        "desc": "next frame",
+        "name": "nextframe",
+        "note": "next",
+        "text": "next"
+    },
+    {
+        "desc": "previous frame",
+        "name": "previousframe",
+        "note": "previous",
+        "text": "previous"
+    }
+]

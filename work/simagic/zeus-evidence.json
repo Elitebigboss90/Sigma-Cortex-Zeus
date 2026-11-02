@@ -1,0 +1,929 @@
+{
+  "sfu": {
+    "source": "work/simagic/3.2.3.13713/$APPDATA/Local/Simagic/Simpro3/firmware/wheel/zf/ZeusFormula_App-A1.1.15.13445-eb889282.sfu",
+    "sha256": "571535e07edc9efb8c7403eecf60caf861631ae9bf312a2755acc4d4e26b7e7f",
+    "size": 123936,
+    "header_bytes": "53494d50524f534655313030000040005a657573466f726d756c615f41707000312e312e313500000000000000000000e0e30100000007020000070204087036",
+    "magic": "SIMPROSFU100",
+    "format_u16_at_0x0e": 64,
+    "target": "ZeusFormula_App",
+    "version": "1.1.15",
+    "declared_length_at_0x30": 123872,
+    "product_code_0x34": "0x2070000",
+    "product_code_0x38": "0x2070000",
+    "pid_0x3c": "0x804",
+    "vid_0x3e": "0x3670"
+  },
+  "decoded": {
+    "path": "work/simagic/zeus-formula-decoded.bin",
+    "sha256": "85961f88feba079fa9a9c5e72e6c329b880c98082a305da60c3c851b04b7756a",
+    "size": 123872,
+    "mapped_start": "0x8021e00",
+    "vector_offset": 512,
+    "vector_va": "0x8022000",
+    "initial_sp": "0x20020000",
+    "reset_vector": "0x802691d",
+    "reset_file_offset": "0x4b1c",
+    "processor_profile": "ARM:LE:32:Cortex",
+    "caveat": "Specific MCU model not established."
+  },
+  "descriptors": [
+    {
+      "kind": "configuration",
+      "source_sha256": "85961f88feba079fa9a9c5e72e6c329b880c98082a305da60c3c851b04b7756a",
+      "offset": 110056,
+      "va": "0x803cbe8",
+      "length": 41,
+      "operation": "identity slice",
+      "bytes": "09022900010100c0fa09040000020300000009211101000122a4000705810340000107050103400001",
+      "output": "work/simagic/zeus-configuration.bin",
+      "output_sha256": "784c2d7b4a3213acd48d132f2658e50151af622f1021bac986f6f01bf6bbed6a"
+    },
+    {
+      "kind": "device",
+      "source_sha256": "85961f88feba079fa9a9c5e72e6c329b880c98082a305da60c3c851b04b7756a",
+      "offset": 110100,
+      "va": "0x803cc14",
+      "length": 18,
+      "operation": "identity slice",
+      "bytes": "1201000200000040703604081f0101020301",
+      "output": "work/simagic/zeus-device.bin",
+      "output_sha256": "00574a94b36b0038c76023f54da3e371e1150b47959162177c5e5111c87fcdb2"
+    },
+    {
+      "kind": "hid_report",
+      "source_sha256": "85961f88feba079fa9a9c5e72e6c329b880c98082a305da60c3c851b04b7756a",
+      "offset": 110120,
+      "va": "0x803cc28",
+      "length": 164,
+      "operation": "identity slice",
+      "bytes": "05010904a101850175081500257f3500457fa1000933093495028102c0a10005091901297815002501750195788102c0a1000600ff1901292015002520750195208102c0a1000600ff1901294015002540750895018102c0a1020600ff85020600ff09017508953f810285800600ff09027508953fb10285800600ff09037508953f910285f17508953f09f1b10285f07508953f09f0b10285f97508953f09f98102c0c0",
+      "output": "work/simagic/zeus-hid_report.bin",
+      "output_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d"
+    }
+  ],
+  "hid_items": [
+    {
+      "descriptor_offset": 0,
+      "decoded_offset": 110120,
+      "bytes": "0501",
+      "kind": 1,
+      "tag": 0,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 2,
+      "decoded_offset": 110122,
+      "bytes": "0904",
+      "kind": 2,
+      "tag": 0,
+      "value": 4
+    },
+    {
+      "descriptor_offset": 4,
+      "decoded_offset": 110124,
+      "bytes": "a101",
+      "kind": 0,
+      "tag": 10,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 6,
+      "decoded_offset": 110126,
+      "bytes": "8501",
+      "kind": 1,
+      "tag": 8,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 8,
+      "decoded_offset": 110128,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 10,
+      "decoded_offset": 110130,
+      "bytes": "1500",
+      "kind": 1,
+      "tag": 1,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 12,
+      "decoded_offset": 110132,
+      "bytes": "257f",
+      "kind": 1,
+      "tag": 2,
+      "value": 127
+    },
+    {
+      "descriptor_offset": 14,
+      "decoded_offset": 110134,
+      "bytes": "3500",
+      "kind": 1,
+      "tag": 3,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 16,
+      "decoded_offset": 110136,
+      "bytes": "457f",
+      "kind": 1,
+      "tag": 4,
+      "value": 127
+    },
+    {
+      "descriptor_offset": 18,
+      "decoded_offset": 110138,
+      "bytes": "a100",
+      "kind": 0,
+      "tag": 10,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 20,
+      "decoded_offset": 110140,
+      "bytes": "0933",
+      "kind": 2,
+      "tag": 0,
+      "value": 51
+    },
+    {
+      "descriptor_offset": 22,
+      "decoded_offset": 110142,
+      "bytes": "0934",
+      "kind": 2,
+      "tag": 0,
+      "value": 52
+    },
+    {
+      "descriptor_offset": 24,
+      "decoded_offset": 110144,
+      "bytes": "9502",
+      "kind": 1,
+      "tag": 9,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 26,
+      "decoded_offset": 110146,
+      "bytes": "8102",
+      "kind": 0,
+      "tag": 8,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 28,
+      "decoded_offset": 110148,
+      "bytes": "c0",
+      "kind": 0,
+      "tag": 12,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 29,
+      "decoded_offset": 110149,
+      "bytes": "a100",
+      "kind": 0,
+      "tag": 10,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 31,
+      "decoded_offset": 110151,
+      "bytes": "0509",
+      "kind": 1,
+      "tag": 0,
+      "value": 9
+    },
+    {
+      "descriptor_offset": 33,
+      "decoded_offset": 110153,
+      "bytes": "1901",
+      "kind": 2,
+      "tag": 1,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 35,
+      "decoded_offset": 110155,
+      "bytes": "2978",
+      "kind": 2,
+      "tag": 2,
+      "value": 120
+    },
+    {
+      "descriptor_offset": 37,
+      "decoded_offset": 110157,
+      "bytes": "1500",
+      "kind": 1,
+      "tag": 1,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 39,
+      "decoded_offset": 110159,
+      "bytes": "2501",
+      "kind": 1,
+      "tag": 2,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 41,
+      "decoded_offset": 110161,
+      "bytes": "7501",
+      "kind": 1,
+      "tag": 7,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 43,
+      "decoded_offset": 110163,
+      "bytes": "9578",
+      "kind": 1,
+      "tag": 9,
+      "value": 120
+    },
+    {
+      "descriptor_offset": 45,
+      "decoded_offset": 110165,
+      "bytes": "8102",
+      "kind": 0,
+      "tag": 8,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 47,
+      "decoded_offset": 110167,
+      "bytes": "c0",
+      "kind": 0,
+      "tag": 12,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 48,
+      "decoded_offset": 110168,
+      "bytes": "a100",
+      "kind": 0,
+      "tag": 10,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 50,
+      "decoded_offset": 110170,
+      "bytes": "0600ff",
+      "kind": 1,
+      "tag": 0,
+      "value": 65280
+    },
+    {
+      "descriptor_offset": 53,
+      "decoded_offset": 110173,
+      "bytes": "1901",
+      "kind": 2,
+      "tag": 1,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 55,
+      "decoded_offset": 110175,
+      "bytes": "2920",
+      "kind": 2,
+      "tag": 2,
+      "value": 32
+    },
+    {
+      "descriptor_offset": 57,
+      "decoded_offset": 110177,
+      "bytes": "1500",
+      "kind": 1,
+      "tag": 1,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 59,
+      "decoded_offset": 110179,
+      "bytes": "2520",
+      "kind": 1,
+      "tag": 2,
+      "value": 32
+    },
+    {
+      "descriptor_offset": 61,
+      "decoded_offset": 110181,
+      "bytes": "7501",
+      "kind": 1,
+      "tag": 7,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 63,
+      "decoded_offset": 110183,
+      "bytes": "9520",
+      "kind": 1,
+      "tag": 9,
+      "value": 32
+    },
+    {
+      "descriptor_offset": 65,
+      "decoded_offset": 110185,
+      "bytes": "8102",
+      "kind": 0,
+      "tag": 8,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 67,
+      "decoded_offset": 110187,
+      "bytes": "c0",
+      "kind": 0,
+      "tag": 12,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 68,
+      "decoded_offset": 110188,
+      "bytes": "a100",
+      "kind": 0,
+      "tag": 10,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 70,
+      "decoded_offset": 110190,
+      "bytes": "0600ff",
+      "kind": 1,
+      "tag": 0,
+      "value": 65280
+    },
+    {
+      "descriptor_offset": 73,
+      "decoded_offset": 110193,
+      "bytes": "1901",
+      "kind": 2,
+      "tag": 1,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 75,
+      "decoded_offset": 110195,
+      "bytes": "2940",
+      "kind": 2,
+      "tag": 2,
+      "value": 64
+    },
+    {
+      "descriptor_offset": 77,
+      "decoded_offset": 110197,
+      "bytes": "1500",
+      "kind": 1,
+      "tag": 1,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 79,
+      "decoded_offset": 110199,
+      "bytes": "2540",
+      "kind": 1,
+      "tag": 2,
+      "value": 64
+    },
+    {
+      "descriptor_offset": 81,
+      "decoded_offset": 110201,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 83,
+      "decoded_offset": 110203,
+      "bytes": "9501",
+      "kind": 1,
+      "tag": 9,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 85,
+      "decoded_offset": 110205,
+      "bytes": "8102",
+      "kind": 0,
+      "tag": 8,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 87,
+      "decoded_offset": 110207,
+      "bytes": "c0",
+      "kind": 0,
+      "tag": 12,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 88,
+      "decoded_offset": 110208,
+      "bytes": "a102",
+      "kind": 0,
+      "tag": 10,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 90,
+      "decoded_offset": 110210,
+      "bytes": "0600ff",
+      "kind": 1,
+      "tag": 0,
+      "value": 65280
+    },
+    {
+      "descriptor_offset": 93,
+      "decoded_offset": 110213,
+      "bytes": "8502",
+      "kind": 1,
+      "tag": 8,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 95,
+      "decoded_offset": 110215,
+      "bytes": "0600ff",
+      "kind": 1,
+      "tag": 0,
+      "value": 65280
+    },
+    {
+      "descriptor_offset": 98,
+      "decoded_offset": 110218,
+      "bytes": "0901",
+      "kind": 2,
+      "tag": 0,
+      "value": 1
+    },
+    {
+      "descriptor_offset": 100,
+      "decoded_offset": 110220,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 102,
+      "decoded_offset": 110222,
+      "bytes": "953f",
+      "kind": 1,
+      "tag": 9,
+      "value": 63
+    },
+    {
+      "descriptor_offset": 104,
+      "decoded_offset": 110224,
+      "bytes": "8102",
+      "kind": 0,
+      "tag": 8,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 106,
+      "decoded_offset": 110226,
+      "bytes": "8580",
+      "kind": 1,
+      "tag": 8,
+      "value": 128
+    },
+    {
+      "descriptor_offset": 108,
+      "decoded_offset": 110228,
+      "bytes": "0600ff",
+      "kind": 1,
+      "tag": 0,
+      "value": 65280
+    },
+    {
+      "descriptor_offset": 111,
+      "decoded_offset": 110231,
+      "bytes": "0902",
+      "kind": 2,
+      "tag": 0,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 113,
+      "decoded_offset": 110233,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 115,
+      "decoded_offset": 110235,
+      "bytes": "953f",
+      "kind": 1,
+      "tag": 9,
+      "value": 63
+    },
+    {
+      "descriptor_offset": 117,
+      "decoded_offset": 110237,
+      "bytes": "b102",
+      "kind": 0,
+      "tag": 11,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 119,
+      "decoded_offset": 110239,
+      "bytes": "8580",
+      "kind": 1,
+      "tag": 8,
+      "value": 128
+    },
+    {
+      "descriptor_offset": 121,
+      "decoded_offset": 110241,
+      "bytes": "0600ff",
+      "kind": 1,
+      "tag": 0,
+      "value": 65280
+    },
+    {
+      "descriptor_offset": 124,
+      "decoded_offset": 110244,
+      "bytes": "0903",
+      "kind": 2,
+      "tag": 0,
+      "value": 3
+    },
+    {
+      "descriptor_offset": 126,
+      "decoded_offset": 110246,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 128,
+      "decoded_offset": 110248,
+      "bytes": "953f",
+      "kind": 1,
+      "tag": 9,
+      "value": 63
+    },
+    {
+      "descriptor_offset": 130,
+      "decoded_offset": 110250,
+      "bytes": "9102",
+      "kind": 0,
+      "tag": 9,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 132,
+      "decoded_offset": 110252,
+      "bytes": "85f1",
+      "kind": 1,
+      "tag": 8,
+      "value": 241
+    },
+    {
+      "descriptor_offset": 134,
+      "decoded_offset": 110254,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 136,
+      "decoded_offset": 110256,
+      "bytes": "953f",
+      "kind": 1,
+      "tag": 9,
+      "value": 63
+    },
+    {
+      "descriptor_offset": 138,
+      "decoded_offset": 110258,
+      "bytes": "09f1",
+      "kind": 2,
+      "tag": 0,
+      "value": 241
+    },
+    {
+      "descriptor_offset": 140,
+      "decoded_offset": 110260,
+      "bytes": "b102",
+      "kind": 0,
+      "tag": 11,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 142,
+      "decoded_offset": 110262,
+      "bytes": "85f0",
+      "kind": 1,
+      "tag": 8,
+      "value": 240
+    },
+    {
+      "descriptor_offset": 144,
+      "decoded_offset": 110264,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 146,
+      "decoded_offset": 110266,
+      "bytes": "953f",
+      "kind": 1,
+      "tag": 9,
+      "value": 63
+    },
+    {
+      "descriptor_offset": 148,
+      "decoded_offset": 110268,
+      "bytes": "09f0",
+      "kind": 2,
+      "tag": 0,
+      "value": 240
+    },
+    {
+      "descriptor_offset": 150,
+      "decoded_offset": 110270,
+      "bytes": "b102",
+      "kind": 0,
+      "tag": 11,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 152,
+      "decoded_offset": 110272,
+      "bytes": "85f9",
+      "kind": 1,
+      "tag": 8,
+      "value": 249
+    },
+    {
+      "descriptor_offset": 154,
+      "decoded_offset": 110274,
+      "bytes": "7508",
+      "kind": 1,
+      "tag": 7,
+      "value": 8
+    },
+    {
+      "descriptor_offset": 156,
+      "decoded_offset": 110276,
+      "bytes": "953f",
+      "kind": 1,
+      "tag": 9,
+      "value": 63
+    },
+    {
+      "descriptor_offset": 158,
+      "decoded_offset": 110278,
+      "bytes": "09f9",
+      "kind": 2,
+      "tag": 0,
+      "value": 249
+    },
+    {
+      "descriptor_offset": 160,
+      "decoded_offset": 110280,
+      "bytes": "8102",
+      "kind": 0,
+      "tag": 8,
+      "value": 2
+    },
+    {
+      "descriptor_offset": 162,
+      "decoded_offset": 110282,
+      "bytes": "c0",
+      "kind": 0,
+      "tag": 12,
+      "value": 0
+    },
+    {
+      "descriptor_offset": 163,
+      "decoded_offset": 110283,
+      "bytes": "c0",
+      "kind": 0,
+      "tag": 12,
+      "value": 0
+    }
+  ],
+  "hid_fields": [
+    {
+      "report_id": 1,
+      "type": "input",
+      "payload_bit_offset": 0,
+      "report_size": 8,
+      "report_count": 2,
+      "usage_page": 1,
+      "usages": {
+        "0": [
+          51,
+          52
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 26
+    },
+    {
+      "report_id": 1,
+      "type": "input",
+      "payload_bit_offset": 16,
+      "report_size": 1,
+      "report_count": 120,
+      "usage_page": 9,
+      "usages": {
+        "1": [
+          1
+        ],
+        "2": [
+          120
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 45
+    },
+    {
+      "report_id": 1,
+      "type": "input",
+      "payload_bit_offset": 136,
+      "report_size": 1,
+      "report_count": 32,
+      "usage_page": 65280,
+      "usages": {
+        "1": [
+          1
+        ],
+        "2": [
+          32
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 65
+    },
+    {
+      "report_id": 1,
+      "type": "input",
+      "payload_bit_offset": 168,
+      "report_size": 8,
+      "report_count": 1,
+      "usage_page": 65280,
+      "usages": {
+        "1": [
+          1
+        ],
+        "2": [
+          64
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 85
+    },
+    {
+      "report_id": 2,
+      "type": "input",
+      "payload_bit_offset": 0,
+      "report_size": 8,
+      "report_count": 63,
+      "usage_page": 65280,
+      "usages": {
+        "0": [
+          1
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 104
+    },
+    {
+      "report_id": 128,
+      "type": "feature",
+      "payload_bit_offset": 0,
+      "report_size": 8,
+      "report_count": 63,
+      "usage_page": 65280,
+      "usages": {
+        "0": [
+          2
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 117
+    },
+    {
+      "report_id": 128,
+      "type": "output",
+      "payload_bit_offset": 0,
+      "report_size": 8,
+      "report_count": 63,
+      "usage_page": 65280,
+      "usages": {
+        "0": [
+          3
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 130
+    },
+    {
+      "report_id": 241,
+      "type": "feature",
+      "payload_bit_offset": 0,
+      "report_size": 8,
+      "report_count": 63,
+      "usage_page": 65280,
+      "usages": {
+        "0": [
+          241
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 140
+    },
+    {
+      "report_id": 240,
+      "type": "feature",
+      "payload_bit_offset": 0,
+      "report_size": 8,
+      "report_count": 63,
+      "usage_page": 65280,
+      "usages": {
+        "0": [
+          240
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 150
+    },
+    {
+      "report_id": 249,
+      "type": "input",
+      "payload_bit_offset": 0,
+      "report_size": 8,
+      "report_count": 63,
+      "usage_page": 65280,
+      "usages": {
+        "0": [
+          249
+        ]
+      },
+      "flags": 2,
+      "descriptor_item_offset": 160
+    }
+  ],
+  "hid_reports": {
+    "input:0x01": {
+      "payload_bits": 176,
+      "payload_bytes": 22,
+      "bytes_including_report_id": 23
+    },
+    "input:0x02": {
+      "payload_bits": 504,
+      "payload_bytes": 63,
+      "bytes_including_report_id": 64
+    },
+    "feature:0x80": {
+      "payload_bits": 504,
+      "payload_bytes": 63,
+      "bytes_including_report_id": 64
+    },
+    "output:0x80": {
+      "payload_bits": 504,
+      "payload_bytes": 63,
+      "bytes_including_report_id": 64
+    },
+    "feature:0xf1": {
+      "payload_bits": 504,
+      "payload_bytes": 63,
+      "bytes_including_report_id": 64
+    },
+    "feature:0xf0": {
+      "payload_bits": 504,
+      "payload_bytes": 63,
+      "bytes_including_report_id": 64
+    },
+    "input:0xf9": {
+      "payload_bits": 504,
+      "payload_bytes": 63,
+      "bytes_including_report_id": 64
+    }
+  },
+  "integrity_unknowns": {
+    "decoded_header_hex": "ffffffffffffffffd0e10100be61074c6e63c0d6fcc19582d037feaeda81e295",
+    "u32_at_0x08": 123344,
+    "u32_at_0x0c": "0x4c0761be",
+    "bytes_at_0x10_0x20": "6e63c0d6fcc19582d037feaeda81e295",
+    "interpretation": "Unresolved metadata; no signature/checksum identity asserted."
+  }
+}

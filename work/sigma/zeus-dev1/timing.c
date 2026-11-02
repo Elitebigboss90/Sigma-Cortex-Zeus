@@ -1,0 +1,107 @@
+
+// FUNCTION FUN_08024f20 @ 08024f20
+// XREF 0802527c
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_08024f20(void)
+
+{
+  _DAT_e000e014 = 0x23280;
+  if (DAT_20000810 != '\0') {
+    _DAT_e000e014 = 8000;
+  }
+  _DAT_e000e018 = 0;
+  _DAT_e000e010 = 7;
+  FUN_08024f78();
+  DAT_2000081c = 0;
+  return;
+}
+
+
+
+// FUNCTION FUN_08024fc0 @ 08024fc0
+// XREF 0802003c
+
+void FUN_08024fc0(void)
+
+{
+  DAT_2000081c = DAT_2000081c + 1;
+  FUN_08043648();
+  return;
+}
+
+
+
+// FUNCTION FUN_08024fd8 @ 08024fd8
+// XREF 0802504e
+// XREF 0802505c
+// XREF 08025094
+// XREF 0802509c
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_08024fd8(void)
+
+{
+  return DAT_2000081c * 1000 -
+         (int)((ulonglong)_DAT_e000e018 / ((ulonglong)(_DAT_e000e014 + 1) / 1000));
+}
+
+
+
+// FUNCTION FUN_0802503c @ 0802503c
+// XREF 08021f0c
+// XREF 08021f28
+// XREF 08021f54
+// XREF 08022212
+// XREF 080222ce
+// XREF 08022740
+// XREF 080227d6
+// XREF 080227ea
+// XREF 08023502
+// XREF 0802351a
+// XREF 08023f14
+// XREF 08023f24
+// XREF 08024aac
+// XREF 08024abc
+// XREF 080250de
+// XREF 0802a644
+// XREF 0802a650
+// XREF 0802a682
+// XREF 0802a68e
+// XREF 0802b8ca
+// XREF 0803b872
+// XREF 08042c08
+// XREF 08043442
+// XREF 080434a8
+// XREF 0804350e
+// XREF 08044a06
+// XREF 080271d6
+// XREF 0802bca6
+// XREF 08042e26
+// XREF 08042ebe
+// XREF 08042f56
+// XREF 08042fee
+// XREF 08043086
+// XREF 0802262c
+// XREF 08044a70
+// XREF 08044b14
+// XREF 08044b66
+// XREF 08044bba
+// XREF 08044c0c
+// XREF 08044ce2
+// XREF 08044d34
+// XREF 08044de2
+// XREF 08044e40
+// XREF 08044ed4
+// XREF 08044f4e
+// XREF 08044f90
+
+undefined4 FUN_0802503c(void)
+
+{
+  return DAT_2000081c;
+}
+
+

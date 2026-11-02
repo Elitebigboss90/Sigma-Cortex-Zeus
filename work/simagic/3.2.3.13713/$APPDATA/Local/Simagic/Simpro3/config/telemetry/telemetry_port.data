@@ -1,0 +1,95 @@
+{
+    "log_level": 0,
+    "telemetry": {
+        "DiRT_Rally_2.0": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "EA_WRC": {
+            "UDP_port": 20888,
+            "enable_forward": false,
+            "forward_port": 10889
+        },
+        "F1_2018": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "F1_2019": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "F1_2020": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "F1_2021": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "F1_22": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "F1_23": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "F1_24": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "F1_25": {
+            "UDP_port": 20777,
+            "enable_forward": false,
+            "forward_port": 20778
+        },
+        "Forza_Horizon_4": {
+            "UDP_port": 8023,
+            "enable_forward": false,
+            "forward_port": 8001
+        },
+        "Forza_Horizon_5": {
+            "UDP_port": 8023,
+            "enable_forward": false,
+            "forward_port": 8001
+        },
+        "Forza_Horizon_6": {
+            "UDP_port": 8023,
+            "enable_forward": false,
+            "forward_port": 8001
+        },
+        "Forza_Motorsport_8": {
+            "UDP_port": 10241,
+            "enable_forward": false,
+            "forward_port": 1025
+        },
+        "Live_For_Speed": {
+            "UDP_port": 10812,
+            "enable_forward": true,
+            "forward_port": 10111
+        },
+        "Project Motor Racing": {
+            "UDP_port": 7576,
+            "enable_forward": true,
+            "forward_port": 7577
+        },
+        "Richard_Burns_Rally": {
+            "UDP_port": 6776,
+            "enable_forward": false,
+            "forward_port": 6777
+        },
+        "Wreckfest2" : {
+            "UDP_port": 23123,
+            "enable_forward": false,
+            "forward_port": 23124
+        }
+    }
+}

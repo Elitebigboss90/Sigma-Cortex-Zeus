@@ -1,0 +1,128 @@
+{
+  "capture": "reports/zeus-live-input-006.jsonl",
+  "capture_sha256": "42cc3c3f4e034f050de74880b601ff13041489e7864a5c48213473295be1a5f7",
+  "size": 590105,
+  "complete": true,
+  "start": {
+    "event": "start",
+    "vid": 13936,
+    "pid": 2052,
+    "seconds": 600,
+    "exclusive": false,
+    "device_writes": false,
+    "start_unix_seconds": 1793154329,
+    "start_monotonic_ns": 4814910969193000
+  },
+  "end": {
+    "event": "end",
+    "reports": 4611,
+    "stopped_early": true,
+    "elapsed_ns": 22948709000
+  },
+  "callback_count": 4611,
+  "callback_result_counts": {
+    "0": 4611
+  },
+  "report_groups": [
+    {
+      "group": "id_0x01_length_23_type_0",
+      "count": 4588,
+      "timing": {
+        "samples": 4588,
+        "first_elapsed_ns": 4493000,
+        "last_elapsed_ns": 22948621000,
+        "interval_count": 4587,
+        "interval_ns_min": 2850000,
+        "interval_ns_median": 4999000,
+        "interval_ns_max": 9991000,
+        "interpretation": "Host callback arrival intervals; not measured USB transactions."
+      },
+      "unique_raw_reports": 1,
+      "variants": [
+        {
+          "hex": "0100000000000000000000000000000000008080808000",
+          "count": 4588
+        }
+      ]
+    },
+    {
+      "group": "id_0x02_length_64_type_0",
+      "count": 23,
+      "timing": {
+        "samples": 23,
+        "first_elapsed_ns": 179537000,
+        "last_elapsed_ns": 22617662000,
+        "interval_count": 22,
+        "interval_ns_min": 1018903000,
+        "interval_ns_median": 1020004500.0,
+        "interval_ns_max": 1020084000,
+        "interpretation": "Host callback arrival intervals; not measured USB transactions."
+      },
+      "unique_raw_reports": 1,
+      "variants": [
+        {
+          "hex": "021e88ff0104002d0101121008d490d1990410bbbc889aa4e8cd9c1418c182845020013080809c103880a08086c2e6859c2f4080809c10000000000000000000",
+          "count": 23
+        }
+      ]
+    }
+  ],
+  "descriptors": {
+    "observation": "reports/zeus-live-hid-kvm.json",
+    "observation_sha256": "dae8cb7b86fbb294f22db4d8fc2b23fd4ab3387c49e1459ebd1f207340997776",
+    "observed_utc": "2026-10-28T00:31:13.257508+00:00",
+    "static_descriptor": "work/simagic/zeus-hid_report.bin",
+    "static_descriptor_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d",
+    "devices": [
+      {
+        "vid": 13936,
+        "pid": 2052,
+        "transport": "USB",
+        "product": "Simagic Zeus Formula Steering Wheel",
+        "bcd_device": 282,
+        "bcd_device_hex": "0x011A",
+        "descriptor_size": 164,
+        "descriptor_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d",
+        "equals_static_descriptor": true
+      }
+    ],
+    "limit": "Descriptor observation and input recording are separate artifacts; no hardware serial identity is inferred."
+  },
+  "report_1": {
+    "valid_reports": 4588,
+    "invalid_reports": [],
+    "axis_ranges": {
+      "rx": {
+        "min": 0,
+        "max": 0
+      },
+      "ry": {
+        "min": 0,
+        "max": 0
+      }
+    },
+    "observed_pressed_usages": [],
+    "unique_control_states": 1,
+    "unique_vendor_tails": [
+      {
+        "hex": "8080808000",
+        "count": 4588
+      }
+    ],
+    "initial_control_state": {
+      "rx": 0,
+      "ry": 0,
+      "pressed_button_usages": []
+    },
+    "control_changes": [],
+    "nonbaseline_segments": [],
+    "zero_control_reports": 4588
+  },
+  "limits": [
+    "No device commands are sent by this analysis.",
+    "Initial control state is a numerical baseline, not confirmed physical idle.",
+    "No control changes cannot distinguish inactivity from alternate routing without confirmed user actions.",
+    "Report 0x02 and other vendor payloads are inventoried as opaque bytes; no version/status fields are asserted.",
+    "Callback intervals include operating-system and KVM scheduling effects."
+  ]
+}

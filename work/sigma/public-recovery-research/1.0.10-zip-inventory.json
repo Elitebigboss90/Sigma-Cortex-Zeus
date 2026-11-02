@@ -1,0 +1,16 @@
+[
+  {
+    "name": "SIGMA update 1.0.10.txt",
+    "compressed_size": 240,
+    "size": 379,
+    "method": 8,
+    "header_offset": 0
+  },
+  {
+    "name": "SIMGA converter updater1.0.10.exe.exe",
+    "compressed_size": 2041203,
+    "size": 3624960,
+    "method": 8,
+    "header_offset": 293
+  }
+]

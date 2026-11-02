@@ -1,0 +1,8 @@
+{
+    "use_local_wifi": false,
+    "use_simagic_hotspot": true,
+    "wifi_ip": "",
+    "wifi_list": [],
+    "wifi_name": "",
+    "wifi_password": ""
+}

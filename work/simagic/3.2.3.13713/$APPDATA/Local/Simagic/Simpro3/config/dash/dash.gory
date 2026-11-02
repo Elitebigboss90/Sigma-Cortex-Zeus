@@ -1,0 +1,118 @@
+{
+    "gt": [
+        {
+            "key": "a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c",
+            "value": "720 Super"
+        },
+        {
+            "key": "7d8e9f0a-1b2c-43d4-8e5f-6a7b8c9d0e1f",
+            "value": "Comet GT3"
+        },
+        {
+            "key": "2f3a4b5c-6d7e-48f9-9a0b-1c2d3e4f5a6b",
+            "value": "Motorsport G82"
+        },
+        {
+            "key": "3c4d5e6f-7a8b-49c0-8d1e-2f3a4b5c6d7e",
+            "value": "Progetto F171"
+        },
+        {
+            "key": "4b5c6d7e-8f9a-40b1-9c2d-3e4f5a6b7c8d",
+            "value": "Comet 992"
+        },
+        {
+            "key": "5a6b7c8d-9e0f-41a2-8b3c-4d5e6f7a8b9c",
+            "value": "V8 F154 EVO"
+        },
+        {
+            "key": "6d7e8f9a-0b1c-42d3-9e4f-5a6b7c8d9e0f",
+            "value": "SIMAGIC ONE GT"
+        }
+    ],
+    "prototype": [
+        {
+            "key": "7c8d9e0f-1a2b-43c4-8d5e-6f7a8b9c0d1e",
+            "value": "LMDh Hybrid"
+        },
+        {
+            "key": "8f9a0b1c-2d3e-44f5-9a6b-7c8d9e0f1a2b",
+            "value": "LMDh Caddy"
+        },
+        {
+            "key": "9e0f1a2b-3c4d-45e6-8f7a-8b9c0d1e2f3a",
+            "value": "LM 963"
+        },
+        {
+            "key": "0a1b2c3d-4e5f-46a7-9b8c-9d0e1f2a3b4c",
+            "value": "LM 06"
+        },
+        {
+            "key": "1c2d3e4f-5a6b-47c8-8d9e-0f1a2b3c4d5e",
+            "value": "Proto 217"
+        },
+        {
+            "key": "2e3f4a5b-6c7d-48e9-9f0a-1b2c3d4e5f6a",
+            "value": "LM P320"
+        }
+    ],
+    "formula": [
+        {
+            "key": "3a4b5c6d-7e8f-49a0-8b1c-2d3e4f5a6b7c",
+            "value": "F04"
+        },
+        {
+            "key": "4c5d6e7f-8a9b-40c1-9d2e-3f4a5b6c7d8e",
+            "value": "Formula 22"
+        },
+        {
+            "key": "5e6f7a8b-9c0d-41e2-8f3a-4b5c6d7e8f9a",
+            "value": "Formula 23"
+        },
+        {
+            "key": "6a7b8c9d-0e1f-42a3-9b4c-5d6e7f8a9b0c",
+            "value": "Formula 75"
+        },
+        {
+            "key": "7c8d9e0f-1a2b-43c4-8d5e-6f7a8b9c0d1e",
+            "value": "Formula Fantasy"
+        },
+        {
+            "key": "8e9f0a1b-2c3d-44e5-9f6a-7b8c9d0e1f2a",
+            "value": "W12-3"
+        },
+        {
+            "key": "9a0b1c2d-3e4f-45a6-8b7c-8d9e0f1a2b3c",
+            "value": "Racing18"
+        }
+    ],
+    "generic": [
+        {
+            "key": "0b1c2d3e-4f5a-46b7-9c8d-9e0f1a2b3c4d",
+            "value": "Scout"
+        },
+        {
+            "key": "1d2e3f4a-5b6c-47d8-8e9f-0a1b2c3d4e5f",
+            "value": "Check 1"
+        },
+        {
+            "key": "2f3a4b5c-6d7e-48e9-9f0a-1b2c3d4e5f6a",
+            "value": "Check 2"
+        },
+        {
+            "key": "3a4b5c6d-7e8f-49a0-8b1c-2d3e4f5a6b7c",
+            "value": "Sensor Check"
+        },
+        {
+            "key": "4c5d6e7f-8a9b-40c1-9d2e-3f4a5b6c7d8e",
+            "value": "Simple Check"
+        },
+        {
+            "key": "5e6f7a8b-9c0d-41e2-8f3a-4b5c6d7e8f9a",
+            "value": "Sport Mode"
+        },
+        {
+            "key": "6a7b8c9d-0e1f-42a3-9b4c-5d6e7f8a9b0c",
+            "value": "Tyre Check"
+        }
+    ]
+}

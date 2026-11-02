@@ -1,0 +1,82 @@
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 21.0.11)
+OpenJDK 64-Bit Server VM Homebrew (build 21.0.11, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (285 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (813 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /Users/ethan/Devs/sigma-re/scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /Users/ethan/Devs/sigma-re/ghidra/sigma-firmware (HeadlessAnalyzer)  
+INFO  Opening project: /Users/ethan/Devs/sigma-re/ghidra/sigma-firmware (HeadlessProject)  
+INFO  REPORT: Processing project file: /sigma-decoded.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: SeedFunctions.java '0x08027108' '0x0802ba28' '0x0802bb50' '0x0802bcd8'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/ethan/Devs/sigma-re/scripts/SeedFunctions.java (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: /sigma-decoded.bin (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/ethan-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.947 secs
+    ARM Symbol                                 0.004 secs
+    ASCII Strings                              0.128 secs
+    Apply Data Archives                        0.206 secs
+    Call Convention ID                         0.007 secs
+    Call-Fixup Installer                       0.003 secs
+    Create Address Tables                      0.039 secs
+    Create Function                            0.000 secs
+    Data Reference                             0.044 secs
+    Decompiler Switch Analysis                 0.516 secs
+    Demangler GNU                              0.008 secs
+    Disassemble Entry Points                   0.037 secs
+    Embedded Media                             0.006 secs
+    External Entry References                  0.003 secs
+    Function ID                                0.014 secs
+    Function Start Pre Search                  0.008 secs
+    Function Start Search                      0.190 secs
+    Function Start Search After Code           0.076 secs
+    Function Start Search After Data           0.066 secs
+    Non-Returning Functions - Discovered       0.135 secs
+    Reference                                  0.087 secs
+    Shared Return Calls                        0.041 secs
+    Stack                                      0.151 secs
+    Subroutine References                      0.079 secs
+-----------------------------------------------------
+     Total Time   2 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: /sigma-decoded.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportNative.java 'work/sigma/1.1.5/firmware-dispatch.c' '0x0802b900' '0x0802c100'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/ethan/Devs/sigma-re/scripts/ExportNative.java (HeadlessAnalyzer)  
+INFO  ANALYZING changes made by post scripts: /sigma-decoded.bin (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: /sigma-decoded.bin (HeadlessAnalyzer)  
+INFO  REPORT: Save succeeded for processed file: /sigma-decoded.bin (HeadlessAnalyzer)  

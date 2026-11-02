@@ -1,0 +1,510 @@
+{
+  "status": "STATIC_RECOVERY_PATHS_CHECKED_NO_DEVICE_DUMP",
+  "source": {
+    "path": "work/sigma/1.1.5/sigma-decoded.bin",
+    "size": 189056,
+    "sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622"
+  },
+  "candidate": {
+    "path": "work/sigma/zeus-dev2/NOT_FOR_FLASHING-sigma-1.1.5-zeus-dev2.plaintext.bin",
+    "size": 190112,
+    "sha256": "0152f4f17e23f47f452d2290fe782afb7b70d65b7a854be5e357da36910ab4a8"
+  },
+  "source_kind": "Application extracted from vendor updater, not a physical-device flash read",
+  "mapping": {
+    "file_zero_va": "0x8020000",
+    "end_exclusive": "0x804e280",
+    "unavailable_flash_prefix": [
+      "0x08000000",
+      "0x08020000"
+    ]
+  },
+  "fault_handlers": [
+    {
+      "exception": "HardFault",
+      "vector_file_offset": "0xc",
+      "vector_bytes": "3d550208",
+      "thumb_vector": "0x802553d",
+      "handler": {
+        "va_start": "0x802553c",
+        "va_end_exclusive": "0x8025540",
+        "file_offset": "0x553c",
+        "bytes": "ffe7fee7",
+        "sha256": "4944f7990ea6e536aabbc68c9cc44d2ba6d3c1c6c532980694308b6c0adbe1b4",
+        "instructions": [
+          {
+            "va": "0x802553c",
+            "bytes": "ffe7",
+            "mnemonic": "b",
+            "operands": "#0x802553e"
+          },
+          {
+            "va": "0x802553e",
+            "bytes": "fee7",
+            "mnemonic": "b",
+            "operands": "#0x802553e"
+          }
+        ]
+      },
+      "interpretation": "Branch to a branch-to-self loop; no reset or update-entry operation in handler",
+      "unchanged_in_dev2": true
+    },
+    {
+      "exception": "MemManage",
+      "vector_file_offset": "0x10",
+      "vector_bytes": "41550208",
+      "thumb_vector": "0x8025541",
+      "handler": {
+        "va_start": "0x8025540",
+        "va_end_exclusive": "0x8025544",
+        "file_offset": "0x5540",
+        "bytes": "ffe7fee7",
+        "sha256": "4944f7990ea6e536aabbc68c9cc44d2ba6d3c1c6c532980694308b6c0adbe1b4",
+        "instructions": [
+          {
+            "va": "0x8025540",
+            "bytes": "ffe7",
+            "mnemonic": "b",
+            "operands": "#0x8025542"
+          },
+          {
+            "va": "0x8025542",
+            "bytes": "fee7",
+            "mnemonic": "b",
+            "operands": "#0x8025542"
+          }
+        ]
+      },
+      "interpretation": "Branch to a branch-to-self loop; no reset or update-entry operation in handler",
+      "unchanged_in_dev2": true
+    },
+    {
+      "exception": "BusFault",
+      "vector_file_offset": "0x14",
+      "vector_bytes": "45550208",
+      "thumb_vector": "0x8025545",
+      "handler": {
+        "va_start": "0x8025544",
+        "va_end_exclusive": "0x8025548",
+        "file_offset": "0x5544",
+        "bytes": "ffe7fee7",
+        "sha256": "4944f7990ea6e536aabbc68c9cc44d2ba6d3c1c6c532980694308b6c0adbe1b4",
+        "instructions": [
+          {
+            "va": "0x8025544",
+            "bytes": "ffe7",
+            "mnemonic": "b",
+            "operands": "#0x8025546"
+          },
+          {
+            "va": "0x8025546",
+            "bytes": "fee7",
+            "mnemonic": "b",
+            "operands": "#0x8025546"
+          }
+        ]
+      },
+      "interpretation": "Branch to a branch-to-self loop; no reset or update-entry operation in handler",
+      "unchanged_in_dev2": true
+    },
+    {
+      "exception": "UsageFault",
+      "vector_file_offset": "0x18",
+      "vector_bytes": "49550208",
+      "thumb_vector": "0x8025549",
+      "handler": {
+        "va_start": "0x8025548",
+        "va_end_exclusive": "0x802554c",
+        "file_offset": "0x5548",
+        "bytes": "ffe7fee7",
+        "sha256": "4944f7990ea6e536aabbc68c9cc44d2ba6d3c1c6c532980694308b6c0adbe1b4",
+        "instructions": [
+          {
+            "va": "0x8025548",
+            "bytes": "ffe7",
+            "mnemonic": "b",
+            "operands": "#0x802554a"
+          },
+          {
+            "va": "0x802554a",
+            "bytes": "fee7",
+            "mnemonic": "b",
+            "operands": "#0x802554a"
+          }
+        ]
+      },
+      "interpretation": "Branch to a branch-to-self loop; no reset or update-entry operation in handler",
+      "unchanged_in_dev2": true
+    }
+  ],
+  "update_path_spans": [
+    {
+      "va_start": "0x802af10",
+      "va_end_exclusive": "0x802af18",
+      "file_offset": "0xaf10",
+      "bytes": "00f086fd00f06efd",
+      "sha256": "ea46930844b04c71aca0f670710a3a974b87bafc72810e9ac3375e2777347d0b",
+      "instructions": [
+        {
+          "va": "0x802af10",
+          "bytes": "00f086fd",
+          "mnemonic": "bl",
+          "operands": "#0x802ba20"
+        },
+        {
+          "va": "0x802af14",
+          "bytes": "00f06efd",
+          "mnemonic": "bl",
+          "operands": "#0x802b9f4"
+        }
+      ]
+    },
+    {
+      "va_start": "0x802ba20",
+      "va_end_exclusive": "0x802ba28",
+      "file_offset": "0xba20",
+      "bytes": "80b5fff785ff80bd",
+      "sha256": "367081ccbb708b8835c6b4d06408374e1bb3f201f53cb4eab70e49ef0ca3c203",
+      "instructions": [
+        {
+          "va": "0x802ba20",
+          "bytes": "80b5",
+          "mnemonic": "push",
+          "operands": "{r7, lr}"
+        },
+        {
+          "va": "0x802ba22",
+          "bytes": "fff785ff",
+          "mnemonic": "bl",
+          "operands": "#0x802b930"
+        },
+        {
+          "va": "0x802ba26",
+          "bytes": "80bd",
+          "mnemonic": "pop",
+          "operands": "{r7, pc}"
+        }
+      ]
+    },
+    {
+      "va_start": "0x802b930",
+      "va_end_exclusive": "0x802b958",
+      "file_offset": "0xb930",
+      "bytes": "80b588b048f20000c0f6010006904ff40060059006208df81300069847f6ff71c0f60101884204d8",
+      "sha256": "7f55e564352b8612c22922721ef2127060f04d5d48deda402b90cd5dd2506ab8",
+      "instructions": [
+        {
+          "va": "0x802b930",
+          "bytes": "80b5",
+          "mnemonic": "push",
+          "operands": "{r7, lr}"
+        },
+        {
+          "va": "0x802b932",
+          "bytes": "88b0",
+          "mnemonic": "sub",
+          "operands": "sp, #0x20"
+        },
+        {
+          "va": "0x802b934",
+          "bytes": "48f20000",
+          "mnemonic": "movw",
+          "operands": "r0, #0x8000"
+        },
+        {
+          "va": "0x802b938",
+          "bytes": "c0f60100",
+          "mnemonic": "movt",
+          "operands": "r0, #0x801"
+        },
+        {
+          "va": "0x802b93c",
+          "bytes": "0690",
+          "mnemonic": "str",
+          "operands": "r0, [sp, #0x18]"
+        },
+        {
+          "va": "0x802b93e",
+          "bytes": "4ff40060",
+          "mnemonic": "mov.w",
+          "operands": "r0, #0x800"
+        },
+        {
+          "va": "0x802b942",
+          "bytes": "0590",
+          "mnemonic": "str",
+          "operands": "r0, [sp, #0x14]"
+        },
+        {
+          "va": "0x802b944",
+          "bytes": "0620",
+          "mnemonic": "movs",
+          "operands": "r0, #6"
+        },
+        {
+          "va": "0x802b946",
+          "bytes": "8df81300",
+          "mnemonic": "strb.w",
+          "operands": "r0, [sp, #0x13]"
+        },
+        {
+          "va": "0x802b94a",
+          "bytes": "0698",
+          "mnemonic": "ldr",
+          "operands": "r0, [sp, #0x18]"
+        },
+        {
+          "va": "0x802b94c",
+          "bytes": "47f6ff71",
+          "mnemonic": "movw",
+          "operands": "r1, #0x7fff"
+        },
+        {
+          "va": "0x802b950",
+          "bytes": "c0f60101",
+          "mnemonic": "movt",
+          "operands": "r1, #0x801"
+        },
+        {
+          "va": "0x802b954",
+          "bytes": "8842",
+          "mnemonic": "cmp",
+          "operands": "r0, r1"
+        },
+        {
+          "va": "0x802b956",
+          "bytes": "04d8",
+          "mnemonic": "bhi",
+          "operands": "#0x802b962"
+        }
+      ]
+    },
+    {
+      "va_start": "0x802b9f4",
+      "va_end_exclusive": "0x802ba20",
+      "file_offset": "0xb9f4",
+      "bytes": "00f000f8bff34f8f4ef60c50cef20000016801f4e0610422c0f2fa5211430160bff34f8fffe700bffde700bf",
+      "sha256": "7c51b6ea16f474d66410d8a2a7f7de6ed09edcfe6d11c040ecfa53df79d16978",
+      "instructions": [
+        {
+          "va": "0x802b9f4",
+          "bytes": "00f000f8",
+          "mnemonic": "bl",
+          "operands": "#0x802b9f8"
+        },
+        {
+          "va": "0x802b9f8",
+          "bytes": "bff34f8f",
+          "mnemonic": "dsb",
+          "operands": "sy"
+        },
+        {
+          "va": "0x802b9fc",
+          "bytes": "4ef60c50",
+          "mnemonic": "movw",
+          "operands": "r0, #0xed0c"
+        },
+        {
+          "va": "0x802ba00",
+          "bytes": "cef20000",
+          "mnemonic": "movt",
+          "operands": "r0, #0xe000"
+        },
+        {
+          "va": "0x802ba04",
+          "bytes": "0168",
+          "mnemonic": "ldr",
+          "operands": "r1, [r0]"
+        },
+        {
+          "va": "0x802ba06",
+          "bytes": "01f4e061",
+          "mnemonic": "and",
+          "operands": "r1, r1, #0x700"
+        },
+        {
+          "va": "0x802ba0a",
+          "bytes": "0422",
+          "mnemonic": "movs",
+          "operands": "r2, #4"
+        },
+        {
+          "va": "0x802ba0c",
+          "bytes": "c0f2fa52",
+          "mnemonic": "movt",
+          "operands": "r2, #0x5fa"
+        },
+        {
+          "va": "0x802ba10",
+          "bytes": "1143",
+          "mnemonic": "orrs",
+          "operands": "r1, r2"
+        },
+        {
+          "va": "0x802ba12",
+          "bytes": "0160",
+          "mnemonic": "str",
+          "operands": "r1, [r0]"
+        },
+        {
+          "va": "0x802ba14",
+          "bytes": "bff34f8f",
+          "mnemonic": "dsb",
+          "operands": "sy"
+        },
+        {
+          "va": "0x802ba18",
+          "bytes": "ffe7",
+          "mnemonic": "b",
+          "operands": "#0x802ba1a"
+        },
+        {
+          "va": "0x802ba1a",
+          "bytes": "00bf",
+          "mnemonic": "nop",
+          "operands": ""
+        },
+        {
+          "va": "0x802ba1c",
+          "bytes": "fde7",
+          "mnemonic": "b",
+          "operands": "#0x802ba1a"
+        },
+        {
+          "va": "0x802ba1e",
+          "bytes": "00bf",
+          "mnemonic": "nop",
+          "operands": ""
+        }
+      ]
+    }
+  ],
+  "selected_ghidra_references": {
+    "0x08020290": {
+      "name": "Reset_Handler",
+      "ghidra_incoming_references": [
+        "08020004",
+        "Entry Point"
+      ]
+    },
+    "0x0802525c": {
+      "name": "FUN_0802525c",
+      "ghidra_incoming_references": [
+        "08020276"
+      ]
+    },
+    "0x08025538": {
+      "name": "FUN_08025538",
+      "ghidra_incoming_references": [
+        "08020008"
+      ]
+    },
+    "0x0802553c": {
+      "name": "thunk_FUN_0802553e",
+      "ghidra_incoming_references": [
+        "0802000c"
+      ]
+    },
+    "0x0802553e": {
+      "name": "FUN_0802553e",
+      "ghidra_incoming_references": [
+        "0802553c",
+        "0802553e"
+      ]
+    },
+    "0x08025540": {
+      "name": "thunk_FUN_08025542",
+      "ghidra_incoming_references": [
+        "08020010"
+      ]
+    },
+    "0x08025542": {
+      "name": "FUN_08025542",
+      "ghidra_incoming_references": [
+        "08025540",
+        "08025542"
+      ]
+    },
+    "0x08025544": {
+      "name": "thunk_FUN_08025546",
+      "ghidra_incoming_references": [
+        "08020014"
+      ]
+    },
+    "0x08025546": {
+      "name": "FUN_08025546",
+      "ghidra_incoming_references": [
+        "08025544",
+        "08025546"
+      ]
+    },
+    "0x08025548": {
+      "name": "thunk_FUN_0802554a",
+      "ghidra_incoming_references": [
+        "08020018"
+      ]
+    },
+    "0x0802554a": {
+      "name": "FUN_0802554a",
+      "ghidra_incoming_references": [
+        "08025548",
+        "0802554a"
+      ]
+    },
+    "0x0802ae8c": {
+      "name": "FUN_0802ae8c",
+      "ghidra_incoming_references": [
+        "0802d38e"
+      ]
+    },
+    "0x0802b930": {
+      "name": "FUN_0802b930",
+      "ghidra_incoming_references": [
+        "0802ba22"
+      ]
+    },
+    "0x0802b9f4": {
+      "name": "FUN_0802b9f4",
+      "ghidra_incoming_references": [
+        "0802af14"
+      ]
+    },
+    "0x0802b9f8": {
+      "name": "FUN_0802b9f8",
+      "ghidra_incoming_references": [
+        "0802b9f4"
+      ]
+    },
+    "0x0802ba20": {
+      "name": "FUN_0802ba20",
+      "ghidra_incoming_references": [
+        "0802af10"
+      ]
+    }
+  },
+  "ghidra_export": {
+    "path": "work/sigma/recovery-audit-2026-11-02/recovery-paths.c",
+    "size": 5433,
+    "sha256": "9efb5a3fbef56e00bb830774dacf180e9dd830989bb2fe4819239be06ef48059"
+  },
+  "ghidra_execution_log": {
+    "path": "work/sigma/recovery-audit-2026-11-02/export-native.log",
+    "size": 4097,
+    "sha256": "f0d76440c1179a05b32ef543b5b57d8a750c0b861a86475f1e4189fb0adefd35"
+  },
+  "hid_registry_observation": {
+    "path": "work/sigma/recovery-audit-2026-11-02/hid-registry.json",
+    "size": 276,
+    "sha256": "80c3175099588c049d9f898f2e49de83d1bc9c769d66aa8caef839a1ffed393c"
+  },
+  "matching_hid_devices_in_observation": 0,
+  "hardware_firmware_bytes_read": 0,
+  "device_commands_sent": 0,
+  "limitations": [
+    "Known routine references do not exclude computed calls or independent recovery implementations.",
+    "Fault-handler loops do not establish watchdog configuration or behavior of the missing bootloader after reset.",
+    "No forced recovery sequence or bootloader flash-read command is established.",
+    "An empty USB class query returned no plist; it is not a complete USB inventory.",
+    "HID absence describes the recorded instant, not device health or permanent connectivity."
+  ]
+}

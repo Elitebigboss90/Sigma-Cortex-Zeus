@@ -1,0 +1,492 @@
+VA 0x00401f00 file 0x00001300: e8cb020000               call 0x4021d0
+VA 0x00401f05 file 0x00001305: eb0d                     jmp 0x401f14
+VA 0x00401f07 file 0x00001307: e804050000               call 0x402410
+VA 0x00401f0c file 0x0000130c: 85c0                     test eax, eax
+VA 0x00401f0e file 0x0000130e: 0f8894000000             js 0x401fa8
+VA 0x00401f14 file 0x00001314: 8d85f0fcffff             lea eax, [ebp - 0x310]
+VA 0x00401f1a file 0x0000131a: c785f8fcffff00000000     mov dword ptr [ebp - 0x308], 0
+VA 0x00401f24 file 0x00001324: 50                       push eax
+VA 0x00401f25 file 0x00001325: ff36                     push dword ptr [esi]
+VA 0x00401f27 file 0x00001327: 0f57c0                   xorps xmm0, xmm0
+VA 0x00401f2a file 0x0000132a: 660fd685f0fcffff         movq qword ptr [ebp - 0x310], xmm0
+VA 0x00401f32 file 0x00001332: ff15e4f15600             call dword ptr [0x56f1e4]
+VA 0x00401f38 file 0x00001338: 84c0                     test al, al
+VA 0x00401f3a file 0x0000133a: 7507                     jne 0x401f43
+VA 0x00401f3c file 0x0000133c: e8cf040000               call 0x402410
+VA 0x00401f41 file 0x00001341: eb55                     jmp 0x401f98
+VA 0x00401f43 file 0x00001343: 668b8df4fcffff           mov cx, word ptr [ebp - 0x30c]
+VA 0x00401f4a file 0x0000134a: b86d040000               mov eax, 0x46d
+VA 0x00401f4f file 0x0000134f: 663bc8                   cmp cx, ax
+VA 0x00401f52 file 0x00001352: 668b85f6fcffff           mov ax, word ptr [ebp - 0x30a]
+VA 0x00401f59 file 0x00001359: 7518                     jne 0x401f73
+VA 0x00401f5b file 0x0000135b: ba60c20000               mov edx, 0xc260
+VA 0x00401f60 file 0x00001360: 663bc2                   cmp ax, dx
+VA 0x00401f63 file 0x00001363: 750e                     jne 0x401f73
+VA 0x00401f65 file 0x00001365: 66837e0a01               cmp word ptr [esi + 0xa], 1
+VA 0x00401f6a file 0x0000136a: 7522                     jne 0x401f8e
+VA 0x00401f6c file 0x0000136c: 66837e0804               cmp word ptr [esi + 8], 4
+VA 0x00401f71 file 0x00001371: eb19                     jmp 0x401f8c
+VA 0x00401f73 file 0x00001373: bab70e0000               mov edx, 0xeb7
+VA 0x00401f78 file 0x00001378: 663bca                   cmp cx, dx
+VA 0x00401f7b file 0x0000137b: 7511                     jne 0x401f8e
+VA 0x00401f7d file 0x0000137d: b9070e0000               mov ecx, 0xe07
+VA 0x00401f82 file 0x00001382: 663bc1                   cmp ax, cx
+VA 0x00401f85 file 0x00001385: 7507                     jne 0x401f8e
+VA 0x00401f87 file 0x00001387: 66837e0a01               cmp word ptr [esi + 0xa], 1
+VA 0x00401f8c file 0x0000138c: 740e                     je 0x401f9c
+VA 0x00401f8e file 0x0000138e: b90d000000               mov ecx, 0xd
+VA 0x00401f93 file 0x00001393: e868040000               call 0x402400
+VA 0x00401f98 file 0x00001398: 85c0                     test eax, eax
+VA 0x00401f9a file 0x0000139a: 780c                     js 0x401fa8
+VA 0x00401f9c file 0x0000139c: 6a02                     push 2
+VA 0x00401f9e file 0x0000139e: ff36                     push dword ptr [esi]
+VA 0x00401fa0 file 0x000013a0: ff15c0f15600             call dword ptr [0x56f1c0]
+VA 0x00401fa6 file 0x000013a6: 33c0                     xor eax, eax
+VA 0x00401fa8 file 0x000013a8: 8b4dfc                   mov ecx, dword ptr [ebp - 4]
+VA 0x00401fab file 0x000013ab: 5f                       pop edi
+VA 0x00401fac file 0x000013ac: 33cd                     xor ecx, ebp
+VA 0x00401fae file 0x000013ae: 5e                       pop esi
+VA 0x00401faf file 0x000013af: e82dff1300               call 0x541ee1
+VA 0x00401fb4 file 0x000013b4: 8be5                     mov esp, ebp
+VA 0x00401fb6 file 0x000013b6: 5d                       pop ebp
+VA 0x00401fb7 file 0x000013b7: c20400                   ret 4
+VA 0x00401fba file 0x000013ba: cc                       int3 
+VA 0x00401fbb file 0x000013bb: cc                       int3 
+VA 0x00401fbc file 0x000013bc: cc                       int3 
+VA 0x00401fbd file 0x000013bd: cc                       int3 
+VA 0x00401fbe file 0x000013be: cc                       int3 
+VA 0x00401fbf file 0x000013bf: cc                       int3 
+VA 0x00402090 file 0x00001490: 55                       push ebp
+VA 0x00402091 file 0x00001491: 8bec                     mov ebp, esp
+VA 0x00402093 file 0x00001493: 6aff                     push -1
+VA 0x00402095 file 0x00001495: 68adff5500               push 0x55ffad
+VA 0x0040209a file 0x0000149a: 64a100000000             mov eax, dword ptr fs:[0]
+VA 0x004020a0 file 0x000014a0: 50                       push eax
+VA 0x004020a1 file 0x000014a1: 83ec20                   sub esp, 0x20
+VA 0x004020a4 file 0x000014a4: a1e4ff5b00               mov eax, dword ptr [0x5bffe4]
+VA 0x004020a9 file 0x000014a9: 33c5                     xor eax, ebp
+VA 0x004020ab file 0x000014ab: 8945f0                   mov dword ptr [ebp - 0x10], eax
+VA 0x004020ae file 0x000014ae: 53                       push ebx
+VA 0x004020af file 0x000014af: 56                       push esi
+VA 0x004020b0 file 0x000014b0: 57                       push edi
+VA 0x004020b1 file 0x000014b1: 50                       push eax
+VA 0x004020b2 file 0x000014b2: 8d45f4                   lea eax, [ebp - 0xc]
+VA 0x004020b5 file 0x000014b5: 64a300000000             mov dword ptr fs:[0], eax
+VA 0x004020bb file 0x000014bb: 8bf9                     mov edi, ecx
+VA 0x004020bd file 0x000014bd: 8b450c                   mov eax, dword ptr [ebp + 0xc]
+VA 0x004020c0 file 0x000014c0: 0fb75f10                 movzx ebx, word ptr [edi + 0x10]
+VA 0x004020c4 file 0x000014c4: 8945e0                   mov dword ptr [ebp - 0x20], eax
+VA 0x004020c7 file 0x000014c7: 395804                   cmp dword ptr [eax + 4], ebx
+VA 0x004020ca file 0x000014ca: 0f8790000000             ja 0x402160
+VA 0x004020d0 file 0x000014d0: 0f57c0                   xorps xmm0, xmm0
+VA 0x004020d3 file 0x000014d3: 660f1345e8               movlpd qword ptr [ebp - 0x18], xmm0
+VA 0x004020d8 file 0x000014d8: 53                       push ebx
+VA 0x004020d9 file 0x000014d9: 895dec                   mov dword ptr [ebp - 0x14], ebx
+VA 0x004020dc file 0x000014dc: e884310000               call 0x405265
+VA 0x004020e1 file 0x000014e1: 53                       push ebx
+VA 0x004020e2 file 0x000014e2: 8bf0                     mov esi, eax
+VA 0x004020e4 file 0x000014e4: 6a00                     push 0
+VA 0x004020e6 file 0x000014e6: 56                       push esi
+VA 0x004020e7 file 0x000014e7: 8975e8                   mov dword ptr [ebp - 0x18], esi
+VA 0x004020ea file 0x000014ea: e8d11d1400               call 0x543ec0
+VA 0x004020ef file 0x000014ef: 8b45e0                   mov eax, dword ptr [ebp - 0x20]
+VA 0x004020f2 file 0x000014f2: c745fc00000000           mov dword ptr [ebp - 4], 0
+VA 0x004020f9 file 0x000014f9: ff7004                   push dword ptr [eax + 4]
+VA 0x004020fc file 0x000014fc: ff30                     push dword ptr [eax]
+VA 0x004020fe file 0x000014fe: 8d4601                   lea eax, [esi + 1]
+VA 0x00402101 file 0x00001501: 50                       push eax
+VA 0x00402102 file 0x00001502: e839181400               call 0x543940
+VA 0x00402107 file 0x00001507: 8b4de0                   mov ecx, dword ptr [ebp - 0x20]
+VA 0x0040210a file 0x0000150a: 0fb74710                 movzx eax, word ptr [edi + 0x10]
+VA 0x0040210e file 0x0000150e: 8b4904                   mov ecx, dword ptr [ecx + 4]
+VA 0x00402111 file 0x00001511: 2bc1                     sub eax, ecx
+VA 0x00402113 file 0x00001513: 50                       push eax
+VA 0x00402114 file 0x00001514: 6a00                     push 0
+VA 0x00402116 file 0x00001516: 8d0431                   lea eax, [ecx + esi]
+VA 0x00402119 file 0x00001519: 50                       push eax
+VA 0x0040211a file 0x0000151a: e8a11d1400               call 0x543ec0
+VA 0x0040211f file 0x0000151f: 83c428                   add esp, 0x28
+VA 0x00402122 file 0x00001522: 85db                     test ebx, ebx
+VA 0x00402124 file 0x00001524: 7455                     je 0x40217b
+VA 0x00402126 file 0x00001526: 8a4508                   mov al, byte ptr [ebp + 8]
+VA 0x00402129 file 0x00001529: 8806                     mov byte ptr [esi], al
+VA 0x0040212b file 0x0000152b: 0fb74710                 movzx eax, word ptr [edi + 0x10]
+VA 0x0040212f file 0x0000152f: 50                       push eax
+VA 0x00402130 file 0x00001530: 56                       push esi
+VA 0x00402131 file 0x00001531: ff37                     push dword ptr [edi]
+VA 0x00402133 file 0x00001533: ff15ccf15600             call dword ptr [0x56f1cc]
+VA 0x00402139 file 0x00001539: 56                       push esi
+VA 0x0040213a file 0x0000153a: e821310000               call 0x405260
+VA 0x0040213f file 0x0000153f: 83c404                   add esp, 4
+VA 0x00402142 file 0x00001542: 8b4df4                   mov ecx, dword ptr [ebp - 0xc]
+VA 0x00402145 file 0x00001545: 64890d00000000           mov dword ptr fs:[0], ecx
+VA 0x0040214c file 0x0000154c: 59                       pop ecx
+VA 0x0040214d file 0x0000154d: 5f                       pop edi
+VA 0x0040214e file 0x0000154e: 5e                       pop esi
+VA 0x0040214f file 0x0000154f: 5b                       pop ebx
+VA 0x00402150 file 0x00001550: 8b4df0                   mov ecx, dword ptr [ebp - 0x10]
+VA 0x00402153 file 0x00001553: 33cd                     xor ecx, ebp
+VA 0x00402155 file 0x00001555: e887fd1300               call 0x541ee1
+VA 0x0040215a file 0x0000155a: 8be5                     mov esp, ebp
+VA 0x0040215c file 0x0000155c: 5d                       pop ebp
+VA 0x0040215d file 0x0000155d: c20800                   ret 8
+VA 0x00402160 file 0x00001560: 68382a5a00               push 0x5a2a38
+VA 0x00402165 file 0x00001565: 8d4de4                   lea ecx, [ebp - 0x1c]
+VA 0x00402168 file 0x00001568: e803faffff               call 0x401b70
+VA 0x0040216d file 0x0000156d: 68f0ad5b00               push 0x5badf0
+VA 0x00402172 file 0x00001572: 8d45e4                   lea eax, [ebp - 0x1c]
+VA 0x00402175 file 0x00001575: 50                       push eax
+VA 0x00402176 file 0x00001576: e89f1e1400               call 0x54401a
+VA 0x0040217b file 0x0000157b: 68482a5a00               push 0x5a2a48
+VA 0x00402180 file 0x00001580: 8d4dd4                   lea ecx, [ebp - 0x2c]
+VA 0x00402183 file 0x00001583: e8e8f9ffff               call 0x401b70
+VA 0x00402188 file 0x00001588: 68f0ad5b00               push 0x5badf0
+VA 0x0040218d file 0x0000158d: 8d45d4                   lea eax, [ebp - 0x2c]
+VA 0x00402190 file 0x00001590: 50                       push eax
+VA 0x00402191 file 0x00001591: e8841e1400               call 0x54401a
+VA 0x00402196 file 0x00001596: cc                       int3 
+VA 0x00402197 file 0x00001597: cc                       int3 
+VA 0x00402198 file 0x00001598: cc                       int3 
+VA 0x00402199 file 0x00001599: cc                       int3 
+VA 0x0040219a file 0x0000159a: cc                       int3 
+VA 0x0040219b file 0x0000159b: cc                       int3 
+VA 0x0040219c file 0x0000159c: cc                       int3 
+VA 0x0040219d file 0x0000159d: cc                       int3 
+VA 0x0040219e file 0x0000159e: cc                       int3 
+VA 0x0040219f file 0x0000159f: cc                       int3 
+VA 0x004041d0 file 0x000035d0: 55                       push ebp
+VA 0x004041d1 file 0x000035d1: 8bec                     mov ebp, esp
+VA 0x004041d3 file 0x000035d3: 6aff                     push -1
+VA 0x004041d5 file 0x000035d5: 68ad025600               push 0x5602ad
+VA 0x004041da file 0x000035da: 64a100000000             mov eax, dword ptr fs:[0]
+VA 0x004041e0 file 0x000035e0: 50                       push eax
+VA 0x004041e1 file 0x000035e1: 83ec50                   sub esp, 0x50
+VA 0x004041e4 file 0x000035e4: a1e4ff5b00               mov eax, dword ptr [0x5bffe4]
+VA 0x004041e9 file 0x000035e9: 33c5                     xor eax, ebp
+VA 0x004041eb file 0x000035eb: 8945ec                   mov dword ptr [ebp - 0x14], eax
+VA 0x004041ee file 0x000035ee: 53                       push ebx
+VA 0x004041ef file 0x000035ef: 56                       push esi
+VA 0x004041f0 file 0x000035f0: 57                       push edi
+VA 0x004041f1 file 0x000035f1: 50                       push eax
+VA 0x004041f2 file 0x000035f2: 8d45f4                   lea eax, [ebp - 0xc]
+VA 0x004041f5 file 0x000035f5: 64a300000000             mov dword ptr fs:[0], eax
+VA 0x004041fb file 0x000035fb: 8965f0                   mov dword ptr [ebp - 0x10], esp
+VA 0x004041fe file 0x000035fe: 8bf9                     mov edi, ecx
+VA 0x00404200 file 0x00003600: 897db8                   mov dword ptr [ebp - 0x48], edi
+VA 0x00404203 file 0x00003603: 897dac                   mov dword ptr [ebp - 0x54], edi
+VA 0x00404206 file 0x00003606: e8ba200000               call 0x4062c5
+VA 0x0040420b file 0x0000360b: 8bc8                     mov ecx, eax
+VA 0x0040420d file 0x0000360d: 85c9                     test ecx, ecx
+VA 0x0040420f file 0x0000360f: 0f844f050000             je 0x404764
+VA 0x00404215 file 0x00003615: 8b01                     mov eax, dword ptr [ecx]
+VA 0x00404217 file 0x00003617: 8b400c                   mov eax, dword ptr [eax + 0xc]
+VA 0x0040421a file 0x0000361a: ffd0                     call eax
+VA 0x0040421c file 0x0000361c: 8d7010                   lea esi, [eax + 0x10]
+VA 0x0040421f file 0x0000361f: 8975d8                   mov dword ptr [ebp - 0x28], esi
+VA 0x00404222 file 0x00003622: 6a00                     push 0
+VA 0x00404224 file 0x00003624: c745fc00000000           mov dword ptr [ebp - 4], 0
+VA 0x0040422b file 0x0000362b: 8bcf                     mov ecx, edi
+VA 0x0040422d file 0x0000362d: 68ef030000               push 0x3ef
+VA 0x00404232 file 0x00003632: c687fc01000001           mov byte ptr [edi + 0x1fc], 1
+VA 0x00404239 file 0x00003639: e870ea0100               call 0x422cae
+VA 0x0040423e file 0x0000363e: 8bc8                     mov ecx, eax
+VA 0x00404240 file 0x00003640: e8fbe90100               call 0x422c40
+VA 0x00404245 file 0x00003645: e806ffffff               call 0x404150
+VA 0x0040424a file 0x0000364a: 83bff001000000           cmp dword ptr [edi + 0x1f0], 0
+VA 0x00404251 file 0x00003651: 8d8780010000             lea eax, [edi + 0x180]
+VA 0x00404257 file 0x00003657: 8945b4                   mov dword ptr [ebp - 0x4c], eax
+VA 0x0040425a file 0x0000365a: 0f841e030000             je 0x40457e
+VA 0x00404260 file 0x00003660: 6a00                     push 0
+VA 0x00404262 file 0x00003662: 6a00                     push 0
+VA 0x00404264 file 0x00003664: 6802040000               push 0x402
+VA 0x00404269 file 0x00003669: ff30                     push dword ptr [eax]
+VA 0x0040426b file 0x0000366b: 8945b0                   mov dword ptr [ebp - 0x50], eax
+VA 0x0040426e file 0x0000366e: ff1514f75600             call dword ptr [0x56f714]
+VA 0x00404274 file 0x00003674: 8bbff0010000             mov edi, dword ptr [edi + 0x1f0]
+VA 0x0040427a file 0x0000367a: 0f57c0                   xorps xmm0, xmm0
+VA 0x0040427d file 0x0000367d: 660f1345e4               movlpd qword ptr [ebp - 0x1c], xmm0
+VA 0x00404282 file 0x00003682: 6a09                     push 9
+VA 0x00404284 file 0x00003684: c745e809000000           mov dword ptr [ebp - 0x18], 9
+VA 0x0040428b file 0x0000368b: e8d50f0000               call 0x405265
+VA 0x00404290 file 0x00003690: 0f57c0                   xorps xmm0, xmm0
+VA 0x00404293 file 0x00003693: 8945e4                   mov dword ptr [ebp - 0x1c], eax
+VA 0x00404296 file 0x00003696: 83c404                   add esp, 4
+VA 0x00404299 file 0x00003699: 660fd600                 movq qword ptr [eax], xmm0
+VA 0x0040429d file 0x0000369d: c6400800                 mov byte ptr [eax + 8], 0
+VA 0x004042a1 file 0x000036a1: c645fc01                 mov byte ptr [ebp - 4], 1
+VA 0x004042a5 file 0x000036a5: 8bcf                     mov ecx, edi
+VA 0x004042a7 file 0x000036a7: c70055ffabad             mov dword ptr [eax], 0xadabff55
+VA 0x004042ad file 0x000036ad: 66c74004babe             mov word ptr [eax + 4], 0xbeba
+VA 0x004042b3 file 0x000036b3: 8d45e4                   lea eax, [ebp - 0x1c]
+VA 0x004042b6 file 0x000036b6: 50                       push eax
+VA 0x004042b7 file 0x000036b7: 6a03                     push 3
+VA 0x004042b9 file 0x000036b9: e8d2ddffff               call 0x402090
+VA 0x004042be file 0x000036be: c645fc00                 mov byte ptr [ebp - 4], 0
+VA 0x004042c2 file 0x000036c2: 8b45e4                   mov eax, dword ptr [ebp - 0x1c]
+VA 0x004042c5 file 0x000036c5: 85c0                     test eax, eax
+VA 0x004042c7 file 0x000036c7: 7409                     je 0x4042d2
+VA 0x004042c9 file 0x000036c9: 50                       push eax
+VA 0x004042ca file 0x000036ca: e8910f0000               call 0x405260
+VA 0x004042cf file 0x000036cf: 83c404                   add esp, 4
+VA 0x004042d2 file 0x000036d2: 8b75b4                   mov esi, dword ptr [ebp - 0x4c]
+VA 0x004042d5 file 0x000036d5: bf01000000               mov edi, 1
+VA 0x004042da file 0x000036da: 660f1f440000             nop word ptr [eax + eax]
+VA 0x004042e0 file 0x000036e0: 6896000000               push 0x96
+VA 0x004042e5 file 0x000036e5: ff151cf45600             call dword ptr [0x56f41c]
+VA 0x004042eb file 0x000036eb: 6a00                     push 0
+VA 0x004042ed file 0x000036ed: 57                       push edi
+VA 0x004042ee file 0x000036ee: 6802040000               push 0x402
+VA 0x004042f3 file 0x000036f3: ff36                     push dword ptr [esi]
+VA 0x004042f5 file 0x000036f5: ff1514f75600             call dword ptr [0x56f714]
+VA 0x004042fb file 0x000036fb: e850feffff               call 0x404150
+VA 0x00404300 file 0x00003700: 47                       inc edi
+VA 0x00404301 file 0x00003701: 83ff07                   cmp edi, 7
+VA 0x00404304 file 0x00003704: 7eda                     jle 0x4042e0
+VA 0x00404306 file 0x00003706: 8b7db8                   mov edi, dword ptr [ebp - 0x48]
+VA 0x00404309 file 0x00003709: 8b75d8                   mov esi, dword ptr [ebp - 0x28]
+VA 0x0040430c file 0x0000370c: c745b800000000           mov dword ptr [ebp - 0x48], 0
+VA 0x00404313 file 0x00003713: c787f001000000000000     mov dword ptr [edi + 0x1f0], 0
+VA 0x0040431d file 0x0000371d: 0f1f00                   nop dword ptr [eax]
+VA 0x00404320 file 0x00003720: 682c010000               push 0x12c
+VA 0x00404325 file 0x00003725: ff151cf45600             call dword ptr [0x56f41c]
+VA 0x0040432b file 0x0000372b: 8bcf                     mov ecx, edi
+VA 0x0040432d file 0x0000372d: e89efaffff               call 0x403dd0
+VA 0x00404332 file 0x00003732: 83bff001000000           cmp dword ptr [edi + 0x1f0], 0
+VA 0x00404339 file 0x00003739: 7513                     jne 0x40434e
+VA 0x0040433b file 0x0000373b: e810feffff               call 0x404150
+VA 0x00404340 file 0x00003740: 8b45b8                   mov eax, dword ptr [ebp - 0x48]
+VA 0x00404343 file 0x00003743: 40                       inc eax
+VA 0x00404344 file 0x00003744: 8945b8                   mov dword ptr [ebp - 0x48], eax
+VA 0x00404347 file 0x00003747: 83f80a                   cmp eax, 0xa
+VA 0x0040434a file 0x0000374a: 7cd4                     jl 0x404320
+VA 0x0040434c file 0x0000374c: eb0b                     jmp 0x404359
+VA 0x0040434e file 0x0000374e: 68e8030000               push 0x3e8
+VA 0x00404353 file 0x00003753: ff151cf45600             call dword ptr [0x56f41c]
+VA 0x00404359 file 0x00003759: 8b45b4                   mov eax, dword ptr [ebp - 0x4c]
+VA 0x0040435c file 0x0000375c: 6a00                     push 0
+VA 0x0040435e file 0x0000375e: 6a0a                     push 0xa
+VA 0x00404360 file 0x00003760: 6802040000               push 0x402
+VA 0x00404365 file 0x00003765: ff30                     push dword ptr [eax]
+VA 0x00404367 file 0x00003767: ff1514f75600             call dword ptr [0x56f714]
+VA 0x0040436d file 0x0000376d: 83bff001000000           cmp dword ptr [edi + 0x1f0], 0
+VA 0x00404374 file 0x00003774: 751b                     jne 0x404391
+VA 0x00404376 file 0x00003776: 6a10                     push 0x10
+VA 0x00404378 file 0x00003778: 68642e5a00               push 0x5a2e64
+VA 0x0040437d file 0x0000377d: 68702e5a00               push 0x5a2e70
+VA 0x00404382 file 0x00003782: 8bcf                     mov ecx, edi
+VA 0x00404384 file 0x00003784: e896a50100               call 0x41e91f
+VA 0x00404389 file 0x00003789: 8b45b4                   mov eax, dword ptr [ebp - 0x4c]
+VA 0x0040438c file 0x0000378c: e976030000               jmp 0x404707
+VA 0x00404391 file 0x00003791: c645fc02                 mov byte ptr [ebp - 4], 2
+VA 0x00404395 file 0x00003795: 0f57c0                   xorps xmm0, xmm0
+VA 0x00404398 file 0x00003798: 8b87f0010000             mov eax, dword ptr [edi + 0x1f0]
+VA 0x0040439e file 0x0000379e: 660f1345e4               movlpd qword ptr [ebp - 0x1c], xmm0
+VA 0x004043a3 file 0x000037a3: 6a20                     push 0x20
+VA 0x004043a5 file 0x000037a5: 8945b8                   mov dword ptr [ebp - 0x48], eax
+VA 0x004043a8 file 0x000037a8: c745e400000000           mov dword ptr [ebp - 0x1c], 0
+VA 0x004043af file 0x000037af: c745e820000000           mov dword ptr [ebp - 0x18], 0x20
+VA 0x004043b6 file 0x000037b6: e8aa0e0000               call 0x405265
+VA 0x004043bb file 0x000037bb: 0f57c0                   xorps xmm0, xmm0
+VA 0x004043be file 0x000037be: 8945e4                   mov dword ptr [ebp - 0x1c], eax
+VA 0x004043c1 file 0x000037c1: 83c404                   add esp, 4
+VA 0x004043c4 file 0x000037c4: 0f1100                   movups xmmword ptr [eax], xmm0
+VA 0x004043c7 file 0x000037c7: 0f114010                 movups xmmword ptr [eax + 0x10], xmm0
+VA 0x004043cb file 0x000037cb: 8b4db8                   mov ecx, dword ptr [ebp - 0x48]
+VA 0x004043ce file 0x000037ce: c645fc03                 mov byte ptr [ebp - 4], 3
+VA 0x004043d2 file 0x000037d2: c60002                   mov byte ptr [eax], 2
+VA 0x004043d5 file 0x000037d5: 8d45e4                   lea eax, [ebp - 0x1c]
+VA 0x004043d8 file 0x000037d8: 50                       push eax
+VA 0x004043d9 file 0x000037d9: 68f1000000               push 0xf1
+VA 0x004043de file 0x000037de: e8addcffff               call 0x402090
+VA 0x004043e3 file 0x000037e3: c645fc02                 mov byte ptr [ebp - 4], 2
+VA 0x004043e7 file 0x000037e7: 8b45e4                   mov eax, dword ptr [ebp - 0x1c]
+VA 0x004043ea file 0x000037ea: 85c0                     test eax, eax
+VA 0x004043ec file 0x000037ec: 7409                     je 0x4043f7
+VA 0x004043ee file 0x000037ee: 50                       push eax
+VA 0x004043ef file 0x000037ef: e86c0e0000               call 0x405260
+VA 0x004043f4 file 0x000037f4: 83c404                   add esp, 4
+VA 0x004043f7 file 0x000037f7: b90a000000               mov ecx, 0xa
+VA 0x004043fc file 0x000037fc: 894db8                   mov dword ptr [ebp - 0x48], ecx
+VA 0x004043ff file 0x000037ff: 83f914                   cmp ecx, 0x14
+VA 0x00404402 file 0x00003802: 7f52                     jg 0x404456
+VA 0x00404404 file 0x00003804: 8b45b4                   mov eax, dword ptr [ebp - 0x4c]
+VA 0x00404407 file 0x00003807: 6a00                     push 0
+VA 0x00404409 file 0x00003809: 51                       push ecx
+VA 0x0040440a file 0x0000380a: 6802040000               push 0x402
+VA 0x0040440f file 0x0000380f: ff30                     push dword ptr [eax]
+VA 0x00404411 file 0x00003811: ff1514f75600             call dword ptr [0x56f714]
+VA 0x00404417 file 0x00003817: 6a64                     push 0x64
+VA 0x00404419 file 0x00003819: ff151cf45600             call dword ptr [0x56f41c]
+VA 0x0040441f file 0x0000381f: 90                       nop 
+VA 0x00404420 file 0x00003820: 6a00                     push 0
+VA 0x00404422 file 0x00003822: 6a00                     push 0
+VA 0x00404424 file 0x00003824: 6a00                     push 0
+VA 0x00404426 file 0x00003826: 6a00                     push 0
+VA 0x00404428 file 0x00003828: 8d45bc                   lea eax, [ebp - 0x44]
+VA 0x0040442b file 0x0000382b: 50                       push eax
+VA 0x0040442c file 0x0000382c: ff1528f75600             call dword ptr [0x56f728]
+VA 0x00404432 file 0x00003832: 85c0                     test eax, eax
+VA 0x00404434 file 0x00003834: 741a                     je 0x404450
+VA 0x00404436 file 0x00003836: e8cff00100               call 0x42350a
+VA 0x0040443b file 0x0000383b: 8b4804                   mov ecx, dword ptr [eax + 4]
+VA 0x0040443e file 0x0000383e: 8b01                     mov eax, dword ptr [ecx]
+VA 0x00404440 file 0x00003840: 8b405c                   mov eax, dword ptr [eax + 0x5c]
+VA 0x00404443 file 0x00003843: ffd0                     call eax
+VA 0x00404445 file 0x00003845: 85c0                     test eax, eax
+VA 0x00404447 file 0x00003847: 75d7                     jne 0x404420
+VA 0x00404449 file 0x00003849: 50                       push eax
+VA 0x0040444a file 0x0000384a: ff152cf75600             call dword ptr [0x56f72c]
+VA 0x00404450 file 0x00003850: 8b4db8                   mov ecx, dword ptr [ebp - 0x48]
+VA 0x00404453 file 0x00003853: 41                       inc ecx
+VA 0x00404454 file 0x00003854: eba6                     jmp 0x4043fc
+VA 0x00404456 file 0x00003856: 8bcf                     mov ecx, edi
+VA 0x00404458 file 0x00003858: e853faffff               call 0x403eb0
+VA 0x0040445d file 0x0000385d: 6a01                     push 1
+VA 0x0040445f file 0x0000385f: ff151cf45600             call dword ptr [0x56f41c]
+VA 0x00404465 file 0x00003865: 68342e5a00               push 0x5a2e34
+VA 0x0040446a file 0x0000386a: 68482e5a00               push 0x5a2e48
+VA 0x00404c00 file 0x00004000: 55                       push ebp
+VA 0x00404c01 file 0x00004001: 8bec                     mov ebp, esp
+VA 0x00404c03 file 0x00004003: 6aff                     push -1
+VA 0x00404c05 file 0x00004005: 68ed025600               push 0x5602ed
+VA 0x00404c0a file 0x0000400a: 64a100000000             mov eax, dword ptr fs:[0]
+VA 0x00404c10 file 0x00004010: 50                       push eax
+VA 0x00404c11 file 0x00004011: 83ec40                   sub esp, 0x40
+VA 0x00404c14 file 0x00004014: a1e4ff5b00               mov eax, dword ptr [0x5bffe4]
+VA 0x00404c19 file 0x00004019: 33c5                     xor eax, ebp
+VA 0x00404c1b file 0x0000401b: 8945f0                   mov dword ptr [ebp - 0x10], eax
+VA 0x00404c1e file 0x0000401e: 56                       push esi
+VA 0x00404c1f file 0x0000401f: 57                       push edi
+VA 0x00404c20 file 0x00004020: 50                       push eax
+VA 0x00404c21 file 0x00004021: 8d45f4                   lea eax, [ebp - 0xc]
+VA 0x00404c24 file 0x00004024: 64a300000000             mov dword ptr fs:[0], eax
+VA 0x00404c2a file 0x0000402a: 8bc1                     mov eax, ecx
+VA 0x00404c2c file 0x0000402c: 8945b4                   mov dword ptr [ebp - 0x4c], eax
+VA 0x00404c2f file 0x0000402f: 0fb7780e                 movzx edi, word ptr [eax + 0xe]
+VA 0x00404c33 file 0x00004033: 0f57c0                   xorps xmm0, xmm0
+VA 0x00404c36 file 0x00004036: 8b4d10                   mov ecx, dword ptr [ebp + 0x10]
+VA 0x00404c39 file 0x00004039: 894db8                   mov dword ptr [ebp - 0x48], ecx
+VA 0x00404c3c file 0x0000403c: 0fb64d0c                 movzx ecx, byte ptr [ebp + 0xc]
+VA 0x00404c40 file 0x00004040: 8d47fa                   lea eax, [edi - 6]
+VA 0x00404c43 file 0x00004043: c745dc00000000           mov dword ptr [ebp - 0x24], 0
+VA 0x00404c4a file 0x0000404a: 894dbc                   mov dword ptr [ebp - 0x44], ecx
+VA 0x00404c4d file 0x0000404d: 0f1145cc                 movups xmmword ptr [ebp - 0x34], xmm0
+VA 0x00404c51 file 0x00004051: 3bc8                     cmp ecx, eax
+VA 0x00404c53 file 0x00004053: 0f8f11010000             jg 0x404d6a
+VA 0x00404c59 file 0x00004059: 660f1345e8               movlpd qword ptr [ebp - 0x18], xmm0
+VA 0x00404c5e file 0x0000405e: 57                       push edi
+VA 0x00404c5f file 0x0000405f: 897dec                   mov dword ptr [ebp - 0x14], edi
+VA 0x00404c62 file 0x00004062: e8fe050000               call 0x405265
+VA 0x00404c67 file 0x00004067: 57                       push edi
+VA 0x00404c68 file 0x00004068: 8bf0                     mov esi, eax
+VA 0x00404c6a file 0x0000406a: 6a00                     push 0
+VA 0x00404c6c file 0x0000406c: 56                       push esi
+VA 0x00404c6d file 0x0000406d: 8975e8                   mov dword ptr [ebp - 0x18], esi
+VA 0x00404c70 file 0x00004070: e84bf21300               call 0x543ec0
+VA 0x00404c75 file 0x00004075: 83c410                   add esp, 0x10
+VA 0x00404c78 file 0x00004078: c745fc00000000           mov dword ptr [ebp - 4], 0
+VA 0x00404c7f file 0x0000407f: 85ff                     test edi, edi
+VA 0x00404c81 file 0x00004081: 0f84fe000000             je 0x404d85
+VA 0x00404c87 file 0x00004087: c606f2                   mov byte ptr [esi], 0xf2
+VA 0x00404c8a file 0x0000408a: 83ff01                   cmp edi, 1
+VA 0x00404c8d file 0x0000408d: 0f86f2000000             jbe 0x404d85
+VA 0x00404c93 file 0x00004093: c646010a                 mov byte ptr [esi + 1], 0xa
+VA 0x00404c97 file 0x00004097: 83ff02                   cmp edi, 2
+VA 0x00404c9a file 0x0000409a: 0f86e5000000             jbe 0x404d85
+VA 0x00404ca0 file 0x000040a0: 8a450c                   mov al, byte ptr [ebp + 0xc]
+VA 0x00404ca3 file 0x000040a3: 884602                   mov byte ptr [esi + 2], al
+VA 0x00404ca6 file 0x000040a6: 83ff03                   cmp edi, 3
+VA 0x00404ca9 file 0x000040a9: 0f86d6000000             jbe 0x404d85
+VA 0x00404caf file 0x000040af: 8b4d08                   mov ecx, dword ptr [ebp + 8]
+VA 0x00404cb2 file 0x000040b2: 884e03                   mov byte ptr [esi + 3], cl
+VA 0x00404cb5 file 0x000040b5: 83ff04                   cmp edi, 4
+VA 0x00404cb8 file 0x000040b8: 0f86c7000000             jbe 0x404d85
+VA 0x00404cbe file 0x000040be: 8bc1                     mov eax, ecx
+VA 0x00404cc0 file 0x000040c0: c1e808                   shr eax, 8
+VA 0x00404cc3 file 0x000040c3: 884604                   mov byte ptr [esi + 4], al
+VA 0x00404cc6 file 0x000040c6: 83ff05                   cmp edi, 5
+VA 0x00404cc9 file 0x000040c9: 0f86b6000000             jbe 0x404d85
+VA 0x00404ccf file 0x000040cf: 8bc1                     mov eax, ecx
+VA 0x00404cd1 file 0x000040d1: c1e810                   shr eax, 0x10
+VA 0x00404cd4 file 0x000040d4: 884605                   mov byte ptr [esi + 5], al
+VA 0x00404cd7 file 0x000040d7: 83ff06                   cmp edi, 6
+VA 0x00404cda file 0x000040da: 0f86a5000000             jbe 0x404d85
+VA 0x00404ce0 file 0x000040e0: ff75bc                   push dword ptr [ebp - 0x44]
+VA 0x00404ce3 file 0x000040e3: 8d4607                   lea eax, [esi + 7]
+VA 0x00404ce6 file 0x000040e6: c1e918                   shr ecx, 0x18
+VA 0x00404ce9 file 0x000040e9: ff75b8                   push dword ptr [ebp - 0x48]
+VA 0x00404cec file 0x000040ec: 884e06                   mov byte ptr [esi + 6], cl
+VA 0x00404cef file 0x000040ef: 50                       push eax
+VA 0x00404cf0 file 0x000040f0: e84bec1300               call 0x543940
+VA 0x00404cf5 file 0x000040f5: 8b7db4                   mov edi, dword ptr [ebp - 0x4c]
+VA 0x00404cf8 file 0x000040f8: 8d45cc                   lea eax, [ebp - 0x34]
+VA 0x00404cfb file 0x000040fb: 83c40c                   add esp, 0xc
+VA 0x00404cfe file 0x000040fe: 50                       push eax
+VA 0x00404cff file 0x000040ff: 0fb7470e                 movzx eax, word ptr [edi + 0xe]
+VA 0x00404d03 file 0x00004103: 6a00                     push 0
+VA 0x00404d05 file 0x00004105: 50                       push eax
+VA 0x00404d06 file 0x00004106: 56                       push esi
+VA 0x00404d07 file 0x00004107: ff37                     push dword ptr [edi]
+VA 0x00404d09 file 0x00004109: ff1518f45600             call dword ptr [0x56f418]
+VA 0x00404d0f file 0x0000410f: 85c0                     test eax, eax
+VA 0x00404d11 file 0x00004111: 7514                     jne 0x404d27
+VA 0x00404d13 file 0x00004113: ff1568f45600             call dword ptr [0x56f468]
+VA 0x00404d19 file 0x00004119: 3de5030000               cmp eax, 0x3e5
+VA 0x00404d1e file 0x0000411e: 7407                     je 0x404d27
+VA 0x00404d20 file 0x00004120: 682c335a00               push 0x5a332c
+VA 0x00404d25 file 0x00004125: eb63                     jmp 0x404d8a
+VA 0x00404d27 file 0x00004127: 6a01                     push 1
+VA 0x00404d29 file 0x00004129: 8d45e0                   lea eax, [ebp - 0x20]
+VA 0x00404d2c file 0x0000412c: 50                       push eax
+VA 0x00404d2d file 0x0000412d: 8d45cc                   lea eax, [ebp - 0x34]
+VA 0x00404d30 file 0x00004130: 50                       push eax
+VA 0x00404d31 file 0x00004131: ff37                     push dword ptr [edi]
+VA 0x00404d33 file 0x00004133: ff1514f45600             call dword ptr [0x56f414]
+VA 0x00404d39 file 0x00004139: 85c0                     test eax, eax
+VA 0x00404d3b file 0x0000413b: 7507                     jne 0x404d44
+VA 0x00404d3d file 0x0000413d: 683c335a00               push 0x5a333c
+VA 0x00404d42 file 0x00004142: eb46                     jmp 0x404d8a
+VA 0x00404d44 file 0x00004144: 56                       push esi
+VA 0x00404d45 file 0x00004145: e816050000               call 0x405260
+VA 0x00404d4a file 0x0000414a: 83c404                   add esp, 4
+VA 0x00404d4d file 0x0000414d: 8b4df4                   mov ecx, dword ptr [ebp - 0xc]
+VA 0x00404d50 file 0x00004150: 64890d00000000           mov dword ptr fs:[0], ecx
+VA 0x00404d57 file 0x00004157: 59                       pop ecx
+VA 0x00404d58 file 0x00004158: 5f                       pop edi
+VA 0x00404d59 file 0x00004159: 5e                       pop esi
+VA 0x00404d5a file 0x0000415a: 8b4df0                   mov ecx, dword ptr [ebp - 0x10]
+VA 0x00404d5d file 0x0000415d: 33cd                     xor ecx, ebp
+VA 0x00404d5f file 0x0000415f: e87dd11300               call 0x541ee1
+VA 0x00404d64 file 0x00004164: 8be5                     mov esp, ebp
+VA 0x00404d66 file 0x00004166: 5d                       pop ebp
+VA 0x00404d67 file 0x00004167: c20c00                   ret 0xc
+VA 0x00404d6a file 0x0000416a: 68382a5a00               push 0x5a2a38
+VA 0x00404d6f file 0x0000416f: 8d4de4                   lea ecx, [ebp - 0x1c]
+VA 0x00404d72 file 0x00004172: e8f9cdffff               call 0x401b70
+VA 0x00404d77 file 0x00004177: 68f0ad5b00               push 0x5badf0
+VA 0x00404d7c file 0x0000417c: 8d45e4                   lea eax, [ebp - 0x1c]
+VA 0x00404d7f file 0x0000417f: 50                       push eax
+VA 0x00404d80 file 0x00004180: e895f21300               call 0x54401a
+VA 0x00404d85 file 0x00004185: 68482a5a00               push 0x5a2a48
+VA 0x00404d8a file 0x0000418a: 8d4dc0                   lea ecx, [ebp - 0x40]
+VA 0x00404d8d file 0x0000418d: e8decdffff               call 0x401b70
+VA 0x00404d92 file 0x00004192: 68f0ad5b00               push 0x5badf0
+VA 0x00404d97 file 0x00004197: 8d45c0                   lea eax, [ebp - 0x40]
+VA 0x00404d9a file 0x0000419a: 50                       push eax
+VA 0x00404d9b file 0x0000419b: e87af21300               call 0x54401a
+VA 0x00404da0 file 0x000041a0: cc                       int3 
+VA 0x00404da1 file 0x000041a1: cc                       int3 
+VA 0x00404da2 file 0x000041a2: cc                       int3 
+VA 0x00404da3 file 0x000041a3: cc                       int3 
+VA 0x00404da4 file 0x000041a4: cc                       int3 
+VA 0x00404da5 file 0x000041a5: cc                       int3 
+VA 0x00404da6 file 0x000041a6: cc                       int3 
+VA 0x00404da7 file 0x000041a7: cc                       int3 
+VA 0x00404da8 file 0x000041a8: cc                       int3 
+VA 0x00404da9 file 0x000041a9: cc                       int3 
+VA 0x00404daa file 0x000041aa: cc                       int3 
+VA 0x00404dab file 0x000041ab: cc                       int3 
+VA 0x00404dac file 0x000041ac: cc                       int3 
+VA 0x00404dad file 0x000041ad: cc                       int3 
+VA 0x00404dae file 0x000041ae: cc                       int3 
+VA 0x00404daf file 0x000041af: cc                       int3 

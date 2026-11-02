@@ -1,0 +1,23 @@
+[
+  {
+    "string": "SIMPROSFU100",
+    "offset": 20216832,
+    "va": "0x141348e00",
+    "xref": "0x1405786a2",
+    "function": "0x1405784a0"
+  },
+  {
+    "string": "ZeusFormula_App-A1.1.15",
+    "offset": 19566576,
+    "va": "0x1412aa1f0",
+    "xref": "0x140139ffe",
+    "function": "0x140139390"
+  },
+  {
+    "string": "PID_080B",
+    "offset": 22340808,
+    "va": "0x14154f6c8",
+    "xref": "0x141084318",
+    "function": "0x141083f10"
+  }
+]

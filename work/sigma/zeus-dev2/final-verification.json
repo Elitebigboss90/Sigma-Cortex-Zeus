@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "build_id": "zeus-dev2",
+  "candidate_plaintext_sha256": "0152f4f17e23f47f452d2290fe782afb7b70d65b7a854be5e357da36910ab4a8",
+  "candidate_encoded_sha256": "f7db442c77092c297f847670185892d14b9207f99573262bd81f0efd242fde88",
+  "disabled_updater_sha256": "bb04968c46d941d708f1b37ff6b7531f1d5846a6a7ac92bbd6d089941d6c237f",
+  "original_images_unchanged": true,
+  "sources_and_snapshots_match_build": true,
+  "emulator_checks_passed": 16,
+  "measured_frames_replayed": 99,
+  "capture_hashes_match": true,
+  "other_updater_resources_unchanged": 749,
+  "local_report_links_valid": true,
+  "hardware_flashed": false,
+  "bootloader_acceptance_verified": false,
+  "live_control_evidence": "right/left shift, both seven-way directions/centers, analog ranges and full USB input delivery verified",
+  "remaining": "other controls/game assignments, Sigma USB/PS5 hardware testing, bootloader integrity/acceptance and recovery"
+}

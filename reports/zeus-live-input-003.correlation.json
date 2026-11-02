@@ -1,0 +1,87 @@
+{
+  "capture": "reports/zeus-live-input-003.jsonl",
+  "capture_sha256": "2b5c448434f5cd68c39c5a15c564738f4e668cb8b51dd910dc4ca67e2705b981",
+  "analysis": "reports/zeus-live-input-003.analysis.json",
+  "analysis_sha256": "74f292828d5e0c8e9a7b53930cd0a4548b519197ef3a2706879507100bd9a456",
+  "confirmation_source": "User answer relayed verbatim by parent agent /root in this session",
+  "prompt": "The fresh capture is running now. Please repeat right shift three times, left shift three times, then each analog paddle separately, with gaps between groups, and reply when finished.",
+  "user_answer": "Finished the fresh sequence",
+  "interpretation": "Temporal ordering of six isolated pulses matches the confirmed labeled action sequence. Physical analog side was not specified.",
+  "shift_pulses": [
+    {
+      "physical_label": "right shift paddle",
+      "usage": 13,
+      "first_elapsed_ns": 90722997000,
+      "release_elapsed_ns": 91112994000,
+      "first_line": 18228,
+      "first_file_offset": 2338161,
+      "reports": 78
+    },
+    {
+      "physical_label": "right shift paddle",
+      "usage": 13,
+      "first_elapsed_ns": 91682965000,
+      "release_elapsed_ns": 91972987000,
+      "first_line": 18421,
+      "first_file_offset": 2362947,
+      "reports": 58
+    },
+    {
+      "physical_label": "right shift paddle",
+      "usage": 13,
+      "first_elapsed_ns": 92643043000,
+      "release_elapsed_ns": 93062969000,
+      "first_line": 18614,
+      "first_file_offset": 2387733,
+      "reports": 84
+    },
+    {
+      "physical_label": "left shift paddle",
+      "usage": 14,
+      "first_elapsed_ns": 95428009000,
+      "release_elapsed_ns": 95722991000,
+      "first_line": 19174,
+      "first_file_offset": 2459659,
+      "reports": 59
+    },
+    {
+      "physical_label": "left shift paddle",
+      "usage": 14,
+      "first_elapsed_ns": 96397968000,
+      "release_elapsed_ns": 96613075000,
+      "first_line": 19369,
+      "first_file_offset": 2484701,
+      "reports": 43
+    },
+    {
+      "physical_label": "left shift paddle",
+      "usage": 14,
+      "first_elapsed_ns": 97433074000,
+      "release_elapsed_ns": 98127997000,
+      "first_line": 19577,
+      "first_file_offset": 2511407,
+      "reports": 139
+    }
+  ],
+  "analog_axes": {
+    "first": "Ry",
+    "second": "Rx",
+    "ranges": {
+      "rx": {
+        "min": 0,
+        "max": 127
+      },
+      "ry": {
+        "min": 0,
+        "max": 127
+      }
+    },
+    "physical_sides": "Unknown: sequence did not name the first analog side."
+  },
+  "device_writes": false,
+  "limits": [
+    "Observation is specific to the captured wheel, saved configuration and KVM topology.",
+    "No Sigma conversion or PS5 behavior was measured here.",
+    "Other buttons, seven-way directions, encoders, extra paddles and combined clutch behavior remain outside this capture."
+  ]
+}

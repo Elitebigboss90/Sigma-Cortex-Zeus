@@ -1,0 +1,14 @@
+{
+  "rFactor2SharedMemoryMapPlugin64.dll": {
+    "Enabled": 1,
+    "DebugISIInternals": 0,
+    "DebugOutputLevel": 0,
+    "DebugOutputSource": 0,
+    "DedicatedServerMapGlobally": 0,
+    "EnableDirectMemoryAccess": 0,
+    "EnableHWControlInput": 0,
+    "EnableRulesControlInput": 0,
+    "EnableWeatherControlInput": 0,
+    "UnsubscribedBuffersMask": 0
+  }
+}

@@ -1,0 +1,67 @@
+
+7-Zip (z) 26.01 (arm64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-04-27
+ 64-bit arm_v:8.5-A locale=C.UTF-8 Threads:12 OPEN_MAX:1048575, ASM
+
+Scanning the drive for archives:
+1 file, 432704192 bytes (413 MiB)
+
+Extracting archive: originals/SimPro 3.2.3.13713/SimPro-V3.2.3.13713-072a9e42-Setup.exe
+--
+Path = originals/SimPro 3.2.3.13713/SimPro-V3.2.3.13713-072a9e42-Setup.exe
+Type = PE
+Physical Size = 432704192
+CPU = x86
+Characteristics = Executable 32-bit NoRelocs NoLineNums NoLocalSyms
+Created = 2019-12-15 17:50:53
+Headers Size = 1024
+Checksum = 432757980
+Image Size = 520192
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 26112
+Initialized Data Size = 141824
+Uninitialized Data Size = 2048
+Linker Version = 6.0
+OS Version = 4.0
+Image Version = 6.0
+Subsystem Version = 4.0
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible NoSEH TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+
+Data Directories: 16
+{
+index=1 name=IMPORT VA=0x8504 Size=160
+index=2 name=RESOURCE VA=0x3F000 Size=261024
+index=4 name=SECURITY VA=0x19CA6200 Size=10432
+index=12 name=IAT VA=0x8000 Size=684
+}
+}
+----
+Path = [0]
+Size = 432398848
+Packed Size = 432398848
+Virtual Size = 432398848
+Offset = 294912
+--
+Path = [0]
+Type = Nsis
+Physical Size = 432398846
+Tail Size = 2
+Method = LZMA:26
+Solid = +
+Headers Size = 352454
+Embedded Stub Size = 0
+SubType = NSIS-3 Unicode
+
+Everything is Ok
+
+Files: 2847
+Size:       1072364103
+Compressed: 432704192

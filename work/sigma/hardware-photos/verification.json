@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_photos_unchanged": true,
+  "view_transform_hashes_verified": true,
+  "physical_part_marking": "N32G455 REL7",
+  "header_pinout_verified": false,
+  "electronic_chip_id_read": false,
+  "protection_state_known": false,
+  "candidate_artifacts_unchanged": true,
+  "hardware_operations": 0,
+  "local_report_links_valid": true
+}

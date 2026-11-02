@@ -1,0 +1,38 @@
+[
+  {
+    "path": "originals/SIGMA v1.0.10/SIGMA 1.0.10.zip",
+    "version": "1.0.10",
+    "size": 2041809,
+    "sha256": "ff91bd6cbe59939bd45976e0a3f7cdb4d9e0cddb39eb69990b78b7717acfee8c",
+    "source_url": "https://drive.google.com/uc?export=download&id=1PQsR9tG9_eUk0pTWmvfLPhvJuJPiR9kH",
+    "provenance": "Public Google Drive files linked by both NOX Gaming and Bolori product pages; vendor authorship indicated by contents/account display, cryptographic authenticity not established.",
+    "linking_pages": [
+      "https://www.noxgaming.ca/product/sigma-cortex-converter/",
+      "https://bolori.es/en/producto/sigma-cortex-converter-ps4-ps5/"
+    ]
+  },
+  {
+    "path": "originals/SIGMA v1.0.11/SIGMA 1.0.11.zip",
+    "version": "1.0.11",
+    "size": 33789116,
+    "sha256": "0cbce14aa4d7f14949b807009de536aac42dd7cf917bcb3cbb7874942274d3f9",
+    "source_url": "https://drive.google.com/uc?export=download&id=17lRcbSdi7al9HGgJN-dohNl1lnY0Gaxp",
+    "provenance": "Public Google Drive files linked by both NOX Gaming and Bolori product pages; vendor authorship indicated by contents/account display, cryptographic authenticity not established.",
+    "linking_pages": [
+      "https://www.noxgaming.ca/product/sigma-cortex-converter/",
+      "https://bolori.es/en/producto/sigma-cortex-converter-ps4-ps5/"
+    ]
+  },
+  {
+    "path": "originals/Sigma-documentation/sigma user manual May 15 .pdf",
+    "version": null,
+    "size": 11630369,
+    "sha256": "2d9d87e15bce258b65c4024acfeff81032a92dbabbee2a7dd83b86ab3f3da8bb",
+    "source_url": "https://drive.google.com/uc?export=download&id=1ItboEBJZtLVQm-ymsng9ezPzOKaxQJ_r",
+    "provenance": "Public Google Drive files linked by both NOX Gaming and Bolori product pages; vendor authorship indicated by contents/account display, cryptographic authenticity not established.",
+    "linking_pages": [
+      "https://www.noxgaming.ca/product/sigma-cortex-converter/",
+      "https://bolori.es/en/producto/sigma-cortex-converter-ps4-ps5/"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "observed_utc": "2026-10-28T00:16:21.981656+00:00",
+  "operation": "IORegistry read only; no HID device opened",
+  "devices": [],
+  "limitations": "Only presently enumerated matching IOHIDDevice objects; no USB traffic or input events recorded. Serial numbers omitted."
+}

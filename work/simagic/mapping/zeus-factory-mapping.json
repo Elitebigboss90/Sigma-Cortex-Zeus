@@ -1,0 +1,245 @@
+{
+  "source": "work/simagic/zeus-formula-decoded.bin",
+  "source_sha256": "85961f88feba079fa9a9c5e72e6c329b880c98082a305da60c3c851b04b7756a",
+  "range": {
+    "offset": 110479,
+    "length": 162,
+    "virtual_address": "0x803cd8f"
+  },
+  "operation": "Identity slice; protobuf wire decoding, group semantics from callers",
+  "output": "work/simagic/mapping/zeus-factory-mapping.bin",
+  "output_sha256": "60f0baa81f49e663124f5a484ac93d5ff0a386012d3739cc036c68b4758d0d9f",
+  "factory_copy_function": "0x0802AEC4",
+  "factory_pointer_literal": "0x0802AFDC",
+  "application_function": "0x080251A8",
+  "groups": [
+    {
+      "file_offset": 110479,
+      "encoded_length": 40,
+      "fields": [
+        {
+          "file_offset": 110481,
+          "field": 1,
+          "wire": 0,
+          "value": 3
+        },
+        {
+          "file_offset": 110483,
+          "field": 2,
+          "wire": 0,
+          "value": 3
+        },
+        {
+          "file_offset": 110485,
+          "field": 3,
+          "wire": 2,
+          "payload_offset": 110487,
+          "payload_hex": "07060504030201090a0b0c0f10111208",
+          "length": 16
+        },
+        {
+          "file_offset": 110503,
+          "field": 4,
+          "wire": 2,
+          "payload_offset": 110505,
+          "payload_hex": "07070707070707070707070707070707",
+          "length": 16
+        }
+      ],
+      "group_id": 3,
+      "part_type": 3,
+      "usage_indices": [
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1,
+        9,
+        10,
+        11,
+        12,
+        15,
+        16,
+        17,
+        18,
+        8
+      ],
+      "interpretation": "16 ordinary button records"
+    },
+    {
+      "file_offset": 110521,
+      "encoded_length": 20,
+      "fields": [
+        {
+          "file_offset": 110523,
+          "field": 1,
+          "wire": 0,
+          "value": 9
+        },
+        {
+          "file_offset": 110525,
+          "field": 2,
+          "wire": 0,
+          "value": 9
+        },
+        {
+          "file_offset": 110527,
+          "field": 3,
+          "wire": 2,
+          "payload_offset": 110529,
+          "payload_hex": "2c2d2e2f2b1f203f40414230171e",
+          "length": 14
+        }
+      ],
+      "group_id": 9,
+      "part_type": 9,
+      "usage_indices": [
+        44,
+        45,
+        46,
+        47,
+        43,
+        31,
+        32,
+        63,
+        64,
+        65,
+        66,
+        48,
+        23,
+        30
+      ],
+      "interpretation": "2 seven-way controls, 7 records each"
+    },
+    {
+      "file_offset": 110543,
+      "encoded_length": 14,
+      "fields": [
+        {
+          "file_offset": 110545,
+          "field": 1,
+          "wire": 0,
+          "value": 4
+        },
+        {
+          "file_offset": 110547,
+          "field": 2,
+          "wire": 0,
+          "value": 4
+        },
+        {
+          "file_offset": 110549,
+          "field": 3,
+          "wire": 2,
+          "payload_offset": 110551,
+          "payload_hex": "2221262528272324",
+          "length": 8
+        }
+      ],
+      "group_id": 4,
+      "part_type": 4,
+      "usage_indices": [
+        34,
+        33,
+        38,
+        37,
+        40,
+        39,
+        35,
+        36
+      ],
+      "interpretation": "4 paired-direction encoders, 2 records each"
+    },
+    {
+      "file_offset": 110559,
+      "encoded_length": 64,
+      "fields": [
+        {
+          "file_offset": 110561,
+          "field": 1,
+          "wire": 0,
+          "value": 10
+        },
+        {
+          "file_offset": 110563,
+          "field": 2,
+          "wire": 0,
+          "value": 10
+        },
+        {
+          "file_offset": 110565,
+          "field": 3,
+          "wire": 2,
+          "payload_offset": 110567,
+          "payload_hex": "1314191a1c1d1516",
+          "length": 8
+        },
+        {
+          "file_offset": 110575,
+          "field": 4,
+          "wire": 2,
+          "payload_offset": 110577,
+          "payload_hex": "1313131313131313131313131717171717171717171717171b1b1b1b1b1b1b1b1b1b1b1b1f1f1f1f1f1f1f1f1f1f1f1f",
+          "length": 48
+        }
+      ],
+      "group_id": 10,
+      "part_type": 10,
+      "usage_indices": [
+        19,
+        20,
+        25,
+        26,
+        28,
+        29,
+        21,
+        22
+      ],
+      "interpretation": "4 rotary encoders, 2 relative-direction records each"
+    },
+    {
+      "file_offset": 110625,
+      "encoded_length": 12,
+      "fields": [
+        {
+          "file_offset": 110627,
+          "field": 1,
+          "wire": 0,
+          "value": 2
+        },
+        {
+          "file_offset": 110629,
+          "field": 2,
+          "wire": 0,
+          "value": 2
+        },
+        {
+          "file_offset": 110631,
+          "field": 4,
+          "wire": 2,
+          "payload_offset": 110633,
+          "payload_hex": "0f0f0f0f0f0f",
+          "length": 6
+        }
+      ],
+      "group_id": 2,
+      "part_type": 2,
+      "interpretation": "6 LED records; no input usages in this factory group"
+    }
+  ],
+  "other_fields": [
+    {
+      "file_offset": 110639,
+      "field": 4,
+      "wire": 0,
+      "value": 3
+    }
+  ],
+  "limits": [
+    "Factory defaults can be overridden by saved user presets.",
+    "Record order is not yet a measured physical-position map.",
+    "The live wheel firmware revision may differ from this bundled image."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "source": "work/sigma/1.1.5/sigma-decoded.bin",
+  "source_sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622",
+  "operation": "Read-only static export from private Ghidra project copy; Capstone instruction and constant evidence",
+  "outputs": [
+    {
+      "path": "work/sigma/readback/feature-dispatch.c",
+      "size": 19532,
+      "sha256": "fcebd42ab5bb820bd1573e52feb9489032e7b08f92e57c3040d7ee4df7435d6b"
+    },
+    {
+      "path": "work/sigma/readback/output-dispatch.c",
+      "size": 10842,
+      "sha256": "debd15d27a3485c48b99d147217e6609e519bc7ac65a097251dce42d3dc7e8e5"
+    },
+    {
+      "path": "work/sigma/readback/readback-evidence.json",
+      "size": 95564,
+      "sha256": "3b7dd4c0599c9deaf450a0508adaa3ee69e4a4b271b5788e7ea82bce35f9f5f0"
+    }
+  ],
+  "device_io": false
+}

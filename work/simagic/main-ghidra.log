@@ -1,0 +1,325 @@
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 21.0.11)
+OpenJDK 64-Bit Server VM Homebrew (build 21.0.11, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (317 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (875 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /Users/ethan/Devs/sigma-re/scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /Users/ethan/Devs/sigma-re/ghidra/simagic-main (HeadlessAnalyzer)  
+INFO  Creating project: /Users/ethan/Devs/sigma-re/ghidra/simagic-main (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /Users/ethan/Devs/sigma-re/ghidra/simagic-main (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/simpro3.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, /Users/ethan/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  TLS callbacks at 1412a0a68 (TLSDirectory)  
+INFO  TLS callbacks at 18eb394f0 (TLSDirectory)  
+INFO  Removing 2 unused filesystems from cache (FileSystemInstanceManager)  
+INFO  Additional info:
+Loading file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/simpro3.exe?MD5=f982e07a1a463b7c983eb83bb9049d78...
+[simpro3.exe]: failed to create TerminatedCString at 141cb8788: Failed to resolve data length for TerminatedCString
+------------------------------------------------
+
+Searching 4 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-CONVERT-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-ENVIRONMENT-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-HEAP-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-LOCALE-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-MATH-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-STDIO-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-STRING-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-TIME-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-UTILITY-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-SHCORE-SCALING-L1-1-1.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library BCRYPT.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library CFGMGR32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library COMDLG32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library CRYPT32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library D3D11.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library DBGHELP.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library DWMAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library DXGI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library GDI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library GDIPLUS.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library HID.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library IMM32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library IPHLPAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library LIBCEF.DLL...
+Loading file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/LIBCEF.DLL?MD5=39c96dfa2e05e6c366e93451b22ef8dd...
+[LIBCEF.DLL]: failed to create WEVTResource at 18f5d8db0: Failed to resolve data length for WEVTResource
+Installed 2 Rust cspec extensions
+Created exports file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/symbols/win64/libcef.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 4 paths for library MSVCP140.DLL...
+Loading file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/MSVCP140.DLL?MD5=72f3d84384e888bf0d38852eb863026b...
+Created exports file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/symbols/win64/msvcp140.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 4 paths for library MSVCP140_2.DLL...
+Loading file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/MSVCP140_2.DLL?MD5=0c462afe7502e3646086ea7783022c11...
+Created exports file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/symbols/win64/msvcp140_2.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 4 paths for library MSVCP140_CODECVT_IDS.DLL...
+Loading file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/MSVCP140_CODECVT_IDS.DLL?MD5=3ece3fb90bfaea8e9a5fb7139ff9cbdc...
+Created exports file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/symbols/win64/msvcp140_codecvt_ids.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 4 paths for library NETAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library NORMALIZ.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library NTDLL.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library OLE32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library OLEAUT32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library OPENGL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library SETUPAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library SHLWAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library VCRUNTIME140.DLL...
+Loading file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/VCRUNTIME140.DLL?MD5=caf9edded91c1f6c0022b278c16679aa...
+Created exports file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/symbols/win64/vcruntime140.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 4 paths for library VCRUNTIME140_1.DLL...
+Loading file:///Users/ethan/Devs/sigma-re/work/simagic/3.2.3.13713/Simagic/Simpro3/bin/VCRUNTIME140_1.DLL?MD5=2bd576cbc5cb712935eb1b10e4d312f5...
+Created exports file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/symbols/win64/vcruntime140_1.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 4 paths for library WININET.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library WINMM.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library WINSPOOL.DRV...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library WLDAP32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library WS2_32.DLL...
+Library not found.
+------------------------------------------------
+
+Applying cached symbols from LIBCEF.DLL
+Applying cached symbols from MSVCP140.DLL
+Applying cached symbols from MSVCP140_2.DLL
+Applying cached symbols from MSVCP140_CODECVT_IDS.DLL
+Applying cached symbols from VCRUNTIME140.DLL
+Applying cached symbols from VCRUNTIME140_1.DLL
+Linking the External Programs of 'simpro3.exe' to imported libraries...
+  [D3D11.DLL] -> not found in project
+  [IMM32.DLL] -> not found in project
+  [OPENGL32.DLL] -> not found in project
+  [LIBCEF.DLL] -> not found in project
+  [NTDLL.DLL] -> not found in project
+  [WLDAP32.DLL] -> not found in project
+  [NORMALIZ.DLL] -> not found in project
+  [DBGHELP.DLL] -> not found in project
+  [WS2_32.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [WINSPOOL.DRV] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [OLE32.DLL] -> not found in project
+  [OLEAUT32.DLL] -> not found in project
+  [COMDLG32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [MSVCP140.DLL] -> not found in project
+  [MSVCP140_2.DLL] -> not found in project
+  [MSVCP140_CODECVT_IDS.DLL] -> not found in project
+  [DWMAPI.DLL] -> not found in project
+  [API-MS-WIN-SHCORE-SCALING-L1-1-1.DLL] -> not found in project
+  [DXGI.DLL] -> not found in project
+  [IPHLPAPI.DLL] -> not found in project
+  [WININET.DLL] -> not found in project
+  [NETAPI32.DLL] -> not found in project
+  [SHLWAPI.DLL] -> not found in project
+  [HID.DLL] -> not found in project
+  [SETUPAPI.DLL] -> not found in project
+  [WINMM.DLL] -> not found in project
+  [BCRYPT.DLL] -> not found in project
+  [VCRUNTIME140.DLL] -> not found in project
+  [VCRUNTIME140_1.DLL] -> not found in project
+  [API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-HEAP-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STRING-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-MATH-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-CONVERT-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STDIO-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-LOCALE-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-TIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-UTILITY-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-ENVIRONMENT-L1-1-0.DLL] -> not found in project
+  [CRYPT32.DLL] -> not found in project
+  [CFGMGR32.DLL] -> not found in project
+  [GDIPLUS.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: SimagicFocused.java 'work/simagic/main-focused.c' '0x1405784a0' '0x140139390' '0x141083f10'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/ethan/Devs/sigma-re/scripts/SimagicFocused.java (HeadlessAnalyzer)  
+INFO  /simpro3.exe: file created (ethan) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /simpro3.exe (simagic-main:/simpro3.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

@@ -1,0 +1,127 @@
+{
+  "status": "PASS",
+  "source_sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+  "initial_data_sha256": "56df6503e19c10d9687591be7124de7c849f2a33b2c8cdc4225988b3d40c0ce9",
+  "registry_before": [
+    "0x20002734",
+    "0x200008e8",
+    "0x20003ab0",
+    "0x200025c0",
+    "0x2000267c",
+    "0x20004128",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "registry_after_generic_constructor": [
+    "0x20002734",
+    "0x200008e8",
+    "0x20003ab0",
+    "0x200025c0",
+    "0x2000267c",
+    "0x20004128",
+    "0x20005550",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "generic_constructor_return": "0x20005550",
+  "generic_object_prefix": [
+    "0x80471b0",
+    "0x80471fc",
+    "0x20004488"
+  ],
+  "predicates": [
+    {
+      "predicate": "0x80249a4",
+      "object": "0x20003ab0",
+      "accepted_pairs": [
+        [
+          "0x483",
+          "0x525"
+        ],
+        [
+          "0x3670",
+          "0x903"
+        ],
+        [
+          "0x483",
+          "0x524"
+        ]
+      ],
+      "zeus_3670_0804_rejected": true
+    },
+    {
+      "predicate": "0x80281c0",
+      "object": "0x200008e8",
+      "accepted_pairs": [
+        [
+          "0x483",
+          "0x522"
+        ]
+      ],
+      "zeus_3670_0804_rejected": true
+    },
+    {
+      "predicate": "0x80292a4",
+      "object": "0x2000267c",
+      "accepted_pairs": [
+        [
+          "0x483",
+          "0x531"
+        ]
+      ],
+      "zeus_3670_0804_rejected": true
+    },
+    {
+      "predicate": "0x80294dc",
+      "object": "0x20004128",
+      "accepted_pairs": [
+        [
+          "0x483",
+          "0x526"
+        ],
+        [
+          "0x483",
+          "0x525"
+        ],
+        [
+          "0x3670",
+          "0xa06"
+        ]
+      ],
+      "zeus_3670_0804_rejected": true
+    },
+    {
+      "predicate": "0x8029b44",
+      "object": "0x200025c0",
+      "accepted_pairs": [
+        [
+          "0x483",
+          "0x530"
+        ],
+        [
+          "0x3670",
+          "0xa04"
+        ]
+      ],
+      "zeus_3670_0804_rejected": true
+    }
+  ],
+  "hardware_stubs": [],
+  "hardware_access": false,
+  "limits": "Finite original CPU/RAM execution; not real USB enumeration or fallback behavior."
+}

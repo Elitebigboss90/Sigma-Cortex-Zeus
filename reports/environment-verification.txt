@@ -1,0 +1,82 @@
+ProductName:		macOS
+ProductVersion:		26.6.2
+BuildVersion:		25G83
+arm64
+arm640
+1
+Homebrew 7.0.11
+v24.22.1
+11.19.1
+6.8.0
+Property settings:
+    file.encoding = UTF-8
+    file.separator = /
+    ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    java.class.path = 
+    java.class.version = 65.0
+    java.home = /opt/homebrew/Cellar/openjdk@21/21.0.11/libexec/openjdk.jdk/Contents/Home
+    java.io.tmpdir = /var/folders/xx/y_l1l84s4w7_0lm2v8jqqpm80000gn/T/
+    java.library.path = /Users/ethan/Library/Java/Extensions
+        /Library/Java/Extensions
+        /Network/Library/Java/Extensions
+        /System/Library/Java/Extensions
+        /usr/lib/java
+        .
+    java.runtime.name = OpenJDK Runtime Environment
+    java.runtime.version = 21.0.11
+    java.specification.name = Java Platform API Specification
+    java.specification.vendor = Oracle Corporation
+    java.specification.version = 21
+    java.vendor = Homebrew
+    java.vendor.url = https://github.com/Homebrew/homebrew-core/issues
+    java.vendor.url.bug = https://github.com/Homebrew/homebrew-core/issues
+    java.vendor.version = Homebrew
+    java.version = 21.0.11
+    java.version.date = 2026-04-21
+    java.vm.compressedOopsMode = Zero based
+    java.vm.info = mixed mode, sharing
+    java.vm.name = OpenJDK 64-Bit Server VM
+    java.vm.specification.name = Java Virtual Machine Specification
+    java.vm.specification.vendor = Oracle Corporation
+    java.vm.specification.version = 21
+    java.vm.vendor = Homebrew
+    java.vm.version = 21.0.11
+    jdk.debug = release
+    line.separator = \n 
+    native.encoding = UTF-8
+    os.arch = aarch64
+    os.name = Mac OS X
+    os.version = 26.6.2
+    path.separator = :
+    socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+    stderr.encoding = UTF-8
+    stdout.encoding = UTF-8
+    sun.arch.data.model = 64
+    sun.boot.library.path = /opt/homebrew/Cellar/openjdk@21/21.0.11/libexec/openjdk.jdk/Contents/Home/lib
+    sun.cpu.endian = little
+    sun.io.unicode.encoding = UnicodeBig
+    sun.java.launcher = SUN_STANDARD
+    sun.jnu.encoding = UTF-8
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.country = US
+    user.dir = /Users/ethan/Devs/sigma-re
+    user.home = /Users/ethan
+    user.language = en
+    user.name = ethan
+
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 21.0.11)
+OpenJDK 64-Bit Server VM Homebrew (build 21.0.11, mixed mode, sharing)
+javac 21.0.11
+Python 3.12.3
+ripgrep 15.1.0
+
+features:+pcre2
+simd(compile):+NEON
+simd(runtime):+NEON
+
+PCRE2 10.45 is available (JIT is available)
+/opt/homebrew/opt/ghidra/libexec/Ghidra/Features/Decompiler/os/mac_arm_64/decompile: Mach-O 64-bit executable arm64
+18720d66ef7f048f672e9d1a18ecd234c51d1166444dc98cf101b91fd463bf1c  /opt/homebrew/opt/ghidra/libexec/Ghidra/application.properties
+130ae0488bd7445c2c6f857bb82ff4a8adf19b9e4ee548c5f0a6184d0b63e4dd  /opt/homebrew/opt/ghidra/libexec/Ghidra/Features/Decompiler/os/mac_arm_64/decompile

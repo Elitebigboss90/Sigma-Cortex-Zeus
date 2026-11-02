@@ -1,0 +1,50 @@
+[
+  {
+    "path": "work/tools/rea-docs/cli.md",
+    "size": 62202,
+    "sha256": "49bec57c992d92688bfb44e01b262a02359a8013b6986b264fc5cc9dee0c501a",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/cli.md"
+  },
+  {
+    "path": "work/tools/rea-docs/client-configuration.md",
+    "size": 47371,
+    "sha256": "458388db34d7e4f5f27c2b7e8bfd29817174608828540ded7e957f9278af2453",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/client-configuration.md"
+  },
+  {
+    "path": "work/tools/rea-docs/firmware-analysis.md",
+    "size": 15782,
+    "sha256": "60bbc962e2b2456b1e641ed60bc400ef64ab889de4a280f76b0150865e6854b7",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/firmware-analysis.md"
+  },
+  {
+    "path": "work/tools/rea-docs/ghidra-provider.md",
+    "size": 29641,
+    "sha256": "f52344be73d048ffff76ba39ebf1b9b9462b3c4584b9181c3153cb07a78e8fa3",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/ghidra-provider.md"
+  },
+  {
+    "path": "work/tools/rea-docs/installation.md",
+    "size": 105549,
+    "sha256": "7984e3a997a17e28a3927eda9924a8d57d0b6a531d7fd4196298a3be39cd5bdf",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/installation.md"
+  },
+  {
+    "path": "work/tools/rea-docs/managed-code-analysis.md",
+    "size": 52182,
+    "sha256": "6960d6a6ef6a580e7d537fe72ab1f03472cdf57cd9a317a8f01ff1b25cb8dfb6",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/managed-code-analysis.md"
+  },
+  {
+    "path": "work/tools/rea-docs/native-investigation.md",
+    "size": 85846,
+    "sha256": "16f8ec365b32de249fb190f820045e0ca0f0ab53eb4b3e04c176d1cac84d999a",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/native-investigation.md"
+  },
+  {
+    "path": "work/tools/rea-docs/raw-binary.md",
+    "size": 8417,
+    "sha256": "2fa8f14509f4447a07021937947ddd4382124130cb11b094df60ea252115857c",
+    "source_url": "https://raw.githubusercontent.com/morluto/rea/main/docs/raw-binary.md"
+  }
+]

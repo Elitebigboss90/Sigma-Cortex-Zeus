@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "preserved_new_inputs": 3,
+  "resource_slices_verified": 1500,
+  "decoded_payloads_verified": 2,
+  "dev2_artifacts_unchanged": true,
+  "local_report_links_valid": true,
+  "hardware_operations": 0,
+  "acceptance_or_recovery_established": false
+}

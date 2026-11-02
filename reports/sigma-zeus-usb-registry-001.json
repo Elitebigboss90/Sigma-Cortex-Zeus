@@ -1,0 +1,55 @@
+{
+  "observed_utc": "2026-10-28T02:21:04.695477+00:00",
+  "operation": "IORegistry read only; no device opened or USB request issued",
+  "devices": [
+    {
+      "USB Product Name": "FANATEC WHEEL(PS5 / PS4 MODE)",
+      "USB Vendor Name": "Fanatec",
+      "idVendor": 3767,
+      "idProduct": 3591,
+      "bcdDevice": 1573,
+      "bDeviceClass": 0,
+      "bDeviceSubClass": 0,
+      "bDeviceProtocol": 0,
+      "bNumConfigurations": 1,
+      "bMaxPacketSize0": 64,
+      "USBSpeed": 1,
+      "locationID": 1126400,
+      "kUSBCurrentConfiguration": 1,
+      "registry_class": "IOUSBHostDevice"
+    },
+    {
+      "USB Product Name": "Simagic Zeus Formula Steering Wheel",
+      "USB Vendor Name": "SIMAGIC",
+      "idVendor": 13936,
+      "idProduct": 2052,
+      "bcdDevice": 282,
+      "bDeviceClass": 0,
+      "bDeviceSubClass": 0,
+      "bDeviceProtocol": 0,
+      "bNumConfigurations": 1,
+      "bMaxPacketSize0": 64,
+      "USBSpeed": 1,
+      "locationID": 1130784,
+      "kUSBCurrentConfiguration": 1,
+      "registry_class": "IOUSBHostDevice"
+    },
+    {
+      "USB Product Name": "Dash4",
+      "USB Vendor Name": "Magic",
+      "idVendor": 13936,
+      "idProduct": 1543,
+      "bcdDevice": 323,
+      "bDeviceClass": 0,
+      "bDeviceSubClass": 0,
+      "bDeviceProtocol": 0,
+      "bNumConfigurations": 1,
+      "bMaxPacketSize0": 64,
+      "USBSpeed": 3,
+      "locationID": 1130800,
+      "kUSBCurrentConfiguration": 1,
+      "registry_class": "IOUSBHostDevice"
+    }
+  ],
+  "limits": "Selected registry properties only; not a complete raw descriptor/traffic capture. Serial numbers omitted."
+}

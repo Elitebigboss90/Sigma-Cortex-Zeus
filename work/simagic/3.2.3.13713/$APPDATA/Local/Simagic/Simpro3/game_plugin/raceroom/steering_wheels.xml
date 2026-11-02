@@ -1,0 +1,463 @@
+<HWInput::SteeringWheelInfoList>
+	<SteeringWheels>
+		<key type="uint32">2152472521</key> <!-- AccuForce -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3264939117</key> <!-- Logitech G27 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3259958381</key> <!-- Logitech G29 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3261203565</key> <!-- Logitech G920 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3261989997</key> <!-- Logitech G923 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">59641527</key> <!-- Fanatec CSW -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">265911</key> <!-- Fanatec CSW 2.5 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">1117879</key> <!-- Fanatec CSR Wheel -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">69303</key> <!-- Fanatec CSR Wheel V2 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">235081399</key> <!-- Fanatec CSL Elite -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3059614799</key> <!-- Thrustmaster T500 RS Racing wheel -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3389195373</key> <!-- Logitech MOMO Racing USB -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">270</minWheelRange>
+			<maxWheelRange type="uint32">270</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3264808045</key> <!-- Logitech G25 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3058893903</key> <!-- Thrustmaster RGT Force Feedback Pro -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">270</minWheelRange>
+			<maxWheelRange type="uint32">270</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3060335695</key> <!-- Thrustmaster TX Racing Wheel -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3059024975</key> <!-- Thrustmaster FGT Rumble 3-in-1 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">180</minWheelRange>
+			<maxWheelRange type="uint32">180</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3264742509</key> <!-- Logitech Driving Force Pro -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3264873581</key> <!-- Logitech Driving Force GT -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3060663375</key> <!-- Thrustmaster T300RS Racing wheel -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3059352655</key> <!-- Thrustmaster F430/T100 FFB-->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">270</minWheelRange>
+			<maxWheelRange type="uint32">270</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">26676919</key> <!-- Fanatec Porsche Wheel -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">200</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3059876943</key> <!-- Ferrari F1 wheel Integral T500 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+			<key type="uint32">3060728911</key> <!-- Ferrari F1 wheel Integral T300 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3061777487</key> <!-- Thrustmaster TMX Force Feedback -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">140</minWheelRange>
+			<maxWheelRange type="uint32">900</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3061253199</key> <!-- Thrustmaster T150 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">140</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3062432847</key> <!-- Thrustmaster TS-PC Racer -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3063284815</key> <!-- Thrustmaster Advanced Mode Racer -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3063022671</key> <!-- Thrustmaster TS-XW Racer -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>,
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">3062105167</key> <!-- Thrustmaster T-GT -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">40</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">331447</key> <!-- FANATEC CSL Elite Wheel Base PlayStation 4 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">268169301</key> <!-- MMos ForceFeedback 2014 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">false</supportsDamperEffect>
+		</value>
+		<key type="uint32">224007888</key> <!-- Simucube -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">224401104</key> <!-- Simucube 2 Pro -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">224466640</key> <!-- Simucube 2 Sport -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">224335568</key> <!-- Simucube 2 Ultimate -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">396983</key> <!-- FANATEC Podium Wheel Base DD1 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">462519</key> <!-- FANATEC Podium Wheel Base DD2 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>			
+		<key type="uint32">2100919</key> <!-- FANATEC CSL DD -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">86115459</key> <!-- SIMAGIC -->
+		<value>/
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">268514326</key> <!-- CAMMUS DDWB 2021 -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">50410518</key> <!-- CAMMUS C5 BASE -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">false</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+		<key type="uint32">2740257923</key> <!-- VRS DIRECTFORCE PRO -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">false</supportsDamperEffect>
+		</value>
+		<key type="uint32">341102</key> <!-- MOZA R3 Base -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+				<key type="uint32">275566</key> <!-- MOZA R5 Base -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+						<key type="uint32">144494</key> <!-- MOZA R9 Base -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+						<key type="uint32">406638</key> <!-- MOZA R12 Base -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+						<key type="uint32">13422</key> <!-- MOZA R16 Base -->
+		<value>
+			<vendorSpecificRangeLock type="bool">true</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">true</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+				<key type="uint32">4076872755</key> <!-- Asetek Invicta WheelBase -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+				<key type="uint32">4076938291</key> <!-- Asetek Forte WheelBase -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+				<key type="uint32">4077265971</key> <!-- Asetek Tony Kanaan Wheelbase -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+				<key type="uint32">4077069363</key> <!-- Asetek LaPrima wheelbase -->
+		<value>
+			<vendorSpecificRangeLock type="bool">false</vendorSpecificRangeLock>
+			<minWheelRange type="uint32">90</minWheelRange>
+			<maxWheelRange type="uint32">1080</maxWheelRange>
+			<alwaysCreateEffects type="bool">true</alwaysCreateEffects>
+			<supportsSpringEffect type="bool">false</supportsSpringEffect>
+			<supportsDamperEffect type="bool">true</supportsDamperEffect>
+		</value>
+	</SteeringWheels>
+</HWInput::SteeringWheelInfoList>

@@ -1,0 +1,20 @@
+[
+  {
+    "source_url": "https://drive.google.com/drive/folders/1aTedVCru4gTWvNfpPdoLB5TV_NqR-zfO",
+    "final_url": "https://drive.google.com/drive/folders/1aTedVCru4gTWvNfpPdoLB5TV_NqR-zfO",
+    "content_type": "text/html; charset=utf-8",
+    "content_disposition": null,
+    "file": "work/sigma/public-recovery-research/firmware-folder.html",
+    "bytes": 324100,
+    "sha256": "d3d92253b1172b3df084968f392437a809e7f1299f16d3e2097ae2bc423492b5"
+  },
+  {
+    "source_url": "https://drive.google.com/uc?export=download&id=1ItboEBJZtLVQm-ymsng9ezPzOKaxQJ_r",
+    "final_url": "https://drive.usercontent.google.com/download?id=1ItboEBJZtLVQm-ymsng9ezPzOKaxQJ_r&export=download",
+    "content_type": "application/octet-stream",
+    "content_disposition": "attachment; filename=\"sigma user manual May 15 .pdf\"",
+    "file": "work/sigma/public-recovery-research/sigma-manual-download",
+    "bytes": 11630369,
+    "sha256": "2d9d87e15bce258b65c4024acfeff81032a92dbabbee2a7dd83b86ab3f3da8bb"
+  }
+]

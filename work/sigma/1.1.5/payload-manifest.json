@@ -1,0 +1,34 @@
+{
+  "source": "originals/SIGMA v1.1.5 BETA/SIGMA_Converter_V1.1.5.exe",
+  "source_sha256": "585a72f0fc40b33e374f67bdf8df4c537b0f0d879e9d2f7b65a598253196fc7a",
+  "operation": "identity slice; PE TEXTFILE/IDR_APP_FILE/1033",
+  "range": {
+    "offset": 1998584,
+    "length": 189056,
+    "end_exclusive": 2187640
+  },
+  "output": "work/sigma/1.1.5/SIGMA_Converter_V1.1.5.payload.bin",
+  "output_sha256": "4336870decb070816e16a3d8843ac2f2f4ef7f66bdd451897f56820865216282",
+  "entropy_bits_per_byte": 7.999173042313965,
+  "first_64_bytes": "8edc5caf073404d12e85b79f5f04a9051e74fae27abb1625903a3f135e2c10ace82b36b133bb37d484830f3c981817122b53a8ebe1b9c7d67c0d975d2187c23c",
+  "last_64_bytes": "438debb21332e0d832d4bfe69e7b49928d3eeb1f032856b6987ca08c0da9db7ac7135297624bed5c75e65fe5dc29cff45b2fbcc7b173c6870bdfa87729ad4a62",
+  "bounded_vector_scan": {
+    "step": 4,
+    "sp_range": "[0x20000000,0x20100000), aligned8",
+    "reset_range": "odd, [0,0x100000) or [0x08000000,0x08200000)",
+    "candidates": [],
+    "limitation": "Heuristic only; empty does not exclude ARM or other mappings."
+  },
+  "logical_update_frames": {
+    "source_function_va": "0x404c00",
+    "count": 5908,
+    "data_bytes_per_full_frame": 32,
+    "header": "F2 0A length u32le(resource_offset)",
+    "first_frame_hex": "f20a20000000008edc5caf073404d12e85b79f5f04a9051e74fae27abb1625903a3f135e2c10ac",
+    "last_frame_hex": "f20a2060e20200c7135297624bed5c75e65fe5dc29cff45b2fbcc7b173c6870bdfa87729ad4a62",
+    "reassembled_sha256": "4336870decb070816e16a3d8843ac2f2f4ef7f66bdd451897f56820865216282",
+    "reassembly_equals_resource": true,
+    "padding": "Not synthesized; full report length comes from HidP_GetCaps.OutputReportByteLength.",
+    "interpretation": "Resource-relative transfer offset, not a proven flash/load address."
+  }
+}

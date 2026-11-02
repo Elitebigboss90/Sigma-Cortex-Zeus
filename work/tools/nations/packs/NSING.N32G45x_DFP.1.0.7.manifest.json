@@ -1,0 +1,759 @@
+{
+  "source": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7.pack",
+  "source_url": "https://www.nsing.com.sg/public/uploads/armpacks/NSING.N32G45x_DFP.1.0.7.pack",
+  "referring_page": "https://www.keil.arm.com/packs/n32g45x_dfp-nsing/devices/",
+  "size": 1273945,
+  "sha256": "b4eed0b822131d0563c848f332c914bf558a840b1b4d912d8029e0db148de60a",
+  "operation": "Python zipfile member extraction with preserved bytes",
+  "members": [
+    {
+      "member": "firmware/CMSIS/core/arm_common_tables.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/arm_common_tables.h",
+      "size": 6035,
+      "sha256": "4a9cce560c4b8d271d4cab05e61d0a7ad62d48796aca384c8372cbbdce41f43d",
+      "zip_local_header_offset": 134
+    },
+    {
+      "member": "firmware/CMSIS/core/arm_const_structs.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/arm_const_structs.h",
+      "size": 2961,
+      "sha256": "d0fb4fced1cc569be1cbd45abd5bd99fcdc4a90a5c861282c50f488298f41e98",
+      "zip_local_header_offset": 1549
+    },
+    {
+      "member": "firmware/CMSIS/core/arm_math.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/arm_math.h",
+      "size": 246325,
+      "sha256": "f9e65613d6d25b1c22672dc01bfd3c4daf968807ebbf96dee2cc8a87ae65e79e",
+      "zip_local_header_offset": 2453
+    },
+    {
+      "member": "firmware/CMSIS/core/cmsis_armcc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/cmsis_armcc.h",
+      "size": 27343,
+      "sha256": "3371c679298b7db7caae23215ab8efdb95fe3b5c6c1a793f8004e5be16940149",
+      "zip_local_header_offset": 29935
+    },
+    {
+      "member": "firmware/CMSIS/core/cmsis_armclang.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/cmsis_armclang.h",
+      "size": 54628,
+      "sha256": "3a33c83dd7533cd2827164b89e66dc7c0f8376ef4e2d255ec50c1a58b36f670b",
+      "zip_local_header_offset": 35191
+    },
+    {
+      "member": "firmware/CMSIS/core/cmsis_compiler.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/cmsis_compiler.h",
+      "size": 8748,
+      "sha256": "03ab80c426a8360eaaad833ac816462a9f38cb2e4dbdc490914880ad071181fe",
+      "zip_local_header_offset": 42338
+    },
+    {
+      "member": "firmware/CMSIS/core/cmsis_gcc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/cmsis_gcc.h",
+      "size": 60259,
+      "sha256": "341982e6d6c91119214c47d7a04b31f1f8ce0970c45e2c9fe0870c80d0876e28",
+      "zip_local_header_offset": 43887
+    },
+    {
+      "member": "firmware/CMSIS/core/cmsis_iccarm.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/cmsis_iccarm.h",
+      "size": 27489,
+      "sha256": "187090e9df53f6ec9e6dd638f028584bf19ff125237f9c6826abedb67192bbdf",
+      "zip_local_header_offset": 51639
+    },
+    {
+      "member": "firmware/CMSIS/core/cmsis_version.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/cmsis_version.h",
+      "size": 1677,
+      "sha256": "c2570d56ee85d4f2ec0fb62f31d080d3cddf3a015500a4ed5a006a571637b43c",
+      "zip_local_header_offset": 56418
+    },
+    {
+      "member": "firmware/CMSIS/core/core_cm4.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/core_cm4.h",
+      "size": 121478,
+      "sha256": "53712d8aefacaebf3faa2370be8c7c6065328a974242f9e315ffc86b3ee852c5",
+      "zip_local_header_offset": 57184
+    },
+    {
+      "member": "firmware/CMSIS/core/mpu_armv7.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/core/mpu_armv7.h",
+      "size": 11441,
+      "sha256": "e4968e627df085e4ebf46be5140be657e035d978ae1938c1c2e3ee49fbde5030",
+      "zip_local_header_offset": 75338
+    },
+    {
+      "member": "firmware/CMSIS/device/n32g45x.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/n32g45x.h",
+      "size": 543229,
+      "sha256": "a1cdac4068ad11e26d8228a91778e88d389818d5e7dc226c5590cd0a74b180b4",
+      "zip_local_header_offset": 78305
+    },
+    {
+      "member": "firmware/CMSIS/device/n32g45x_conf.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/n32g45x_conf.h",
+      "size": 3352,
+      "sha256": "41cf628d68cd0bdf9896b4a368eee202285f4425aee5696d38197ef4cc5f379a",
+      "zip_local_header_offset": 140815
+    },
+    {
+      "member": "firmware/CMSIS/device/n32g45x_flash.ld",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/n32g45x_flash.ld",
+      "size": 5288,
+      "sha256": "3f10c54b61b354385814d38d09b039d46a2ab8d391eab1becef945fe4ed13bde",
+      "zip_local_header_offset": 142250
+    },
+    {
+      "member": "firmware/CMSIS/device/startup/startup_n32g45x.s",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/startup/startup_n32g45x.s",
+      "size": 18429,
+      "sha256": "a5f93fa3dd68e9996b5bc45a3984c21e096a42a2954ec4dde4658b9eab95ca7f",
+      "zip_local_header_offset": 144295
+    },
+    {
+      "member": "firmware/CMSIS/device/startup/startup_n32g45x_EWARM.s",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/startup/startup_n32g45x_EWARM.s",
+      "size": 21050,
+      "sha256": "4a3099bcda4de05b14f3ab46f9085a962d86cf781d1034001b71536f2e8647f8",
+      "zip_local_header_offset": 147639
+    },
+    {
+      "member": "firmware/CMSIS/device/startup/startup_n32g45x_gcc.s",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/startup/startup_n32g45x_gcc.s",
+      "size": 23395,
+      "sha256": "5e1f9db0e8994db927c9420d6b5aa1e2ea28ea17f3b18a85050966f79b65da08",
+      "zip_local_header_offset": 150929
+    },
+    {
+      "member": "firmware/CMSIS/device/system_n32g45x.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/system_n32g45x.c",
+      "size": 14860,
+      "sha256": "f061fca77483ceae6b941e1b4a1b821f7eea715c6af1ec4aee7684eb295f2b97",
+      "zip_local_header_offset": 154909
+    },
+    {
+      "member": "firmware/CMSIS/device/system_n32g45x.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/CMSIS/device/system_n32g45x.h",
+      "size": 2085,
+      "sha256": "5122e25ed70dc74725577ff5d63de275162ad0d5a369bb5122d350e0a4737191",
+      "zip_local_header_offset": 159401
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/inc/n32g45x_aes.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/inc/n32g45x_aes.h",
+      "size": 5368,
+      "sha256": "abe732317dc002a003c993987bd0362f88e228cd8c85bcc4d84c972e3b87749d",
+      "zip_local_header_offset": 160571
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/inc/n32g45x_algo_common.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/inc/n32g45x_algo_common.h",
+      "size": 5301,
+      "sha256": "d2b42942b098e1907d42877e34c0c55000460edcb7cdd80acf4abebc621cd40b",
+      "zip_local_header_offset": 162723
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/inc/n32g45x_des.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/inc/n32g45x_des.h",
+      "size": 5220,
+      "sha256": "d35b80b61f56cdad5e370a0fdd34accd60c31ebe6b41eb50e2bf7c22b3420c9a",
+      "zip_local_header_offset": 164412
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/inc/n32g45x_hash.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/inc/n32g45x_hash.h",
+      "size": 9155,
+      "sha256": "ada05ad5d4464b7c4ecd4c27a877007d359fe3331061dff23f6bdb07c00888d9",
+      "zip_local_header_offset": 166584
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/inc/n32g45x_rng.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/inc/n32g45x_rng.h",
+      "size": 3641,
+      "sha256": "f98628e0a12d17c8c0fcb410c2a669ac1c96e831b63e62dcd040963d75e9ba2a",
+      "zip_local_header_offset": 169109
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/lib/n32g45x_aes.lib",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/lib/n32g45x_aes.lib",
+      "size": 5430,
+      "sha256": "aad8d045fdbf26307cb678ff0aeee3cf005e19125ff6bccd5e240488e49461d2",
+      "zip_local_header_offset": 170787
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/lib/n32g45x_algo_common.lib",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/lib/n32g45x_algo_common.lib",
+      "size": 6244,
+      "sha256": "c7b0bf6615156b5536fd733ca3ee5c34dbec9d1bb74f419c6f241ea7cf354bab",
+      "zip_local_header_offset": 173396
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/lib/n32g45x_des.lib",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/lib/n32g45x_des.lib",
+      "size": 5122,
+      "sha256": "6c44f927e65ed7a0981fcd1c399259597f7d8d6d0d99958b741396eecd1166e1",
+      "zip_local_header_offset": 176213
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/lib/n32g45x_hash.lib",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/lib/n32g45x_hash.lib",
+      "size": 9772,
+      "sha256": "17e982963c7e8716d1440b0a29d9157a51e584a90fb330d7b58444e20275f913",
+      "zip_local_header_offset": 178586
+    },
+    {
+      "member": "firmware/n32g45x_algo_lib/lib/n32g45x_rng.lib",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_algo_lib/lib/n32g45x_rng.lib",
+      "size": 5126,
+      "sha256": "c8c2c45a4432ad3f278382d20a37a7269f9ea526b935f3bae49c4fd3d971e1d8",
+      "zip_local_header_offset": 183272
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/misc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/misc.h",
+      "size": 8514,
+      "sha256": "b52978b7388bac634c1bcedd624d6f47bf3d9f921c3fda7d656a4f77572dc2a1",
+      "zip_local_header_offset": 185780
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_adc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_adc.h",
+      "size": 25795,
+      "sha256": "c908aecfd12910b4b0e1c3b1092c1a8b9a8975e8547cb3ddbef50849b16d2f96",
+      "zip_local_header_offset": 187970
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_bkp.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_bkp.h",
+      "size": 5640,
+      "sha256": "9c0f2097b52dfa80a6ce28a4dd7a04430ac701544672e376b88ac6071802be17",
+      "zip_local_header_offset": 192941
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_can.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_can.h",
+      "size": 25287,
+      "sha256": "218cf808619c637d9f740eaba5baf4d2d819a9ca5fd47a91a336f1f2514ded39",
+      "zip_local_header_offset": 194602
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_comp.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_comp.h",
+      "size": 15330,
+      "sha256": "4fba6cc523d2798f951dcd6894e83465ab69132aa1c62bf4257560ae57ea024d",
+      "zip_local_header_offset": 199755
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_crc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_crc.h",
+      "size": 2679,
+      "sha256": "b9d57acd611ff90a32b5d46a0e6117cc0d519dc063354b9aca15ff576860f30a",
+      "zip_local_header_offset": 203061
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_dac.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_dac.h",
+      "size": 13373,
+      "sha256": "9c33fb270e83b0767e962e4c63bd1d1988a3c951007c8ad08c9926380d0c7b69",
+      "zip_local_header_offset": 204227
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_dbg.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_dbg.h",
+      "size": 3507,
+      "sha256": "ff72b5717bdc7321cdc5246408aa1c15936b51b015a60abed7833521b94c2470",
+      "zip_local_header_offset": 206919
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_dma.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_dma.h",
+      "size": 25191,
+      "sha256": "12ba2b4af63eef4c435a7958daeb80a01cd6e3f469912c67de957092bbeb35b9",
+      "zip_local_header_offset": 208269
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_dvp.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_dvp.h",
+      "size": 20935,
+      "sha256": "ee8fbc0cf26a9f9666995ea73982d7eaa16e7c71541258a3f479ea7cce72eb6a",
+      "zip_local_header_offset": 212561
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_eth.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_eth.h",
+      "size": 75398,
+      "sha256": "3bfc549a48c8b004a6acfb3e958addf8ad545152604d3fcd79274bddb3052be0",
+      "zip_local_header_offset": 216710
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_exti.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_exti.h",
+      "size": 7607,
+      "sha256": "9d56b1d8bca04d29da80eca025be27fa372dab641c0fac494363632d5ac0c6b8",
+      "zip_local_header_offset": 229815
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_flash.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_flash.h",
+      "size": 14468,
+      "sha256": "76c8885945041c5e9da868bf1526f5c2e37e83f53c54a6da8543468e961f7295",
+      "zip_local_header_offset": 231915
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_gpio.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_gpio.h",
+      "size": 25527,
+      "sha256": "20e98a36aeae993142a587228a776436343cee413661f026a851c896d53c30f1",
+      "zip_local_header_offset": 234986
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_i2c.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_i2c.h",
+      "size": 27311,
+      "sha256": "401a3895af2a30293c2fe0eece4c5b125406baa5e6d2e1d43db5c7461e1639d7",
+      "zip_local_header_offset": 239358
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_iwdg.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_iwdg.h",
+      "size": 3876,
+      "sha256": "508b9257c628c572a0a1eab461bb7f913b011eccaf2e441fc6e1dcbc30e90227",
+      "zip_local_header_offset": 246118
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_opamp.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_opamp.h",
+      "size": 6951,
+      "sha256": "d059269c1334052aec18c5c08918749abd7f9e10f63b26654267339a488d29e5",
+      "zip_local_header_offset": 247529
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_pwr.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_pwr.h",
+      "size": 5441,
+      "sha256": "9d299e2f588267b590dbf8d8553ce90ee306651f9bb0532add2128cf70055ab6",
+      "zip_local_header_offset": 249510
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_qspi.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_qspi.h",
+      "size": 11916,
+      "sha256": "ce7106e8e85c5e64c1cc166ba7e8f8869c9cb93268cd949137dedcedcf4a2f42",
+      "zip_local_header_offset": 251194
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_rcc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_rcc.h",
+      "size": 29175,
+      "sha256": "d7992a613e7ede917ee6b2ac0ec92d9e07f15e11d4d528cdcf01d63ee2eabe0d",
+      "zip_local_header_offset": 254119
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_rtc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_rtc.h",
+      "size": 24787,
+      "sha256": "8b97ff44cb79ceb0879dd9d41a16e23523ad4ab310dc3e2d5e97517b72d39c15",
+      "zip_local_header_offset": 258901
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_sdio.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_sdio.h",
+      "size": 18114,
+      "sha256": "389c6541ce75412af643d90b01319de4f259fe0fa57c02d31e453f7a94746996",
+      "zip_local_header_offset": 263868
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_spi.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_spi.h",
+      "size": 15459,
+      "sha256": "2bff16e40633a2d2eab730b9c144cac154334dab6798d13a3a0adbfe2c62f411",
+      "zip_local_header_offset": 267651
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_tim.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_tim.h",
+      "size": 44820,
+      "sha256": "f3ff51d436f317e8d4582383a2a57013795c949aedab21343d5bac48d9269726",
+      "zip_local_header_offset": 271218
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_tsc.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_tsc.h",
+      "size": 23993,
+      "sha256": "7ca9de778b2007bdf2e0eb3e6ea44a7921656cb004e87d891dc5db48cc3adb63",
+      "zip_local_header_offset": 278328
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_usart.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_usart.h",
+      "size": 14094,
+      "sha256": "1e0866aa602234f643160e3ed654ed1faf5fa4c56082089490e485c19d88214b",
+      "zip_local_header_offset": 283532
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32g45x_wwdg.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32g45x_wwdg.h",
+      "size": 3237,
+      "sha256": "725624c4a2e61a2e98ae43d5d7e9e1c0ed48bd72362d16974a6e81b593618800",
+      "zip_local_header_offset": 286898
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32xx_tsc_alg_api.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32xx_tsc_alg_api.h",
+      "size": 11434,
+      "sha256": "3246072de4dd95dd00c3a7fded18329e934c939183783de0767d74c52d1abdfe",
+      "zip_local_header_offset": 288203
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/inc/n32xx_tsc_alg_api.lib",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/inc/n32xx_tsc_alg_api.lib",
+      "size": 3211910,
+      "sha256": "f18bfadd96877d2f668b069b7c2d13ad34ca9b22b3ce67c48d691b81adb8dbc2",
+      "zip_local_header_offset": 292658
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/misc.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/misc.c",
+      "size": 7122,
+      "sha256": "84a60f4703daf5835bdc80fc3cc4f1354bad4b47fa5c3f635ad6a53b9676de99",
+      "zip_local_header_offset": 935839
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_adc.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_adc.c",
+      "size": 55455,
+      "sha256": "db6278fac0f162a3be0ba27491dcd5ec9c6a0340ec9976285d145ee7d03fa30b",
+      "zip_local_header_offset": 938049
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_bkp.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_bkp.c",
+      "size": 6405,
+      "sha256": "8d744a335a47087c0b8f0108733e4b65c170af26be31ae83a4efe8bd84f8a3cd",
+      "zip_local_header_offset": 946305
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_can.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_can.c",
+      "size": 47981,
+      "sha256": "29cf693243e5865a81ed5ca4ca0a27f77236f1b7f11b53df4cf2594b93a201e0",
+      "zip_local_header_offset": 948327
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_comp.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_comp.c",
+      "size": 8193,
+      "sha256": "8fc1da243ad7b1544fc25a7bf9571e88f1eac33b6024c1223b6233ebdbb865fd",
+      "zip_local_header_offset": 956102
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_crc.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_crc.c",
+      "size": 4728,
+      "sha256": "b64d44414a627611226082c8e36ff43476f06bfe637a4e8bd720833076799ee3",
+      "zip_local_header_offset": 958620
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_dac.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_dac.c",
+      "size": 13623,
+      "sha256": "bc4ed51e32ff5f968460b1aeb1c743beaa16dccf9761b242b18c746ca0ac3bd6",
+      "zip_local_header_offset": 960249
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_dbg.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_dbg.c",
+      "size": 6635,
+      "sha256": "ed3d05a414923daecd9667be490d6a59866df275cee5050e87f1c7750a98ab18",
+      "zip_local_header_offset": 963243
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_dma.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_dma.c",
+      "size": 39135,
+      "sha256": "744c3523a63438ab39cba8413af393726d002c0fcc754d8d21e1b57701c10051",
+      "zip_local_header_offset": 965280
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_dvp.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_dvp.c",
+      "size": 6104,
+      "sha256": "3361e6583f17b8feddbf09fe425021909cc0e9229930efcdb3b0288e8908d873",
+      "zip_local_header_offset": 970456
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_eth.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_eth.c",
+      "size": 117467,
+      "sha256": "977118ffb68c71d03c8b31828fd838b446d69c82ce1755dd2c2b3c945099d132",
+      "zip_local_header_offset": 972592
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_exti.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_exti.c",
+      "size": 7663,
+      "sha256": "ccfd9f75eb928c0e857c8c846fdbab9ae52784a761e5d22bcf030b1581e53a82",
+      "zip_local_header_offset": 991155
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_flash.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_flash.c",
+      "size": 35143,
+      "sha256": "d927291f35f7a409a08db37abd916a7bbea4f6830aae2f755447866214ca1c26",
+      "zip_local_header_offset": 993343
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_gpio.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_gpio.c",
+      "size": 31829,
+      "sha256": "4d7e2d534a62afd61ece650bebf091f403390153a52689915879c67ee7ebfdbc",
+      "zip_local_header_offset": 998751
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_i2c.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_i2c.c",
+      "size": 44493,
+      "sha256": "160fb8076e9fb01c51d9291554cd6013c7ddbe824a1652cb96e9f97919876004",
+      "zip_local_header_offset": 1004016
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_iwdg.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_iwdg.c",
+      "size": 5081,
+      "sha256": "0c8452856f025ebe0fa3d32219aeb6d721466fd39dbf8492fcd9bab9e601603b",
+      "zip_local_header_offset": 1012461
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_opamp.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_opamp.c",
+      "size": 5111,
+      "sha256": "01409eb65309d9e34b8d4d3578ac9bbd6ae82f150626b12d76b17064dbe12552",
+      "zip_local_header_offset": 1014208
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_pwr.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_pwr.c",
+      "size": 11772,
+      "sha256": "c7336c206e7bb235888f905a02916b8cc9e9b2edcf2c4f88bce0bdcadebce031",
+      "zip_local_header_offset": 1015820
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_qspi.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_qspi.c",
+      "size": 20563,
+      "sha256": "a4372ef252cc9eb800c8e41e73d8a72eebdaf54eac59300c610a7e7511226b0d",
+      "zip_local_header_offset": 1018735
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_rcc.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_rcc.c",
+      "size": 48202,
+      "sha256": "4e9ad25a6998927684c464ebfed3505507d9d92173aaf4959020c01c43a38f4b",
+      "zip_local_header_offset": 1023008
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_rtc.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_rtc.c",
+      "size": 70466,
+      "sha256": "2d155e227d8de633bc3f75ecabd4ed34ca3176f08a801dc4e48480ebee25a359",
+      "zip_local_header_offset": 1031639
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_sdio.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_sdio.c",
+      "size": 27848,
+      "sha256": "474d67ac4690e1d8cf11aa68a41cd68e38c3c383c442008d07e6f5e1b6d1ab17",
+      "zip_local_header_offset": 1042807
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_spi.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_spi.c",
+      "size": 28451,
+      "sha256": "bbaba696e27d7265b9ba2a7655e74f24cc7517a170ff599b6d9a0c082bc6ca54",
+      "zip_local_header_offset": 1047874
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_tim.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_tim.c",
+      "size": 121528,
+      "sha256": "52d41dab9229518e6d89566cd58ad7a5f3d9d8057b683ee34509485f64701504",
+      "zip_local_header_offset": 1053736
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_tsc.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_tsc.c",
+      "size": 14345,
+      "sha256": "5726d41c9e712e5ff8694cfc43e98810a6db39e2d10dbda16e64d5463fcf54cf",
+      "zip_local_header_offset": 1067007
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_usart.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_usart.c",
+      "size": 36358,
+      "sha256": "2759edc21a46d25737a9359e3fabd4b15e97e443b55ca3acaf09ba9b75ad1a1f",
+      "zip_local_header_offset": 1070561
+    },
+    {
+      "member": "firmware/n32g45x_std_periph_driver/src/n32g45x_wwdg.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_std_periph_driver/src/n32g45x_wwdg.c",
+      "size": 5818,
+      "sha256": "eab2933fe4745ac8ed2eea26c41ea4dcb0050c7a2cedfde7a73728469dad876b",
+      "zip_local_header_offset": 1076600
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_core.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_core.h",
+      "size": 9614,
+      "sha256": "f498b4349cf606d9ea832855b09e62257ef1520c3dc2ca8ce6fa4fd285dc8778",
+      "zip_local_header_offset": 1078778
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_def.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_def.h",
+      "size": 3036,
+      "sha256": "2c93056a75de50c0284c979b34dc4ba37e141a037a998b66d51508bcf13242e0",
+      "zip_local_header_offset": 1082002
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_init.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_init.h",
+      "size": 2732,
+      "sha256": "9fe9bfc9f5826f8e459f3262c78a24537418e3aea47b0eceddbd93087bffa6dc",
+      "zip_local_header_offset": 1083370
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_int.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_int.h",
+      "size": 1860,
+      "sha256": "424f5368758968709c0e7c875af4623cea8d6926e0675e04cf55627d90038acc",
+      "zip_local_header_offset": 1084697
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_lib.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_lib.h",
+      "size": 1900,
+      "sha256": "08cbd88da5dd2f566ad775259ddfbac5b269239d72dcb156904e4308b93326fc",
+      "zip_local_header_offset": 1085655
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_mem.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_mem.h",
+      "size": 1984,
+      "sha256": "6f8601db8d4facc721118514eac07a96f5a19b78c3fc83a56c6f27be3aa8969a",
+      "zip_local_header_offset": 1086598
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_regs.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_regs.h",
+      "size": 34214,
+      "sha256": "c240a54ded0c06ee96f4995fed2b2c9ab185caf3e8bade3bcea4a982c6765b6f",
+      "zip_local_header_offset": 1087609
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_sil.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_sil.h",
+      "size": 1993,
+      "sha256": "88683fc232b6aaddfe2e99ada3acf8f505b04fd5f70ef6e9de65a4b733902a1b",
+      "zip_local_header_offset": 1093079
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/inc/usb_type.h",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/inc/usb_type.h",
+      "size": 1885,
+      "sha256": "2d5fbcc2bafd9145f24bb7961557853bbaa5dfc290cf16d646a72791db05bb8a",
+      "zip_local_header_offset": 1094097
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/src/usb_core.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/src/usb_core.c",
+      "size": 27831,
+      "sha256": "ceeb496a7a8e45fa41adc32e48ec32ba81b3fb1d35e640534eb4e1ef9effa698",
+      "zip_local_header_offset": 1095143
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/src/usb_init.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/src/usb_init.c",
+      "size": 2869,
+      "sha256": "407725eb3735cc7989b41447e710daea90d1cae807984776f39c098911924e04",
+      "zip_local_header_offset": 1100906
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/src/usb_int.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/src/usb_int.c",
+      "size": 5997,
+      "sha256": "33ece7cf8b97b9c5bc687d82111986c0b4f13b332f525928baddf16407a692e8",
+      "zip_local_header_offset": 1102266
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/src/usb_mem.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/src/usb_mem.c",
+      "size": 3025,
+      "sha256": "3118eae9b5ceb3cd0a020dbf3c0b2ccdaf70a452648d65927e08a55bbc9a8f06",
+      "zip_local_header_offset": 1104113
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/src/usb_regs.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/src/usb_regs.c",
+      "size": 13799,
+      "sha256": "f25b4a9dbde1afa05cd09943177613d129533c3b08f441f3e27a6a16ab219ed3",
+      "zip_local_header_offset": 1105362
+    },
+    {
+      "member": "firmware/n32g45x_usbfs_driver/src/usb_sil.c",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/firmware/n32g45x_usbfs_driver/src/usb_sil.c",
+      "size": 3362,
+      "sha256": "f9b97c492c68986c578d1d8d03ff55584ec900730488d0814144a8679a66b0c7",
+      "zip_local_header_offset": 1108117
+    },
+    {
+      "member": "Flash/N32G45x.FLM",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/Flash/N32G45x.FLM",
+      "size": 12168,
+      "sha256": "7015d9b6738bb25b857ad9c46959ff6053b83e0f4de5198cd1b8484d9dcc5dd8",
+      "zip_local_header_offset": 1109548
+    },
+    {
+      "member": "NSING.N32G45x_DFP.pdsc",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/NSING.N32G45x_DFP.pdsc",
+      "size": 64831,
+      "sha256": "5c5b53eb65af741221ba212e80e719eac87b7e7d0674a0e1413a32c340aa4eb3",
+      "zip_local_header_offset": 1112891
+    },
+    {
+      "member": "NSING.N32G45x_DFP.sha1",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/NSING.N32G45x_DFP.sha1",
+      "size": 9623,
+      "sha256": "04735d053333d396b6e304bb5ab0e3071101e1eec38fc5f09607eb4b6f878d58",
+      "zip_local_header_offset": 1117528
+    },
+    {
+      "member": "svd/N32G451.svd",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/svd/N32G451.svd",
+      "size": 658817,
+      "sha256": "3a17764179ce420ab5ab6ef035e0ae1c4ecf81f465e4ce6be777f47d1a64d373",
+      "zip_local_header_offset": 1121078
+    },
+    {
+      "member": "svd/N32G452.svd",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/svd/N32G452.svd",
+      "size": 685902,
+      "sha256": "37eb0665e1c7baf24157b1c282913524836a7452231d40308b2b690ebcfa1021",
+      "zip_local_header_offset": 1151543
+    },
+    {
+      "member": "svd/N32G455.svd",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/svd/N32G455.svd",
+      "size": 749397,
+      "sha256": "048ec45f3ecd82c3bf208cc42fe9fd40a1caba1b41920415ba763aa70a6afc80",
+      "zip_local_header_offset": 1183918
+    },
+    {
+      "member": "svd/N32G457.svd",
+      "path": "work/tools/nations/packs/NSING.N32G45x_DFP.1.0.7/svd/N32G457.svd",
+      "size": 807094,
+      "sha256": "7d8319faa21af98ae83c0f1fa6724793528c571096f2163dbb644892f6f30569",
+      "zip_local_header_offset": 1219284
+    }
+  ]
+}

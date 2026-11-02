@@ -1,0 +1,16 @@
+[
+    {
+        "height": "480",
+        "name": "gtneo.screenA",
+        "text": "gtneoA",
+        "type": "default",
+        "width": 800
+    },
+    {
+        "height": 480,
+        "name": "gtneo.screenB",
+        "text": "gtneoB",
+        "type": "default",
+        "width": 800
+    }
+]

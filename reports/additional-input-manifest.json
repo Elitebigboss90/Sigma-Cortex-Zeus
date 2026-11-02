@@ -1,0 +1,20 @@
+[
+  {
+    "source": "originals/SIGMA v1.0.20/SIGMA_Converter_V1.0.20.exe",
+    "source_url": "https://cdn.shopify.com/s/files/1/0733/4782/5941/files/SIGMA_Converter_V1.0.20.exe?v=1704246254",
+    "referring_page": "https://www.egsimrigs.co.za/products/sigma-cortex-converter",
+    "provenance_class": "retailer link; manufacturer authenticity not independently established",
+    "version": "1.0.20",
+    "size": 3656192,
+    "sha256": "4e251340b80d4227049ef94bfff3ab520cc7c5053cb4b2bd778be870059c3f23"
+  },
+  {
+    "source": "originals/Simagic-documentation/Maglink_Pro_Xtend_User_Manual_EN.pdf",
+    "source_url": "https://cdn.shopify.com/s/files/1/0764/6756/8943/files/Maglink_Pro_Xtend_User_Manual_EN.pdf?v=1779688626",
+    "referring_page": "https://simagic.com/pages/detail-simagic-maglink-pro-xtend",
+    "provenance_class": "vendor-linked documentation",
+    "version": null,
+    "size": 8387440,
+    "sha256": "c39afe5e482d52cd10cc8dcfcc39875f6bb9d74e4c8baf5edb84daa8739a3ae3"
+  }
+]

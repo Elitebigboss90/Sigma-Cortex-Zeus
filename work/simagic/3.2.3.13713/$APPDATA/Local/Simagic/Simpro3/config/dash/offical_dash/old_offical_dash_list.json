@@ -1,0 +1,1030 @@
+{
+    "dash_list": [
+        {
+            "uuid": "15",
+            "name": "720Super",
+            "dash_zip_file": "dashboard/720 Super.dash",
+            "dist_file": "dashboard/720_Super.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_720Super.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "a1b2c3d4-e5f6-47a8-9b0c-1d2e3f4a5b6c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "32",
+            "name": "Artic_F1",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_artic_f1.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "1d2e3f4a-5b6c-47d8-8e9f-0a1b2c3d4e5f"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "31",
+            "name": "Artic_GT",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_artic_gt.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "2f3a4b5c-6d7e-48e9-9f0a-1b2c3d4e5f6a"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "7",
+            "name": "BaseSettings",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_baseSettings.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "0b1c2d3e-4f5a-46b7-9c8d-9e0f1a2b3c4d"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "0",
+            "name": "Check1",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_check1.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "1d2e3f4a-5b6c-47d8-8e9f-0a1b2c3d4e5f"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "2",
+            "name": "Check2",
+            "dash_zip_file": "dashboard/Check 2.dash",
+            "dist_file": "dashboard/Check_2.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_check2.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "2f3a4b5c-6d7e-48e9-9f0a-1b2c3d4e5f6a"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "21",
+            "name": "Comet 992",
+            "dash_zip_file": "dashboard/Coment 992.dash",
+            "dist_file": "dashboard/Coment_992.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_comet992.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "4b5c6d7e-8f9a-40b1-9c2d-3e4f5a6b7c8d"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "9",
+            "name": "Comet GT3",
+            "dash_zip_file": "dashboard/Coment GT3.dash",
+            "dist_file": "dashboard/Coment_GT3.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_cometGt3.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "7d8e9f0a-1b2c-43d4-8e5f-6a7b8c9d0e1f"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "22",
+            "name": "F04",
+            "dash_zip_file": "dashboard/F04.dash",
+            "dist_file": "dashboard/F04.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_f04.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "3a4b5c6d-7e8f-49a0-8b1c-2d3e4f5a6b7c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "33",
+            "name": "Formula_C",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_formula_c.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "3a4b5c6d-7e8f-49a0-8b1c-2d3e4f5a6b7c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "10",
+            "name": "Formula22",
+            "dash_zip_file": "dashboard/Formula 22.dash",
+            "dist_file": "dashboard/Formula_22.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_formula22.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "4c5d6e7f-8a9b-40c1-9d2e-3f4a5b6c7d8e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "18",
+            "name": "Formula23",
+            "dash_zip_file": "dashboard/Formula 23.dash",
+            "dist_file": "dashboard/Formula_23.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_formula23.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "5e6f7a8b-9c0d-41e2-8f3a-4b5c6d7e8f9a"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "8",
+            "name": "Formula75",
+            "dash_zip_file": "dashboard/Formula 75.dash",
+            "dist_file": "dashboard/Formula_75.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_formula75.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "6a7b8c9d-0e1f-42a3-9b4c-5d6e7f8a9b0c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "11",
+            "name": "Formula Fantasy",
+            "dash_zip_file": "dashboard/Formula Fantasy.dash",
+            "dist_file": "dashboard/Formula_Fantasy.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_formulafantasy.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "7c8d9e0f-1a2b-43c4-8d5e-6f7a8b9c0d1e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "37",
+            "name": "GM-8Racing",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_gm_8Racing.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "9a0b1c2d-3e4f-45a6-8b7c-8d9e0f1a2b3c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "12",
+            "name": "GT9-Fantasy",
+            "dash_zip_file": "dashboard/GT Fantasy.dash",
+            "dist_file": "dashboard/GT_Fantasy.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_gtfantasy.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "7c8d9e0f-1a2b-43c4-8d5e-6f7a8b9c0d1e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "35",
+            "name": "HYF255",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_hyF255.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "4c5d6e7f-8a9b-40c1-9d2e-3f4a5b6c7d8e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "28",
+            "name": "ISF23",
+            "dash_zip_file": "dashboard/ISF 23.dash",
+            "dist_file": "dashboard/ISF_23.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_isf23.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "0b1c2d3e-4f5a-46b7-9c8d-9e0f1a2b3c4d"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "34",
+            "name": "Lemans_EVO2",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_lemans_evo2.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "7c8d9e0f-1a2b-43c4-8d5e-6f7a8b9c0d1e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "30",
+            "name": "LM06",
+            "dash_zip_file": "dashboard/LM 06.dash",
+            "dist_file": "dashboard/LM_06.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_lm06.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "0a1b2c3d-4e5f-46a7-9b8c-9d0e1f2a3b4c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "24",
+            "name": "IMD-Caddy",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_lmdhcaddy.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "8f9a0b1c-2d3e-44f5-9a6b-7c8d9e0f1a2b"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "17",
+            "name": "LMD-Hybrid",
+            "dash_zip_file": "dashboard/LMDh Hybrid.sdash",
+            "dist_file": "dashboard/LMDh_Hybrid.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_lmdhhybrid.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "7c8d9e0f-1a2b-43c4-8d5e-6f7a8b9c0d1e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "36",
+            "name": "LMP207",
+            "dash_zip_file": "",
+            "dist_file": "",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_lmp2_07.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "1c2d3e4f-5a6b-47c8-8d9e-0f1a2b3c4d5e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "25",
+            "name": "LMP320",
+            "dash_zip_file": "dashboard/LM P320.dash",
+            "dist_file": "dashboard/LM_P320.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_lmp320.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "2e3f4a5b-6c7d-48e9-9f0a-1b2c3d4e5f6a"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "19",
+            "name": "Motor Sportg82",
+            "dash_zip_file": "dashboard/Motorsport G82.dash",
+            "dist_file": "dashboard/Motorsport_G82.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_motorsportg82.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "2f3a4b5c-6d7e-48f9-9a0b-1c2d3e4f5a6b"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "20",
+            "name": "Progettof171",
+            "dash_zip_file": "dashboard/Progetto F171.dash",
+            "dist_file": "dashboard/Progetto_F171.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_progettof171.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "3c4d5e6f-7a8b-49c0-8d1e-2f3a4b5c6d7e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "13",
+            "name": "Proto217",
+            "dash_zip_file": "dashboard/Proto 217.dash",
+            "dist_file": "dashboard/Proto_217.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_proto217.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "1c2d3e4f-5a6b-47c8-8d9e-0f1a2b3c4d5e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "14",
+            "name": "Racing18",
+            "dash_zip_file": "dashboard/Racing 18.dash",
+            "dist_file": "dashboard/Racing_18.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_racing18.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "9a0b1c2d-3e4f-45a6-8b7c-8d9e0f1a2b3c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "1",
+            "name": "Scout",
+            "dash_zip_file": "dashboard/Scout.dash",
+            "dist_file": "dashboard/Scout.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_scout.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "0b1c2d3e-4f5a-46b7-9c8d-9e0f1a2b3c4d"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "4",
+            "name": "Sensor Check",
+            "dash_zip_file": "dashboard/Sensor Check.dash",
+            "dist_file": "dashboard/Sensor_Check.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_sensorCheck.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "3a4b5c6d-7e8f-49a0-8b1c-2d3e4f5a6b7c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "26",
+            "name": "Simagic_ONEF",
+            "dash_zip_file": "dashboard/SIMAGIC ONE FORMULA.dash",
+            "dist_file": "dashboard/SIMAGIC_ONE_FORMULA.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_simagic_onef.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "6d7e8f9a-0b1c-42d3-9e4f-5a6b7c8d9e0f"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "27",
+            "name": "Simagic_ONEGT",
+            "dash_zip_file": "dashboard/SIMAGIC ONE GT.dash",
+            "dist_file": "dashboard/SIMAGIC_ONE_GT.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_simagic_onegt.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "6d7e8f9a-0b1c-42d3-9e4f-5a6b7c8d9e0f"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "6",
+            "name": "SimpleCheck",
+            "dash_zip_file": "dashboard/Simple Check.dash",
+            "dist_file": "dashboard/Simple_Check.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_simpleCheck.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "4c5d6e7f-8a9b-40c1-9d2e-3f4a5b6c7d8e"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "3",
+            "name": "Sport Mode",
+            "dash_zip_file": "dashboard/Sport Mode.dash",
+            "dist_file": "dashboard/Sport_Mode.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_sportmode.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "5e6f7a8b-9c0d-41e2-8f3a-4b5c6d7e8f9a"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "5",
+            "name": "Tyre Check",
+            "dash_zip_file": "dashboard/Tyre Check.dash",
+            "dist_file": "dashboard/Tyre_Check.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_tyrecheck.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "generic": [
+                    "6a7b8c9d-0e1f-42a3-9b4c-5d6e7f8a9b0c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "23",
+            "name": "V8 F154  EVO",
+            "dash_zip_file": "dashboard/V8 F154 EVO.dash",
+            "dist_file": "dashboard/V8_F154_EVO.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_v8f154evo.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "gt": [
+                    "5a6b7c8d-9e0f-41a2-8b3c-4d5e6f7a8b9c"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "16",
+            "name": "W12_3",
+            "dash_zip_file": "dashboard/W12-3.dash",
+            "dist_file": "dashboard/W12-3.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_w12_3.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "formula": [
+                    "8e9f0a1b-2c3d-44e5-9f6a-7b8c9d0e1f2a"
+                ]
+            },
+            "telemetry": []
+        },
+        {
+            "uuid": "29",
+            "name": "LM 963",
+            "dash_zip_file": "dashboard/LM 963.dash",
+            "dist_file": "dashboard/LM_963.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [ "screen/screen_lm963.png" ],
+            "source": [ "offical" ],
+            "use_case": [ "InGame", "Idel", "Pit" ],
+            "device_size": [
+                {
+                    "width": 800,
+                    "height": 480,
+                    "product_uuid": "0000000000000000",
+                    "product_name": "generic"
+                }
+            ],
+            "category": {
+                "prototype": [
+                    "9e0f1a2b-3c4d-45e6-8f7a-8b9c0d1e2f3a"
+                ]
+            },
+            "telemetry": []
+        }
+    ]
+}

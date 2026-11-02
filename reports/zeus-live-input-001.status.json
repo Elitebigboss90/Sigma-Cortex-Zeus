@@ -1,0 +1,199 @@
+{
+  "capture": "reports/zeus-live-input-001.jsonl",
+  "capture_sha256": "fedc9a978cbb7b4a5910f016f281fc90df203388fb85abed2bae0e8221364d65",
+  "size": 4658684,
+  "complete": true,
+  "source_schema": {
+    "source": "work/simagic/zeus-formula-decoded.bin",
+    "source_sha256": "85961f88feba079fa9a9c5e72e6c329b880c98082a305da60c3c851b04b7756a",
+    "descriptor_va": "0x0803DD84",
+    "field_table_va": "0x0803DD50",
+    "field_count": 11,
+    "fields": [
+      {
+        "field": 1,
+        "descriptor_va": "0x0803DD50",
+        "descriptor_file_offset": 114512,
+        "bytes": "04310848",
+        "type_byte": 49,
+        "input_struct_offset": 8,
+        "size": 4
+      },
+      {
+        "field": 2,
+        "descriptor_va": "0x0803DD54",
+        "descriptor_file_offset": 114516,
+        "bytes": "0938018008001000",
+        "type_byte": 56,
+        "input_struct_offset": 8,
+        "size": 16
+      },
+      {
+        "field": 3,
+        "descriptor_va": "0x0803DD5C",
+        "descriptor_file_offset": 114524,
+        "bytes": "0c121840",
+        "type_byte": 18,
+        "input_struct_offset": 24,
+        "size": 4
+      },
+      {
+        "field": 4,
+        "descriptor_va": "0x0803DD60",
+        "descriptor_file_offset": 114528,
+        "bytes": "10111c40",
+        "type_byte": 17,
+        "input_struct_offset": 28,
+        "size": 4
+      },
+      {
+        "field": 5,
+        "descriptor_va": "0x0803DD64",
+        "descriptor_file_offset": 114532,
+        "bytes": "14112040",
+        "type_byte": 17,
+        "input_struct_offset": 32,
+        "size": 4
+      },
+      {
+        "field": 6,
+        "descriptor_va": "0x0803DD68",
+        "descriptor_file_offset": 114536,
+        "bytes": "18122440",
+        "type_byte": 18,
+        "input_struct_offset": 36,
+        "size": 4
+      },
+      {
+        "field": 7,
+        "descriptor_va": "0x0803DD6C",
+        "descriptor_file_offset": 114540,
+        "bytes": "1c122880",
+        "type_byte": 18,
+        "input_struct_offset": 40,
+        "size": 8
+      },
+      {
+        "field": 8,
+        "descriptor_va": "0x0803DD70",
+        "descriptor_file_offset": 114544,
+        "bytes": "20123040",
+        "type_byte": 18,
+        "input_struct_offset": 48,
+        "size": 4
+      },
+      {
+        "field": 9,
+        "descriptor_va": "0x0803DD74",
+        "descriptor_file_offset": 114548,
+        "bytes": "24123440",
+        "type_byte": 18,
+        "input_struct_offset": 52,
+        "size": 4
+      },
+      {
+        "field": 10,
+        "descriptor_va": "0x0803DD78",
+        "descriptor_file_offset": 114552,
+        "bytes": "28123840",
+        "type_byte": 18,
+        "input_struct_offset": 56,
+        "size": 4
+      },
+      {
+        "field": 11,
+        "descriptor_va": "0x0803DD7C",
+        "descriptor_file_offset": 114556,
+        "bytes": "2c123c40",
+        "type_byte": 18,
+        "input_struct_offset": 60,
+        "size": 4
+      }
+    ],
+    "mode_field": 4,
+    "provenance": {
+      "producer_va": "0x080273FC",
+      "encoder_va": "0x08030C7C",
+      "framer_va": "0x08028D98",
+      "field_iterator_va": "0x08030EE4",
+      "state_copy_va": "0x080270FC",
+      "mode_pack_instructions_va": [
+        "0x08030CE6",
+        "0x08030CEA"
+      ],
+      "device_ram": "0x2000B298",
+      "mode_mirror_offset": 124
+    },
+    "limit": "Applying this static schema to live older firmware is a cross-version interpretation."
+  },
+  "report_2_count": 176,
+  "variants": [
+    {
+      "hex": "021e88ff0104002d0101121008d490d1990410bbbc889aa4e8cd9c1418c182845020013080809c103880a08086c2e6859c2f4080809c10000000000000000000",
+      "count": 176,
+      "first_occurrence": {
+        "line": 170,
+        "file_offset": 21241,
+        "elapsed_ns": 842760000
+      },
+      "decoded": {
+        "recognized": true,
+        "report_id": 2,
+        "header_hex": "021e88ff0104002d0101",
+        "destination_byte": 255,
+        "message_code_le": "0x0401",
+        "payload_length": 45,
+        "payload_offset": 10,
+        "payload_sha256": "e2f0f6d66c8698f9e5a97fdcd9f48a5cae83762265165c99e3944f2c3936a10d",
+        "frame_count": 1,
+        "frame_number": 1,
+        "padding_length": 9,
+        "padding_all_zero": true,
+        "fields": [
+          {
+            "file_offset": 10,
+            "field": 2,
+            "wire": 2,
+            "payload_offset": 12,
+            "payload_hex": "08d490d1990410bbbc889aa4e8cd9c14",
+            "length": 16
+          },
+          {
+            "file_offset": 28,
+            "field": 3,
+            "wire": 0,
+            "value": 167838017
+          },
+          {
+            "file_offset": 33,
+            "field": 4,
+            "wire": 0,
+            "value": 1
+          },
+          {
+            "file_offset": 35,
+            "field": 6,
+            "wire": 0,
+            "value": 34013184
+          },
+          {
+            "file_offset": 40,
+            "field": 7,
+            "wire": 0,
+            "value": 3402495031133605888
+          },
+          {
+            "file_offset": 50,
+            "field": 8,
+            "wire": 0,
+            "value": 34013184
+          }
+        ],
+        "communication_mode": 1,
+        "communication_mode_name_under_static_schema": "USB",
+        "mode_tag_report_offset": 33,
+        "limit": "Mode labels and field layout are traced in the pinned bundled image; the live image was not dumped."
+      }
+    }
+  ]
+}

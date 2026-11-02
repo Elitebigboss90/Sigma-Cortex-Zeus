@@ -1,0 +1,9 @@
+import Foundation
+import AppKit
+import PDFKit
+let document=PDFDocument(url:URL(fileURLWithPath:CommandLine.arguments[1]))!
+let page=document.page(at:Int(CommandLine.arguments[2])!-1)!
+let bounds=page.bounds(for:.mediaBox)
+let image=page.thumbnail(of:NSSize(width:1400,height:1400*bounds.height/bounds.width),for:.mediaBox)
+let rep=NSBitmapImageRep(data:image.tiffRepresentation!)!
+try rep.representation(using:.png,properties:[:])!.write(to:URL(fileURLWithPath:CommandLine.arguments[3]))

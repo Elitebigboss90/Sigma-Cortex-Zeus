@@ -1,0 +1,7 @@
+SIGMA 1.0.10 Upgrade Bulletin
+1. Fixed the Bug where the cross key could not be used
+2. Improved stability
+3. The option to adjust the force feedback of the steering wheel has been removed, now it can only adjust the force feedback through SIGMA
+
+Upgrade mode:
+SIGMA uses a USB cable to connect to the computer, double-click the upgrade program, select SIGMA, click Upgrade

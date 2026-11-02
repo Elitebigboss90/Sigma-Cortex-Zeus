@@ -1,0 +1,568 @@
+PAGE 0
+FORMULA
+USER MANUAL
+PAGE 1
+FORMULA
+Contents
+1.Introduction
+1.1 Overview
+1.2 Specifications
+1.3 Package Contents
+1.4 Certification Information
+2.Instructions for Use
+2.1 User Tutorial
+2.2 Function Overview
+2.3 Steering Wheel Hotkeys
+2.4 Steering Wheel and Wheelbase Connection
+2.5 Steering Wheel Adjustments
+2.6 Product Dimensions
+3.Software Guide
+3.1 SimPro Manager Software Overview
+3.2 Software Features
+4.Important Information
+4.1 Safety Information
+4.2 Warranty Description
+5.Legal Notices and Trademark
+5.1 Trademark Information
+5.2 Contact Us
+03
+04
+05
+05
+07
+08
+09
+11
+13
+15
+16
+17
+19
+21
+23
+24
+-01-
+PAGE 2
+FORMULA
+Thank you for choosing SIMAGIC. We can't
+wait to see you out on track. Before using
+your new Zeus Formula Steering Wheel,
+please review this manual for essential
+information around installation, safe usage
+practices, and more.
+KEEP RACING!
+-02-
+PAGE 3
+FORMULA
+1.Introduction
+1.1 Overview
+Product Identification
+Model: Z eus Fo rmula
+Serial Number (S/N): Th e SIMAGIC product s erial numb er (S/N) is an ess ential c redential
+fo r after-sal es s ervic e and t echn ical suppo rt . Please k eep it prop erly fo r futu re reference.
+Th e S/N consists of 10 o r 14 digits and is cl early printed and affix ed to both the product
+packag ing lab el and the product body.
+Designed by: SHEN ZHEN SIMAGIC TECHNOLOGY CO.,LIMITED
+Manufacturer: Speed sim industry (Shenzhen) Co. LTD
+EU Authorized Representative: Bureau 450, 37 passage du Ponceau, Paris, France 75002
+Country of Origin: MADE IN CHINA
+Date of Manufacture: Please refer to the label on the product, packaging, or nameplate.
+Scan the serial number on the package for confirmation.
+Zeus Formula Steering Wheel
+Customize. Control. Conquer.
+UP+ Ecosystem Upgraded: Featuring the all-new MagicDash 4.
+Professional-Grade Reliability: 5mm solid carbon fiber front plate, CNC-
+machined aluminum alloy back cover and all aluminum CNC-machined knobs
+and switches.
+Innovative Three-Layer Grip: Strikes the perfect balance between durability and
+comfort.
+Full SimHub Compatibility: Tune deeper with a community favorite.
+280mm F1 Standard Size: Delivering a true-to-life experience for precise control.
+Paddle Shifters: Standard dual, optional 3-paddle and push-pull.
+Maglink Pro: Smooth integration with Alpha or third-party Wheelbases.
+Next-Gen SimPro Manager V3.0.0 Support.
+Fully Customizable: Up to 92 physical input options with customizable RGB
+effects.
+-03-
+PAGE 4
+FORMULA
+1.2 Specifications
+Product Name
+Zeus Formula Steering Wheel
+Model
+Zeus Formula
+Wheel Type
+Formula Steering Wheel
+Customizable RGB Buttons
+16
+7-way Multi-position
+Rotary Switch
+2
+Rotary Encoders
+4
+Thumb Rotary Encoders
+4
+HALL Paddle Module
+Included
+Connection Type
+CAN FD/USB
+Electrical Specifications
+DC: 5V/2A 10W MAX
+Quick Release
+50mm Zeus Quick Release
+Grip Material
+Silicone
+Wheel Material
+5mm Solid Carbon Fiber Front Plate/ One-Piece
+CNC-Machined Aluminum Alloy Back Cover
+Diameter
+280mm
+Net Weight (Excluding QR)
+1.63kg (Including MagicDash 4)
+Included Accessories
+Accessory Pack,Envelope bag,Zeus QR50 Quick
+Release,MagicDash 4
+Optional Accessories
+Single Paddle, 3-Paddle Shifter Module, Push-Pull
+Paddle Shifters, Maglink Pro
+* Specifications s ubj ect to c h an ge w it ho u t notice
+-04-
+PAGE 5
+FORMULA
+1.3 Package Contents
+Zeus Formula Steering Wheel with Screen Version Accessory List
+Zeus Formula Steering Whee l
+Zeus QR50 Quick Releas e
+M agicDash 4
+Accessory Pack（Tweezers * 1、 H ex wrench(2mm) * 1 ）
+Envelope bag（Key stickers * 1、 Quick G uide * 1、SI M AG IC LOG O Transparent sticker
+(non-transfer) * 1、 USB(C)Data cable* 1 ）
+Zeus Formula steering wheel version without screen accessory list
+Zeus Formula Steering Whee l
+Zeus QR50 Quick Releas e
+Accessory Pack（Tweezers * 1、 H ex wrench(2mm) * 1 ）
+Envelope bag（Key stickers * 1、 Quick G uide * 1、SI M AG IC LOG O Transparent sticker
+(non-transfer) * 1、USB(C)Data cable * 1 ）
+1.4 Certification Information
+This device complies with Part 15 of the FCC Rules. Operation is subject to the
+following two conditions: (1) This device may not cause harmful interference,
+and (2) This device must accept any interference received, including
+interference that may cause undesired operation.
+The device is CE certified and meets the requirements of the European Union
+Directive 2014/53/EU on radio equipment.
+本機器は、民間情報処理装置障害自主規制協議会（VCCI）のクラス B 情報通信機器の
+基準を満たしており、家庭及びそれに類する生活環境での使用に適しています。
+This product complies with UKCA relevant regulations and standards.
+-05
+PAGE 6
+FORMULA
+These symbols indicate that you must follow the Waste Electrical and
+Electronic Equipment (WEEE) and Waste Battery and Battery Regulations
+when disposing of the device, its batteries and accumulators, and its
+electrical and electronic accessories.According to the rules, this equipment
+must be disposed of separately at the end of its service life. Do not dispose of
+the device, its batteries and accumulators, or its electrical and electronic
+accessories together with unsorted municipal waste, as this will harm the
+environment. To dispose of this equipment, it must be returned to the point of
+sale or turned in to a local recycling facility. You should contact your local
+household waste disposal service for details.
+This device complies with the requirements for the restriction of hazardous
+substances (RoHS) in electrical and electronic equipment as stipulated in
+Directives 2011/65/EU and 2015/863. The content of hazardous substances
+including lead, mercury, cadmium, hexavalent chromium, polybrominated
+biphenyls (PBBs), polybrominated diphenyl ethers (PBDEs) and four
+phthalates in its homogeneous materials is below the statutory limit values.
+The device complies with the requirements of Regulation (EC) No. 1907/2006
+concerning Registration, Evaluation, Authorization and Restriction of
+Chemicals (REACH).
+This product complies with the requirements of the Australian and New
+Zealand Radiocommunications Act (RCM), meeting Electromagnetic
+Compatibility (EMC) and electrical safety standards.
+The product has passed all evaluation procedures established in the
+technical regulations of the Customs Union and complies with the norms of
+the Customs Union countries.
+-06-
+PAGE 7
+FORMULA
+2.Instructions for Use
+2.1 User Tutorial
+Thank you for purchasing the SIMAGIC Zeus Formula Steering Wheel.
+Before setting up the product, carefully read all the documentation that
+came with the package.
+For information about firmware upgrades, please check https://
+simagic.com/pages/download-center
+* The related files are game adaptation files developed by SIMAGIC for
+SIMAGIC-compatible devices. To safeguard users' legal rights and
+interests, please download all files through SIMAGIC's designated
+channels.
+Please visit SIMAGIC official website ( https://simagic.com/pages/
+product-tutorial ) for tutorial videos showcasing different product
+setup options and usage techniques. Learn more about the
+development behind our products.
+Please visit https://simagic.com/pages/telemetry-support to access
+the list of games supported by this product. Note that using this
+product in non-supported games may result in certain functions not
+working as intended.
+This product is intended for indoor use only.
+Recommended ages: 15 and above
+-07-
+PAGE 8
+FORMULA
+2.2 Function Overview
+Indicator Light 7-Way Switch
+7-Way Switch Indicator Light
+Programmable
+RGB Buttons
+Thumb Rotary
+Knob
+Programmable
+RGB Buttons
+Thumb Rotary
+Knob
+Programmable
+RGB Buttons
+Programmable
+RGB Buttons
+Programmable
+RGB Buttons
+Programmable
+RGB Buttons
+12-Position Programmable Rotary Knob
+Modular Paddle
+Programmable
+RGB Buttons
+Programmable
+RGB Buttons
+Upshift Paddle
+Downshift Paddle
+Clutch Paddle
+Clutch Paddle
+Quick Release
+Adapter Plate USB (C) port QR50
+-08-
+PAGE 9
+FORMULA
+2.3 Steering Wheel Hotkeys
+2.3.1 Clutch Calibration
+Push the seven-way funky switch upwards for 5 seconds to enter clutch calibration
+mode. Press the clutch paddles all the way down once to complete the clutch
+calibration. (The paddle module with clutch paddles must be installed.)
+-09-
+PAGE 10
+FORMULA
+2.3.2 Manually Switch Encoder Mode
+① 7-Way Switch
+Press and hold the 7-way switch for 1.5
+seconds, then rotate the knob to the
+right (clockwise) to enter Absolute Mode.
+The LED effect will rotate clockwise.
+Press and hold the 7-way switch for 1.5
+seconds, then rotate the knob to the left
+(counterclockwise) to enter Incremental
+Mode. The LED effect will rotate
+counterclockwise.
+② Knob
+2.3.3 Factory Reset
+Press and hold the two indicated but tons simultaneously for 5 seconds
+to reset the wheel back to factor y default set tings.
+-010-
+PAGE 11
+FORMULA
+2.4 Steering Wheel and Wheelbase Connection
+2.4.1与Alpha EVO基座连接 2.4.1 Connecting to Alpha EVO Wheelbase
+The quick release assembly contains 6 steel balls on the top half, and 4 steel balls on
+the bottom half.
+6 steel balls
+4 steel balls
+Line up with the wheelbase
+Align with the wheelbase as shown,
+the quick release will lock automatically.
+-11-
+PAGE 12
+FORMULA
+2.4.2 Connecting to Other Wheelbase or PC
+When using the wheel with M10, Alpha Mini, Alpha, or Alpha U,an additional Maglink
+Pro or Maglink Pro Xtend is required.
+Connect to the PC.
+(Do not connect to the
+USB port on the wheelbase).
+Connect the
+power supply.
+Install the Maglink Pro
+adapter plate onto
+the steering wheel.
+Magnetically attach
+the spring data cable.
+Connecting via Maglink Pro
+Use Maglink Pro Xtend to connect
+the steering wheel and wheelbase. Connect to the PC.
+(Do not connect to the
+USB port on the wheelbase).
+Connect the
+power supply.
+Magnetically attach
+the spring data cable.
+Connecting via Maglink Pro Xtend
+-12-
+PAGE 13
+FORMULA
+2.5 Steering Wheel Adjustments
+2.5.1 Installing the Paddle Module
+Remove the two screws and disconnect the terminal to replace the paddle shifter set.
+*Avoid applying excessive force when connecting or disconnecting terminals to prevent
+damage.
+2.5.2 Pick adjustment
+① Loosen the two screws ② Adjust the position of the paddle
+-13-
+PAGE 14
+FORMULA
+2.5.3 Installing the Screen
+① Remove the decorative cover. ② Install the screen.
+2.5.4 Connect to PC
+Use the USB (C) port behind the steering wheel to connect to the PC for firmware
+upgrade
+-14-
+PAGE 15
+FORMULA
+2.6 Product Dimensions
+Zeus Formula
+Zeus Formula+MagicDash 4
+-15-
+PAGE 16
+FORMULA
+3.Software Guide
+3.1 SimPro Manager Software Overview
+SimPro Manager is a device management software designed for SIMAGIC sim racing
+hardware. It supports steering wheels, wheelbases, pedals, and related expansion
+devices, allowing users to centrally manage their equipment and perform advanced
+tuning to fully unlock hardware performance.
+Main Features:
+① Device Management: Automatically detects and manages connected SIMAGIC
+devices.
+② Function Configuration: Configure parameters and enable features by device type.
+③ Performance Tuning: Fine-tune key performance settings such as force feedback
+and pedal curves.
+④ Dashboard Configuration: Customize dashboard content and layout. (supported on
+selected devices.)
+⑤ Firmware Updates: Detect and update device firmware online.
+⑥ Quick Launch: Quickly launch installed sim racing titles.
+Before using this product for the first time, please install SimPro Manager.
+Download link: https://simagic.com/pages/download-center .
+-16-
+PAGE 17
+FORMULA
+3.2 Software Features
+⚠WARNING：
+Zeus Formula Steering Wheel comes with pre-installed firmware, which may be
+outdated. When launching SimPro Manager for the first time, the software may
+prompt you to update if a newer firmware version is available.Click ‘Firmware
+Update’ at the bottom of the device module to start the update. Once
+completed, the wheelbase will restart automatically.
+Note:
+The software interface shown in this manual is based on the final version released on
+the official website.
+As the software may be updated from time to time, the actual interface may differ from
+the illustrations in this manual.
+For complete instructions and detailed information on SimPro Manager settings, please
+refer to the official information released through authorized channels.
+The following is an example of the Main Interface:
+6
+1 2
+3 4
+5
+-17-
+PAGE 18
+FORMULA
+Through our software SimPro Manager, the Zeus Formula supports the following
+viewing and configuration functions:
+① Device Information: View device model, firmware version, and button input code
+response status.
+② Connection Method: Supports viewing connection types such as USB and CAN FD.
+③ Paddle Module Settings: Supports calibration, bite point adjustment (Clutch 1 /
+Clutch 2), synchronization lock, and switching to button mode. The rear view of the
+steering wheel can identify the installed paddle type (push-pull paddle, single
+paddle, 3-paddle and dual-paddle).
+④ Button Settings: Button code configuration and button light telemetry linkage (for
+example, when the in-game vehicle ABS is triggered, the corresponding button light
+effect is activated after telemetry linkage).
+⑤ Brightness Adjustment: Adjust the overall brightness of the steering wheel panel
+lighting to suit different lighting environments and personal preferences.
+⑥ Preset Configurations: Official presets can be selected for use, and modified
+settings can be saved as personal presets for quick access and management.
+-18-
+PAGE 19
+FORMULA
+4. Important Information
+4.1 Safety Information
+In order to achieve maximum safety while using your products, We
+suggest that you adopt the following guidelines:
+* Storage and Operating Conditions:
+Operating Temperature
+0°C~40°C
+Humidity
+Storage and Usage
+20% – 80% RH, Non-Condensing.
+For indoor use only. Avoid direct sunlight. If the device
+is moved from a cold outdoor environment indoors,
+leave it unused for 2 hours to allow condensation to
+dissipate before powering on.
+This product is designed to operate under the conditions specified above. Operating
+outside these conditions may cause certain functions to malfunction or affect overall
+performance.
+Before using the product, ensure it has adjusted to the recommended indoor
+temperature if it was exposed to extreme heat or cold.
+This product is intended for sim racing only.
+Should you have trouble using the product properly and troubleshooting does not
+work, unplug the power and go to your local distributor for support. Do not attempt
+to service or fix the product yourself at any time.
+To prevent fire or shock hazard, never expose the products to rain or moisture.
+Only use the power and/or accessories included in the package, and/or purchase
+accessories made and/or approved by the manufacturer.
+Use only a standard AC wall outlet with protective grounding to avoid product
+damage or electric shock.
+When terminating use, please turn off the buttons and power equipment to prevent
+accidents.
+Unplug the unit during a lightning storm or if it will not be used for a long period of
+time.
+This device contains no user-serviceable parts. Disassembly may result in a risk of
+electric shock. Do not take apart the phone (doing so will void your warranty),
+component replacements must be carried out or authorized by SIMAGIC's official
+repair center.
+-19-
+PAGE 20
+FORMULA
+When using the simulator, please pay attention to the following:
+This product is not intended for use by children under 14 years of age.
+First-time users or those experiencing the device should be guided by
+the device owner.
+This product operates with a high-torque direct-drive motor. Keep
+limbs, hair, loose clothing, cables, and accessories away from rotating
+parts (quick-release mechanism) during operation. Strong force
+feedback may cause serious crushing injuries, muscle damage, or
+fractures.
+Kill Switch is a legally required safety device. Before starting any
+driving simulation, ensure that the Kill Switch is connected and placed
+within the operator’s reach. Under no circumstances, if control of the
+device is lost, should you delay pressing the Kill Switch.
+Users with a history of epilepsy, heart disease, or who have a
+pacemaker should consult a qualified physician before using this
+device. Certain patterns may trigger seizures with no prior history. If
+you experience any symptoms, please stop using the product
+immediately and consult a doctor.
+When using a high-torque base, the peak force feedback may cause
+hand injuries. If the feedback is too strong, release your hands
+immediately and adjust the feedback intensity parameters promptly
+to prevent potential accidents.
+The equipment contains moving parts, pinch points, and sharp edges
+that may cause personal injury. Operate with caution to prevent
+pinching, bruising, kicking, smashing, or other bodily injuries.
+It is recommended to limit the force feedback gaming time from 20 to
+40 mins to avoid health risks from excessive use.
+Users should refrain from driving a real car for at least 1 hour after
+finishing the game.
+If any abnormalities are detected, stop using the device immediately
+and seek assistance from SIMAGIC's official or authorized service
+center.
+Please follow SIMAGIC's official website and public platforms for the
+latest product information.
+-20-
+PAGE 21
+FORMULA
+4.2 Warranty Description
+Warranty Terms
+For wheelbases, steering wheels, and pedals purchased on or after July
+15, 2023, SIMAGIC provides a warranty period of 24 months from the
+original date of purchase. During the warranty period, if there are issues
+with the machine's components, materials, or craftsmanship under
+normal use and maintenance, and the problem is confirmed after
+inspection, the company will provide free repairs and replacement parts.
+SIMAGIC product's Serial Number (S/N) will serve as the primary identifier
+for after-sales support. You can locate the S/N on the product packaging
+and the product itself, attached via a sticker on the product surface.
+Simply provide the 10 or 14-digit S/N to our customer service team or
+SIMAGIC distributor when applying for after-sales service, and they will
+assist you promptly.
+Your product’s serial
+number can be found
+on the label sticker of
+wrapping
+*Consumer Law. This Limited Warranty gives you specific legal rights, and you may
+have otherrights that vary by your country, province or state, as applicable. Other
+than as permitted by law, SIMAGIC does not exclude, limit or suspend other rights
+you may have. For a full understanding of your rights, you should consult the laws of
+your country, province or state, as applicable.
+SIMAGIC establishes dealer terms and consumer product warranty
+terms, requiring official partners such as dealers and agents to provide
+consumers with standardized SIMAGIC warranty services to safeguard
+consumers' legal rights.
+-21-
+PAGE 22
+FORMULA
+SIMAGIC adheres to a service spirit that is responsible for users and
+ensures user confidence, striving to create the ultimate user experience.
+Regarding these warranty terms, if adjustments are necessary, we
+regret that specific notifications may not be provided.
+Please refer to the latest content released through official channels
+such as the official website. Please avoid causing damage to the
+machine intentionally. Do not deviate from the guidance of official or
+officially authorized personnel when performing non-normal hardware
+or system operations on the machine. For detailed usage instructions,
+please visit  https://simagic.com/pages/product-tutorial .
+Disclaimer
+The Limited Warranty does not apply to any:
+a) Failure to provide proof of purchase for the product or an order
+number, or if there is reason to believe that they have been forged or
+altered.
+b) The warranty claim is made in a country or customs area other than
+where the product was originally purchased.
+c) Damage caused to the product by disassembly or modification of its
+structure without written authorization from SIMAGIC.
+d) Products purchased from a retailer other than SIMAGIC's official
+online store.
+e) Cosmetic damage, including but not limited to scratches, dents, and
+plastic damage at ports, unless the damage is caused by defects in
+materials or workmanship.
+f) Damage caused by not adhering to SIMAGIC's product usage and
+operation specifications, or by modifying or disassembling the product.
+g) Damage caused by using third-party components or products that
+do not meet the specifications of SIMAGIC's hardware products.
+h) Defects caused by normal wear and tear or normal aging of the
+product.
+i) The serial number on SIMAGIC's product has been removed or
+altered.
+j) If SIMAGIC receives information from relevant authorities that the
+product has been stolen, and the user cannot prove in any way that
+they are the authorized user of the product.
+k) Damage caused by accidents, lightning strikes, corrosion, fire, liquid
+contact, earthquakes, or other external causes.
+-22-
+PAGE 23
+FORMULA
+5. Legal Notices and Trademark
+5.1 Trademark Information
+®
+Copyright © 2026 SHEN ZHEN SIMAGIC TECHNOLOGY CO.,LIMITED.
+All Rights Reserved.
+The products and corporate names mentioned in this manual may or may not be
+registered trademarks or copyrights of their respective companies. They are used
+solely for the purposes of identification or explanation, and to the benefit of the
+owners, without any intention of infringement.
+The specifications and information provided in this manual are intended for
+informational purposes only and are subject to change at any time without notice.
+They should not be interpreted as a commitment by SIMAGIC. SIMAGIC assumes no
+responsibility or liability for any errors or inaccuracies that may appear in this
+manual, including those related to the products and software described within it.
+SIMAGIC shall not be liable for any lost profits, loss of information or data, special,
+incidental, indirect, punitive, or consequential damages arising in any way out of the
+distribution, sale, resale, use, or inability to use the Product. In no event shall SIMAGIC's
+liability exceed the retail purchase price of the Product.
+-23-
+PAGE 24
+FORMULA
+5.2 Contact Us
+Discord Youtube
+Instagram Facebook
+SIMAGIC official website: https://simagic.com/
+Global social media account name: simagic official
+V1.0.1
+-24-

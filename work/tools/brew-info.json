@@ -1,0 +1,658 @@
+{
+  "formulae": [
+    {
+      "name": "node@24",
+      "full_name": "node@24",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [
+        "node@22",
+        "node@20",
+        "node@18"
+      ],
+      "desc": "Open-source, cross-platform JavaScript runtime environment",
+      "license": "MIT",
+      "homepage": "https://nodejs.org/",
+      "versions": {
+        "stable": "24.16.0",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://nodejs.org/dist/v24.16.0/node-v24.16.0.tar.xz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "2ff84a6de70b6165290111b0fc656ded1ad207a799816fe720cc7c31232df30f"
+        }
+      },
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/24/blobs/sha256:c487f4c8dcb5f6a81e3a3ac074d6f0df8e6e0e23160e901af98d6ef0f01d8b08",
+              "sha256": "c487f4c8dcb5f6a81e3a3ac074d6f0df8e6e0e23160e901af98d6ef0f01d8b08"
+            },
+            "arm64_sequoia": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/24/blobs/sha256:d0208bdc66f721afb0847ee46611523316bfbb28c28c704a4426d1702bf2d230",
+              "sha256": "d0208bdc66f721afb0847ee46611523316bfbb28c28c704a4426d1702bf2d230"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/24/blobs/sha256:80ddd5c54e7d4b7c059c7cc65b3c987ae18943df3cb4cdf01fb51b90419c113f",
+              "sha256": "80ddd5c54e7d4b7c059c7cc65b3c987ae18943df3cb4cdf01fb51b90419c113f"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/node/24/blobs/sha256:f7dbfd735308a6f63ab41f1af83224c0ce5182576e2fd5eb9eae405438a3d522",
+              "sha256": "f7dbfd735308a6f63ab41f1af83224c0ce5182576e2fd5eb9eae405438a3d522"
+            },
+            "arm64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/node/24/blobs/sha256:5ccc8c7a133d1c88ba6aa8f76b88896feab769e83c1eb44a2b509a447daa2776",
+              "sha256": "5ccc8c7a133d1c88ba6aa8f76b88896feab769e83c1eb44a2b509a447daa2776"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/node/24/blobs/sha256:7c170a3f4e9809ce06db9739014b7ed4fe95e4446789d7a3b019da325b5bc44f",
+              "sha256": "7c170a3f4e9809ce06db9739014b7ed4fe95e4446789d7a3b019da325b5bc44f"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": true,
+      "keg_only_reason": {
+        "reason": ":versioned_formula",
+        "explanation": ""
+      },
+      "options": [],
+      "build_dependencies": [
+        "pkgconf",
+        "python@3.13"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "hdrhistogram_c",
+        "icu4c@78",
+        "libnghttp2",
+        "libnghttp3",
+        "libngtcp2",
+        "libuv",
+        "openssl@3",
+        "simdjson",
+        "sqlite",
+        "uvwasi",
+        "zstd"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "uses_from_macos": [
+        "python"
+      ],
+      "uses_from_macos_bounds": [
+        {}
+      ],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": "2027-04-30",
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": {
+        "date": "2027-04-30",
+        "because": "unsupported",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": true,
+      "service": null,
+      "tap_git_head": "4be46bbb8a53e2960d909876611dd179ec1a1faf",
+      "ruby_source_path": "Formula/n/node@24.rb",
+      "ruby_source_checksum": {
+        "sha256": "e887c8717e005cf67663cd3eacff1369da6b5e1a335e35c89d7b202793c0ddd1"
+      }
+    },
+    {
+      "name": "ghidra",
+      "full_name": "ghidra",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [],
+      "desc": "Multi-platform software reverse engineering framework",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/NationalSecurityAgency/ghidra",
+      "versions": {
+        "stable": "12.1",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/NationalSecurityAgency/ghidra/archive/refs/tags/Ghidra_12.1_build.tar.gz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "bbe3cf874db010516c5170db0a206dce3496680cec3460890271c6a1ed4f6719"
+        }
+      },
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ghidra/blobs/sha256:321b2e627762f4b19e859d1336eedba4db7fcef384aff2a50e5a3f6ab0dbfafb",
+              "sha256": "321b2e627762f4b19e859d1336eedba4db7fcef384aff2a50e5a3f6ab0dbfafb"
+            },
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ghidra/blobs/sha256:f8df8af6ed06ecfb53b470566d2e1311d22e77111a973504281fed991932775d",
+              "sha256": "f8df8af6ed06ecfb53b470566d2e1311d22e77111a973504281fed991932775d"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ghidra/blobs/sha256:850b27189d2acbb24e9ad02b629b0ee4ee772f0ea74993045d4def039762965f",
+              "sha256": "850b27189d2acbb24e9ad02b629b0ee4ee772f0ea74993045d4def039762965f"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ghidra/blobs/sha256:4b5ff189b715423c2275a31b5d1c8f18c35e088355b39f5eac3e50f459165c1a",
+              "sha256": "4b5ff189b715423c2275a31b5d1c8f18c35e088355b39f5eac3e50f459165c1a"
+            },
+            "arm64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ghidra/blobs/sha256:ad5e79ee64986bc805a76ad4bcdd22d3cff6012bb1ac61a333876f5db59a7fb0",
+              "sha256": "ad5e79ee64986bc805a76ad4bcdd22d3cff6012bb1ac61a333876f5db59a7fb0"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ghidra/blobs/sha256:b575ceb6616db277b7355f82eb4d86a1fb2e659e3f0a9e0a9b23b32d5481d585",
+              "sha256": "b575ceb6616db277b7355f82eb4d86a1fb2e659e3f0a9e0a9b23b32d5481d585"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "gradle",
+        "python@3.14"
+      ],
+      "dependencies": [
+        "openjdk@21"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "4be46bbb8a53e2960d909876611dd179ec1a1faf",
+      "ruby_source_path": "Formula/g/ghidra.rb",
+      "ruby_source_checksum": {
+        "sha256": "604e7e05826888c90a6a88828a1a150a40dd594992ee6176c0eb0ebf77e1f869"
+      }
+    },
+    {
+      "name": "sevenzip",
+      "full_name": "sevenzip",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [
+        "7-zip",
+        "7zip"
+      ],
+      "versioned_formulae": [],
+      "desc": "7-Zip is a file archiver with a high compression ratio",
+      "license": "LGPL-2.1-or-later AND BSD-3-Clause",
+      "homepage": "https://7-zip.org",
+      "versions": {
+        "stable": "26.01",
+        "head": "HEAD",
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://7-zip.org/a/7z2601-src.tar.xz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "b2389e0e930b2f9a348cf0fe7d9870a46482a8ec044ee0bdf42e2136db31c3d6"
+        },
+        "head": {
+          "url": "https://github.com/ip7z/7zip.git",
+          "branch": "main",
+          "using": null
+        }
+      },
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": false,
+      "no_autobump_message": "incompatible_version_format",
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/sevenzip/blobs/sha256:6f0c24927488f6cff80f71a4127c89c967d70700002df0ae7dd8248bc77167a4",
+              "sha256": "6f0c24927488f6cff80f71a4127c89c967d70700002df0ae7dd8248bc77167a4"
+            },
+            "arm64_sequoia": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/sevenzip/blobs/sha256:3d6255d3267e6614f8353d9acb074ec56da23069fc0730e1faa97b4b147c6b3d",
+              "sha256": "3d6255d3267e6614f8353d9acb074ec56da23069fc0730e1faa97b4b147c6b3d"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/sevenzip/blobs/sha256:87f99d0cc42d909e43c57b8ed45735a479b27c5e247f3942e86148b51737d94e",
+              "sha256": "87f99d0cc42d909e43c57b8ed45735a479b27c5e247f3942e86148b51737d94e"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/sevenzip/blobs/sha256:d846411ffedeef2f643a3aaea33233c6b038d4c166f3f46ee9542f559b1130c7",
+              "sha256": "d846411ffedeef2f643a3aaea33233c6b038d4c166f3f46ee9542f559b1130c7"
+            },
+            "arm64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/sevenzip/blobs/sha256:b9054ee68ffc6d140ffdfb7f7b665755c74f2cbbe9e109bdeec5ea6640ec0321",
+              "sha256": "b9054ee68ffc6d140ffdfb7f7b665755c74f2cbbe9e109bdeec5ea6640ec0321"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/sevenzip/blobs/sha256:23143ae518a247b5b5ababcaf4e149c45cf92c4fb98e3019acc06bdd348bf609",
+              "sha256": "23143ae518a247b5b5ababcaf4e149c45cf92c4fb98e3019acc06bdd348bf609"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [],
+      "dependencies": [],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "4be46bbb8a53e2960d909876611dd179ec1a1faf",
+      "ruby_source_path": "Formula/s/sevenzip.rb",
+      "ruby_source_checksum": {
+        "sha256": "5cee5cc4b1288e076500975983c41cf6e775bf99ec46a95d113ec7a72dcbaf5c"
+      }
+    },
+    {
+      "name": "ripgrep",
+      "full_name": "ripgrep",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [
+        "rg"
+      ],
+      "versioned_formulae": [],
+      "desc": "Search tool like grep and The Silver Searcher",
+      "license": "Unlicense",
+      "homepage": "https://github.com/BurntSushi/ripgrep",
+      "versions": {
+        "stable": "15.1.0",
+        "head": "HEAD",
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/BurntSushi/ripgrep/archive/refs/tags/15.1.0.tar.gz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "046fa01a216793b8bd2750f9d68d4ad43986eb9c0d6122600f993906012972e8"
+        },
+        "head": {
+          "url": "https://github.com/BurntSushi/ripgrep.git",
+          "branch": "master",
+          "using": null
+        }
+      },
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:f4dc761b07edb8e6438b618d22f7e57252903e2f2b973e2c7aa0da518fc374b9",
+              "sha256": "f4dc761b07edb8e6438b618d22f7e57252903e2f2b973e2c7aa0da518fc374b9"
+            },
+            "arm64_sequoia": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:0153b06af62b4b8c6ed3f2756dcc4859f74a6128a286f976740468229265cfbe",
+              "sha256": "0153b06af62b4b8c6ed3f2756dcc4859f74a6128a286f976740468229265cfbe"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:d9c83b35f30d48925b8c573afa83ec32b10aaca8f247bc938650a838d188c5df",
+              "sha256": "d9c83b35f30d48925b8c573afa83ec32b10aaca8f247bc938650a838d188c5df"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:ab382b4ae86aba1b7e6acab3bc50eb64be7bb08cf33a37a32987edb8bc6affe4",
+              "sha256": "ab382b4ae86aba1b7e6acab3bc50eb64be7bb08cf33a37a32987edb8bc6affe4"
+            },
+            "arm64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:bbdef955d5752e53473be06b698c45ce31682cd47d75e7c706365450bd08ff44",
+              "sha256": "bbdef955d5752e53473be06b698c45ce31682cd47d75e7c706365450bd08ff44"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/ripgrep/blobs/sha256:349bc55db5ad4b4e8935b889d44c745ae23605c1d57d6eb639dbd5c86d573a88",
+              "sha256": "349bc55db5ad4b4e8935b889d44c745ae23605c1d57d6eb639dbd5c86d573a88"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": false,
+      "keg_only_reason": null,
+      "options": [],
+      "build_dependencies": [
+        "asciidoctor",
+        "pkgconf",
+        "rust"
+      ],
+      "dependencies": [
+        "pcre2"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "uses_from_macos": [],
+      "uses_from_macos_bounds": [],
+      "requirements": [],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": null,
+      "installed": [],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": null,
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "4be46bbb8a53e2960d909876611dd179ec1a1faf",
+      "ruby_source_path": "Formula/r/ripgrep.rb",
+      "ruby_source_checksum": {
+        "sha256": "477b5ac440bae34815c588a96642f800cb9a7fee236bcdeb7880de7396bdcdf7"
+      }
+    },
+    {
+      "name": "openjdk@25",
+      "full_name": "openjdk@25",
+      "tap": "homebrew/core",
+      "oldnames": [],
+      "aliases": [],
+      "versioned_formulae": [
+        "openjdk@21",
+        "openjdk@17",
+        "openjdk@11",
+        "openjdk@8"
+      ],
+      "desc": "Development kit for the Java programming language",
+      "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "homepage": "https://openjdk.org/",
+      "versions": {
+        "stable": "25.0.3",
+        "head": null,
+        "bottle": true
+      },
+      "urls": {
+        "stable": {
+          "url": "https://github.com/openjdk/jdk25u/archive/refs/tags/jdk-25.0.3-ga.tar.gz",
+          "tag": null,
+          "revision": null,
+          "using": null,
+          "checksum": "24080b39d5bb28c34d1fa738e8704db411c6fc7dac0962cc33305536b0391b9e"
+        }
+      },
+      "revision": 0,
+      "version_scheme": 0,
+      "compatibility_version": null,
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
+      "bottle": {
+        "stable": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_tahoe": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/openjdk/25/blobs/sha256:997131a0e1a727695d03bc69168b52edc857d9594e44eac7b2d41d9ba8f0a649",
+              "sha256": "997131a0e1a727695d03bc69168b52edc857d9594e44eac7b2d41d9ba8f0a649"
+            },
+            "arm64_sequoia": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/openjdk/25/blobs/sha256:f3fa9b9c83b5cae6afc187bfd909eaf51d0c3456d35b08445eee22e1e77fa961",
+              "sha256": "f3fa9b9c83b5cae6afc187bfd909eaf51d0c3456d35b08445eee22e1e77fa961"
+            },
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/openjdk/25/blobs/sha256:2745b135ce440b0008eeee16180abe43379328c74231290f8ccdd61f679d3eb0",
+              "sha256": "2745b135ce440b0008eeee16180abe43379328c74231290f8ccdd61f679d3eb0"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/openjdk/25/blobs/sha256:75973113fd1ead44163214f34fc606e955a9c198a956469c3225bca624df1bab",
+              "sha256": "75973113fd1ead44163214f34fc606e955a9c198a956469c3225bca624df1bab"
+            },
+            "arm64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/openjdk/25/blobs/sha256:877bf7fe3d97b9e5c849a9a98a6686805479262e2057b36dd1c0300e41a61ae3",
+              "sha256": "877bf7fe3d97b9e5c849a9a98a6686805479262e2057b36dd1c0300e41a61ae3"
+            },
+            "x86_64_linux": {
+              "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+              "url": "https://ghcr.io/v2/homebrew/core/openjdk/25/blobs/sha256:44b6bbcf9a8a1d7599fd64a59c1cb44de5d0dc4bddecb86e436cac642ea29bdf",
+              "sha256": "44b6bbcf9a8a1d7599fd64a59c1cb44de5d0dc4bddecb86e436cac642ea29bdf"
+            }
+          }
+        }
+      },
+      "pour_bottle_only_if": null,
+      "keg_only": true,
+      "keg_only_reason": {
+        "reason": ":versioned_formula",
+        "explanation": ""
+      },
+      "options": [],
+      "build_dependencies": [
+        "autoconf",
+        "pkgconf"
+      ],
+      "dependencies": [
+        "freetype",
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "test_dependencies": [],
+      "recommended_dependencies": [],
+      "optional_dependencies": [],
+      "uses_from_macos": [
+        "cups",
+        "unzip",
+        "zip"
+      ],
+      "uses_from_macos_bounds": [
+        {},
+        {},
+        {}
+      ],
+      "requirements": [
+        {
+          "name": "xcode",
+          "cask": null,
+          "download": null,
+          "version": null,
+          "contexts": [
+            "build"
+          ],
+          "specs": [
+            "stable"
+          ]
+        }
+      ],
+      "conflicts_with": [],
+      "conflicts_with_reasons": [],
+      "link_overwrite": [],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $HOMEBREW_PREFIX/opt/openjdk@25/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-25.jdk\n",
+      "installed": [],
+      "linked_keg": null,
+      "pinned": false,
+      "outdated": false,
+      "deprecated": false,
+      "deprecation_date": "2030-09-30",
+      "deprecation_reason": null,
+      "deprecation_replacement_formula": null,
+      "deprecation_replacement_cask": null,
+      "deprecate_args": {
+        "date": "2030-09-30",
+        "because": "unmaintained",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "disabled": false,
+      "disable_date": "2033-09-30",
+      "disable_reason": null,
+      "disable_replacement_formula": null,
+      "disable_replacement_cask": null,
+      "disable_args": {
+        "date": "2033-09-30",
+        "because": "unmaintained",
+        "replacement_formula": null,
+        "replacement_cask": null
+      },
+      "post_install_steps": [],
+      "post_install_defined": false,
+      "service": null,
+      "tap_git_head": "4be46bbb8a53e2960d909876611dd179ec1a1faf",
+      "ruby_source_path": "Formula/o/openjdk@25.rb",
+      "ruby_source_checksum": {
+        "sha256": "707b6482a8500df542a4cb8e7ee87d7af6ec2973b2333d62529b9125f19141b9"
+      }
+    }
+  ],
+  "casks": []
+}

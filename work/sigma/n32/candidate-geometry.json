@@ -1,0 +1,40 @@
+{
+  "assumption": "N32G455xE 512KiB main flash and 2KiB pages; exact user unit unconfirmed. Physical containment only, not allocation or bootloader acceptance.",
+  "flash_range": [
+    "0x08000000",
+    "0x08080000"
+  ],
+  "page_bytes": 2048,
+  "images": [
+    {
+      "path": "work/sigma/1.1.5/sigma-decoded.bin",
+      "sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622",
+      "size": 189056,
+      "start": "0x8020000",
+      "end_exclusive": "0x804e280",
+      "last_page_start": "0x804e000",
+      "page_rounded_end_exclusive": "0x804e800",
+      "application_pages": 93,
+      "last_page_unused_bytes": 1408,
+      "below_documented_512k_flash_limit": true
+    },
+    {
+      "path": "work/sigma/zeus-dev2/NOT_FOR_FLASHING-sigma-1.1.5-zeus-dev2.plaintext.bin",
+      "sha256": "0152f4f17e23f47f452d2290fe782afb7b70d65b7a854be5e357da36910ab4a8",
+      "size": 190112,
+      "start": "0x8020000",
+      "end_exclusive": "0x804e6a0",
+      "last_page_start": "0x804e000",
+      "page_rounded_end_exclusive": "0x804e800",
+      "application_pages": 93,
+      "last_page_unused_bytes": 352,
+      "below_documented_512k_flash_limit": true
+    }
+  ],
+  "additional_flash_pages_for_dev2": 0,
+  "ram_reservation": [
+    "0x20005490",
+    "0x20005590"
+  ],
+  "ram_reservation_within_documented_main_sram": true
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/Users/ethan/Downloads/IMG_0171.HEIC",
+    "original_copy": "originals/hardware-photos/IMG_0171.HEIC",
+    "size": 1568949,
+    "sha256": "e1077adcd1b6787e0bd65593163c494b24a81ace1c7f2c73254642c7495497e9",
+    "view_copy": "work/sigma/hardware-photos/IMG_0171.png",
+    "view_size": 15249684,
+    "view_sha256": "79c3e871941488fca3dd8b949f68c4182ae2bcda6a4f0ad0badfdee678e3293a",
+    "operation": "macOS sips HEIC decode to PNG for visual inspection; original HEIC bytes preserved"
+  },
+  {
+    "source": "/Users/ethan/Downloads/IMG_0173.HEIC",
+    "original_copy": "originals/hardware-photos/IMG_0173.HEIC",
+    "size": 1547931,
+    "sha256": "28df6991db93974fc69259dfa6e76b03379b55ff55e30ffd93eb0dee591f119f",
+    "view_copy": "work/sigma/hardware-photos/IMG_0173.png",
+    "view_size": 14918960,
+    "view_sha256": "5f698fd870e4999fbb588af143a9b76459d1c1006ca16a785c864a110e5d4fe2",
+    "operation": "macOS sips HEIC decode to PNG for visual inspection; original HEIC bytes preserved"
+  }
+]

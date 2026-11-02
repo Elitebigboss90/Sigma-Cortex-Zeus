@@ -1,0 +1,579 @@
+{
+    "data": [
+        {
+            "key": "29cd2e0e93864408af3fba8e902b6f95",
+            "shortName": "AC EVO",
+            "fullName": "Assetto Corsa EVO",
+            "steamAppId": 3058630,
+            "availableGameSources": "steam",
+            "processName": "AssettoCorsaEVO.exe",
+            "gameKey": "acEvo",
+            "sdbGameName": "Assetto Corsa EVO"
+        },
+        {
+            "key": "7bf2dea0a30342acb689c21fb0e59a8e",
+            "shortName": "AC",
+            "fullName": "Assetto Corsa",
+            "steamAppId": 244210,
+            "availableGameSources": "steam",
+            "processName": "acs.exe",
+            "gameKey": "ac",
+            "sdbGameName": "Assetto_Corsa"
+        },
+        {
+            "key": "9c61ac05c09547b48ebbbb99c7ac2bd4",
+            "shortName": "ACC",
+            "fullName": "Assetto Corsa Competizione",
+            "steamAppId": 805550,
+            "availableGameSources": "steam",
+            "processName": "acc.exe",
+            "gameKey": "acc",
+            "sdbGameName": "Assetto_Corsa_Competizione"
+        },
+         {
+            "key": "9c61ac05c09547b48ebcbb99c7ac2bd5",
+            "shortName": "AC RALLY",
+            "fullName": "Assetto Corsa Rally",
+            "steamAppId": 3917090,
+            "availableGameSources": "steam",
+            "processName": "acr.exe",
+            "gameKey": "accRally",
+            "sdbGameName": "Assetto_Corsa_Rally"
+        },
+        {
+            "key": "9b61ac05c09547b48ebcbb99c7ac2bd5",
+            "shortName": "Project Motor Racing",
+            "fullName": "Project Motor Racing",
+            "steamAppId": 299970,
+            "availableGameSources": "steam",
+            "processName": "ProjectMotorRacingGame.exe",
+            "gameKey": "Project Motor Racing",
+            "sdbGameName": "Project Motor Racing"
+        },
+        {
+            "key": "b609f9ac908d4605898715d46b6bd9a0",
+            "shortName": "AMS2",
+            "fullName": "Automoblista 2",
+            "steamAppId": 1066890,
+            "availableGameSources": "steam",
+            "processName": "AMS2AVX.exe",
+            "gameKey": "ams2",
+            "sdbGameName": "Automobilista_2"
+        },
+                {
+            "key": "4794b5b58d3041729fb353136785f7a6",
+            "shortName": "Rennsport",
+            "fullName": "Rennsport",
+            "steamAppId": 2077750,
+            "availableGameSources": "steam",
+            "gameKey": "Rennsport",
+            "processName":"Rennsport.exe",
+            "sdbGameName": "Rennsport"
+        },
+         {
+            "key": "4794b5b58d3041729fb353136781f2a9",
+            "shortName": "NASCAR 25",
+            "fullName": "NASCAR 25",
+            "steamAppId": 3873970,
+            "availableGameSources": "steam",
+            "gameKey": "NASCAR 25",
+            "processName":"NASCAR25_Steam.exe",
+            "sdbGameName": "NASCAR 25"
+        },
+        {
+            "key": "40562796445a4af19329c100b962cdae",
+            "shortName": "LMU",
+            "fullName": "Le Mans Ultimate",
+            "steamAppId": 2399420,
+            "availableGameSources": "steam",
+            "processName": "Le Mans Ultimate.exe",
+            "requireTelemetryHelper": true,
+            "gameKey": "lmu",
+            "sdbGameName": "Le Mans_Ultimate"
+        },
+        {
+            "key": "620c212d9975493c97e2d8ef571eb8ab",
+            "shortName": "BNG",
+            "fullName": "BeamNG.drive",
+            "steamAppId": 284160,
+            "availableGameSources": "steam",
+            "processName": "BeamNG.drive.exe",
+            "gameKey": "bng",
+            "sdbGameName": "BeamNG.Drive"
+        },
+        {
+            "key": "4cb7c73d07a54b568e57a9c15f9878cb",
+            "shortName": "DR2",
+            "fullName": "DiRT RALLY 2.0",
+            "steamAppId": 690790,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "processName": "dirtrally2.exe",
+            "gameKey": "dr2",
+            "sdbGameName": "DiRT_Rally_2.0"
+        },
+        {
+            "key": "e081279f54a6418fb6484f1354ce2894",
+            "shortName": "ETS2",
+            "fullName": "Euro Truck Simulator 2",
+            "steamAppId": 227300,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "processName": "eurotrucks2.exe",
+            "gameKey": "ets2",
+            "sdbGameName": "Euro_Truck_Simulator_2"
+        },
+        {
+            "key": "7ff2be43b2ba4e6b8b8e2110f8769f91",
+            "shortName": "WRC",
+            "fullName": "WRC",
+            "steamAppId": 1849250,
+            "requireTelemetryHelper": true,
+            "availableGameSources": "steam",
+            "processName": "WRC.exe",
+            "gameKey": "eawrc",
+            "sdbGameName": "EA_WRC"
+        },
+        {
+            "key": "1473a59e1ebb4a67b073b2f155b0df01",
+            "shortName": "F1 25",
+            "fullName": "F1 25",
+            "steamAppId": 3059520,
+            "requireTelemetryHelper": true,
+            "availableGameSources": "steam",
+            "processName": "F1_25.exe",
+            "gameKey": "f125",
+            "sdbGameName": "F1_25"
+        },
+        {
+            "key": "1473a59e1ebb4a67b073b2f155b0df00",
+            "shortName": "F1 24",
+            "fullName": "F1 24",
+            "steamAppId": 2488620,
+            "requireTelemetryHelper": true,
+            "availableGameSources": "steam",
+            "processName": "F1_24.exe",
+            "gameKey": "f124",
+            "sdbGameName": "F1_24"
+        },
+        {
+            "key": "4a732a09290b4292a68fcc11c72893db",
+            "shortName": "FM8",
+            "fullName": "Forza Motorsport",
+            "steamAppId": 2440510,
+            "availableGameSources": "steam",
+            "processName": "forza_steamworks_release_final.exe",
+            "gameKey": "fm8",
+            "sdbGameName": "Forza_Motorsport_8"
+        },
+        {
+            "key": "d96f05e9e4de44e2b3405c767b1b3549",
+            "shortName": "FH4",
+            "fullName": "Forza Horizon 4",
+            "steamAppId": 1293830,
+            "availableGameSources": "steam",
+            "processName": "ForzaHorizon4.exe",
+            "gameKey": "fh4",
+            "sdbGameName": "Forza_Horizon_4"
+        },
+        {
+            "key": "59a886201cda4eda9c89f75506ccd88d",
+            "shortName": "FH5",
+            "fullName": "Forza Horizon 5",
+            "steamAppId": 1551360,
+            "availableGameSources": "steam",
+            "processName": "ForzaHorizon5.exe",
+            "gameKey": "fh5",
+            "sdbGameName": "Forza_Horizon_5"
+        },
+        {
+            "key": "09fbc4f0f0364b7e825dfc46ae387021",
+            "shortName": "FH6",
+            "fullName": "Forza Horizon 6",
+            "steamAppId": 2483190,
+            "availableGameSources": "steam",
+            "processName": "forzahorizon6.exe",
+            "gameKey": "fh6",
+            "sdbGameName": "Forza_Horizon_6"
+        },
+        {
+            "key": "a4e3fd39a676458fb148bbed03a26bf0",
+            "shortName": "iRacing",
+            "fullName": "iRacing",
+            "steamAppId": 266410,
+            "availableGameSources": "iracing|steam",
+            "processName": "iRacingSim64DX11.exe",
+            "gameKey": "ir",
+            "sdbGameName": "Iracing"
+        },
+        {
+            "key": "0806fa2958e74dedb9aa105061944664",
+            "shortName": "LFS",
+            "fullName": "Live for Speed",
+            "steamAppId": 1,
+            "availableGameSources": "lfs",
+            "processName": "LFS.exe",
+            "gameKey": "lfs",
+            "sdbGameName": "Live_For_Speed"
+        },
+        {
+            "key": "2b972ead6a8646dfaf31b4f9b45bd1b9",
+            "shortName": "PC2",
+            "fullName": "Project Cars 2",
+            "steamAppId": 378860,
+            "availableGameSources": "steam",
+            "gameKey": "pc2",
+            "processName": "pCARS2AVX.exe",
+            "sdbGameName": "Project_CARS_2"
+        },
+        {
+            "key": "94f402fd906a42a8852f5d4db09a3683",
+            "shortName": "PC3",
+            "fullName": "Project Cars 3",
+            "steamAppId": 958400,
+            "availableGameSources": "steam",
+            "gameKey": "pc3",
+            "processName": "pCARS3.exe",
+            "sdbGameName": "Project_CARS_3"
+        },
+        {
+            "key": "ca7c69ced5ca44c6a1955b04307854b4",
+            "shortName": "R3E",
+            "fullName": "Raceroom Racing Experience",
+            "steamAppId": 211500,
+            "processName": "RRRE64.exe",
+            "availableGameSources": "steam",
+            "gameKey": "r3e",
+            "sdbGameName": "RaceRoom_Racing_Experience"
+        },
+        {
+            "key": "9178c2eb15674f1c8c231d4274b93b5e",
+            "shortName": "rF2",
+            "fullName": "rFactor2",
+            "steamAppId": 365960,
+            "requireTelemetryHelper": true,
+            "processName": "rFactor2.exe",
+            "availableGameSources": "steam",
+            "gameKey": "rf2",
+            "sdbGameName": "rFactor_2"
+        },
+        {
+            "key": "86ab1dfda60e438e876cf740c62447f8",
+            "shortName": "WRC 10",
+            "fullName": "WRC10",
+            "steamAppId": 1462810,
+            "gameSource": "steam",
+            "requireTelemetryHelper": true,
+            "processName": "WRC10.exe",
+            "availableGameSources": "steam",
+            "gameKey": "wrc10",
+            "sdbGameName": "WRC_10"
+        },
+        {
+            "key": "c19e9729ee63478fa5a70f7ddb27736e",
+            "shortName": "fiaTruckRacing",
+            "fullName": "FIA Truck Racing",
+            "steamAppId": 940580,
+            "gameSource": "steam",
+            "availableGameSources": "steam",
+            "gameKey": "fiaTruckRacing",
+            "sdbGameName": "FIA_European_Truck_Racing_Championship"
+        },
+        {
+            "key": "a8f0dbc8ca734e9ebb381d1438386dbe",
+            "shortName": "WRC G",
+            "fullName": "WRCG",
+            "steamAppId": 1953520,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "processName": "WRCG.exe",
+            "gameKey": "wrcg",
+            "sdbGameName": "WRC_Generations"
+        },
+        {
+            "key": "30f4608a15704e29b8396a361210c2a5",
+            "shortName": "Snow Runner",
+            "fullName": "Snow Runner",
+            "steamAppId": 1465360,
+            "availableGameSources": "steam",
+            "gameKey": "snowrunner",
+            "sdbGameName": "SnowRunner"
+        },
+        {
+            "key": "d9c1e3940f5445e0a8a5c3f69906c272",
+            "shortName": "dirt4",
+            "fullName": "DIRT 4",
+            "steamAppId": 421020,
+            "requireTelemetryHelper": true,
+            "availableGameSources": "steam",
+            "gameKey": "dirt4",
+            "sdbGameName": "DiRT_4"
+        },
+        {
+            "key": "9bef10e896d642e7a05067a2fae70241",
+            "shortName": "F118",
+            "fullName": "F1 2018",
+            "steamAppId": 737800,
+            "requireTelemetryHelper": true,
+            "availableGameSources": "steam",
+            "gameKey": "f118",
+            "sdbGameName": "F1_2018"
+        },
+        {
+            "key": "dd7ee6f431ee46e39de97427306be7ae",
+            "shortName": "F119",
+            "fullName": "F1 2019",
+            "steamAppId": 928600,
+            "requireTelemetryHelper": true,
+            "availableGameSources": "steam",
+            "gameKey": "f119",
+            "sdbGameName": "F1_2019"
+        },
+        {
+            "key": "15591aaf0e194bd28af4c13f4f83bcce",
+            "shortName": "F120",
+            "fullName": "F1 2020",
+            "steamAppId": 1080110,
+            "requireTelemetryHelper": true,
+            "availableGameSources": "steam",
+            "gameKey": "f120",
+            "sdbGameName": "F1_2020"
+        },
+        {
+            "key": "7f4ad2401d8a4313a6200c04ff7f91af",
+            "shortName": "F121",
+            "fullName": "F1 2021",
+            "steamAppId": 1134570,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "gameKey": "f121",
+            "sdbGameName": "F1_2021"
+        },
+        {
+            "key": "8623f6e701664f89b9026baa6b31b449",
+            "shortName": "F1 22",
+            "fullName": "F1 22",
+            "steamAppId": 1692250,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "processName": "F1_22.exe",
+            "gameKey": "f122",
+            "sdbGameName": "F1_22"
+        },
+        {
+            "key": "1b0e947c3a6747ec89dcca141587e610",
+            "shortName": "F1 23",
+            "fullName": "F1 23",
+            "steamAppId": 2108330,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "processName": "F1_23.exe",
+            "gameKey": "f123",
+            "sdbGameName": "F1_23"
+        },
+        {
+            "key": "dc446ecde2e7473c8b05612c13908357",
+            "shortName": "KartKraft",
+            "fullName": "KartKraft™",
+            "steamAppId": 406350,
+            "availableGameSources": "steam",
+            "gameKey": "kartkraft",
+            "sdbGameName": "KartKraft"
+        },
+        {
+            "key": "b074c77263b34d5d96b078840b3774a3",
+            "shortName": "rbr",
+            "fullName": "Richard Burns Rally",
+            "processName": "RichardBurnsRally_SSE.exe",
+            "availableGameSources": "steam",
+            "gameKey": "rbr",
+            "sdbGameName": "Richard_Burns_Rally"
+        },
+        {
+            "key": "56137bfd0ba74e2380a896191b9ad91e",
+            "shortName": "Dakar Desert Rally",
+            "fullName": "Dakar Desert Rally",
+            "steamAppId": 1839940,
+            "availableGameSources": "steam",
+            "gameKey": "dakardr",
+            "sdbGameName": "DAKAR_DESERT_RALLY"
+        },
+        {
+            "key": "f1cc28fe65474f77ae370bd16574c4a5",
+            "shortName": "Dakar 18",
+            "fullName": "Dakar 18",
+            "steamAppId": 767390,
+            "availableGameSources": "steam",
+            "gameKey": "dakar18",
+            "sdbGameName": "DAKAR_18"
+        },
+        {
+            "key": "b270867a596a4812beee5ea11d988f8d",
+            "shortName": "ATS",
+            "fullName": "American Truck Simulator",
+            "steamAppId": 270880,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "processName": "amtrucks.exe",
+            "gameKey": "ats",
+            "sdbGameName": "American_Truck_Simulator"
+        },
+        {
+            "key": "fa913ebe421f4e6883d01ad3a985bea1",
+            "shortName": "ams",
+            "fullName": "Automobilista",
+            "steamAppId": 431600,
+            "availableGameSources": "steam",
+            "gameKey": "ams"
+        },
+        {
+            "key": "42cc47382d7046fe904febd5cbb75d17",
+            "shortName": "CARX OL",
+            "fullName": "CarX Drift Racing Online",
+            "steamAppId": 635260,
+            "availableGameSources": "steam",
+            "gameKey": "cdro",
+ 	   "processName": "Drift Racing Online.exe",
+            "sdbGameName": "CarX_Drift_Racing_Online"
+        },
+        {
+            "key": "eccf03d190fc4f259eb76025686daaf7",
+            "shortName": "City Car Driving",
+            "fullName": "City Car Driving",
+            "steamAppId": 493490,
+            "availableGameSources": "steam",
+            "gameKey": "ccd",
+            "sdbGameName": "City_Car_Driving"
+        },
+        {
+            "key": "2bea311275644046ab6e9c4124232eac",
+            "shortName": "fm7",
+            "fullName": "Forza Motorsport 7",
+            "steamAppId": 940580,
+            "availableGameSources": "steam",
+            "gameKey": "fm7"
+        },
+        {
+            "key": "8388e02c1ec24a1fb1abe6577cfc429c",
+            "shortName": "GRID",
+            "fullName": "GRID",
+            "steamAppId": 703860,
+            "availableGameSources": "steam",
+            "gameKey": "grid",
+            "sdbGameName": "GRID_(2019)"
+        },
+        {
+            "key": "748f8eef93444e7089bc10ca9f908fe8",
+            "shortName": "GRID Legends",
+            "fullName": "GRID Legends",
+            "steamAppId": 1307710,
+            "availableGameSources": "steam",
+            "gameKey": "gridLegends",
+            "sdbGameName": "GRID_Legends"
+        },
+        {
+            "key": "db819cfaa5914ea096f497be0e12b6d9",
+            "shortName": "Kart Racing Pro",
+            "fullName": "Kart Racing Pro",
+            "steamAppId": 415600,
+            "availableGameSources": "steam",
+            "gameKey": "kartPro",
+            "sdbGameName": "Kart_Racing_Pro"
+        },
+        {
+            "key": "c6629722caf74f81a2f7260ae57f2b28",
+            "shortName": "MudRunner",
+            "fullName": "MudRunner",
+            "steamAppId": 675010,
+            "availableGameSources": "steam",
+            "gameKey": "mudrunner",
+            "sdbGameName": "MudRunner"
+        },
+        {
+            "key": "8008cf13ddf3433eaf186d054a037075",
+            "shortName": "Project Cars 1",
+            "fullName": "Project Cars 1",
+            "steamAppId": 234630,
+            "availableGameSources": "steam",
+            "gameKey": "pc",
+            "sdbGameName": "Project_CARS_1"
+        },
+        {
+            "key": "a6a9687bd90c4d66a9495f4afa3f7875",
+            "shortName": "RDS",
+            "fullName": "RDS - The Official Drift Videogame",
+            "steamAppId": 934930,
+            "availableGameSources": "steam",
+            "gameKey": "rds",
+            "sdbGameName": "Russian_Drift_Series_RDS"
+        },
+        {
+            "key": "f6c9cb34ec054775b79ef76bd46a51f2",
+            "shortName": "CREW2",
+            "fullName": "The Crew 2",
+            "steamAppId": 646910,
+            "availableGameSources": "steam",
+            "gameKey": "crew2"
+        },
+        {
+            "key": "73d51ca1fe134081aed74409b75f2b9f",
+            "shortName": "CREWMF",
+            "fullName": "The Crew Motorfest",
+            "steamAppId": 2,
+            "availableGameSources": "steam",
+            "gameKey": "crewmotorfest"
+        },
+        {
+            "key": "6030c03ba59f4747a79b5e03e6f9a048",
+            "shortName": "WRC 8",
+            "fullName": "WRC8",
+            "steamAppId": 1004750,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "gameKey": "wrc8",
+            "sdbGameName": "WRC_8"
+        },
+           {
+    "key": "9231284ccbb7409ea9641e60b707f5c2",
+    "shortName": "JDM",
+    "fullName": "JDM",
+    "steamAppId": 1153410,
+    "requireTelemetryHelper":false,
+    "availableGameSources": "steam",
+    "processName":"JDM.exe",
+    "gameKey": "JDM",
+    "sdbGameName": "JDM"
+  },
+        {
+            "key": "9231284ccbb7409ea9641e60b707f5c3",
+            "shortName": "WRC 9",
+            "fullName": "WRC9",
+            "steamAppId": 1267540,
+            "availableGameSources": "steam",
+            "requireTelemetryHelper": true,
+            "gameKey": "wrc9",
+            "sdbGameName": "WRC_9"
+        },
+        {
+            "key": "4b4064d7fe974650b91e137db5bde116",
+            "shortName": "Wreckfest",
+            "fullName": "Wreckfest",
+            "steamAppId": 228380,
+            "availableGameSources": "steam",
+            "processName": "Wreckfest.exe",
+            "gameKey": "wreckfest",
+            "sdbGameName": "Wreckfest"
+        },
+        {
+            "key": "a7c3e8f2d54b9a1e6f8c2d4e5b7a9c3d",
+            "shortName": "Wreckfest 2",
+            "fullName": "Wreckfest 2",
+            "steamAppId": 1203190,
+            "availableGameSources": "steam",
+            "processName": "Wreckfest2.exe",
+            "requireTelemetryHelper": true,
+            "gameKey": "wreckfest2",
+            "sdbGameName": "Wreckfest2"
+        }
+    ]
+}

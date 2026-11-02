@@ -1,0 +1,108 @@
+{
+  "source": "work/sigma/1.1.8/sigma-decoded.bin",
+  "source_sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+  "source_size": 191104,
+  "base": "0x8020000",
+  "image_end": "0x804ea80",
+  "architecture": {
+    "endianness": "little",
+    "code_mode": "Thumb Cortex-M",
+    "initial_sp": "0x20006650",
+    "reset_vector": "0x80202b1",
+    "system_init": "0x08023a20",
+    "scatter_entry": "0x08020198",
+    "main": "0x08043a60",
+    "main_vtor_write": {
+      "va": "0x08043a76",
+      "file_offset": "0x23a76",
+      "bytes": "4ef60851cef200010022c0f602020a60",
+      "value": "0x08020000"
+    }
+  },
+  "scatter_table": {
+    "offset": 190460,
+    "length": 32,
+    "bytes": "20e8040800000020b0070000fc01020878ea0408b0070020a05e00005c020208",
+    "records": [
+      {
+        "source_va": 134539296,
+        "destination_va": 536870912,
+        "destination_length": 1968,
+        "handler_va": 134349308
+      },
+      {
+        "source_va": 134539896,
+        "destination_va": 536872880,
+        "destination_length": 24224,
+        "handler_va": 134349404
+      }
+    ]
+  },
+  "decompressor": {
+    "offset": 508,
+    "length": 90,
+    "bytes": "0a444ff0000c10f8013b13f0070408bf10f8014b1d1108bf10f8015b641e05d010f8016b641e01f8016bf9d113f0080f1ebf10f8014bad1c0c1b09d16d1e58bf01f801cbfad505e014f8016b01f8016b6d1ef9d59142d6d37047",
+    "byte_identical_to_1_1_5_offset": 468,
+    "old_source_sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622"
+  },
+  "initial_data": {
+    "path": "work/sigma/1.1.8/memory/initial-data.bin",
+    "size": 1968,
+    "sha256": "56df6503e19c10d9687591be7124de7c849f2a33b2c8cdc4225988b3d40c0ce9",
+    "destination": "0x20000000",
+    "input_offset": 190496,
+    "input_length": 596,
+    "input_sha256": "d19ae619d9cc5733d4bcced09181a5e918c7098bef160731bd4503647c50ae8e",
+    "consumed_end": "0x804ea74",
+    "operation": "Exact prior decompressor transcription justified by byte-identical handler"
+  },
+  "bss": {
+    "start": "0x200007b0",
+    "length": 24224,
+    "end": "0x20006650",
+    "zero_fill_handler": "0x0802025c"
+  },
+  "heap": {
+    "helper": "0x080202cc",
+    "heap_base": "0x20004650",
+    "stack_top": "0x20006650",
+    "heap_limit": "0x20005650",
+    "stack_base": "0x20005650",
+    "literal_offsets": [
+      736,
+      740,
+      744,
+      748
+    ],
+    "reservation_start": "0x20005550",
+    "reservation_size": 256,
+    "new_heap_limit": "0x20005550",
+    "edit_offset": 744,
+    "edit_original_bytes": "50560020",
+    "edit_new_bytes": "50550020",
+    "remaining_heap_bytes": 3840,
+    "stack_bytes": 4096
+  },
+  "tail": {
+    "nominal_end_offset": 191096,
+    "alignment_bytes": "00000000",
+    "opaque_offset": 191096,
+    "opaque_length": 8,
+    "opaque_bytes": "108ab3bd97a977b2",
+    "equals_encoded_range": {
+      "offset": 191064,
+      "length": 8
+    },
+    "carrier_sha256": "880479ed1cc596499f2eeef24cedcfa8a5b3239814c060cdf17d86fc1980fb35",
+    "interpretation": "Packaging-residue hypothesis; preserve bytes, not proof of absent integrity checking"
+  },
+  "geometry": {
+    "page_size": 2048,
+    "stock_application_pages": 94,
+    "last_page_start": "0x0804e800",
+    "last_page_end": "0x0804f000",
+    "remaining_in_last_page": 1408,
+    "bootloader_acceptance_verified": false
+  },
+  "hardware_io": false
+}

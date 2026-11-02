@@ -1,0 +1,15 @@
+{
+  "operation": "single_F1_GET_FEATURE",
+  "unix_seconds": 1793651370,
+  "vid": 1133,
+  "pid": 49760,
+  "requested_length": 33,
+  "exclusive": false,
+  "get_feature_calls": 1,
+  "set_or_output_report_calls": 0,
+  "open_result": "0x00000000",
+  "get_result": "0x00000000",
+  "reported_length": 16,
+  "response_hex": "34120000010000000100010000000000",
+  "error": null
+}

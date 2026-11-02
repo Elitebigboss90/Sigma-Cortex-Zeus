@@ -1,0 +1,134 @@
+{
+  "method": "Manual semantic matching by accepted VID/PID predicates, report lengths, input field offsets and output data flow; not offset-delta matching.",
+  "versions": {
+    "1.0.20": {
+      "original": "originals/SIGMA v1.0.20/SIGMA_Converter_V1.0.20.exe",
+      "original_sha256": "4e251340b80d4227049ef94bfff3ab520cc7c5053cb4b2bd778be870059c3f23",
+      "decoded": "work/sigma/1.0.20/sigma-decoded.bin",
+      "decoded_sha256": "3fc925cb7d12f3179a27248b2d86868d0556d7f36be33092b39bcced254c9e20",
+      "functions": {
+        "base_gate": {
+          "va": "0x8028e28",
+          "decoded_file_offset": "0x8e28",
+          "first_32_bytes": "80b586b013468c4686460590adf81210adf81020bdf81200002140f283429042"
+        },
+        "pedal_gate": {
+          "va": "0x8025900",
+          "decoded_file_offset": "0x5900",
+          "first_32_bytes": "80b587b013468c4686460690adf81610adf81420bdf8160040f2834188420493"
+        },
+        "handbrake_gate": {
+          "va": "0x802aa1c",
+          "decoded_file_offset": "0xaa1c",
+          "first_32_bytes": "80b587b013468c4686460690adf81610adf81420bdf8160040f2834188420493"
+        },
+        "shifter_gate": {
+          "va": "0x802a2fc",
+          "decoded_file_offset": "0xa2fc",
+          "first_32_bytes": "80b586b013468c4686460590adf81210adf81020bdf81200002140f283429042"
+        },
+        "base_callback": {
+          "va": "0x8025aac",
+          "decoded_file_offset": "0x5aac",
+          "first_32_bytes": "70b58ab0ddf838c09e4614460d460646099008918df81f208df81e3009980621"
+        },
+        "parser_32": {
+          "va": "0x8025b98",
+          "decoded_file_offset": "0x5b98",
+          "first_32_bytes": "80b58cb013468c4686460b900a918df827200b989df8271020290893cdf81cc0"
+        },
+        "parser_39": {
+          "va": "0x8026028",
+          "decoded_file_offset": "0x6028",
+          "first_32_bytes": "80b58cb013468c4686460b900a918df827200b989df8271027290893cdf81cc0"
+        },
+        "console_report_builder": {
+          "va": "0x804b70c",
+          "decoded_file_offset": "0x2b70c",
+          "first_32_bytes": "80b582b044f62030c2f2000001210170802141708170c170017144f67821c2f2"
+        }
+      },
+      "original_size": 3656192,
+      "decoded_size": 216800,
+      "mapping": {
+        "file_zero_va": "0x08020000",
+        "byte_order": "little",
+        "mode": "Thumb Cortex-M"
+      },
+      "vectors": {
+        "file_offset": 0,
+        "first_64_bytes": "686b002091020208892e0208e9270208852e020861170208215602080000000000000000000000000000000085350208711e020800000000a7020208c5430208",
+        "initial_sp": "0x20006b68",
+        "reset_vector": "0x8020291",
+        "reset_code_va": "0x8020290"
+      }
+    },
+    "1.1.5": {
+      "original": "originals/SIGMA v1.1.5 BETA/SIGMA_Converter_V1.1.5.exe",
+      "original_sha256": "585a72f0fc40b33e374f67bdf8df4c537b0f0d879e9d2f7b65a598253196fc7a",
+      "decoded": "work/sigma/1.1.5/sigma-decoded.bin",
+      "functions": {
+        "base_gate": {
+          "va": "0x8027108",
+          "decoded_file_offset": "0x7108",
+          "first_32_bytes": "82b00190adf80210adf80020bdf80210002040f28342914208d1ffe7bdf80000"
+        },
+        "pedal_gate": {
+          "va": "0x802bb50",
+          "decoded_file_offset": "0xbb50",
+          "first_32_bytes": "82b00190adf80210adf80020bdf8020040f28341884208d1ffe7bdf800100120"
+        },
+        "handbrake_gate": {
+          "va": "0x802ba28",
+          "decoded_file_offset": "0xba28",
+          "first_32_bytes": "82b00190adf80210adf80020bdf8020040f28341884207d1ffe7bdf800100120"
+        },
+        "shifter_gate": {
+          "va": "0x802bcd8",
+          "decoded_file_offset": "0xbcd8",
+          "first_32_bytes": "82b00190adf80210adf80020bdf80210002040f28342914208d1ffe7bdf80000"
+        },
+        "base_callback": {
+          "va": "0x8027280",
+          "decoded_file_offset": "0x7280",
+          "first_32_bytes": "80b584b0ddf818c0039002918df807208df806300398062180f83810b0f87210"
+        },
+        "parser_32": {
+          "va": "0x8027810",
+          "decoded_file_offset": "0x7810",
+          "first_32_bytes": "10b584b0039002918df80720039c9df80700202840f06a82ffe704f1e1000299"
+        },
+        "parser_39": {
+          "va": "0x80272e0",
+          "decoded_file_offset": "0x72e0",
+          "first_32_bytes": "b0b584b0039002918df80720039d9df80700272840f08982ffe7029841788078"
+        },
+        "console_report_builder": {
+          "va": "0x802a8b4",
+          "decoded_file_offset": "0xa8b4",
+          "first_32_bytes": "10b540f68840c2f2000001210170802141708170c170017144f27851c2f20001"
+        }
+      },
+      "original_size": 3628544,
+      "decoded_sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622",
+      "decoded_size": 189056,
+      "mapping": {
+        "file_zero_va": "0x08020000",
+        "byte_order": "little",
+        "mode": "Thumb Cortex-M"
+      },
+      "vectors": {
+        "file_offset": 0,
+        "first_64_bytes": "9065002091020208395502083d550208415502084555020849550208000000000000000000000000000000004d5502085155020800000000a7020208c14f0208",
+        "initial_sp": "0x20006590",
+        "reset_vector": "0x8020291",
+        "reset_code_va": "0x8020290"
+      }
+    }
+  },
+  "download": {
+    "landing_page": "https://www.egsimrigs.co.za/products/sigma-cortex-converter",
+    "url": "https://cdn.shopify.com/s/files/1/0733/4782/5941/files/SIGMA_Converter_V1.0.20.exe?v=1704246254",
+    "source_class": "retailer-hosted package linked by product page; manufacturer authenticity not independently established"
+  }
+}

@@ -1,0 +1,38 @@
+SIGMA 1.1.8 WINDOWS DETECTION CHECK
+
+This folder contains an unchanged copy of the supplied stock 1.1.8 BETA updater.
+It contains no Zeus-modified firmware. Its purpose here is detection only.
+Do not click Update during this check: that begins the write workflow.
+
+1. Extract this ZIP on the Windows PC. Disconnect Sigma's wheelbase, pedals,
+   wheel and console. Connect only its console/PC USB port to the Windows PC,
+   without holding a button. Prefer a known working direct USB data connection.
+   If using the KVM, record that fact and do not switch hosts during detection.
+2. Open SIGMA_Converter_V1.1.8.exe. Note the exact connected/device status and
+   CURRENT/DEVICE firmware version. A target/update version of 1.1.8 identifies
+   the package; it does not establish the version installed on the device.
+   Do not click Update. Close the updater after recording the display.
+3. Unplug Sigma. Hold OK while reconnecting the same console/PC USB port to
+   the same Windows connection; keep holding for approximately five seconds,
+   then release. Confirm Sigma's display says Bootload mode.
+4. Reopen the same stock updater. Record its exact status and version text,
+   including any BL suffix. A different version in Bootload mode may describe
+   the bootloader; record it without treating it as the installed app version.
+   Do not click Update. Close the updater.
+5. Unplug Sigma, then reconnect without holding a button. Confirm the normal
+   screen returns. Record any detection failure or USB disconnection.
+
+Report back:
+- Normal mode: exact updater device/status and current-version text.
+- Bootload mode: exact updater device/status and version text.
+- Normal screen returned after the final power cycle: yes/no.
+- Connection: direct USB or KVM; any intermittent disconnects.
+
+Optional copy-integrity check in PowerShell, from this extracted folder:
+Get-FileHash -Algorithm SHA256 .\SIGMA_Converter_V1.1.8.exe
+Expected SHA-256:
+233658402f99fdb47cb35a498706af34acdde77574c56b315a158228d48eec1a
+
+This hash establishes identity with the supplied project file, not independent
+vendor authentication. Detection does not test stock restoration, modified-image
+acceptance or recovery from a failed application. No installation is requested.

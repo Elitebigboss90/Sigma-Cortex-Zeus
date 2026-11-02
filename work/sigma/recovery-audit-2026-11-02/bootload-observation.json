@@ -1,0 +1,140 @@
+{
+  "status": "BUTTON_BOOTLOAD_ENTRY_AND_NORMAL_RETURN_OBSERVED",
+  "sources": [
+    {
+      "path": "work/sigma/recovery-audit-2026-11-02/bootload-hid-001.json",
+      "size": 1746,
+      "sha256": "74b62b8a1c2a8eefecffccad68e54b64e004f9fa8957c1ea8e535735bd59a838"
+    },
+    {
+      "path": "work/sigma/recovery-audit-2026-11-02/bootload-usb-001.json",
+      "size": 1615,
+      "sha256": "98891519b32395e37bb4a033eec16d0204cbbb7685e0ca9e8d0aa6b3b57fe7b9"
+    },
+    {
+      "path": "work/sigma/recovery-audit-2026-11-02/bootload-status-001.json",
+      "size": 370,
+      "sha256": "95766cf412d420c58b647feb7fda2dcfc32b17cee1940707ed40f615bff97a0f"
+    },
+    {
+      "path": "work/sigma/recovery-audit-2026-11-02/normal-after-bootload-hid-001.json",
+      "size": 1910,
+      "sha256": "889d5e0a370d5ec43852733ed283684b010ba0397ef9395f54e88dda2b3093f7"
+    },
+    {
+      "path": "work/sigma/recovery-audit-2026-11-02/normal-after-bootload-usb-001.json",
+      "size": 1612,
+      "sha256": "562e131b1fa02112bfca2332319cb4c1fcd5428bd904bbf5eb5d2875f5025dce"
+    }
+  ],
+  "user_observations": [
+    "User reports Bootload mode after the OK-button power-on sequence, connected through KVM.",
+    "User reports normal screen after disconnecting/reconnecting without pressing a button."
+  ],
+  "boot_hid": {
+    "Product": "G29 Driving Force Racing Wheel",
+    "Manufacturer": "Logitech",
+    "Transport": "USB",
+    "VendorID": 1133,
+    "ProductID": 49760,
+    "VersionNumber": 1024,
+    "PrimaryUsagePage": 1,
+    "PrimaryUsage": 4,
+    "MaxInputReportSize": 8,
+    "MaxOutputReportSize": 65,
+    "MaxFeatureReportSize": 33,
+    "report_descriptor_hex": "05010904a10185017508150026ff00350046ff00a1000933093495028102c0a10005091901292815002501750195288102c0a1020600ff85f27508954009f2910285f17508952009f1b102c0c0",
+    "report_descriptor_sha256": "8783c2c016de8d3c57d6e18bc21c2df0d6fa47b60da827dfa02e2658a2e3fc0e"
+  },
+  "normal_hid": {
+    "Product": "FANATEC WHEEL(PS5 / PS4 MODE)",
+    "Manufacturer": "Fanatec",
+    "Transport": "USB",
+    "VendorID": 3767,
+    "ProductID": 3591,
+    "VersionNumber": 1573,
+    "PrimaryUsagePage": 1,
+    "PrimaryUsage": 5,
+    "MaxInputReportSize": 64,
+    "MaxOutputReportSize": 32,
+    "MaxFeatureReportSize": 64,
+    "report_descriptor_hex": "05010905a10185010930093109320935150026ff007508950481020939150025073500463b016514750495018142650005091901290e150025017501950e81020600ff0920750695018102050109330934150026ff007508950281020600ff09219536810285050922951f910285030a2127952fb102c006f0ff0940a10185f00947953fb10285f10948953fb10285f20949950fb10285f30a01479507b102c0",
+    "report_descriptor_sha256": "9c099ea4b1d5400969a3363d781f1b354efd25e2d382b81b56cf31c81b01cdee"
+  },
+  "same_usb_location_id": 1126400,
+  "boot_report_items": [
+    {
+      "descriptor_offset": "0x1c",
+      "type": "Input",
+      "report_id": "0x1",
+      "size_bits": 8,
+      "count": 2,
+      "total_bits": 16
+    },
+    {
+      "descriptor_offset": "0x2f",
+      "type": "Input",
+      "report_id": "0x1",
+      "size_bits": 1,
+      "count": 40,
+      "total_bits": 40
+    },
+    {
+      "descriptor_offset": "0x3f",
+      "type": "Output",
+      "report_id": "0xf2",
+      "size_bits": 8,
+      "count": 64,
+      "total_bits": 512
+    },
+    {
+      "descriptor_offset": "0x49",
+      "type": "Feature",
+      "report_id": "0xf1",
+      "size_bits": 8,
+      "count": 32,
+      "total_bits": 256
+    }
+  ],
+  "status_response": {
+    "hex": "34120000010000000100010000000000",
+    "size": 16,
+    "sha256": "f5a4c8d871fd91989367617817a3ca5c06f1be50f46342b92329f6f18d5cabd3",
+    "u32_le_by_byte_offset": {
+      "0": "0x1234",
+      "4": "0x1",
+      "8": "0x10001",
+      "12": "0x0"
+    },
+    "leading_report_id_present": false,
+    "interpretation": "Status response, not a flash dump. No F1 prefix was returned; byte 8 equals 0x00010001. The stock updater version arithmetic yields 1.0.1 with no BL high-byte flag, but platform framing and full field semantics are not verified."
+  },
+  "application_source": {
+    "path": "work/sigma/1.1.5/sigma-decoded.bin",
+    "size": 189056,
+    "sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622"
+  },
+  "exact_boot_descriptor_occurrences_in_stock_app": 0,
+  "helper_source": {
+    "path": "scripts/read_sigma_boot_status.c",
+    "size": 5234,
+    "sha256": "36ede8ad07ffab74d00707d0e1647f2845f9e20ddfc5d63df0cf6ecc20e8191f"
+  },
+  "helper_binary": {
+    "path": "work/tools/read_sigma_boot_status",
+    "size": 35800,
+    "sha256": "fa07eea55aedac3c3744d8772423e66b1bb3cbe528bf39467ea2bde3534d8c8c"
+  },
+  "firmware_dump_obtained": false,
+  "agent_get_feature_requests": 1,
+  "agent_set_or_output_report_requests": 0,
+  "agent_flash_or_unlock_commands": 0,
+  "limits": [
+    "Manual entry and normal return are observed with the currently working application.",
+    "The exact placement of the OK check and recovery with deliberately corrupted firmware remain untested.",
+    "No supported arbitrary flash-read command was established.",
+    "Registry/descriptor equality does not prove byte-for-byte preservation of device flash or identify the installed application version.",
+    "Device-internal flash behavior on the button sequence was not measured.",
+    "The direct-cable failure cause is unknown; the KVM path carried enumeration and the one status read successfully."
+  ]
+}

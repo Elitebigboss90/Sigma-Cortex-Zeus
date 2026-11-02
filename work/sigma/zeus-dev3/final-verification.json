@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "build_id": "zeus-dev3",
+  "base_version": "1.1.8",
+  "plaintext_sha256": "236fdf7580f553352ada033468654ebf3bff1ec70898184e988149d15f34c77c",
+  "encoded_sha256": "e3fd514ff8d97756efd745e60d483ca7594719ad647a4ec4d8e0dd599f5f90d2",
+  "updater_sha256": "4a5d5eddbef1fe80fd8415448a9bd152929fdd365a8de757ccbbe91b3a977295",
+  "emulator_checks_passed": 16,
+  "measured_frames_replayed": 99,
+  "original_bytes_changed": 7,
+  "application_pages": 94,
+  "final_page_unused_bytes": 320,
+  "other_updater_resources_unchanged": 749,
+  "native_updater_code_unchanged": true,
+  "prior_1_1_5_candidate_and_sources_preserved": true,
+  "sources_and_artifacts_verified": true,
+  "local_report_links_valid": true,
+  "auxiliary_source_snapshots": [
+    {
+      "path": "work/sigma/zeus-dev3/source/scripts/verify_sigma118_patch.py",
+      "sha256": "8945e5e9b12f8ecc7732bbfccf4b64c61525eaffc69608a0a583fe0d6acf8d14"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/scripts/package_sigma118_candidate.py",
+      "sha256": "7665dd572fbd3f215c76017a4a593c0bbd7ca35fff0e74145b00193a39270b2e"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/scripts/sigma118_memory.py",
+      "sha256": "8657c771e2b7220f0a6c728b1fd29786610d8fbf392e8a345d074016db61fcd5"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/scripts/bindings118_evidence.py",
+      "sha256": "d848aa0b59cd4ad49b07f888dfb0c63864518acef89e6a92b9a4a992c207db5d"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/scripts/bindings118_emulate.py",
+      "sha256": "e1c3439543afcf55d417e1ea775772ddc3811ca8d0987462fde1193fe92d556b"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/scripts/finalize_sigma118_candidate.py",
+      "sha256": "594cbec3ebd21ddb850427d7f2a09b310147c62fe4f826f1ca4f318a10ddd3ef"
+    }
+  ],
+  "hardware_flashed": false,
+  "bootloader_acceptance_verified": false,
+  "limits": "Offline image/CPU/package consistency; USB/PS5 and failed-image restoration untested"
+}

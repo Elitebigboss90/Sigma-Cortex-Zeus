@@ -1,0 +1,5 @@
+SIGMA v1.1.5 BETA - Patch Notes:
+---------------------------------
+* DS-8X is now supported (both H-Pattern and Sequential modes)
+* Handbrake is now supported and reads as an analog input rather than a digital input
+* New Menu option added, allowing you to invert the direction of the lever when in sequential mode

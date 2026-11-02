@@ -1,0 +1,15 @@
+Upgrade mode:
+SIGMA uses a USB cable to connect to the computer, double-click the upgrade program, select SIGMA, click Upgrade
+
+SIGMA 1.0.11 Upgrade Bulletin
+1. Fixed the wrong button
+2. Now the DS-8X can now be connected to a SIGMA USB port separately or using an Alpha base USB port
+3. DS-8X only work in H shift mode now, the Sequential mode temporarily unavailable
+4. Updated the user manual
+
+SIGMA 1.0.10 Upgrade Bulletin
+1. Fixed the Bug where the cross key could not be used
+2. Improved stability
+3. The option to adjust the force feedback of the steering wheel has been removed, now it can only adjust the force feedback through SIGMA
+
+

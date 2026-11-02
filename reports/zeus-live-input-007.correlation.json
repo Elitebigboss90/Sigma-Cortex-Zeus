@@ -1,0 +1,83 @@
+{
+  "capture": "reports/zeus-live-input-007.jsonl",
+  "capture_sha256": "01753493a346b8f168514b408337470e933b8c48028ca6279f5250ada567b900",
+  "analysis": "reports/zeus-live-input-007.analysis.json",
+  "analysis_sha256": "1b7556e7d7723e2094cc2d2117f59f030a1d27d01c3d74947b86ce20868014cb",
+  "confirmation_source": "User confirmation relayed by parent agent /root in this session",
+  "prompt_semantics_not_verbatim": "Left seven-way center click, then right seven-way center click",
+  "user_answer_verbatim": "Finished both center clicks",
+  "mapping_basis": "Order of isolated control events correlated with the requested and confirmed physical sequence",
+  "events": [
+    {
+      "physical_action_label": "left center",
+      "usage": 43,
+      "used_for_mapping": true,
+      "first_elapsed_ns": 36218798000,
+      "release_or_change_elapsed_ns": 36328907000,
+      "first_line": 7279,
+      "first_file_offset": 932339,
+      "reports": 22,
+      "raw_report_hex": "0100000000000000040000000000000000008080808000",
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x04"
+    },
+    {
+      "physical_action_label": "unrequested left direction transient",
+      "usage": 46,
+      "used_for_mapping": false,
+      "first_elapsed_ns": 36328907000,
+      "release_or_change_elapsed_ns": 36343835000,
+      "first_line": 7301,
+      "first_file_offset": 935155,
+      "reports": 3,
+      "raw_report_hex": "0100000000000000200000000000000000008080808000",
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x20"
+    },
+    {
+      "physical_action_label": "unrequested left direction transient",
+      "usage": 47,
+      "used_for_mapping": false,
+      "first_elapsed_ns": 36358881000,
+      "release_or_change_elapsed_ns": 36423838000,
+      "first_line": 7307,
+      "first_file_offset": 935923,
+      "reports": 13,
+      "raw_report_hex": "0100000000000000400000000000000000008080808000",
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x40"
+    },
+    {
+      "physical_action_label": "left center continuation",
+      "usage": 43,
+      "used_for_mapping": true,
+      "first_elapsed_ns": 36423838000,
+      "release_or_change_elapsed_ns": 36483840000,
+      "first_line": 7320,
+      "first_file_offset": 937587,
+      "reports": 12,
+      "raw_report_hex": "0100000000000000040000000000000000008080808000",
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x04"
+    },
+    {
+      "physical_action_label": "right center",
+      "usage": 48,
+      "used_for_mapping": true,
+      "first_elapsed_ns": 39633840000,
+      "release_or_change_elapsed_ns": 39898868000,
+      "first_line": 7965,
+      "first_file_offset": 1020393,
+      "reports": 53,
+      "raw_report_hex": "0100000000000000800000000000000000008080808000",
+      "report_byte_offset": 8,
+      "report_bit_mask": "0x80"
+    }
+  ],
+  "device_writes": false,
+  "limits": [
+    "Current wheel configuration and KVM topology only; saved user presets can change usages.",
+    "No Sigma firmware or PS5 behavior is validated by this capture.",
+    "Unrequested directional transients in capture007 are retained and excluded from assigning directions."
+  ]
+}

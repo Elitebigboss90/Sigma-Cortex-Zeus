@@ -1,0 +1,21 @@
+HTTP/2 302 
+server: nginx
+date: Wed, 28 Oct 2026 00:05:19 GMT
+content-type: text/plain; charset=utf-8
+content-length: 252
+x-powered-by: Express
+access-control-allow-origin: *
+access-control-allow-credentials: true
+x-ratelimit-limit-short: 6
+x-ratelimit-remaining-short: 5
+x-ratelimit-reset-short: 1
+x-ratelimit-limit-medium: 30
+x-ratelimit-remaining-medium: 29
+x-ratelimit-reset-medium: 5
+x-ratelimit-limit-long: 100
+x-ratelimit-remaining-long: 99
+x-ratelimit-reset-long: 60
+location: https://service.simagic.com/software/download?url=https://update.simagic.com/simpro/latest/SimPro-V3.2.3.13713-072a9e42-Setup.exe?auth_key=1793145919-a50a7293e7d941918aea6b59c8f8cfbf-0-5a8b6cf139c379f428ec4c502d112521&from=website
+vary: Accept
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+

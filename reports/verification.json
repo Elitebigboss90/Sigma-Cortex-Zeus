@@ -1,0 +1,45 @@
+{
+  "verified_at": "2026-10-28T00:24:29.472030+00:00",
+  "commands": [
+    {
+      "command": [
+        "/Users/ethan/Devs/sigma-re/work/tools/python/bin/python",
+        "scripts/inventory_packages.py"
+      ],
+      "exit_code": 0,
+      "stdout": "Originals verified; 750 Sigma resource slices verified; 2847 SimPro members, 1072364103 bytes hashed.\nZeus Formula: {'member': '$APPDATA/Local/Simagic/Simpro3/firmware/wheel/zf/ZeusFormula_App-A1.1.15.13445-eb889282.sfu', 'path': 'work/simagic/3.2.3.13713/$APPDATA/Local/Simagic/Simpro3/firmware/wheel/zf/ZeusFormula_App-A1.1.15.13445-eb889282.sfu', 'size': 123936, 'sha256': '571535e07edc9efb8c7403eecf60caf861631ae9bf312a2755acc4d4e26b7e7f', 'source_byte_range': None, 'range_limit': 'Solid LZMA extraction: no one-to-one compressed input byte range established.'}"
+    },
+    {
+      "command": [
+        "/Users/ethan/Devs/sigma-re/work/tools/python/bin/python",
+        "scripts/verify_zeus_decoder.py"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: descriptor layout, 120 independent bit positions, field boundaries, invalid lengths and report ID. Synthetic only; no hardware validation."
+    }
+  ],
+  "decoded_artifacts": [
+    {
+      "path": "work/sigma/1.1.5/sigma-decoded.bin",
+      "size": 189056,
+      "sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622",
+      "matches_recorded_transform": true,
+      "previous_byte_exact_roundtrip": true
+    },
+    {
+      "path": "work/sigma/1.0.20/sigma-decoded.bin",
+      "size": 216800,
+      "sha256": "3fc925cb7d12f3179a27248b2d86868d0556d7f36be33092b39bcced254c9e20",
+      "matches_recorded_transform": true,
+      "previous_byte_exact_roundtrip": true
+    },
+    {
+      "path": "work/simagic/zeus-formula-decoded.bin",
+      "size": 123872,
+      "sha256": "85961f88feba079fa9a9c5e72e6c329b880c98082a305da60c3c851b04b7756a",
+      "matches_recorded_transform": true,
+      "previous_byte_exact_roundtrip": true
+    }
+  ],
+  "hardware_validation": false
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "version": "1.0.10",
+    "path": "work/sigma/1.0.10/sigma-decoded.bin",
+    "sha256": "f42367e350cb4874bcdf42c2ee4bb4520fc8aab89c1b34a5aca6622918fbe7c4",
+    "reset_thumb_word": "0x8020291",
+    "reset_file_range": [
+      "0x290",
+      "0x2a6"
+    ],
+    "reset_bytes": "0948804709480047fee7fee7fee7fee7fee7fee7fee7",
+    "reset_matches_115_same_file_offset": true,
+    "decode_assumption": "base 0x08020000 supported by matching startup at file 0x290 and reset pointer 0x08020291; not exact-chip proof",
+    "instructions": [
+      {
+        "file_offset": "0x290",
+        "va_if_base_08020000": "0x8020290",
+        "bytes": "0948",
+        "instruction": "ldr r0, [pc, #0x24]"
+      },
+      {
+        "file_offset": "0x292",
+        "va_if_base_08020000": "0x8020292",
+        "bytes": "8047",
+        "instruction": "blx r0"
+      },
+      {
+        "file_offset": "0x294",
+        "va_if_base_08020000": "0x8020294",
+        "bytes": "0948",
+        "instruction": "ldr r0, [pc, #0x24]"
+      },
+      {
+        "file_offset": "0x296",
+        "va_if_base_08020000": "0x8020296",
+        "bytes": "0047",
+        "instruction": "bx r0"
+      },
+      {
+        "file_offset": "0x298",
+        "va_if_base_08020000": "0x8020298",
+        "bytes": "fee7",
+        "instruction": "b #0x8020298"
+      },
+      {
+        "file_offset": "0x29a",
+        "va_if_base_08020000": "0x802029a",
+        "bytes": "fee7",
+        "instruction": "b #0x802029a"
+      },
+      {
+        "file_offset": "0x29c",
+        "va_if_base_08020000": "0x802029c",
+        "bytes": "fee7",
+        "instruction": "b #0x802029c"
+      },
+      {
+        "file_offset": "0x29e",
+        "va_if_base_08020000": "0x802029e",
+        "bytes": "fee7",
+        "instruction": "b #0x802029e"
+      },
+      {
+        "file_offset": "0x2a0",
+        "va_if_base_08020000": "0x80202a0",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a0"
+      },
+      {
+        "file_offset": "0x2a2",
+        "va_if_base_08020000": "0x80202a2",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a2"
+      },
+      {
+        "file_offset": "0x2a4",
+        "va_if_base_08020000": "0x80202a4",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a4"
+      },
+      {
+        "file_offset": "0x2a6",
+        "va_if_base_08020000": "0x80202a6",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a6"
+      },
+      {
+        "file_offset": "0x2a8",
+        "va_if_base_08020000": "0x80202a8",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a8"
+      },
+      {
+        "file_offset": "0x2aa",
+        "va_if_base_08020000": "0x80202aa",
+        "bytes": "fee7",
+        "instruction": "b #0x80202aa"
+      },
+      {
+        "file_offset": "0x2ac",
+        "va_if_base_08020000": "0x80202ac",
+        "bytes": "0448",
+        "instruction": "ldr r0, [pc, #0x10]"
+      },
+      {
+        "file_offset": "0x2ae",
+        "va_if_base_08020000": "0x80202ae",
+        "bytes": "0549",
+        "instruction": "ldr r1, [pc, #0x14]"
+      }
+    ]
+  },
+  {
+    "version": "1.0.11",
+    "path": "work/sigma/1.0.11/sigma-decoded.bin",
+    "sha256": "691bc550b4ad98da3b5f73c16b961973564cbb7f26cb9b44bebed25622347cdb",
+    "reset_thumb_word": "0x8020291",
+    "reset_file_range": [
+      "0x290",
+      "0x2a6"
+    ],
+    "reset_bytes": "0948804709480047fee7fee7fee7fee7fee7fee7fee7",
+    "reset_matches_115_same_file_offset": true,
+    "decode_assumption": "base 0x08020000 supported by matching startup at file 0x290 and reset pointer 0x08020291; not exact-chip proof",
+    "instructions": [
+      {
+        "file_offset": "0x290",
+        "va_if_base_08020000": "0x8020290",
+        "bytes": "0948",
+        "instruction": "ldr r0, [pc, #0x24]"
+      },
+      {
+        "file_offset": "0x292",
+        "va_if_base_08020000": "0x8020292",
+        "bytes": "8047",
+        "instruction": "blx r0"
+      },
+      {
+        "file_offset": "0x294",
+        "va_if_base_08020000": "0x8020294",
+        "bytes": "0948",
+        "instruction": "ldr r0, [pc, #0x24]"
+      },
+      {
+        "file_offset": "0x296",
+        "va_if_base_08020000": "0x8020296",
+        "bytes": "0047",
+        "instruction": "bx r0"
+      },
+      {
+        "file_offset": "0x298",
+        "va_if_base_08020000": "0x8020298",
+        "bytes": "fee7",
+        "instruction": "b #0x8020298"
+      },
+      {
+        "file_offset": "0x29a",
+        "va_if_base_08020000": "0x802029a",
+        "bytes": "fee7",
+        "instruction": "b #0x802029a"
+      },
+      {
+        "file_offset": "0x29c",
+        "va_if_base_08020000": "0x802029c",
+        "bytes": "fee7",
+        "instruction": "b #0x802029c"
+      },
+      {
+        "file_offset": "0x29e",
+        "va_if_base_08020000": "0x802029e",
+        "bytes": "fee7",
+        "instruction": "b #0x802029e"
+      },
+      {
+        "file_offset": "0x2a0",
+        "va_if_base_08020000": "0x80202a0",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a0"
+      },
+      {
+        "file_offset": "0x2a2",
+        "va_if_base_08020000": "0x80202a2",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a2"
+      },
+      {
+        "file_offset": "0x2a4",
+        "va_if_base_08020000": "0x80202a4",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a4"
+      },
+      {
+        "file_offset": "0x2a6",
+        "va_if_base_08020000": "0x80202a6",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a6"
+      },
+      {
+        "file_offset": "0x2a8",
+        "va_if_base_08020000": "0x80202a8",
+        "bytes": "fee7",
+        "instruction": "b #0x80202a8"
+      },
+      {
+        "file_offset": "0x2aa",
+        "va_if_base_08020000": "0x80202aa",
+        "bytes": "fee7",
+        "instruction": "b #0x80202aa"
+      },
+      {
+        "file_offset": "0x2ac",
+        "va_if_base_08020000": "0x80202ac",
+        "bytes": "0448",
+        "instruction": "ldr r0, [pc, #0x10]"
+      },
+      {
+        "file_offset": "0x2ae",
+        "va_if_base_08020000": "0x80202ae",
+        "bytes": "0549",
+        "instruction": "ldr r1, [pc, #0x14]"
+      }
+    ]
+  }
+]

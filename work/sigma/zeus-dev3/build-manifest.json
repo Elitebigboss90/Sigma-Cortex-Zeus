@@ -1,0 +1,196 @@
+{
+  "status": "OFFLINE_EXPERIMENTAL_NOT_FOR_FLASHING",
+  "base_version": "1.1.8",
+  "build_id": "zeus-dev3",
+  "installable_verified": false,
+  "original": {
+    "path": "work/sigma/1.1.8/sigma-decoded.bin",
+    "sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+    "size": 191104
+  },
+  "edits": [
+    {
+      "offset": 744,
+      "va": "0x80202e8",
+      "original_hex": "50560020",
+      "replacement_hex": "50550020",
+      "reason": "Reserve final256bytes of declared heap; preserve stackbounds"
+    },
+    {
+      "offset": 18238,
+      "va": "0x802473e",
+      "original_hex": "07f0d7be",
+      "replacement_hex": "2af0c5ba",
+      "reason": "Preserve final constructor tail-branch ABI thenregister seventh class"
+    },
+    {
+      "offset": 146304,
+      "va": "0x8043b80",
+      "original_hex": "02f09efa",
+      "replacement_hex": "0bf0c6f8",
+      "reason": "Preserve originalconsolebuilder thenmerge independentZeuscontrols"
+    }
+  ],
+  "changed_original_bytes": 7,
+  "original_tail_preserved": true,
+  "opaque_tail_bytes": 8,
+  "stock_and_candidate_flash_pages": 94,
+  "appended": {
+    "offset": 191104,
+    "va": "0x804ea80",
+    "code_and_rodata_length": 1070,
+    "alignment_padding": 18,
+    "sha256": "91150024373880fd84296eb7985535a0d89ae2a97eb74d4006fa1355813c9f37"
+  },
+  "ram_reservation": {
+    "start": "0x20005550",
+    "size": 256,
+    "original_heap_limit": "0x20005650",
+    "new_heap_limit": "0x20005550",
+    "stack_unchanged": true
+  },
+  "artifacts": {
+    "plaintext": {
+      "path": "work/sigma/zeus-dev3/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev3.plaintext.bin",
+      "size": 192192,
+      "sha256": "236fdf7580f553352ada033468654ebf3bff1ec70898184e988149d15f34c77c"
+    },
+    "encoded": {
+      "path": "work/sigma/zeus-dev3/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev3.encoded.bin",
+      "size": 192192,
+      "sha256": "e3fd514ff8d97756efd745e60d483ca7594719ad647a4ec4d8e0dd599f5f90d2"
+    }
+  },
+  "symbols": {
+    "zeus_button_usages": "0x804eea0",
+    "zeus_match": "0x804ea81",
+    "zeus_endpoint": "0x804ea97",
+    "zeus_on_init": "0x804ead1",
+    "zeus_release": "0x804eb11",
+    "zeus_init": "0x804eb45",
+    "zeus_input": "0x804ebcd",
+    "zeus_poll": "0x804ec79",
+    "zeus_construct_hook": "0x804eccd",
+    "zeus_vtable": "0x804ee50",
+    "zeus_merge_hook": "0x804ed11"
+  },
+  "profile": {
+    "console_buttons": [
+      1,
+      2,
+      3,
+      4,
+      14,
+      13,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hat_primary": [
+      44,
+      47,
+      46,
+      45
+    ],
+    "hat_secondary": [
+      63,
+      66,
+      65,
+      64
+    ],
+    "center_aliases": [
+      43,
+      48
+    ],
+    "center_console_buttons": [
+      11,
+      12
+    ],
+    "axis_console_bytes": [
+      8,
+      9
+    ]
+  },
+  "source_files": {
+    "patch/sigma118/sigma_zeus.c": "54866357a47b6f27e93703412b60c551faf43140b31aa5f6884e5f39b8982e7a",
+    "patch/zeus_profile.h": "59e00c03df4e00035aade558c09e7a173ae13162b0caa675ad22a84be3a29b99",
+    "patch/sigma118/sigma_zeus.ld": "37591b4201f8b973af80637d9f6cf80933c8808504ffd9520761e5f2806ecc71",
+    "scripts/build_sigma118_zeus.py": "36e587277e475ade4191cfcf1e124a0f920d743ff6beb63c08f1efb715a42f28"
+  },
+  "encoding": {
+    "algorithm": "AES-256-CTR",
+    "counter": "128-bit big-endian, continuous from originaloffset0",
+    "key_source_sha256": "fa0505afc50f2f40311b8a2bff7c945ff32af39dea86f0d110ac4f49f4026192",
+    "original_roundtrip": true,
+    "candidate_roundtrip": true,
+    "unchanged_plaintext_preserves_original_ciphertext": true
+  },
+  "tools": {
+    "clang": "Homebrew clang version 23.1.4",
+    "lld": "Homebrew LLD 23.1.4 (compatible with GNU linkers)",
+    "openssl": "OpenSSL 4.1.0 23 Oct 2026 (Library: OpenSSL 4.1.0 23 Oct 2026)"
+  },
+  "commands": [
+    [
+      "/opt/homebrew/opt/llvm/bin/clang",
+      "--target=arm-none-eabi",
+      "-march=armv7-m",
+      "-mthumb",
+      "-mfloat-abi=soft",
+      "-mno-unaligned-access",
+      "-Os",
+      "-g",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-c",
+      "/Users/ethan/Devs/sigma-re/patch/sigma118/sigma_zeus.c",
+      "-o",
+      "/Users/ethan/Devs/sigma-re/work/sigma/zeus-dev3/patch.o"
+    ],
+    [
+      "/opt/homebrew/bin/ld.lld",
+      "-T",
+      "/Users/ethan/Devs/sigma-re/patch/sigma118/sigma_zeus.ld",
+      "-Map=/Users/ethan/Devs/sigma-re/work/sigma/zeus-dev3/patch.map",
+      "-o",
+      "/Users/ethan/Devs/sigma-re/work/sigma/zeus-dev3/patch.elf",
+      "/Users/ethan/Devs/sigma-re/work/sigma/zeus-dev3/patch.o"
+    ]
+  ],
+  "unresolved": [
+    "Bootloader validation/checksum/signature and acceptance of extended image",
+    "Bootloader write/validation behavior beyond observed memory geometry",
+    "Remaining numbered-button/encoder mappings and PS5 regression testing"
+  ],
+  "source_snapshots": [
+    {
+      "path": "work/sigma/zeus-dev3/source/patch/sigma118/sigma_zeus.c",
+      "sha256": "54866357a47b6f27e93703412b60c551faf43140b31aa5f6884e5f39b8982e7a"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/patch/zeus_profile.h",
+      "sha256": "59e00c03df4e00035aade558c09e7a173ae13162b0caa675ad22a84be3a29b99"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/patch/sigma118/sigma_zeus.ld",
+      "sha256": "37591b4201f8b973af80637d9f6cf80933c8808504ffd9520761e5f2806ecc71"
+    },
+    {
+      "path": "work/sigma/zeus-dev3/source/scripts/build_sigma118_zeus.py",
+      "sha256": "36e587277e475ade4191cfcf1e124a0f920d743ff6beb63c08f1efb715a42f28"
+    }
+  ]
+}

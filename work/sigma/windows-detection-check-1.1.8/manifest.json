@@ -1,0 +1,16 @@
+{
+  "purpose": "Windows stock-updater detection only; no Update action",
+  "source": "originals/SIGMA v1.1.8 BETA/SIGMA v1.1.8 BETA/SIGMA_Converter_V1.1.8.exe",
+  "source_sha256": "233658402f99fdb47cb35a498706af34acdde77574c56b315a158228d48eec1a",
+  "source_size": 3630592,
+  "operation": "byte-identical copy",
+  "source_byte_range": [
+    0,
+    3630592
+  ],
+  "output": "SIGMA_Converter_V1.1.8.exe",
+  "output_sha256": "233658402f99fdb47cb35a498706af34acdde77574c56b315a158228d48eec1a",
+  "original_filename_preserved": true,
+  "script_sha256": "18f38bb75a5391b9c1fc30f686aa236ad75b91a9a6e65db38544507a8145c14f",
+  "modified_firmware_included": false
+}

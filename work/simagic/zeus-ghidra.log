@@ -1,0 +1,95 @@
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 21.0.11)
+OpenJDK 64-Bit Server VM Homebrew (build 21.0.11, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (281 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (1284 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 210 extension points (114 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /Users/ethan/Devs/sigma-re/scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /Users/ethan/Devs/sigma-re/ghidra/zeus-firmware (HeadlessAnalyzer)  
+INFO  Creating project: /Users/ethan/Devs/sigma-re/ghidra/zeus-firmware (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /Users/ethan/Devs/sigma-re/ghidra/zeus-firmware (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///Users/ethan/Devs/sigma-re/work/simagic/zeus-formula-decoded.bin (HeadlessAnalyzer)  
+INFO  Successfully applied "-loader-baseAddr" to "Base Address" (old: "null", new: "0x08021e00") (ProgramLoader)  
+INFO  Using Loader: Raw Binary (ProgramLoader)  
+INFO  Using Language/Compiler: ARM:LE:32:Cortex:default (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, /Users/ethan/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: SimagicSeed.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/ethan/Devs/sigma-re/scripts/SimagicSeed.java (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///Users/ethan/Devs/sigma-re/work/simagic/zeus-formula-decoded.bin (HeadlessAnalyzer)  
+INFO  Packed database cache: /var/tmp/ethan-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: generic_clib (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ARM Constant Reference Analyzer            0.630 secs
+    ARM Symbol                                 0.000 secs
+    ASCII Strings                              0.109 secs
+    Apply Data Archives                        0.197 secs
+    Call Convention ID                         0.002 secs
+    Call-Fixup Installer                       0.003 secs
+    Create Address Tables                      0.014 secs
+    Create Address Tables - One Time           0.076 secs
+    Create Function                            0.067 secs
+    Data Reference                             0.099 secs
+    Decompiler Switch Analysis                 8.740 secs
+    Demangler GNU                              0.006 secs
+    Disassemble                                0.107 secs
+    Disassemble Entry Points                   0.001 secs
+    Embedded Media                             0.004 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.017 secs
+    Function Start Pre Search                  0.006 secs
+    Function Start Search                      0.030 secs
+    Function Start Search After Code           0.032 secs
+    Function Start Search After Data           0.016 secs
+    Function Start Search delayed - One Time   0.007 secs
+    Non-Returning Functions - Discovered       0.050 secs
+    Reference                                  0.224 secs
+    Shared Return Calls                        0.018 secs
+    Stack                                      0.462 secs
+    Subroutine References                      0.170 secs
+    Subroutine References - One Time           0.000 secs
+-----------------------------------------------------
+     Total Time   11 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///Users/ethan/Devs/sigma-re/work/simagic/zeus-formula-decoded.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportFirmware.java 'work/simagic/zeus-initial' '0x0802691c' '0x0803cc14' '0x0803cc28' '0x0803bbc8'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/ethan/Devs/sigma-re/scripts/ExportFirmware.java (HeadlessAnalyzer)  
+INFO  ANALYZING changes made by post scripts: file:///Users/ethan/Devs/sigma-re/work/simagic/zeus-formula-decoded.bin (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///Users/ethan/Devs/sigma-re/work/simagic/zeus-formula-decoded.bin (HeadlessAnalyzer)  
+INFO  /zeus-formula-decoded.bin: file created (ethan) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /zeus-formula-decoded.bin (zeus-firmware:/zeus-formula-decoded.bin) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

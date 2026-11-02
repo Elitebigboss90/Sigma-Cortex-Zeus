@@ -1,0 +1,282 @@
+Inspect the formula dependency plan before installing with `brew install --ask`.
+Enable ask mode by setting `HOMEBREW_ASK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Fetching downloads for: node@24, ghidra, sevenzip and ripgrep
+✔︎ Bottle Manifest node@24 (24.16.0)
+✔︎ Bottle Manifest sevenzip (26.01)
+✔︎ Bottle Manifest ripgrep (15.1.0)
+✔︎ Bottle Manifest ghidra (12.1)
+✔︎ Bottle Manifest brotli (1.2.0)
+✔︎ Bottle brotli (1.2.0)
+✔︎ Bottle Manifest c-ares (1.34.6)
+✔︎ Bottle c-ares (1.34.6)
+✔︎ Bottle Manifest hdrhistogram_c (0.11.9)
+✔︎ Bottle hdrhistogram_c (0.11.9)
+✔︎ Bottle Manifest libnghttp2 (1.69.0)
+✔︎ Bottle libnghttp2 (1.69.0)
+✔︎ Bottle Manifest libnghttp3 (1.15.0)
+✔︎ Bottle libnghttp3 (1.15.0)
+✔︎ Bottle Manifest libngtcp2 (1.22.1)
+✔︎ Bottle libngtcp2 (1.22.1)
+✔︎ Bottle Manifest libuv (1.52.1)
+✔︎ Bottle libuv (1.52.1)
+✔︎ Bottle Manifest simdjson (4.6.4)
+✔︎ Bottle simdjson (4.6.4)
+✔︎ Bottle Manifest uvwasi (0.0.23)
+✔︎ Bottle uvwasi (0.0.23)
+✔︎ Bottle Manifest libpng (1.6.58)
+✔︎ Bottle libpng (1.6.58)
+✔︎ Bottle Manifest freetype (2.14.3)
+✔︎ Bottle freetype (2.14.3)
+✔︎ Bottle Manifest giflib (6.1.3)
+✔︎ Bottle giflib (6.1.3)
+✔︎ Bottle Manifest fontconfig (2.18.0)
+✔︎ Bottle fontconfig (2.18.0)
+✔︎ Bottle Manifest glib (2.88.1)
+✔︎ Bottle glib (2.88.1)
+✔︎ Bottle Manifest xorgproto (2025.1)
+✔︎ Bottle xorgproto (2025.1)
+✔︎ Bottle Manifest libxau (1.0.12)
+✔︎ Bottle libxau (1.0.12)
+✔︎ Bottle Manifest libxdmcp (1.1.5)
+✔︎ Bottle libxdmcp (1.1.5)
+✔︎ Bottle Manifest libxcb (1.17.0)
+✔︎ Bottle Manifest libx11 (1.8.13)
+✔︎ Bottle Manifest libxext (1.3.7)
+✔︎ Bottle libxext (1.3.7)
+✔︎ Bottle Manifest libxrender (0.9.12)
+✔︎ Bottle libxrender (0.9.12)
+✔︎ Bottle Manifest lzo (2.10)
+✔︎ Bottle lzo (2.10)
+✔︎ Bottle Manifest pixman (0.46.4)
+✔︎ Bottle pixman (0.46.4)
+✔︎ Bottle Manifest cairo (1.18.4)
+✔︎ Bottle cairo (1.18.4)
+✔︎ Bottle Manifest graphite2 (1.3.14)
+✔︎ Bottle graphite2 (1.3.14)
+✔︎ Bottle Manifest harfbuzz (14.2.0)
+✔︎ Bottle Manifest jpeg-turbo (3.1.4.1)
+✔︎ Bottle Manifest libtiff (4.7.1_1)
+✔︎ Bottle Manifest little-cms2 (2.19)
+✔︎ Bottle libxcb (1.17.0)
+✔︎ Bottle libx11 (1.8.13)
+✔︎ Bottle Manifest openjdk@21 (21.0.11)
+✔︎ Bottle node@24 (24.16.0)
+✔︎ Bottle harfbuzz (14.2.0)
+✔︎ Bottle little-cms2 (2.19)
+✔︎ Bottle libtiff (4.7.1_1)
+✔︎ Bottle jpeg-turbo (3.1.4.1)
+✔︎ Bottle sevenzip (26.01)
+✔︎ Bottle ripgrep (15.1.0)
+✔︎ Bottle openjdk@21 (21.0.11)
+✔︎ Bottle ghidra (12.1)
+==> Installing dependencies for node@24: brotli, c-ares, hdrhistogram_c, libnghttp2, libnghttp3, libngtcp2, libuv, simdjson and uvwasi
+==> Installing node@24 dependency: brotli
+==> Pouring brotli--1.2.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/brotli/1.2.0: 33 files, 1.9MB
+==> Installing node@24 dependency: c-ares
+==> Pouring c-ares--1.34.6.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/c-ares/1.34.6: 176 files, 1MB
+==> Installing node@24 dependency: hdrhistogram_c
+==> Pouring hdrhistogram_c--0.11.9.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/hdrhistogram_c/0.11.9: 22 files, 172.7KB
+==> Installing node@24 dependency: libnghttp2
+==> Pouring libnghttp2--1.69.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.69.0: 14 files, 848.6KB
+==> Installing node@24 dependency: libnghttp3
+==> Pouring libnghttp3--1.15.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.15.0: 20 files, 603.6KB
+==> Installing node@24 dependency: libngtcp2
+==> Pouring libngtcp2--1.22.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.22.1: 21 files, 1.3MB
+==> Installing node@24 dependency: libuv
+==> Pouring libuv--1.52.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libuv/1.52.1: 35 files, 1.3MB
+==> Installing node@24 dependency: simdjson
+==> Pouring simdjson--4.6.4.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/4.6.4: 19 files, 8.0MB
+==> Installing node@24 dependency: uvwasi
+==> Pouring uvwasi--0.0.23.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/uvwasi/0.0.23: 15 files, 289KB
+==> Installing node@24
+==> Pouring node@24--24.16.0.arm64_tahoe.bottle.tar.gz
+==> Caveats
+The following node@24 executables are shadowed by other commands earlier in your PATH:
+  corepack (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/corepack)
+  node (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/node)
+  npm (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/npm)
+  npx (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/npx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Summary
+🍺  /opt/homebrew/Cellar/node@24/24.16.0: 2,051 files, 73.8MB
+==> Running `brew cleanup node@24`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Installing dependencies for ghidra: libpng, freetype, giflib, fontconfig, glib, xorgproto, libxau, libxdmcp, libxcb, libx11, libxext, libxrender, lzo, pixman, cairo, graphite2, harfbuzz, jpeg-turbo, libtiff, little-cms2 and openjdk@21
+==> Installing ghidra dependency: libpng
+==> Pouring libpng--1.6.58.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpng/1.6.58: 28 files, 1.4MB
+==> Installing ghidra dependency: freetype
+==> Pouring freetype--2.14.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/freetype/2.14.3: 68 files, 2.7MB
+==> Installing ghidra dependency: giflib
+==> Pouring giflib--6.1.3.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/giflib/6.1.3: 19 files, 534.2KB
+==> Installing ghidra dependency: fontconfig
+==> Pouring fontconfig--2.18.0.arm64_tahoe.bottle.tar.gz
+==> Regenerating font cache, this may take a while
+==> /opt/homebrew/Cellar/fontconfig/2.18.0/bin/fc-cache --force --really-force -
+🍺  /opt/homebrew/Cellar/fontconfig/2.18.0: 102 files, 1.8MB
+==> Installing ghidra dependency: glib
+==> Pouring glib--2.88.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glib/2.88.1: 506 files, 39.9MB
+==> Installing ghidra dependency: xorgproto
+==> Pouring xorgproto--2025.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xorgproto/2025.1: 268 files, 4.1MB
+==> Installing ghidra dependency: libxau
+==> Pouring libxau--1.0.12.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxau/1.0.12: 21 files, 137.4KB
+==> Installing ghidra dependency: libxdmcp
+==> Pouring libxdmcp--1.1.5.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxdmcp/1.1.5: 12 files, 143.0KB
+==> Installing ghidra dependency: libxcb
+==> Pouring libxcb--1.17.0.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libxcb/1.17.0: 2,498 files, 7.9MB
+==> Installing ghidra dependency: libx11
+==> Pouring libx11--1.8.13.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libx11/1.8.13: 1,043 files, 7.4MB
+==> Installing ghidra dependency: libxext
+==> Pouring libxext--1.3.7.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxext/1.3.7: 88 files, 472.6KB
+==> Installing ghidra dependency: libxrender
+==> Pouring libxrender--0.9.12.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxrender/0.9.12: 13 files, 230.5KB
+==> Installing ghidra dependency: lzo
+==> Pouring lzo--2.10.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/lzo/2.10: 32 files, 579.8KB
+==> Installing ghidra dependency: pixman
+==> Pouring pixman--0.46.4.arm64_tahoe.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/pixman/0.46.4: 11 files, 1.4MB
+==> Installing ghidra dependency: cairo
+==> Pouring cairo--1.18.4.arm64_tahoe.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/cairo/1.18.4: 58 files, 4.7MB
+==> Installing ghidra dependency: graphite2
+==> Pouring graphite2--1.3.14.arm64_tahoe.bottle.2.tar.gz
+🍺  /opt/homebrew/Cellar/graphite2/1.3.14: 19 files, 277.5KB
+==> Installing ghidra dependency: harfbuzz
+==> Pouring harfbuzz--14.2.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/14.2.0: 94 files, 13.6MB
+==> Installing ghidra dependency: jpeg-turbo
+==> Pouring jpeg-turbo--3.1.4.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.1.4.1: 47 files, 3.7MB
+==> Installing ghidra dependency: libtiff
+==> Pouring libtiff--4.7.1_1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtiff/4.7.1_1: 488 files, 9.0MB
+==> Installing ghidra dependency: little-cms2
+==> Pouring little-cms2--2.19.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/little-cms2/2.19: 23 files, 1.5MB
+==> Installing ghidra dependency: openjdk@21
+==> Pouring openjdk@21--21.0.11.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjdk@21/21.0.11: 600 files, 347.3MB
+==> Installing ghidra
+==> Pouring ghidra--12.1.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ghidra/12.1: 5,184 files, 791.4MB
+==> Running `brew cleanup ghidra`...
+==> Pouring sevenzip--26.01.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sevenzip/26.01: 6 files, 4.5MB
+==> Running `brew cleanup sevenzip`...
+==> Pouring ripgrep--15.1.0.arm64_tahoe.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ripgrep/15.1.0: 14 files, 6.4MB
+==> Running `brew cleanup ripgrep`...
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/autoconf/2.72... (72 files, 3.8MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/autoconf_bottle_manifest--2.73... (14.9KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/autoconf--2.73... (1.1MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/bash_bottle_manifest--5.3.9... (11KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/bash--5.3.9... (3.4MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/boost_bottle_manifest--1.90.0_1... (28.9KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/boost--1.90.0_1... (61.3MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2026-05-14... (1.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/ca-certificates--2026-05-14... (112KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/double-conversion_bottle_manifest--3.4.0... (7.4KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/double-conversion--3.4.0... (74.0KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/edencommon_bottle_manifest--2026.05.25.00... (28.4KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/edencommon--2026.05.25.00... (445.0KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fb303_bottle_manifest--2026.05.25.00... (27.3KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fb303--2026.05.25.00... (793.5KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fbthrift_bottle_manifest--2026.05.25.00... (26.6KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fbthrift--2026.05.25.00... (8.8MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fizz_bottle_manifest--2026.05.25.00... (23.2KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fizz--2026.05.25.00... (694.8KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fmt_bottle_manifest--12.1.0... (7.3KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/fmt--12.1.0... (282.9KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/folly_bottle_manifest--2026.05.25.00... (22.3KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/folly--2026.05.25.00... (7.7MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/gettext_bottle_manifest--1.0... (13.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/gettext--1.0... (10.2MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/gflags_bottle_manifest--2.3.0... (7.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/gflags--2.3.0... (224.5KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/glog_bottle_manifest--0.7.1... (8.2KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/glog--0.7.1... (124.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/icu4c@78_bottle_manifest--78.3... (9.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/icu4c@78--78.3... (31.8MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/libsodium_bottle_manifest--1.0.22... (7.3KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/libsodium--1.0.22... (408.8KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/libunistring_bottle_manifest--1.4.2... (7.3KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/libunistring--1.4.2... (1.9MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/libyaml_bottle_manifest--0.2.5... (14.5KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/libyaml--0.2.5... (107.7KB)
+Removing: /opt/homebrew/Cellar/m4/1.4.19... (14 files, 746.6KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/m4_bottle_manifest--1.4.21... (9.5KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/m4--1.4.21... (282.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/ncurses_bottle_manifest--6.6... (11.9KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/ncurses--6.6... (2.5MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.2... (12.0KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/openssl@3--3.6.2... (10.9MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/pcre2_bottle_manifest--10.47_1... (11.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/pcre2--10.47_1... (2.4MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/pkgconf_bottle_manifest--2.5.1... (12.2KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/pkgconf--2.5.1... (121.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/python@3.12_bottle_manifest--3.12.13... (28.5KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/python@3.12--3.12.13... (18MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/python@3.14_bottle_manifest--3.14.5... (31KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/python@3.14--3.14.5... (19.2MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/rbenv_bottle_manifest--1.3.2... (2.9KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/rbenv--1.3.2... (20.8KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/readline_bottle_manifest--8.3.3... (10.0KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/readline--8.3.3... (757.9KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/ruby-build_bottle_manifest--20260520... (3.7KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/ruby-build--20260520... (80.4KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/snappy_bottle_manifest--1.2.2... (9.2KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/snappy--1.2.2... (47.0KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/sqlite_bottle_manifest--3.53.1... (11.8KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/sqlite--3.53.1... (2.4MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/wangle_bottle_manifest--2026.05.25.00... (24.3KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/wangle--2026.05.25.00... (937.4KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/watchman_bottle_manifest--2026.05.25.00... (38.5KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/watchman--2026.05.25.00... (3.4MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/xz_bottle_manifest--5.8.3... (11.8KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/xz--5.8.3... (770.8KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/zstd_bottle_manifest--1.5.7_1... (13.2KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/zstd--1.5.7_1... (793.6KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/portable-ruby-4.0.5_1.arm64_big_sur.bottle.tar.gz... (12.7MB)
+Removing: /Users/ethan/Library/Caches/Homebrew/external_commands_list.txt... (1B)
+Removing: /Users/ethan/Library/Caches/Homebrew/all_commands_list.txt... (1.2KB)
+Removing: /Users/ethan/Library/Caches/Homebrew/Cask/zulu17.66.19-ca-jdk17.0.19-macosx_aarch64.dmg--17.0.19,17.66.19.dmg... (195.4MB)
+Pruned 0 symbolic links and 2 directories from /opt/homebrew
+==> Caveats
+zsh completions have been installed to:
+  /opt/homebrew/share/zsh/site-functions
+==> node@24
+The following node@24 executables are shadowed by other commands earlier in your PATH:
+  corepack (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/corepack)
+  node (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/node)
+  npm (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/npm)
+  npx (shadowed by /Users/ethan/.nvm/versions/node/v22.15.0/bin/npx)
+Running these by name will not invoke the version provided by Homebrew.
+Disable this behaviour by setting `HOMEBREW_NO_PATH_SHADOW_CHECK=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).

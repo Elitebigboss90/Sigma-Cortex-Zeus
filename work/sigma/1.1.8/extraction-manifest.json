@@ -1,0 +1,40 @@
+{
+  "source": "originals/SIGMA v1.1.8 BETA/SIGMA v1.1.8 BETA.zip",
+  "source_sha256": "bd176e95346349fa9352a05ba536e4f4447e61c24e26b4b54dfe2266cb98a9d4",
+  "source_size": 2035961,
+  "provenance": "User-supplied local package; vendor signature not established",
+  "version_label": "1.1.8 BETA",
+  "members": [
+    {
+      "member": "SIGMA v1.1.8 BETA/SIGMA v1.1.8 BETA Patch Notes.txt",
+      "source_sha256": "bd176e95346349fa9352a05ba536e4f4447e61c24e26b4b54dfe2266cb98a9d4",
+      "range": {
+        "offset": 129,
+        "length": 76
+      },
+      "range_sha256": "b86e41def5d363356d5db7ccd6d867a192bdae5458e33ae52bff166953b6adb2",
+      "operation": "ZIP method 8 DEFLATE; member CRC32 verified",
+      "output": "work/sigma/1.1.8/package/SIGMA v1.1.8 BETA/SIGMA v1.1.8 BETA Patch Notes.txt",
+      "size": 94,
+      "sha256": "5667ad6d86a34836d587c02e8f6ee4e18e81befd5e5f1a8202b0d26c4497bc30",
+      "zip_crc32": "b7658327",
+      "matching_supplied_copy": "originals/SIGMA v1.1.8 BETA/SIGMA v1.1.8 BETA/SIGMA v1.1.8 BETA Patch Notes.txt"
+    },
+    {
+      "member": "SIGMA v1.1.8 BETA/SIGMA_Converter_V1.1.8.exe",
+      "source_sha256": "bd176e95346349fa9352a05ba536e4f4447e61c24e26b4b54dfe2266cb98a9d4",
+      "range": {
+        "offset": 279,
+        "length": 2035301
+      },
+      "range_sha256": "ba609ef01b22a2188928c4f48f256170e0faba6c881afedebd9eb0b6c978d5f7",
+      "operation": "ZIP method 8 DEFLATE; member CRC32 verified",
+      "output": "work/sigma/1.1.8/package/SIGMA v1.1.8 BETA/SIGMA_Converter_V1.1.8.exe",
+      "size": 3630592,
+      "sha256": "233658402f99fdb47cb35a498706af34acdde77574c56b315a158228d48eec1a",
+      "zip_crc32": "32946cd1",
+      "matching_supplied_copy": "originals/SIGMA v1.1.8 BETA/SIGMA v1.1.8 BETA/SIGMA_Converter_V1.1.8.exe"
+    }
+  ],
+  "originals_modified": false
+}

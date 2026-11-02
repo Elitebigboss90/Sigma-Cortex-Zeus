@@ -1,0 +1,32 @@
+[
+  {
+    "original_path": "patch/sigma_zeus.c",
+    "snapshot_path": "work/sigma/zeus-dev1/source/patch/sigma_zeus.c",
+    "sha256": "f2ac057813a3402472d9f109af5303cc03b3f33fcd1f8663ae5a7b808833716b"
+  },
+  {
+    "original_path": "patch/zeus_profile.h",
+    "snapshot_path": "work/sigma/zeus-dev1/source/patch/zeus_profile.h",
+    "sha256": "2b68a420c1e78febc1506475366a1ad61da62d2bf5eddf8c7c0bd6dec13f9a52"
+  },
+  {
+    "original_path": "patch/sigma_zeus.ld",
+    "snapshot_path": "work/sigma/zeus-dev1/source/patch/sigma_zeus.ld",
+    "sha256": "085b8e985d3d61895fef22ed964e691078cf409939f31fe35db9e4751d58d447"
+  },
+  {
+    "original_path": "scripts/build_sigma_zeus.py",
+    "snapshot_path": "work/sigma/zeus-dev1/source/scripts/build_sigma_zeus.py",
+    "sha256": "5e6652c5421de0a5b7e6cedd08ffd36ea2e74d766224ef4a58a4dc65b10fa34c"
+  },
+  {
+    "original_path": "scripts/verify_sigma_patch.py",
+    "snapshot_path": "work/sigma/zeus-dev1/source/scripts/verify_sigma_patch.py",
+    "sha256": "b0fbfb26dd4a5585972a2c0f052b8c8235562239c77b972fc3f1a22a86f390e5"
+  },
+  {
+    "original_path": "scripts/package_sigma_candidate.py",
+    "snapshot_path": "work/sigma/zeus-dev1/source/scripts/package_sigma_candidate.py",
+    "sha256": "588b3956e5fdc5189e2346c32e844503cae4f5a32edd38fff01330155286aadb"
+  }
+]

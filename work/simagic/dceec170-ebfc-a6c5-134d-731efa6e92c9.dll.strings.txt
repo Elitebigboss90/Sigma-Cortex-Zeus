@@ -1,0 +1,220 @@
+0000004d ascii !This program cannot be run in DOS mode.
+00000200 ascii .text
+00000227 ascii `.rdata
+0000024f ascii @.data
+00000278 ascii .pdata
+0000029f ascii @.rsrc
+000002c7 ascii @.reloc
+00000f73 ascii D$XHc
+00000fdc ascii <HcD$ Hk
+00000ffa ascii HcD$ Hk
+00001279 ascii D$PH9D$(w
+000025ce ascii |$ 'w
+00002699 ascii L$(H;A
+000026fd ascii L$(H9
+00002858 ascii H9D$ u
+00002921 ascii H9D$ u
+00002a07 ascii H9D$(u
+00002a2c ascii H9D$(u
+00002ae8 ascii H9D$(u
+00002b0e ascii H9D$(u
+00002bc5 ascii UUUUUUU
+00002bd4 ascii UUUUUUU
+00002bdc ascii H9D$hv
+00002be9 ascii HkD$h0H
+00002cca ascii D$PH9D$ t
+00002d0f ascii UUUUUUU
+000032c8 ascii |$ AVH
+00003466 ascii VWAVH
+00003576 ascii @A^_^
+00003642 ascii UWAVH
+0000365c ascii ineIA
+00003663 ascii ntelD
+00003b74 ascii @SVWH
+00004200 ascii dceec170-ebfc-a6c5-134d-731efa6e92c9
+00004238 ascii unknown
+00004248 ascii wheel
+00004250 ascii pedal
+00004258 ascii sshifter
+00004268 ascii hshifter
+00004278 ascii handbrake
+00004284 ascii screen
+00004298 ascii screen_4
+000042a4 ascii lever
+000042b0 ascii hotspot
+000043d8 ascii old preset
+000043e8 ascii set factory info
+00004400 ascii factory reset
+00004410 ascii color calibrate
+00004420 ascii curve calibrate
+00004430 ascii preset setting
+00004440 ascii start paddle calibrate
+00004458 ascii stop paddle calibrate
+00004470 ascii start haptics
+00004480 ascii stop haptics
+00004490 ascii sync factory info
+000044a8 ascii dash setting
+000044b8 ascii motor 0
+000044c0 ascii motor 1
+000044c8 ascii motor 2
+000044d0 ascii motor 3
+000044d8 ascii operation flag
+000044e8 ascii button code
+000044f8 ascii paddle groups
+00004508 ascii paddle groups_ex
+00004520 ascii encoders
+0000452c ascii global
+00004538 ascii vibrator
+00004548 ascii screens
+00004550 ascii rpm light
+00004560 ascii side light
+00004570 ascii pedal light
+00004580 ascii logo light
+00004590 ascii ring light
+0000459c ascii pedal
+000045a8 ascii reserved_1
+000045b8 ascii reserved_4
+000045c8 ascii reserved_5
+000045d8 ascii reserved_6
+000045e8 ascii reserved_7
+000045f8 ascii light_groups
+00004610 ascii led_buttons
+0000461c ascii tuners
+00004628 ascii screens
+00004630 ascii vibrator
+0000463c ascii servos
+00004644 ascii hit5s
+0000464c ascii hit7s
+00004658 ascii encoders
+00004664 ascii axises
+00004670 ascii contact2
+00004680 ascii contact3
+00004690 ascii micphones
+000046a0 ascii paddle_groups
+000046b0 ascii paddle_groups_ex
+000046c8 ascii buttons
+000046d0 ascii paddles
+000046d8 ascii rpm_lights
+000046e8 ascii side_lights
+000046f8 ascii paddle_modules
+00004708 ascii led_button_groups
+00004720 ascii button_groups
+00004730 ascii global
+00004738 ascii pedal_lights
+00004748 ascii logos
+00004750 ascii pedals
+00004778 ascii Unknown exception
+000047c0 ascii bad array new length
+000047d8 ascii map/set too long
+00004818 ascii bad allocation
+00004c70 ascii RSDSH
+00004c88 ascii E:\Jenkins\WorkSpace\workspace\
+00004caa ascii Simpro3
+00004cb4 ascii Main\simapp\build\app\simpro3\build_release\dev_pedal_p500\Release\dev_pedal_p500.pdb
+00004d2c ascii .text$di
+00004d40 ascii .text$mn
+00004d54 ascii .text$mn$00
+00004d68 ascii .text$x
+00004d78 ascii .text$yd
+00004d8c ascii .idata$5
+00004da0 ascii .00cfg
+00004db0 ascii .CRT$XCA
+00004dc4 ascii .CRT$XCU
+00004dd8 ascii .CRT$XCZ
+00004dec ascii .CRT$XIA
+00004e00 ascii .CRT$XIZ
+00004e14 ascii .CRT$XPA
+00004e28 ascii .CRT$XPZ
+00004e3c ascii .CRT$XTA
+00004e50 ascii .CRT$XTZ
+00004e64 ascii .rdata
+00004e74 ascii .rdata$r
+00004e88 ascii .rdata$voltmd
+00004ea0 ascii .rdata$zzzdbg
+00004eb8 ascii .rtc$IAA
+00004ecc ascii .rtc$IZZ
+00004ee0 ascii .rtc$TAA
+00004ef4 ascii .rtc$TZZ
+00004f08 ascii .xdata
+00004f18 ascii .xdata$x
+00004f2c ascii .edata
+00004f3c ascii .idata$2
+00004f50 ascii .idata$3
+00004f64 ascii .idata$4
+00004f78 ascii .idata$6
+00004f8c ascii .data
+00004f9c ascii .data$r
+00004fac ascii .data$rs
+00004fd0 ascii .pdata
+00004fe0 ascii .rsrc$01
+00004ff4 ascii .rsrc$02
+000054d2 ascii dev_pedal_p500.dll
+000054e5 ascii dev_create_device_parts
+000054fd ascii dev_create_instance
+00005511 ascii dev_destroy_device_parts
+0000552a ascii dev_destroy_instance
+0000553f ascii dev_get_all_preset_flag
+00005557 ascii dev_get_module_info
+0000556b ascii dev_get_next_config
+0000557f ascii dev_get_next_preset
+00005593 ascii dev_test
+000057ba ascii ?_Xlength_error@std@@YAXPEBD@Z
+000057da ascii MSVCP140.dll
+000057ea ascii __std_terminate
+000057fc ascii memcpy
+00005806 ascii memset
+00005810 ascii __std_exception_copy
+00005828 ascii __std_exception_destroy
+00005842 ascii _CxxThrowException
+00005858 ascii __CxxFrameHandler4
+0000586e ascii __C_specific_handler
+00005886 ascii __std_type_info_destroy_list
+000058a4 ascii VCRUNTIME140.dll
+000058b6 ascii VCRUNTIME140_1.dll
+000058cc ascii _invalid_parameter_noinfo_noreturn
+000058f2 ascii strlen
+000058fc ascii _callnewh
+00005908 ascii malloc
+00005912 ascii _seh_filter_dll
+00005924 ascii _configure_narrow_argv
+0000593e ascii _initialize_narrow_environment
+00005960 ascii _initialize_onexit_table
+0000597c ascii _register_onexit_function
+00005998 ascii _execute_onexit_table
+000059b0 ascii _crt_atexit
+000059be ascii _cexit
+000059c8 ascii _initterm
+000059d4 ascii _initterm_e
+000059e8 ascii api-ms-win-crt-runtime-l1-1-0.dll
+00005a0a ascii api-ms-win-crt-string-l1-1-0.dll
+00005a2c ascii api-ms-win-crt-heap-l1-1-0.dll
+00005a4e ascii RtlCaptureContext
+00005a62 ascii RtlLookupFunctionEntry
+00005a7c ascii RtlVirtualUnwind
+00005a90 ascii IsDebuggerPresent
+00005aa4 ascii UnhandledExceptionFilter
+00005ac0 ascii SetUnhandledExceptionFilter
+00005ade ascii IsProcessorFeaturePresent
+00005afa ascii GetCurrentProcess
+00005b0e ascii TerminateProcess
+00005b22 ascii QueryPerformanceCounter
+00005b3c ascii GetCurrentProcessId
+00005b52 ascii GetCurrentThreadId
+00005b68 ascii GetSystemTimeAsFileTime
+00005b82 ascii DisableThreadLibraryCalls
+00005b9e ascii InitializeSListHead
+00005bb2 ascii KERNEL32.dll
+00005cc8 ascii .?AVexception@std@@
+00005cf0 ascii .?AVbad_array_new_length@std@@
+00005d20 ascii .?AVbad_alloc@std@@
+00005d48 ascii .?AVtype_info@@
+00006260 ascii <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+00006299 ascii <assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+000062e4 ascii   <trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+0000631c ascii     <security>
+0000632c ascii       <requestedPrivileges>
+00006349 ascii         <requestedExecutionLevel level='asInvoker' uiAccess='false' />
+00006391 ascii       </requestedPrivileges>
+000063af ascii     </security>
+000063c0 ascii   </trustInfo>
+000063d0 ascii </assembly>

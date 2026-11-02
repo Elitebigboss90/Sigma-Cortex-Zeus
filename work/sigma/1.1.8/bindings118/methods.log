@@ -1,0 +1,47 @@
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 21.0.11)
+OpenJDK 64-Bit Server VM Homebrew (build 21.0.11, mixed mode)
+INFO  Using log config file: jar:file:/opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /Users/ethan/Library/ghidra/ghidra_12.1_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (280 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (773 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/Base/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/homebrew/Cellar/ghidra/12.1/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /Users/ethan/Devs/sigma-re/scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: /Users/ethan/Devs/sigma-re/work/sigma/1.1.8/bindings118/ghidra/sigma-118-bindings (HeadlessAnalyzer)  
+INFO  Opening project: /Users/ethan/Devs/sigma-re/work/sigma/1.1.8/bindings118/ghidra/sigma-118-bindings (HeadlessProject)  
+INFO  REPORT: Processing read-only project file: /sigma-decoded.bin (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: SeedFunctions.java '0x08024720' '0x080249a4' '0x08024a18' '0x08028470' '0x080288b0' '0x08028924' '0x080289a0' '0x08028ee4' '0x08028f9c' '0x08029c34' '0x08029c50' '0x08029c5c' '0x08029c6c' '0x08029cb4' '0x0802c4c0' '0x0802c4cc' '0x0802c4e0' '0x0802c4e4' '0x0802c4e8' '0x0802c4ec' '0x0802c4f0'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/ethan/Devs/sigma-re/scripts/SeedFunctions.java (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: ExportFirmware.java 'work/sigma/1.1.8/bindings118/methods' '0x08024720' '0x080249a4' '0x08024a18' '0x08028470' '0x080288b0' '0x08028924' '0x080289a0' '0x08028ee4' '0x08028f9c' '0x08029c34' '0x08029c50' '0x08029c5c' '0x08029c6c' '0x08029cb4' '0x0802c4c0' '0x0802c4cc' '0x0802c4e0' '0x0802c4e4' '0x0802c4e8' '0x0802c4ec' '0x0802c4f0'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/ethan/Devs/sigma-re/scripts/ExportFirmware.java (HeadlessAnalyzer)  
+INFO  REPORT: Discarding changes to the following read-only file: /sigma-decoded.bin (HeadlessAnalyzer)  

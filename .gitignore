@@ -1,0 +1,17 @@
+# Rebuildable local runtimes and compiler caches.
+/work/tools/python/
+/work/tools/swift-module-cache/
+__pycache__/
+*.pyc
+
+# OS metadata and live Ghidra locks; retain project databases and exports.
+.DS_Store
+*.gpr.lock
+*.gpr.lock~
+
+# Local credentials, if created later.
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/

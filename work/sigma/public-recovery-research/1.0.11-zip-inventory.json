@@ -1,0 +1,23 @@
+[
+  {
+    "name": "SIGMA 1.0.11 Upgrade Bulletin.txt",
+    "compressed_size": 368,
+    "size": 660,
+    "method": 8,
+    "header_offset": 0
+  },
+  {
+    "name": "sigma user manual_V2.pdf",
+    "compressed_size": 31746778,
+    "size": 31926855,
+    "method": 8,
+    "header_offset": 431
+  },
+  {
+    "name": "SIMGA converter updater1.0.11.exe.exe",
+    "compressed_size": 2041424,
+    "size": 3625472,
+    "method": 8,
+    "header_offset": 31747263
+  }
+]

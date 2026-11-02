@@ -1,0 +1,1696 @@
+{
+    "dash_list": [
+        {
+            "uuid": "44cafc37-4163-40a8-93fb-6861fa1db0ee",
+            "name": "Sim_Map",
+            "dash_zip_file": "dashboard/Sim_Map.dash",
+            "dist_file": "dashboard/Sim_Map.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "af43c1bb-b0ae-4be3-b3e6-173ee191ed1f",
+            "name": "AC_Dash",
+            "dash_zip_file": "dashboard/AC_Dash.dash",
+            "dist_file": "dashboard/AC_Dash.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "d7a11e77-0a9e-4b3c-8f21-6e9bd7a11e77",
+            "name": "Rally_Nav",
+            "dash_zip_file": "dashboard/Rally_Nav.dash",
+            "dist_file": "dashboard/Rally_Nav.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "8a6f3f33-3657-4920-ab00-6ac94fc62a8e",
+            "name": "Valkyrie1",
+            "dash_zip_file": "dashboard/Valkyrie1.dash",
+            "dist_file": "dashboard/Valkyrie1.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_w12_3.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "formula"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "811877bc-525f-410c-9e09-64b6903e68f1",
+            "name": "W12_3",
+            "dash_zip_file": "dashboard/W12-3.dash",
+            "dist_file": "dashboard/W12-3.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_w12_3.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "formula"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "40ca6c7b-68d8-402b-aa3f-7b1c30906710",
+            "name": "Comet_992",
+            "dash_zip_file": "dashboard/Comet_992.dash",
+            "dist_file": "dashboard/Comet_992.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_comet992.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "gt"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "f44d199a-9711-41df-90a8-ca3d940c48ec",
+            "name": "Comet_GT3",
+            "dash_zip_file": "dashboard/Comet_GT3.dash",
+            "dist_file": "dashboard/Comet_GT3.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_cometGt3.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "gt"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "f98b140e-3bec-4369-89f7-4fd5695b5c6f",
+            "name": "F04",
+            "dash_zip_file": "dashboard/F04.dash",
+            "dist_file": "dashboard/F04.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_f04.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "formula"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "3ce4a055-a6f2-4dc9-b7eb-be8d0d5e49a9",
+            "name": "Formula_C",
+            "dash_zip_file": "dashboard/Formula_C.dash",
+            "dist_file": "dashboard/Formula_C.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_formula_c.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "formula"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "25c8c414-696a-49d2-8e86-0e0f073073e3",
+            "name": "Formula23",
+            "dash_zip_file": "dashboard/Formula23.dash",
+            "dist_file": "dashboard/Formula23.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_formula23.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "formula"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "d6fdd039-a001-43b0-9ca5-2442c029e416",
+            "name": "HYF255",
+            "dash_zip_file": "dashboard/HYF255.dash",
+            "dist_file": "dashboard/HYF255.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_hyF255.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "1cec8e55-6bf4-486d-a5da-59187b2ed536",
+            "name": "IMD_Caddy",
+            "dash_zip_file": "dashboard/IMD_Caddy.dash",
+            "dist_file": "dashboard/IMD_Caddy.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_lmdhcaddy.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "4d51c608-9244-4d02-88d1-59c791b09193",
+            "name": "LM_963",
+            "dash_zip_file": "dashboard/LM_963.dash",
+            "dist_file": "dashboard/LM_963.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_lm963.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "15f92b4d-3be6-4681-a09f-b8544df3a961",
+            "name": "LM06",
+            "dash_zip_file": "dashboard/LM06.dash",
+            "dist_file": "dashboard/LM06.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_lm06.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "3da0033e-1d85-4243-aff2-c7270316ff36",
+            "name": "LMD-Hybrid",
+            "dash_zip_file": "dashboard/LMD-Hybrid.dash",
+            "dist_file": "dashboard/LMD-Hybrid.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_lmdhybrid.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "8c9e1c21-6dad-4bc0-9043-5f735954bf3a",
+            "name": "LMP207",
+            "dash_zip_file": "dashboard/LMP207.dash",
+            "dist_file": "dashboard/LMP207.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_lmp207.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "e5b9f506-ce90-453c-ae28-bb38b5770e0e",
+            "name": "LMP320",
+            "dash_zip_file": "dashboard/LMP320.dash",
+            "dist_file": "dashboard/LMP320.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_lmp320.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "ca83fc2a-57e4-4017-8882-44fb809e00f3",
+            "name": "Motor_Sportg82",
+            "dash_zip_file": "dashboard/Motor_Sportg82.dash",
+            "dist_file": "dashboard/Motor_Sportg82.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_motorsportg82.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "gt"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "61ee6aff-1d67-4292-9df7-d2f89745bd71",
+            "name": "Progettof171",
+            "dash_zip_file": "dashboard/Progettof171.dash",
+            "dist_file": "dashboard/Progettof171.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_progettof171.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "gt"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "6015fd4b-5ae7-4c1c-bd83-1550bac61d60",
+            "name": "Proto217",
+            "dash_zip_file": "dashboard/Proto217.dash",
+            "dist_file": "dashboard/Proto217.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_proto217.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "prototype"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "499830b9-f547-439d-9580-82454c511d4a",
+            "name": "Racing_18",
+            "dash_zip_file": "dashboard/Racing_18.dash",
+            "dist_file": "dashboard/Racing_18.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_racing18.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "formula"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "248ed6c6-5e38-41b7-8899-c3e843089aa5",
+            "name": "Scout",
+            "dash_zip_file": "dashboard/Scout.dash",
+            "dist_file": "dashboard/Scout.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_scout.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "ef14cbbc-1b7c-4e56-af2c-a52d7b4038b9",
+            "name": "Sensor_Check",
+            "dash_zip_file": "dashboard/Sensor_Check.dash",
+            "dist_file": "dashboard/Sensor_Check.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_sensorCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "71bd39f8-8114-46ee-bbf9-132bb37554db",
+            "name": "Simagic_ONEGT",
+            "dash_zip_file": "dashboard/Simagic_ONEGT.dash",
+            "dist_file": "dashboard/Simagic_ONEGT.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simagic_onegt.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "gt"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "a055aa34-7c65-4547-995c-4b2fbb4f80d9",
+            "name": "Sport_Mode",
+            "dash_zip_file": "dashboard/Sport_Mode.dash",
+            "dist_file": "dashboard/Sport_Mode.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_sportmode.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "a36d9254-497d-4cee-ad70-9f3273548243",
+            "name": "Tyre_Check_Top",
+            "dash_zip_file": "dashboard/Tyre_Check_Top.dash",
+            "dist_file": "dashboard/Tyre_Check_Top.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_tyrechecktop.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "416a7e5f-13ad-42fb-be7b-69b2df96312d",
+            "name": "Tyre_Check",
+            "dash_zip_file": "dashboard/Tyre_Check.dash",
+            "dist_file": "dashboard/Tyre_Check.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_tyrecheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "697fe6cc-d628-4b4e-9d1c-4653ecbe3c31",
+            "name": "V8_F154_EVO",
+            "dash_zip_file": "dashboard/V8_F154_EVO.dash",
+            "dist_file": "dashboard/V8_F154_EVO.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_v8f154evo.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "gt"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "3f37c774-cd57-4900-9b40-6661c7a66548",
+            "name": "720Super",
+            "dash_zip_file": "dashboard/720Super.dash",
+            "dist_file": "dashboard/720Super.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_720Super.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "gt"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "d1e3d411-6cfb-4a88-bf55-7953df6664a2",
+            "name": "Formula75",
+            "dash_zip_file": "dashboard/Formula75.dash",
+            "dist_file": "dashboard/Formula75.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_formula75.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "formula"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "89bee9f3-297a-4594-ad2e-6eb1e295bb4d",
+            "name": "Simple_Check",
+            "dash_zip_file": "dashboard/Simple_Check.dash",
+            "dist_file": "dashboard/Simple_Check.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "56445141-212a-42a0-8766-161933035614",
+            "name": "Must_V8",
+            "dash_zip_file": "dashboard/Must_V8.dash",
+            "dist_file": "dashboard/Must_V8.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "07ccc7a0-39d5-4997-bd23-b9398026336f",
+            "name": "Drift",
+            "dash_zip_file": "dashboard/Drift.dash",
+            "dist_file": "dashboard/Drift.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "519d84cd-6637-4b4b-8db5-4ff46ff7f195",
+            "name": "LMD-Hybrid-3INCH",
+            "dash_zip_file": "dashboard/LMD-Hybrid-3INCH.dash",
+            "dist_file": "dashboard/LMD-Hybrid-3INCH.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "dc82ae65-39c9-4f4d-b863-d5826e88f35e",
+            "name": "LMP320-3INCH",
+            "dash_zip_file": "dashboard/LMP320-3INCH.dash",
+            "dist_file": "dashboard/LMP320-3INCH.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        },
+        {
+            "uuid": "d1e3d411-6cfb-4a88-bf55-56789f6664a2",
+            "name": "KTM_DASH",
+            "dash_zip_file": "dashboard/KTM_DASH.dash",
+            "dist_file": "dashboard/KTM_DASH.sdash",
+            "project_file": "",
+            "author": "",
+            "description": "",
+            "files": [],
+            "images": [
+                "screen/screen_simpleCheck.png"
+            ],
+            "devices": [
+                {
+                    "device": "RaceOS-4'",
+                    "size": 4
+                },
+                {
+                    "device": "FX-PRO",
+                    "size": 4.3
+                },
+                {
+                    "device": "Mark X",
+                    "size": 5.5
+                },
+                {
+                    "device": "Mark A",
+                    "size": 5
+                },
+                {
+                    "device": "LMneo",
+                    "size": 5
+                }
+            ],
+            "source": [
+                "offical"
+            ],
+            "game": [
+                "generic"
+            ],
+            "use_case": [
+                "inGame",
+                "idle",
+                "pit"
+            ],
+            "telemetry": []
+        }
+    ]
+}

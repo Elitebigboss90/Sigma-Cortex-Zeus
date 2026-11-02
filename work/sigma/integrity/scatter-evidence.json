@@ -1,0 +1,108 @@
+[
+  {
+    "version": "1.1.5",
+    "source": "work/sigma/1.1.5/sigma-decoded.bin",
+    "source_sha256": "03083142e185dbf9598b235281fff4608145f75628b8c7b51d2de642fad51622",
+    "source_size": 189056,
+    "scatter_table": {
+      "offset": 188400,
+      "length": 32,
+      "bytes": "18e0040800000020b0070000d401020870e20408b0070020e05d000030020208",
+      "records": [
+        {
+          "source_va": 134537240,
+          "destination_va": 536870912,
+          "destination_length": 1968,
+          "handler_va": 134349268
+        },
+        {
+          "source_va": 134537840,
+          "destination_va": 536872880,
+          "destination_length": 24032,
+          "handler_va": 134349360
+        }
+      ]
+    },
+    "decompressor": {
+      "offset": 468,
+      "length": 90,
+      "bytes": "0a444ff0000c10f8013b13f0070408bf10f8014b1d1108bf10f8015b641e05d010f8016b641e01f8016bf9d113f0080f1ebf10f8014bad1c0c1b09d16d1e58bf01f801cbfad505e014f8016b01f8016b6d1ef9d59142d6d37047"
+    },
+    "operation": "Transcribed scatter decompression: literals, zero runs, backward byte copies",
+    "input_range": {
+      "offset": 188440,
+      "length": 594,
+      "sha256": "ee99a6bc562abcfa47cd9443b6944ee4c1c0ea897c4879af47689e6353478e64"
+    },
+    "output": "work/sigma/integrity/sigma-1.1.5-initialized-ram.bin",
+    "output_sha256": "d095aaa41ab6511a2d7cb5200ee7845195493ed0cd43f883c47c0879a946c58d",
+    "output_size": 1968,
+    "destination_va": 536870912,
+    "consumed_end_offset": 189034,
+    "nominal_image_end_from_zero_fill_source": 189040,
+    "alignment_bytes": "000000000000",
+    "bytes_after_nominal_end": "8d3eeb1f032856b6987ca08c0da9db7a",
+    "encoded_source": "work/sigma/1.1.5/resources/resource_TEXTFILE_IDR_APP_FILE_1033.bin",
+    "encoded_source_sha256": "4336870decb070816e16a3d8843ac2f2f4ef7f66bdd451897f56820865216282",
+    "opaque_tail_equals_preceding_ciphertext_suffix": true,
+    "preceding_32byte_packet_suffix_offset": 189008,
+    "limits": [
+      "The zero-fill routine does not read its source address.",
+      "A linker nominal endpoint is not bootloader acceptance evidence.",
+      "Initialized RAM reconstruction does not establish physical RAM capacity."
+    ]
+  },
+  {
+    "version": "1.0.20",
+    "source": "work/sigma/1.0.20/sigma-decoded.bin",
+    "source_sha256": "3fc925cb7d12f3179a27248b2d86868d0556d7f36be33092b39bcced254c9e20",
+    "source_size": 216800,
+    "scatter_table": {
+      "offset": 214816,
+      "length": 32,
+      "bytes": "4847050800000020e00c0000d4010208e04e0508e00c0020885e000030020208",
+      "records": [
+        {
+          "source_va": 134563656,
+          "destination_va": 536870912,
+          "destination_length": 3296,
+          "handler_va": 134349268
+        },
+        {
+          "source_va": 134565600,
+          "destination_va": 536874208,
+          "destination_length": 24200,
+          "handler_va": 134349360
+        }
+      ]
+    },
+    "decompressor": {
+      "offset": 468,
+      "length": 90,
+      "bytes": "0a444ff0000c10f8013b13f0070408bf10f8014b1d1108bf10f8015b641e05d010f8016b641e01f8016bf9d113f0080f1ebf10f8014bad1c0c1b09d16d1e58bf01f801cbfad505e014f8016b01f8016b6d1ef9d59142d6d37047"
+    },
+    "operation": "Transcribed scatter decompression: literals, zero runs, backward byte copies",
+    "input_range": {
+      "offset": 214856,
+      "length": 1938,
+      "sha256": "4b52637ef1e86665bdd9850c98df193aed80af4ed7c5ad42107f17e72a7fbaac"
+    },
+    "output": "work/sigma/integrity/sigma-1.0.20-initialized-ram.bin",
+    "output_sha256": "c640be78e19f48694b5755741d29d0c7e2b25b0661c5de91eef7f2afee223412",
+    "output_size": 3296,
+    "destination_va": 536870912,
+    "consumed_end_offset": 216794,
+    "nominal_image_end_from_zero_fill_source": 216800,
+    "alignment_bytes": "000000000000",
+    "bytes_after_nominal_end": "",
+    "encoded_source": "work/sigma/1.0.20/resources/resource_TEXTFILE_IDR_APP_FILE_1033.bin",
+    "encoded_source_sha256": "42be51e42e118ddee75ae16c288a153ef075bf85757edd6237c6920e55ba95b2",
+    "opaque_tail_equals_preceding_ciphertext_suffix": false,
+    "preceding_32byte_packet_suffix_offset": null,
+    "limits": [
+      "The zero-fill routine does not read its source address.",
+      "A linker nominal endpoint is not bootloader acceptance evidence.",
+      "Initialized RAM reconstruction does not establish physical RAM capacity."
+    ]
+  }
+]

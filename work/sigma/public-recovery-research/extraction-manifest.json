@@ -1,0 +1,74 @@
+[
+  {
+    "source": "originals/SIGMA v1.0.10/SIGMA 1.0.10.zip",
+    "source_sha256": "ff91bd6cbe59939bd45976e0a3f7cdb4d9e0cddb39eb69990b78b7717acfee8c",
+    "members": [
+      {
+        "member": "SIGMA update 1.0.10.txt",
+        "output": "work/sigma/1.0.10/package/SIGMA update 1.0.10.txt",
+        "operation": "ZIP method 8 raw DEFLATE decompression; ZIP CRC32 checked",
+        "source_sha256": "ff91bd6cbe59939bd45976e0a3f7cdb4d9e0cddb39eb69990b78b7717acfee8c",
+        "source_offset": 53,
+        "source_length": 240,
+        "source_range_sha256": "3df724c3e91a3860ca08622bb24f1f80188fade848fd408955cef10deaa328b8",
+        "size": 379,
+        "sha256": "c2ef0beb5ba4f201840f9ce65f83dc43267026d97d9e038253972a9c0bc430f1",
+        "zip_crc32": "f146b490"
+      },
+      {
+        "member": "SIMGA converter updater1.0.10.exe.exe",
+        "output": "work/sigma/1.0.10/package/SIMGA converter updater1.0.10.exe.exe",
+        "operation": "ZIP method 8 raw DEFLATE decompression; ZIP CRC32 checked",
+        "source_sha256": "ff91bd6cbe59939bd45976e0a3f7cdb4d9e0cddb39eb69990b78b7717acfee8c",
+        "source_offset": 360,
+        "source_length": 2041203,
+        "source_range_sha256": "8c4f3c69c126aa25ab07e7bd169eff5c8a21b88315f89eedb98002b7f9f69d5e",
+        "size": 3624960,
+        "sha256": "0cd5480295fd27786879ccfc5318f2d3b8376f1ebfc8bfcc2d6457c5ee434ba5",
+        "zip_crc32": "c6fd71b2"
+      }
+    ]
+  },
+  {
+    "source": "originals/SIGMA v1.0.11/SIGMA 1.0.11.zip",
+    "source_sha256": "0cbce14aa4d7f14949b807009de536aac42dd7cf917bcb3cbb7874942274d3f9",
+    "members": [
+      {
+        "member": "SIGMA 1.0.11 Upgrade Bulletin.txt",
+        "output": "work/sigma/1.0.11/package/SIGMA 1.0.11 Upgrade Bulletin.txt",
+        "operation": "ZIP method 8 raw DEFLATE decompression; ZIP CRC32 checked",
+        "source_sha256": "0cbce14aa4d7f14949b807009de536aac42dd7cf917bcb3cbb7874942274d3f9",
+        "source_offset": 63,
+        "source_length": 368,
+        "source_range_sha256": "eab868692e517598becc5ef5b20a6ceb47e075292bfaad4262c93aa6c5ac7f61",
+        "size": 660,
+        "sha256": "e3c02f0ba326b84ab376eb4a1b833619c0efa97ee635b3cd921c7feba29a9924",
+        "zip_crc32": "6a3c2508"
+      },
+      {
+        "member": "sigma user manual_V2.pdf",
+        "output": "work/sigma/1.0.11/package/sigma user manual_V2.pdf",
+        "operation": "ZIP method 8 raw DEFLATE decompression; ZIP CRC32 checked",
+        "source_sha256": "0cbce14aa4d7f14949b807009de536aac42dd7cf917bcb3cbb7874942274d3f9",
+        "source_offset": 485,
+        "source_length": 31746778,
+        "source_range_sha256": "1e50d2c533a5dc9d6b41558414f3017eab4b4e2252700943a22896f24059a4ac",
+        "size": 31926855,
+        "sha256": "e649788206f946037b808d13d6ec6c33d183602b406c63ed5784b2ed9165e7d7",
+        "zip_crc32": "452bc25a"
+      },
+      {
+        "member": "SIMGA converter updater1.0.11.exe.exe",
+        "output": "work/sigma/1.0.11/package/SIMGA converter updater1.0.11.exe.exe",
+        "operation": "ZIP method 8 raw DEFLATE decompression; ZIP CRC32 checked",
+        "source_sha256": "0cbce14aa4d7f14949b807009de536aac42dd7cf917bcb3cbb7874942274d3f9",
+        "source_offset": 31747330,
+        "source_length": 2041424,
+        "source_range_sha256": "4fbd16e3b099845d180c559a353be3fe369856ac54e5ae92d43c05d555fa3999",
+        "size": 3625472,
+        "sha256": "41395b9909cb631adcf0fb506b6375c13ef2d31c6e0b9716c62a5c60456805dd",
+        "zip_crc32": "74838400"
+      }
+    ]
+  }
+]

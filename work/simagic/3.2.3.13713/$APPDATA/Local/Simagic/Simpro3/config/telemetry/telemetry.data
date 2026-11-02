@@ -1,0 +1,2905 @@
+[
+    {
+        "desc": "当前显示的转速百分比",
+        "name": "CarSettings_currentDisplayedRPMPercent",
+        "first_category": "Engine & Power",
+        "text": "CarSettings_currentDisplayedRPMPercent",
+        "type": "float",
+        "unit": "%",
+		"val_type":"value",
+		"used":true	
+    },
+    {
+        "desc": "当前档位的红线转速",
+        "name": "CarSettings_currentGearRedLineRPM",
+        "first_category": "Engine & Power",
+        "text": "CarSettings_currentGearRedLineRPM",
+        "type": "float",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "ERS系统最大存储量",
+        
+        "name": "ersMax",
+        "first_category": "Engine & Power",
+        "text": "ersMax",
+        "type": "float",
+        "unit": "千焦（kJ）",
+		"val_type":"value",
+		"used":true	
+    },
+    {
+        "desc": "ERS系统模式",
+        "name": "ersMode",
+        "first_category": "Engine & Power",
+        "text": "ersMode",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "ERS系统百分比",
+        "name": "ersPercent",
+        "first_category": "Engine & Power",
+        "text": "ersPercent",
+        "type": "float",
+        "unit": "%",
+		"val_type":"value",
+		"used":true	
+    },
+    {
+        "desc": "ERS系统当前存储量",
+        "name": "ersStored",
+        "first_category": "Engine & Power",
+        "text": "ersStored",
+        "type": "float",
+        "unit": "千焦（kJ）",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "引擎点火是否开启",
+        "name": "isEngineIgnitionOn",
+        "first_category": "Engine & Power",
+        "text": "isEngineIgnitionOn",
+        "type": "bool",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "引擎是否正在运行",
+        "name": "isEngineRunning",
+        "first_category": "Engine & Power",
+        "text": "isEngineRunning",
+        "type": "bool",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最大引擎扭矩",
+        "name": "maxEngineTorque",
+        "first_category": "Engine & Power",
+        "text": "maxEngineTorque",
+        "type": "float",
+        "unit": "Nm",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最大油量",
+        "name": "maxFuel",
+        "first_category": "Engine & Power",
+        "text": "maxFuel",
+        "type": "int",
+        "unit": "L",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最大转速",
+        "name": "maxRpm",
+        "first_category": "Engine & Power",
+        "text": "maxRpm",
+        "type": "float",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "最大涡轮增压值",
+        "name": "maxTurbo",
+        "first_category": "Engine & Power",
+        "text": "maxTurbo",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "油压",
+        "name": "oilPressure",
+        "first_category": "Engine & Power",
+        "text": "oilPressure",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "油温",
+        "name": "oilTemperature",
+        "first_category": "Engine & Power",
+        "text": "oilTemperature",
+        "type": "float",
+        "unit": "摄氏度（°C）或华氏度（°F）",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "转速",
+        "name": "rpm",
+        "first_category": "Engine & Power",
+        "text": "rpm",
+        "type": "float",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "转速指示灯",
+        "name": "rpmLed",
+        "first_category": "Engine & Power",
+        "text": "rpmLed",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "转速百分比",
+        "name": "rpmPercentage",
+        "first_category": "Engine & Power",
+        "text": "rpmPercentage",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "涡轮增压值",
+        "name": "turbo",
+        "first_category": "Engine & Power",
+        "text": "turbo",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "涡轮增压百分比",
+        "name": "turboPercent",
+        "first_category": "Engine & Power",
+        "text": "turboPercent",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "水温", 
+        "name": "waterTemperature",
+        "first_category": "Engine & Power",
+        "text": "waterTemperature",
+        "type": "float",
+        "unit": "摄氏度（°C）或华氏度（°F）",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "变速器指示灯闪烁状态",
+        "name": "blinkingGear",
+        "first_category": "Driving Control",
+        "text": "blinkingGear",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "变速器指示灯闪烁(升档)",
+        "name": "blinkingGearUP",
+        "first_category": "Driving Control",
+        "text": "blinkingGearUP",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "刹车",
+        "name": "brake",
+        "first_category": "Driving Control",
+        "text": "brake",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "刹车偏置",
+        "name": "brakeBias",
+        "first_category": "Driving Control",
+        "text": "brakeBias",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "显示的红线转速百分比",
+        
+        "name": "CarSettings_redLineDisplayedPercent",
+        "first_category": "Driving Control",
+        "text": "CarSettings_redLineDisplayedPercent",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "每档的红线转速超调设置",
+        
+        "name": "CarSettings_RPMRedLinePerGearOverride",
+        "first_category": "Driving Control",
+        "text": "CarSettings_RPMRedLinePerGearOverride",
+        "type": "int",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "是否已达到红线转速",
+        
+        "name": "CarSettings_RPMRedLineReached",
+        "first_category": "Driving Control",
+        "text": "CarSettings_RPMRedLineReached",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "离合",
+        
+        "name": "clutch",
+        "first_category": "Driving Control",
+        "text": "clutch",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "加速时差速器调节",
+        
+        "name": "diffAdjOnThrottle",
+        "first_category": "Driving Control",
+        "text": "diffAdjOnThrottle",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "差速器入弯调节",
+        
+        "name": "diffEntry",
+        "first_category": "Driving Control",
+        "text": "diffEntry",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "差速器出弯调节",
+        
+        "name": "diffExit",
+        "first_category": "Driving Control",
+        "text": "diffExit",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "DRS等级",
+        
+        "name": "drsLevel",
+        "first_category": "Driving Control",
+        "text": "drsLevel",
+        "type": "float",
+        "unit": "%",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "手刹",
+        
+        "name": "handbrake",
+        "first_category": "Driving Control",
+        "text": "handbrake",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "超车按钮是否激活",
+        
+        "name": "pushToPassActive",
+        "first_category": "Driving Control",
+        "text": "pushToPassActive",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "转向角度",
+        
+        "name": "steerAngle",
+        "first_category": "Driving Control",
+        "text": "steerAngle",
+        "type": "float",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "油门",
+        
+        "name": "throttle",
+        "first_category": "Driving Control",
+        "text": "throttle",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "牵引力损失",
+        
+        "name": "tractionLoss",
+        "first_category": "Driving Control",
+        "text": "tractionLoss",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左转向灯",
+        
+        "name": "turnIndicatorLeft",
+        "first_category": "Driving Control",
+        "text": "turnIndicatorLeft",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右转向灯",
+        
+        "name": "turnIndicatorRight",
+        "first_category": "Driving Control",
+        "text": "turnIndicatorRight",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "历史最佳圈速",
+        
+        "name": "allTimeBest",
+        "first_category": "Speed & Position",
+        "text": "allTimeBest",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最佳圈速时的对手位罟",
+        
+        "name": "bestLapOpponentPosition",
+        "first_category": "Speed & Position",
+        "text": "bestLapOpponentPosition",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最佳圈速时的同级别对手位置",
+        
+        "name": "bestLapOpponentSameClassPosition",
+        "first_category": "Speed & Position",
+        "text": "bestLapOpponentSameClassPosition",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最佳圈速",
+        
+        "name": "bestLapTime",
+        "first_category": "Speed & Position",
+        "text": "bestLapTime",
+        "type": "float",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最佳分段时间差(用于分段比较)",
+        
+        "name": "bestSplitDelta",
+        "first_category": "Speed & Position",
+        "text": "bestSplitDelta",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最高车速",
+        
+        "name": "maxSpeedKmh",
+        "first_category": "Speed & Position",
+        "text": "maxSpeedKmh",
+        "type": "float",
+        "unit": "km/h",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆当前赛道最高车速",
+        
+        "name": "maxSpeedLocal",
+        "first_category": "Speed & Position",
+        "text": "maxSpeedLocal",
+        "type": "float",
+        "unit": "km/h",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最高车速",
+        
+        "name": "maxSpeedMph",
+        "first_category": "Speed & Position",
+        "text": "maxSpeedMph",
+        "type": "float",
+        "unit": "mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前里程",
+        
+        "name": "sessionOdo",
+        "first_category": "Speed & Position",
+        "text": "sessionOdo",
+        "type": "float",
+        "unit": "km 或 miles",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前里程单位",
+        
+        "name": "sessionOdoLocalUnit",
+        "first_category": "Speed & Position",
+        "text": "sessionOdoLocalUnit",
+        "type": "float",
+        "unit": "km 或 miles",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前速度",
+        
+        "name": "speed",
+        "first_category": "Speed & Position",
+        "text": "speed",
+        "type": "float",
+        "unit": "km/h 或 mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前车辆的局部速度",
+        
+        "name": "speedLocal",
+        "first_category": "Speed & Position",
+        "text": "speedLocal",
+        "type": "int",
+        "unit": "km/h 或 mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "局部速度的单位",
+        
+        "name": "speedLocalUnit",
+        "first_category": "Speed & Position",
+        "text": "speedLocalUnit",
+        "type": "int",
+        "unit": "km/h 或 mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前车速",
+        
+        "name": "speedMph",
+        "first_category": "Speed & Position",
+        "text": "speedMph",
+        "type": "int",
+        "unit": "mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮-轮速",
+        
+        "name": "wheelspeed-FL",
+        "first_category": "Speed & Position",
+        "text": "wheelspeed-FL",
+        "type": "float",
+        "unit": "km/h 或 mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮-轮速",
+        
+        "name": "wheelspeed-RL",
+        "first_category": "Speed & Position",
+        "text": "wheelspeed-RL",
+        "type": "float",
+        "unit": "km/h 或 mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮-轮速",
+        
+        "name": "wheelspeed-RF",
+        "first_category": "Speed & Position",
+        "text": "wheelspeed-RF",
+        "type": "float",
+        "unit": "km/h 或 mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮-轮速",
+        
+        "name": "wheelspeed-RR",
+        "first_category": "Speed & Position",
+        "text": "wheelspeed-RR",
+        "type": "float",
+        "unit": "km/h 或 mph",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆ID",
+        
+        "name": "carId",
+        "first_category": "Vehicle Config",
+        "text": "carId",
+        "type": "string",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车型",
+        
+        "name": "carModel",
+        "first_category": "Vehicle Config",
+        "text": "carModel",
+        "type": "string",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆最大档位",
+        
+        "name": "CarSettings_maxGears",
+        "first_category": "Vehicle Config",
+        "text": "CarSettings_maxGears",
+        "type": "float",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "红线转速设置",
+        
+        "name": "CarSettings_RPMRedLineSetting",
+        "first_category": "Vehicle Config",
+        "text": "CarSettings_RPMRedLineSetting",
+        "type": "int",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "第一档转速换档灯指示值!",
+        
+        "name": "CarSettings_RPMShiftLight1",
+        "first_category": "Vehicle Config",
+        "text": "CarSettings_RPMShiftLight1",
+        "type": "int",
+        "unit": "RPM",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第二档转速换档灯指示值",
+        
+        "name": "CarSettings_RPMShiftLight2",
+        "first_category": "Vehicle Config",
+        "text": "CarSettings_RPMShiftLight2",
+        "type": "int",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "油压单位",
+        
+        "name": "oilPressureUnit",
+        "first_category": "Vehicle Config",
+        "text": "oilPressureUnit",
+        "type": "int",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "温度单位",
+        
+        "name": "TemperatureUnit",
+        "first_category": "Vehicle Config",
+        "text": "TemperatureUnit",
+        "type": "int",
+        "unit": "摄氏度（°C）或华氏度（°F）",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "ABS等级",
+        
+        "name": "absLevel",
+        "first_category": "Driver Assist",
+        "text": "absLevel",
+        "type": "float",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆最大转速",
+        
+        "name": "CarSettings_maxRPM",
+        "first_category": "Driver Assist",
+        "text": "CarSettings_maxRPM",
+        "type": "float",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "红线转速设置",
+        
+        "name": "CarSettings_RedLineRPM",
+        "first_category": "Driver Assist",
+        "text": "CarSettings_RedLineRPM",
+        "type": "float",
+        "unit": "RPM",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "引擎制动",
+        
+        "name": "engineBraking",
+        "first_category": "Driver Assist",
+        "text": "engineBraking",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "档位",
+        
+        "name": "gear",
+        "first_category": "Driver Assist",
+        "text": "gear",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否启用ABS系统",
+        
+        "name": "isAbsActive",
+        "first_category": "Driver Assist",
+        "text": "isAbsActive",
+        "type": "int",
+        "unit": "",
+		"val_type":"flag",
+		"used":true
+    },
+    {
+        "desc": "是否有前轮被锁死",
+        
+        "name": "isAnyFrontWheelLocked",
+        "first_category": "Driver Assist",
+        "text": "isAnyFrontWheelLocked",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否有后轮被锁死",
+        
+        "name": "isAnyRearWheelLocked",
+        "first_category": "Driver Assist",
+        "text": "isAnyRearWheelLocked",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否有任一轮被锁死",
+        
+        "name": "isAnyWheelLocked",
+        "first_category": "Driver Assist",
+        "text": "isAnyWheelLocked",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否启用自动换档",
+        
+        "name": "isAutoShifterOn",
+        "first_category": "Driver Assist",
+        "text": "isAutoShifterOn",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否有DRS系统可用",
+        
+        "name": "isDrsAvaiable",
+        "first_category": "Driver Assist",
+        "text": "isDrsAvaiable",
+        "type": "int",
+        "unit": "",
+		"val_type":"flag",
+		"used":true
+    },
+    {
+        "desc": "是否启用DRS系统",
+        
+        "name": "isDrsEnabled",
+        "first_category": "Driver Assist",
+        "text": "isDrsEnabled",
+        "type": "int",
+        "unit": "",
+		"val_type":"flag",
+		"used":true
+    },
+    {
+        "desc": "是否启用维修区限速器",
+        
+        "name": "isPitLimiterOn",
+        "first_category": "Driver Assist",
+        "text": "isPitLimiterOn",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否启用牵引力控制",
+        
+        "name": "isTcActive",
+        "first_category": "Driver Assist",
+        "text": "isTcActive",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最大档位数",
+        
+        "name": "maxGears",
+        "first_category": "Driver Assist",
+        "text": "maxGears",
+        "type": "float",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左侧有无其他车辆",
+        
+        "name": "spotterCarLeft",
+        "first_category": "Driver Assist",
+        "text": "spotterCarLeft",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左侧接近车辆的角度",
+        
+        "name": "spotterCarLeftAngle",
+        "first_category": "Driver Assist",
+        "text": "spotterCarLeftAngle",
+        "type": "int",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左侧接近车辆的距离",
+        
+        "name": "spotterCarLeftDistance",
+        "first_category": "Driver Assist",
+        "text": "spotterCarLeftDistance",
+        "type": "int",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右侧有无其他车辆",
+        
+        "name": "spotterCarRight",
+        "first_category": "Driver Assist",
+        "text": "spotterCarRight",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右侧接近车辆的角度",
+        
+        "name": "spotterCarRightAngle",
+        "first_category": "Driver Assist",
+        "text": "spotterCarRightAngle",
+        "type": "int",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右侧接近车辆的距离",
+        
+        "name": "spotterCarRightDistance",
+        "first_category": "Driver Assist",
+        "text": "spotterCarRightDistance",
+        "type": "int",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "牵引力控制裁剪切割值",
+        
+        "name": "tcCut",
+        "first_category": "Driver Assist",
+        "text": "tcCut",
+        "type": "float",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "牵引力控制（TC）等级",
+        
+        "name": "tcLevel",
+        "first_category": "Driver Assist",
+        "text": "tcLevel",
+        "type": "float",
+        "unit": "0-1-5等，取决于系统设定",
+		"val_type":"value",
+		"used":true	
+    },
+    {
+        "desc": "油门形态",
+        
+        "name": "throttleShape",
+        "first_category": "Driver Assist",
+        "text": "throttleShape",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "紧凑的时间差",
+        
+        "name": "compactDelta",
+        "first_category": "Driving Record",
+        "text": "compactDelta",
+        "type": "float",
+        "unit": "0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "加速/减速差值",
+        
+        "name": "gainLoss",
+        "first_category": "Driving Record",
+        "text": "gainLoss",
+        "type": "float",
+        "unit": "0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "上一圈时间",
+        
+        "name": "lastLapTime",
+        "first_category": "Driving Record",
+        "text": "lastLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "上一次进 pit 停止的持续时间（秒）",
+        
+        "name": "lastPitStopDuration",
+        "first_category": "Driving Record",
+        "text": "lastPitStopDuration",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"value",
+		"used":true
+    },
+    {
+        "desc": "上一个赛道分段的时间",
+        
+        "name": "lastSectorTime",
+        "first_category": "Driving Record",
+        "text": "lastSectorTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第一赛道分段最佳圈速",
+        
+        "name": "sector1BestLapTime",
+        "first_category": "Driving Record",
+        "text": "sector1BestLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第一赛道分段最佳时间",
+        
+        "name": "sector1BestTime",
+        "first_category": "Driving Record",
+        "text": "sector1BestTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第一赛道分段上圈时间",
+        
+        "name": "sector1LastLapTime",
+        "first_category": "Driving Record",
+        "text": "sector1LastLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第一赛道分段当前时间",
+        
+        "name": "sector1Time",
+        "first_category": "Driving Record",
+        "text": "sector1Time",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第二赛道分段最佳圈速",
+        
+        "name": "sector2BestLapTime",
+        "first_category": "Driving Record",
+        "text": "sector2BestLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第二赛道分段最佳时间",
+        
+        "name": "sector2BestTime",
+        "first_category": "Driving Record",
+        "text": "sector2BestTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第二赛道分段上圈时间",
+        
+        "name": "sector2LastLapTime",
+        "first_category": "Driving Record",
+        "text": "sector2LastLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第二赛道分段当前时间",
+        
+        "name": "sector2Time",
+        "first_category": "Driving Record",
+        "text": "sector2Time",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第三赛道分段最佳圈速",
+        
+        "name": "sector3BestLapTime",
+        "first_category": "Driving Record",
+        "text": "sector3BestLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第三赛道分段最佳时间",
+        
+        "name": "sector3BestTime",
+        "first_category": "Driving Record",
+        "text": "sector3BestTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第三赛道分段上圈时间",
+        
+        "name": "sector3LastLapTime",
+        "first_category": "Driving Record",
+        "text": "sector3LastLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "第三赛道分段当前时间",
+        
+        "name": "sector3Time",
+        "first_category": "Driving Record",
+        "text": "sector3Time",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "自己与分段的时间差",
+        
+        "name": "selfsplitDelta",
+        "first_category": "Driving Record",
+        "text": "selfsplitDelta",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前驾驶期间的里程数",
+        
+        "name": "stintOdo",
+        "first_category": "Driving Record",
+        "text": "stintOdo",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前驾驶期间的里程单位",
+        
+        "name": "stintOdoLocalUnit",
+        "first_category": "Driving Record",
+        "text": "stintOdoLocalUnit",
+        "type": "float",
+        "unit": "km 或 miles",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "下一圈预测（时间值）",
+        
+        "name": "PredictedLAP",
+        "first_category": "Driving Record",
+        "text": "PredictedLAP",
+        "type": "float",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "最快单圈时间",
+        
+        "name": "FastestLAP",
+        "first_category": "Driving Record",
+        "text": "FastestLAP",
+        "type": "float",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "油量警告是否启用",
+        
+        "name": "CarSettings_FuelAlertActive",
+        "first_category": "Fuel Data",
+        "text": "CarSettings_FuelAlertActive",
+        "type": "int",
+        "unit": "",
+		"val_type":"flag",
+		"used":true
+    },
+    {
+        "desc": "油量警告是否激活",
+        
+        "name": "CarSettings_FuelAlertEnabled",
+        "first_category": "Fuel Data",
+        "text": "CarSettings_FuelAlertEnabled",
+        "type": "int",
+        "unit": "",
+		"val_type":"flag",
+		"used":true
+    },
+    {
+        "desc": "油量警告剩余圈数",
+        
+        "name": "CarSettings_FuelAlertLaps",
+        "first_category": "Fuel Data",
+        "text": "CarSettings_FuelAlertLaps",
+        "type": "float",
+        "unit": "laps",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆最大油量",
+        
+        "name": "CarSettings_maxFUEL",
+        "first_category": "Fuel Data",
+        "text": "CarSettings_maxFUEL",
+        "type": "float",
+        "unit": "L",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "估算剩余油量可跑的圈数",
+        
+        "name": "estimatedFuelRemaingLaps",
+        "first_category": "Fuel Data",
+        "text": "estimatedFuelRemaingLaps",
+        "type": "float",
+        "unit": "laps",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "油量",
+        
+        "name": "fuel",
+        "first_category": "Fuel Data",
+        "text": "fuel",
+        "type": "float",
+        "unit": "L",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前圈油耗",
+        
+        "name": "fuelCurrentLapConsumption",
+        "first_category": "Fuel Data",
+        "text": "fuelCurrentLapConsumption",
+        "type": "float",
+        "unit": "L",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前圈油耗是否有效用于跟踪",
+        
+        "name": "fuelCurrentLapIsValidForTracking",
+        "first_category": "Fuel Data",
+        "text": "fuelCurrentLapIsValidForTracking",
+        "type": "int",
+        "unit": "",
+		"val_type":"flag",
+		"used":true
+    },
+    {
+        "desc": "圈油耗",
+        
+        "name": "fuelLastLapConsumption",
+        "first_category": "Fuel Data",
+        "text": "fuelLastLapConsumption",
+        "type": "float",
+        "unit": "L",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "每圈油耗(升)",
+        
+        "name": "fuelLitersPerLap",
+        "first_category": "Fuel Data",
+        "text": "fuelLitersPerLap",
+        "type": "float",
+        "unit": "L",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "油量百分比",
+        
+        "name": "fuelPercent",
+        "first_category": "Fuel Data",
+        "text": "fuelPercent",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "每圈油耗",
+        
+        "name": "fuelPerLap",
+        "first_category": "Fuel Data",
+        "text": "fuelPerLap",
+        "type": "int",
+        "unit": "L",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "剩余油量可跑的圈数",
+        
+        "name": "fuelRemainingLaps",
+        "first_category": "Fuel Data",
+        "text": "fuelRemainingLaps",
+        "type": "float",
+        "unit": "laps",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "剩余油量可跑的时间",
+        
+        "name": "fuelRemainingTime",
+        "first_category": "Fuel Data",
+        "text": "fuelRemainingTime",
+        "type": "float",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "油量单位",
+        
+        "name": "fuelUnit",
+        "first_category": "Fuel Data",
+        "text": "fuelUnit",
+        "type": "int",
+        "unit": "L或gal",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "即时油耗（每百公里升数）",
+        
+        "name": "instantConsumption_L100KM",
+        "first_category": "Fuel Data",
+        "text": "instantConsumption_L100KM",
+        "type": "float",
+        "unit": "L/100km",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "即时油耗（英制每加仑英里）",
+        
+        "name": "instantConsumption_MPG_UK",
+        "first_category": "Fuel Data",
+        "text": "instantConsumption_MPG_UK",
+        "type": "float",
+        "unit": "MPG",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "即时油耗（美制每加仑英里）",
+        
+        "name": "instantConsumption_MPG_US",
+        "first_category": "Fuel Data",
+        "text": "instantConsumption_MPG_US",
+        "type": "float",
+        "unit": "MPG",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "总圈数",
+        
+        "name": "totalLaps",
+        "first_category": "Fuel Data",
+        "text": "totalLaps",
+        "type": "int",
+        "unit": "laps",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "完成圈数",
+        
+        "name": "completedLaps",
+        "first_category": "Race Info",
+        "text": "completedLaps",
+        "type": "int",
+        "unit": "laps",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前圈数",
+        
+        "name": "currentLap",
+        "first_category": "Race Info",
+        "text": "currentLap",
+        "type": "int",
+        "unit": "laps",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前圈速",
+        
+        "name": "currentLapTime",
+        "first_category": "Race Info",
+        "text": "currentLapTime",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "与历史最佳圈速差值",
+        
+        "name": "deltaToAllTimeBest",
+        "first_category": "Race Info",
+        "text": "deltaToAllTimeBest",
+        "type": "float",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "与本场最佳圈速差值",
+        
+        "name": "deltaToSessionBest",
+        "first_category": "Race Info",
+        "text": "deltaToSessionBest",
+        "type": "float",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "前方差距",
+        
+        "name": "gapAhead",
+        "first_category": "Race Info",
+        "text": "gapAhead",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "后方差距",
+        
+        "name": "gapBehind",
+        "first_category": "Race Info",
+        "text": "gapBehind",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否有多个等级的对手",
+        
+        "name": "hasMultipleClassOpponents",
+        "first_category": "Race Info",
+        "text": "hasMultipleClassOpponents",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否进站",
+        
+        "name": "isInPit",
+        "first_category": "Race Info",
+        "text": "isInPit",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "是否在维修道",
+        
+        "name": "isInPitLane",
+        "first_category": "Race Info",
+        "text": "isInPitLane",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "进入维修区后已经经过的时间",
+        
+        "name": "isInPitSince",
+        "first_category": "Race Info",
+        "text": "进入维修区后已经经过的时间\"",
+        "type": "00:00.0",
+        "unit": "进入维修区后已经经过的时间\"",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "对手数量",
+        
+        "name": "opponentsCount",
+        "first_category": "Race Info",
+        "text": "opponentsCount",
+        "type": "int",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "玩家所属车组的对手数量",
+        
+        "name": "playerClassOpponentsCount",
+        "first_category": "Race Info",
+        "text": "playerClassOpponentsCount",
+        "type": "int",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "玩家在排行榜中的位置",
+        
+        "name": "playerLeaderboardPosition",
+        "first_category": "Race Info",
+        "text": "playerLeaderboardPosition",
+        "type": "int",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "玩家名称",
+        
+        "name": "playerName",
+        "first_category": "Race Info",
+        "text": "playerName",
+        "type": "string",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "排名",
+        
+        "name": "position",
+        "first_category": "Race Info",
+        "text": "position",
+        "type": "int",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "剩余圈数",
+        
+        "name": "remainingLaps",
+        "first_category": "Race Info",
+        "text": "remainingLaps",
+        "type": "int",
+        "unit": "laps",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "剩余比赛时间",
+        
+        "name": "sessionTimeLeft",
+        "first_category": "Race Info",
+        "text": "sessionTimeLeft",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "剩余赛季时间",
+        
+        "name": "sessionTimeRemain",
+        "first_category": "Race Info",
+        "text": "sessionTimeRemain",
+        "type": "int",
+        "unit": "00:00.0",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "黑旗状态",
+        
+        "name": "blackFlag",
+        "first_category": "Flags",
+        "text": "blackFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "蓝旗状态",
+        
+        "name": "blueFlag",
+        "first_category": "Flags",
+        "text": "blueFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "方格旗状态",
+        
+        "name": "checkeredFlag",
+        "first_category": "Flags",
+        "text": "checkeredFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前比赛标志名称",
+        
+        "name": "flagName",
+        "first_category": "Flags",
+        "text": "flagName",
+        "type": "string",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "绿旗状态",
+        
+        "name": "greenFlag",
+        "first_category": "Flags",
+        "text": "greenFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "橙旗状态",
+        
+        "name": "orangeFlag",
+        "first_category": "Flags",
+        "text": "orangeFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "红旗状态",
+        
+        "name": "redFlag",
+        "first_category": "Flags",
+        "text": "redFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "白旗状态",
+        
+        "name": "whiteFlag",
+        "first_category": "Flags",
+        "text": "whiteFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "黄旗状态",
+        
+        "name": "yellowFlag",
+        "first_category": "Flags",
+        "text": "yellowFlag",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆坐标(X轴位置)",
+        
+        "name": "carCoordinates01",
+        "first_category": "Track Info",
+        "text": "carCoordinates01",
+        "type": "float",
+        "unit": "x",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆坐标(Y轴位置)",
+        
+        "name": "carCoordinates02",
+        "first_category": "Track Info",
+        "text": "carCoordinates02",
+        "type": "float",
+        "unit": "y",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆坐标 (Z轴位置)",
+        
+        "name": "carCoordinates03",
+        "first_category": "Track Info",
+        "text": "carCoordinates03",
+        "type": "float",
+        "unit": "z",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "赛道总分段数",
+        
+        "name": "sectorsCount",
+        "first_category": "Track Info",
+        "text": "sectorsCount",
+        "type": "int",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "赛道代码",
+        
+        "name": "trackCode",
+        "first_category": "Track Info",
+        "text": "trackCode",
+        "type": "string",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "赛道配置",
+        
+        "name": "trackConfig",
+        "first_category": "Track Info",
+        "text": "trackConfig",
+        "type": "string",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "赛道ID",
+        
+        "name": "trackId",
+        "first_category": "Track Info",
+        "text": "trackId",
+        "type": "string",
+        "unit": "ID",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "赛道长度",
+        
+        "name": "trackLength",
+        "first_category": "Track Info",
+        "text": "trackLength",
+        "type": "float",
+        "unit": "km",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前车辆在赛道上的位置（单位为米）",
+        
+        "name": "trackPositionMeters",
+        "first_category": "Track Info",
+        "text": "trackPositionMeters",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前车辆在赛道上的位置（以百分比表示，0%为起点）",
+        
+        "name": "trackPositionPercent",
+        "first_category": "Track Info",
+        "text": "trackPositionPercent",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "空气温度",
+        
+        "name": "airTemperature",
+        "first_category": "Track Status",
+        "text": "airTemperature",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "当前赛道分段索引",
+        
+        "name": "currentSectorIndex",
+        "first_category": "Track Status",
+        "text": "currentSectorIndex",
+        "type": "int",
+        "unit": "/",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "路面温度",
+        
+        "name": "roadTemperature",
+        "first_category": "Track Status",
+        "text": "roadTemperature",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "刹车系统平均温度",
+        
+        "name": "brakesTemperatureAvg",
+        "first_category": "Wheel Status",
+        "text": "brakesTemperatureAvg",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "刹车系统最大温度",
+        
+        "name": "brakesTemperatureMax",
+        "first_category": "Wheel Status",
+        "text": "brakesTemperatureMax",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "刹车系统最小温度",
+        
+        "name": "brakesTemperatureMin",
+        "first_category": "Wheel Status",
+        "text": "brakesTemperatureMin",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前刹车温度",
+        
+        "name": "brakeTemperatureFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "brakeTemperatureFrontLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前刹车温度",
+        
+        "name": "brakeTemperatureFrontRight",
+        "first_category": "Wheel Status",
+        "text": "brakeTemperatureFrontRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后刹车温度",
+        
+        "name": "brakeTemperatureRearLeft",
+        "first_category": "Wheel Status",
+        "text": "brakeTemperatureRearLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后刹车温度",
+        
+        "name": "brakeTemperatureRearRight",
+        "first_category": "Wheel Status",
+        "text": "brakeTemperatureRearRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前刹车压力",
+        
+        "name": "Brake Pressure Front Left",
+        "first_category": "Wheel Status",
+        "text": "Brake Pressure Front Left",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前刹车压力",
+        
+        "name": "Brake Pressure Front Right",
+        "first_category": "Wheel Status",
+        "text": "Brake Pressure Front Right",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后刹车压力",
+        
+        "name": "Brake Pressure Rear Left",
+        "first_category": "Wheel Status",
+        "text": "Brake Pressure Rear Left",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后刹车压力",
+        
+        "name": "Brake Pressure Rear Right",
+        "first_category": "Wheel Status",
+        "text": "Brake Pressure Rear Right",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "上一圈左前轮胎磨损程度",
+        
+        "name": "lastLapTyreWearFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "lastLapTyreWearFrontLeft",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "上一圈右前轮胎磨损程度",
+        
+        "name": "lastLapTyreWearFrontRight",
+        "first_category": "Wheel Status",
+        "text": "lastLapTyreWearFrontRight",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "上一圈左后轮胎磨损程度",
+        
+        "name": "lastLapTyreWearRearLeft",
+        "first_category": "Wheel Status",
+        "text": "lastLapTyreWearRearLeft",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "上一圈右后轮胎磨损程度",
+        
+        "name": "lastLapTyreWearRearRight",
+        "first_category": "Wheel Status",
+        "text": "lastLapTyreWearRearRight",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮胎污泥积累",
+        
+        "name": "tyreDirtFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreDirtFrontLeft",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮胎污泥积累",
+        
+        "name": "tyreDirtFrontRight",
+        "first_category": "Wheel Status",
+        "text": "tyreDirtFrontRight",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮胎污泥积累",
+        
+        "name": "tyreDirtRearLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreDirtRearLeft",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮胎污泥积累",
+        
+        "name": "tyreDirtRearRight",
+        "first_category": "Wheel Status",
+        "text": "tyreDirtRearRight",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮胎压力",
+        
+        "name": "tyrePressureFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "tyrePressureFrontLeft",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮胎压力",
+        
+        "name": "tyrePressureFrontRight",
+        "first_category": "Wheel Status",
+        "text": "tyrePressureFrontRight",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮胎压力",
+        
+        "name": "tyrePressureRearLeft",
+        "first_category": "Wheel Status",
+        "text": "tyrePressureRearLeft",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮胎压力",
+        
+        "name": "tyrePressureRearRight",
+        "first_category": "Wheel Status",
+        "text": "tyrePressureRearRight",
+        "type": "float",
+        "unit": "bar",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎压力单位",
+        
+        "name": "tyrePressureUnit",
+        "first_category": "Wheel Status",
+        "text": "tyrePressureUnit",
+        "type": "int",
+        "unit": "bar或 psi",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎脏污级别平均值",
+        
+        "name": "tyresDirtyLevelAvg",
+        "first_category": "Wheel Status",
+        "text": "tyresDirtyLevelAvg",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎脏污级别最大值",
+        
+        "name": "tyresDirtyLevelMax",
+        "first_category": "Wheel Status",
+        "text": "tyresDirtyLevelMax",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎脏污级别最小值",
+        
+        "name": "tyresDirtyLevelMin",
+        "first_category": "Wheel Status",
+        "text": "tyresDirtyLevelMin",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎温度平均值",
+        
+        "name": "tyresTemperatureAvg",
+        "first_category": "Wheel Status",
+        "text": "tyresTemperatureAvg",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎温度最大值",
+        
+        "name": "tyresTemperatureMax",
+        "first_category": "Wheel Status",
+        "text": "tyresTemperatureMax",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎温度最小值",
+        
+        "name": "tyresTemperatureMin",
+        "first_category": "Wheel Status",
+        "text": "tyresTemperatureMin",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎磨损平均值",
+        
+        "name": "tyresWearAvg",
+        "first_category": "Wheel Status",
+        "text": "tyresWearAvg",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎磨损最大值",
+        
+        "name": "tyresWearMax",
+        "first_category": "Wheel Status",
+        "text": "tyresWearMax",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "轮胎磨损最小值",
+        
+        "name": "tyresWearMin",
+        "first_category": "Wheel Status",
+        "text": "tyresWearMin",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮胎温度",
+        
+        "name": "tyreTemperatureFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureFrontLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮胎温度",
+        
+        "name": "tyreTemperatureFrontRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureFrontRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮胎内层温度",
+        
+        "name": "tyreTemperatureInnerFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureInnerFrontLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮胎内层温度",
+        
+        "name": "tyreTemperatureInnerFrontRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureInnerFrontRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮胎内层温度",
+        
+        "name": "tyreTemperatureInnerRearLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureInnerRearLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮胎内层温度",
+        
+        "name": "tyreTemperatureInnerRearRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureInnerRearRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮胎中层温度",
+        
+        "name": "tyreTemperatureMiddleFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureMiddleFrontLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮胎中层温度",
+        
+        "name": "tyreTemperatureMiddleFrontRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureMiddleFrontRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮胎中层温度",
+        
+        "name": "tyreTemperatureMiddleRearLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureMiddleRearLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮胎中层温度",
+        
+        "name": "tyreTemperatureMiddleRearRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureMiddleRearRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮胎外层温度",
+        
+        "name": "tyreTemperatureOuterFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureOuterFrontLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮胎外层温度",
+        
+        "name": "tyreTemperatureOuterFrontRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureOuterFrontRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮胎外层温度",
+        
+        "name": "tyreTemperatureOuterRearLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureOuterRearLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮胎外层温度",
+        
+        "name": "tyreTemperatureOuterRearRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureOuterRearRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮胎温度",
+        
+        "name": "tyreTemperatureRearLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureRearLeft",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮胎温度",
+        
+        "name": "tyreTemperatureRearRight",
+        "first_category": "Wheel Status",
+        "text": "tyreTemperatureRearRight",
+        "type": "float",
+        "unit": "°C",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮胎磨损",
+        
+        "name": "tyreWearFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreWearFrontLeft",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮胎磨损",
+        
+        "name": "tyreWearFrontRight",
+        "first_category": "Wheel Status",
+        "text": "tyreWearFrontRight",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮胎磨损",
+        
+        "name": "tyreWearRearLeft",
+        "first_category": "Wheel Status",
+        "text": "tyreWearRearLeft",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮胎磨损",
+        
+        "name": "tyreWearRearRight",
+        "first_category": "Wheel Status",
+        "text": "tyreWearRearRight",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前轮滑动值",
+        
+        "name": "wheelSlipFrontLeft",
+        "first_category": "Wheel Status",
+        "text": "wheelSlipFrontLeft",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前轮滑动值",
+        
+        "name": "wheelSlipFrontRight",
+        "first_category": "Wheel Status",
+        "text": "wheelSlipFrontRight",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后轮滑动值",
+        
+        "name": "wheelSlipRearLeft",
+        "first_category": "Wheel Status",
+        "text": "wheelSlipRearLeft",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后轮滑动值",
+        
+        "name": "wheelSlipRearRight",
+        "first_category": "Wheel Status",
+        "text": "wheelSlipRearRight",
+        "type": "float",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "前防倾杆调节",
+        
+        "name": "frontAntiRollBar",
+        "first_category": "Suspension",
+        "text": "frontAntiRollBar",
+        "type": "int",
+        "unit": "比例",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "后防倾杆调节",
+        
+        "name": "rearAntiRollBar",
+        "first_category": "Suspension",
+        "text": "rearAntiRollBar",
+        "type": "int",
+        "unit": "比例",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前悬挂位置",
+        
+        "name": "suspensionPosFrontLeft",
+        "first_category": "Suspension",
+        "text": "suspensionPosFrontLeft",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前悬挂位置",
+        
+        "name": "suspensionPosFrontRight",
+        "first_category": "Suspension",
+        "text": "suspensionPosFrontRight",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后悬挂位置",
+        
+        "name": "suspensionPosRearLeft",
+        "first_category": "Suspension",
+        "text": "suspensionPosRearLeft",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后悬挂位置",
+        
+        "name": "suspensionPosRearRight",
+        "first_category": "Suspension",
+        "text": "suspensionPosRearRight",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左前悬挂速度",
+        
+        "name": "suspensionSpeedFrontLeft",
+        "first_category": "Suspension",
+        "text": "suspensionSpeedFrontLeft",
+        "type": "float",
+        "unit": "m/s",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右前悬挂速度",
+        
+        "name": "suspensionSpeedFrontRight",
+        "first_category": "Suspension",
+        "text": "suspensionSpeedFrontRight",
+        "type": "float",
+        "unit": "m/s",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "左后悬挂速度",
+        
+        "name": "suspensionSpeedRearLeft",
+        "first_category": "Suspension",
+        "text": "suspensionSpeedRearLeft",
+        "type": "float",
+        "unit": "m/s",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "右后悬挂速度",
+        
+        "name": "suspensionSpeedRearRight",
+        "first_category": "Suspension",
+        "text": "suspensionSpeedRearRight",
+        "type": "float",
+        "unit": "m/s",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆损伤1",
+        
+        "name": "carDamage1",
+        "first_category": "Damage",
+        "text": "carDamage1",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆损伤2",
+        
+        "name": "carDamage2",
+        "first_category": "Damage",
+        "text": "carDamage2",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆损伤3",
+        
+        "name": "carDamage3",
+        "first_category": "Damage",
+        "text": "carDamage3",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆损伤4",
+        
+        "name": "carDamage4",
+        "first_category": "Damage",
+        "text": "carDamage4",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆损伤5",
+        
+        "name": "carDamage5",
+        "first_category": "Damage",
+        "text": "carDamage5",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆平均损伤",
+        
+        "name": "carDamagesAvg",
+        "first_category": "Damage",
+        "text": "carDamagesAvg",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆最大损伤",
+        
+        "name": "carDamagesMax",
+        "first_category": "Damage",
+        "text": "carDamagesMax",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆最小损伤",
+        
+        "name": "carDamagesMin",
+        "first_category": "Damage",
+        "text": "carDamagesMin",
+        "type": "int",
+        "unit": "%",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "加速时的垂直摆动",
+        
+        "name": "accelerationHeave",
+        "first_category": "Accel & Direction",
+        "text": "accelerationHeave",
+        "type": "float",
+        "unit": "m/s?",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "加速时的纵向加速",
+        
+        "name": "accelerationSurge",
+        "first_category": "Accel & Direction",
+        "text": "accelerationSurge",
+        "type": "float",
+        "unit": "m/s?",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "加速时的横向摆动",
+        
+        "name": "accelerationSway",
+        "first_category": "Accel & Direction",
+        "text": "accelerationSway",
+        "type": "float",
+        "unit": "m/s?",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "加速度（单位为G）",
+        
+        "name": "globalAccelerationG",
+        "first_category": "Accel & Direction",
+        "text": "globalAccelerationG",
+        "type": "float",
+        "unit": "G",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "垂直震动",
+        
+        "name": "heave",
+        "first_category": "Accel & Direction",
+        "text": "heave",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆俯仰角度（表示前后倾斜角度）",
+        
+        "name": "orientationPitch",
+        "first_category": "Accel & Direction",
+        "text": "orientationPitch",
+        "type": "int",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆俯仰加速度（表示前后倾斜加速度）",
+        
+        "name": "orientationPitchAcceleration",
+        "first_category": "Accel & Direction",
+        "text": "orientationPitchAcceleration",
+        "type": "int",
+        "unit": "°/s?",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆横滚角度（表示侧向倾斜角度）",
+        
+        "name": "orientationRoll",
+        "first_category": "Accel & Direction",
+        "text": "orientationRoll",
+        "type": "int",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆横滚加速度（表示侧向倾斜加速度）",
+        
+        "name": "orientationRollAcceleration",
+        "first_category": "Accel & Direction",
+        "text": "orientationRollAcceleration",
+        "type": "int",
+        "unit": "°/s?（度/秒?）",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆偏航角度（表示车头左右转动角度）",
+        
+        "name": "orientationYaw",
+        "first_category": "Accel & Direction",
+        "text": "orientationYaw",
+        "type": "int",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "车辆偏航加速度（表示车头左右转动加速度）",
+        
+        "name": "orientationYawAcceleration",
+        "first_category": "Accel & Direction",
+        "text": "orientationYawAcceleration",
+        "type": "int",
+        "unit": "°/s?",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "俯仰角度",
+        
+        "name": "pitch",
+        "first_category": "Accel & Direction",
+        "text": "pitch",
+        "type": "float",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "横滚角度",
+        
+        "name": "roll",
+        "first_category": "Accel & Direction",
+        "text": "roll",
+        "type": "float",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "纵向震动",
+        
+        "name": "surge",
+        "first_category": "Accel & Direction",
+        "text": "surge",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "横向摆动",
+        
+        "name": "sway",
+        "first_category": "Accel & Direction",
+        "text": "sway",
+        "type": "float",
+        "unit": "m",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "偏航角度",
+        
+        "name": "yaw",
+        "first_category": "Accel & Direction",
+        "text": "yaw",
+        "type": "float",
+        "unit": "°",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "数据更新帧率",
+        
+        "name": "dataUpdateFps",
+        "first_category": "Game Status",
+        "text": "dataUpdateFps",
+        "type": "float",
+        "unit": "FPS",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "游戏音量",
+        
+        "name": "gameVolume",
+        "first_category": "Game Status",
+        "text": "gameVolume",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "游戏是否暂停",
+        
+        "name": "isGamePaused",
+        "first_category": "Game Status",
+        "text": "isGamePaused",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    },
+    {
+        "desc": "游戏是否正在运行",
+        
+        "name": "isGameRunning",
+        "first_category": "Game Status",
+        "text": "isGameRunning",
+        "type": "int",
+        "unit": "",
+		"val_type":"",
+		"used":false
+    }
+]

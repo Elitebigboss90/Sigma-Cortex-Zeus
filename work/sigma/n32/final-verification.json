@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "document_hashes_verified": 4,
+  "local_markdown_links_valid": true,
+  "dev2_artifacts_unchanged": true,
+  "physical_unit_identified": false,
+  "family_code_match": "strong N32G45x SDK lineage",
+  "conditional_geometry_verified": true,
+  "hardware_operations": 0,
+  "bootloader_acceptance_verified": false
+}

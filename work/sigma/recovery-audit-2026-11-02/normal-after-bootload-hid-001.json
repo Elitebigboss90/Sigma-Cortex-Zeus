@@ -1,0 +1,37 @@
+{
+  "observed_utc": "2026-11-02T20:31:36.912197+00:00",
+  "operation": "IORegistry read only; no HID device opened",
+  "devices": [
+    {
+      "Product": "FANATEC WHEEL(PS5 / PS4 MODE)",
+      "Manufacturer": "Fanatec",
+      "Transport": "USB",
+      "VendorID": 3767,
+      "ProductID": 3591,
+      "VersionNumber": 1573,
+      "PrimaryUsagePage": 1,
+      "PrimaryUsage": 5,
+      "MaxInputReportSize": 64,
+      "MaxOutputReportSize": 32,
+      "MaxFeatureReportSize": 64,
+      "report_descriptor_hex": "05010905a10185010930093109320935150026ff007508950481020939150025073500463b016514750495018142650005091901290e150025017501950e81020600ff0920750695018102050109330934150026ff007508950281020600ff09219536810285050922951f910285030a2127952fb102c006f0ff0940a10185f00947953fb10285f10948953fb10285f20949950fb10285f30a01479507b102c0",
+      "report_descriptor_sha256": "9c099ea4b1d5400969a3363d781f1b354efd25e2d382b81b56cf31c81b01cdee"
+    },
+    {
+      "Product": "Simagic Zeus Formula Steering Wheel",
+      "Manufacturer": "SIMAGIC",
+      "Transport": "USB",
+      "VendorID": 13936,
+      "ProductID": 2052,
+      "VersionNumber": 282,
+      "PrimaryUsagePage": 1,
+      "PrimaryUsage": 4,
+      "MaxInputReportSize": 64,
+      "MaxOutputReportSize": 64,
+      "MaxFeatureReportSize": 64,
+      "report_descriptor_hex": "05010904a101850175081500257f3500457fa1000933093495028102c0a10005091901297815002501750195788102c0a1000600ff1901292015002520750195208102c0a1000600ff1901294015002540750895018102c0a1020600ff85020600ff09017508953f810285800600ff09027508953fb10285800600ff09037508953f910285f17508953f09f1b10285f07508953f09f0b10285f97508953f09f98102c0c0",
+      "report_descriptor_sha256": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d"
+    }
+  ],
+  "limitations": "Only presently enumerated matching IOHIDDevice objects; no USB traffic or input events recorded. Serial numbers omitted."
+}
