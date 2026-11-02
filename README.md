@@ -2,6 +2,8 @@
 
 Current result: [Sigma 1.1.8 BETA Zeus dev3](reports/firmware-candidate-dev3.md). The prior [1.1.5 dev2](reports/firmware-candidate-dev2.md) remains preserved.
 
+**Continuing in a new chat or on another computer? Read [CONTINUE_HERE.md](CONTINUE_HERE.md)** for completed work, verified results, release downloads, remaining unknowns and the next Windows checks.
+
 The development firmware includes observed shift-paddle and seven-way mappings, analog input handling, a separate USB driver, and console-report merging. It passes 16 finite ARM emulator checks, replay of 99 measured input frames, and 56 supplemental comparisons with non-neutral base controls. Manual OK-button Bootload entry, a status read through the KVM, and return to normal operation are now observed. The candidate remains **unverified for installation**: image acceptance, integrity rules and restoration after a failed flash remain unresolved. No devices have been flashed.
 
 - [Current candidate artifacts and build evidence](reports/firmware-candidate-dev3.md)
