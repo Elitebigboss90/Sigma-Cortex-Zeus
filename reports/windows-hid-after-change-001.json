@@ -1,0 +1,8 @@
+{
+    "observed_utc":  "2026-11-02T23:31:11.5117645Z",
+    "operation":  "Present HID enumeration and metadata only; no input, output or feature reports; no serial numbers",
+    "devices":  [
+
+                ],
+    "limitations":  "Windows report sizes are HID buffer capacities, not actual interrupt transfer lengths. Devices behind Sigma are not visible individually to Windows."
+}

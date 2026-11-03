@@ -1,0 +1,77 @@
+{
+  "status": "OFFLINE_QUARANTINED_UPDATER_COPY",
+  "execution_performed": false,
+  "bootloader_acceptance_verified": false,
+  "original": {
+    "path": "originals\\SIGMA v1.1.8 BETA\\SIGMA v1.1.8 BETA\\SIGMA_Converter_V1.1.8.exe",
+    "sha256": "233658402f99fdb47cb35a498706af34acdde77574c56b315a158228d48eec1a",
+    "size": 3630592
+  },
+  "candidate": {
+    "path": "work\\sigma\\zeus-dev8-diagnostic\\NOT_FOR_FLASHING-SIGMA_Converter_V1.1.8-zeus-dev8-diagnostic.exe.disabled",
+    "sha256": "630e9a0af1fa7c1b20b2798e27503284eb9687b37bff648f0d9b00f31c7601d8",
+    "size": 3823104
+  },
+  "firmware_carrier": {
+    "path": "work/sigma/zeus-dev8-diagnostic/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev8-diagnostic.encoded.bin",
+    "size": 192512,
+    "sha256": "040e41832b7babafc0498abf365a2293924785ea3b54c561640eb8fc0e235c0b"
+  },
+  "new_section": {
+    "name": ".zeus",
+    "header_offset": 720,
+    "rva": 3661824,
+    "raw_offset": 3630592,
+    "raw_size": 192512,
+    "virtual_size": 192512,
+    "characteristics": "0x40000040"
+  },
+  "header_and_resource_edits": [
+    {
+      "offset": 278,
+      "old_hex": "0500",
+      "new_hex": "0600",
+      "reason": "Add read-only initialized-data section"
+    },
+    {
+      "offset": 352,
+      "old_hex": "00e03700",
+      "new_hex": "00d03a00",
+      "reason": "Extend PE image mapping"
+    },
+    {
+      "offset": 304,
+      "old_hex": "00cc2000",
+      "new_hex": "00bc2300",
+      "reason": "Account for appended initialized data"
+    },
+    {
+      "offset": 1879080,
+      "old_hex": "f8e41e00",
+      "new_hex": "00e03700",
+      "reason": "Redirect only firmware resource to candidate carrier"
+    },
+    {
+      "offset": 1879084,
+      "old_hex": "80ea0200",
+      "new_hex": "00f00200",
+      "reason": "Use candidate resource length"
+    },
+    {
+      "offset": 360,
+      "old_hex": "00000000",
+      "new_hex": "efcb3a00",
+      "reason": "Recompute PE checksum; this is NOT firmware integrity/authentication"
+    }
+  ],
+  "unchanged_other_resources": 749,
+  "candidate_resource_matches": true,
+  "PE_checksum_verified": true,
+  "native_executable_sections_unchanged": true,
+  "original_prefix_unchanged_outside_declared_edits": true,
+  "limitations": [
+    "PE/resource consistency does not establish device acceptance",
+    "Do not rename/run/flash until integrity and recovery questions resolved"
+  ],
+  "script_sha256": "ff6eb7e0c1e3ad1b29e23fde7d72870d45525854ac2330a5229fe7300c77a9db"
+}

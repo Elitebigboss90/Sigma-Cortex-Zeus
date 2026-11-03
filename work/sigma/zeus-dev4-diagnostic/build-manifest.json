@@ -1,0 +1,112 @@
+{
+  "status": "OFFLINE_WINDOWS_DIAGNOSTIC_NOT_FOR_FLASHING",
+  "build_id": "zeus-dev4-diagnostic",
+  "base_version": "1.1.8",
+  "original": {
+    "path": "work/sigma/1.1.8/sigma-decoded.bin",
+    "sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+    "size": 191104
+  },
+  "parent_build": "zeus-dev3",
+  "parent_sha256": "236fdf7580f553352ada033468654ebf3bff1ec70898184e988149d15f34c77c",
+  "wrappers": {
+    "construct": {
+      "address": 134540992,
+      "size": 28,
+      "source": "push {r4, lr}\nbl 0x804eccc\nldr r0, =0x200055ec\nmovs r1, #0\nstr r1, [r0]\nstr r1, [r0, #4]\nstr r1, [r0, #8]\nmovs r1, #255\nstrb r1, [r0]\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5fff703ff04480021016041608160ff21017010bd00bfec550020"
+    },
+    "task": {
+      "address": 134541020,
+      "size": 56,
+      "source": "push {r4, lr}\nbl 0x0802affc\nldr r0, =0x20005550\nldr r1, =0x20002104\nldr r1, [r1]\nldr r2, [r0, #160]\nsubs r2, r1, r2\ncmp r2, #100\nblo task_done\nstr r1, [r0, #160]\nldrb r2, [r0, #164]\nadds r2, #1\nstrb r2, [r0, #164]\nldr r0, =0x20000040\nmovs r1, #1\nstrb r1, [r0]\ntask_done:\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5dcf78df8094809490968d0f8a0208a1a642a09d3c0f8a01090f8a420013280f8a42003480121017010bd505500200421002040000020"
+    },
+    "init": {
+      "address": 134541076,
+      "size": 28,
+      "source": "push {r4, lr}\nbl 0x804eb44\nldr r1, =0x20005550\nstrb r0, [r1, #156]\nldrb r2, [r1, #157]\nadds r2, #1\nstrb r2, [r1, #157]\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5fff715fe044981f89c0091f89d20013281f89d2010bd50550020"
+    },
+    "merge": {
+      "address": 134541104,
+      "size": 72,
+      "source": "push {r4, lr}\nbl 0x804ed10\nldr r0, =0x20005550\nldr r1, =0x20004640\nmovs r2, #90\nstrb r2, [r1]\nldrb r2, [r0, #164]\nand r2, r2, #15\norr r2, r2, #64\nstrb r2, [r1, #1]\nldrb r2, [r0, #12]\nstrb r2, [r1, #2]\nldrb r2, [r0, #57]\nstrb r2, [r1, #3]\nldrb r2, [r0, #156]\nstrb r2, [r1, #4]\nldrb r2, [r0, #157]\nstrb r2, [r1, #5]\nldrb r2, [r0, #124]\nstrb r2, [r1, #6]\nldrb r2, [r0, #128]\nstrb r2, [r1, #7]\npop {r4, pc}\n.balign 4\n.ltorg\n",
+      "hex": "10b5fff7edfe0e480e495a220a7090f8a42002f00f0242f040024a70027b8a7090f83920ca7090f89c200a7190f89d204a7190f87c208a7190f88020ca7110bd5055002040460020"
+    }
+  },
+  "edits": [
+    {
+      "offset": 18238,
+      "old_hex": "2af0c5ba",
+      "new_hex": "2af0bfbb",
+      "reason": "b.w to diagnostic wrapper"
+    },
+    {
+      "offset": 146204,
+      "old_hex": "e7f76efa",
+      "new_hex": "0bf0def9",
+      "reason": "bl to diagnostic wrapper"
+    },
+    {
+      "offset": 146304,
+      "old_hex": "0bf0c6f8",
+      "new_hex": "0bf0d6f9",
+      "reason": "bl to diagnostic wrapper"
+    },
+    {
+      "offset": 192080,
+      "old_hex": "45eb0408",
+      "new_hex": "15ef0408",
+      "reason": "Diagnostic Init return/attempt recording"
+    }
+  ],
+  "artifacts": {
+    "plaintext": {
+      "path": "work/sigma/zeus-dev4-diagnostic/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev4-diagnostic.plaintext.bin",
+      "size": 192384,
+      "sha256": "6009d7173f3a03dde985ca1d2fe3bc88c50fd9fbb2015d23c19118b323f66426"
+    },
+    "encoded": {
+      "path": "work/sigma/zeus-dev4-diagnostic/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev4-diagnostic.encoded.bin",
+      "size": 192384,
+      "sha256": "807f25acd0638715b609f39dc017637cfa5887890bfb7ae0fb41cefc97184e61"
+    }
+  },
+  "reserved_state_bytes": 168,
+  "flash_pages": 94,
+  "source_sha256": "d7211b2165bf2e51f66c52f6a24bf21eb0797037e3f3d8dd343212680b285b24",
+  "builder_sha256": "0092b7096b7fa1e8de71c016c0833f590b85f2218f52936e334c1b19f08e4993",
+  "symbols": {
+    "zeus_button_usages": "0x804eea0",
+    "zeus_match": "0x804ea81",
+    "zeus_endpoint": "0x804ea97",
+    "zeus_on_init": "0x804ead1",
+    "zeus_release": "0x804eb11",
+    "zeus_init": "0x804eb45",
+    "zeus_input": "0x804ebcd",
+    "zeus_poll": "0x804ec79",
+    "zeus_construct_hook": "0x804eccd",
+    "zeus_vtable": "0x804ee50",
+    "zeus_merge_hook": "0x804ed11"
+  },
+  "diagnostics": {
+    "offset": 56,
+    "length": 8,
+    "format": [
+      "5a marker",
+      "4x version and heartbeat",
+      "USB address",
+      "poll-enabled",
+      "last Init return (ff = never attempted)",
+      "Init attempts modulo 256",
+      "accepted ID1 reports modulo 256",
+      "ignored reports modulo 256"
+    ]
+  },
+  "limitations": [
+    "Windows diagnostic only; vendor input bytes 56..63 are overwritten",
+    "No compatibility fix claimed; no wheel-icon update",
+    "Device-side firmware acceptance and failed-image recovery remain unproven"
+  ]
+}

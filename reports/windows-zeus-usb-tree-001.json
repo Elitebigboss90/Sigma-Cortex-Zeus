@@ -1,0 +1,9 @@
+{
+    "observed_utc":  "2026-11-03T00:13:32.1283319Z",
+    "operation":  "Read-only present HID and ancestor devnode metadata; no USB commands; paths/serial numbers omitted",
+    "direction":  "Target device toward PC root hub",
+    "trees":  [
+
+              ],
+    "limitations":  "Includes hubs on the PC connection path; use the recorded physical connection to distinguish Xtend hubs from PC-side hubs"
+}

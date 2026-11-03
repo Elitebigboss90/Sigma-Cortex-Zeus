@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Four real Init/host enumeration cases record successful status, with SET_IDLE success and STALL models",
+    "Configuration-transfer failure records return code 4 and leaves no allocated wheel address",
+    "Real descriptor-helper trampoline preserves ABI, logs success/failure, and never reads identity from an 8-byte response",
+    "Periodic wrapper calls original host task and marks reports dirty at 100 ticks, including wraparound",
+    "125 distinct Windows control prefixes accepted as 23 and 64 bytes preserve dev3 output 0..55 and expose native length/counters",
+    "Rejected report ID and modulo-256 counters are reported without state-boundary damage",
+    "Other lengths, management report IDs and a null buffer remain rejected",
+    "Discovery page reports descriptor identity/status and distinguishes all four registry/vtable states",
+    "Edited main-loop and merge callsites execute and return with balanced stacks"
+  ],
+  "distinct_windows_payloads": 125,
+  "image_sha256": "53bff26a67727e27dd64496e689e99a99a0e6da1cbc7504643ea52413ffe6d50",
+  "capture_sha256": "9406bf3f79fb27816c3097382bad13e5841fa1f35841b4624d1bf603db71dd30",
+  "verification_script_sha256": "1908b84e462dd36d45549f55bb16e427a17f0427719f38cbed0763a53825e872",
+  "initialization_model_sha256": "d93b032428cf2753264a191cce29424f2fe5deff44d0c5f6add7d6d86e312417",
+  "stubs": [
+    "USB control transfer boundary",
+    "delay",
+    "debug logging",
+    "original host task for periodic-wrapper tests"
+  ],
+  "limitations": [
+    "No firmware installation or USB hardware model",
+    "Windows ID1 padding removed only for CPU replay; actual bus length remains unmeasured",
+    "Only bytes 0..55 preserve ordinary dev3 output; diagnostic vendor bytes differ"
+  ]
+}

@@ -1,0 +1,1306 @@
+{
+  "status": "PASS",
+  "image_sha256": "25cc828ffc1f7f826db04e879144f8e87bd5da7309ddb1d292515b559bcc930c",
+  "cases": [
+    {
+      "order": [
+        "unknown",
+        "zeus",
+        "base",
+        "pedals"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "zeus",
+        "pedals",
+        "base"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "base",
+        "zeus",
+        "pedals"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "base",
+        "pedals",
+        "zeus"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "pedals",
+        "zeus",
+        "base"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "pedals",
+        "base",
+        "zeus"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "unknown",
+        "base",
+        "pedals"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "unknown",
+        "pedals",
+        "base"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "base",
+        "unknown",
+        "pedals"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "base",
+        "pedals",
+        "unknown"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "pedals",
+        "unknown",
+        "base"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "pedals",
+        "base",
+        "unknown"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "unknown",
+        "zeus",
+        "pedals"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "unknown",
+        "pedals",
+        "zeus"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "zeus",
+        "unknown",
+        "pedals"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "zeus",
+        "pedals",
+        "unknown"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "pedals",
+        "unknown",
+        "zeus"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "pedals",
+        "zeus",
+        "unknown"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "unknown",
+        "zeus",
+        "base"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "unknown",
+        "base",
+        "zeus"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "zeus",
+        "unknown",
+        "base"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "zeus",
+        "base",
+        "unknown"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "base",
+        "unknown",
+        "zeus"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "base",
+        "zeus",
+        "unknown"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "zeus"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": true,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "unknown"
+      ],
+      "unrelated_interface": "HID",
+      "controllers_before_xtend": true,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "zeus",
+        "base",
+        "pedals"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "zeus",
+        "pedals",
+        "base"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "base",
+        "zeus",
+        "pedals"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "base",
+        "pedals",
+        "zeus"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "pedals",
+        "zeus",
+        "base"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "pedals",
+        "base",
+        "zeus"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "unknown",
+        "base",
+        "pedals"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "unknown",
+        "pedals",
+        "base"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "base",
+        "unknown",
+        "pedals"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "base",
+        "pedals",
+        "unknown"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "pedals",
+        "unknown",
+        "base"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "pedals",
+        "base",
+        "unknown"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "unknown",
+        "zeus",
+        "pedals"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "unknown",
+        "pedals",
+        "zeus"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "zeus",
+        "unknown",
+        "pedals"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "zeus",
+        "pedals",
+        "unknown"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "pedals",
+        "unknown",
+        "zeus"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "base",
+        "pedals",
+        "zeus",
+        "unknown"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "unknown",
+        "zeus",
+        "base"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "unknown",
+        "base",
+        "zeus"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "zeus",
+        "unknown",
+        "base"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "zeus",
+        "base",
+        "unknown"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "base",
+        "unknown",
+        "zeus"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "pedals",
+        "base",
+        "zeus",
+        "unknown"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": false,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "unknown",
+        "zeus"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": true,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    },
+    {
+      "order": [
+        "zeus",
+        "unknown"
+      ],
+      "unrelated_interface": "vendor",
+      "controllers_before_xtend": true,
+      "base": {
+        "address": 10,
+        "polling": 1,
+        "identity": "0483:0522"
+      },
+      "pedals": {
+        "address": 11,
+        "polling": 1,
+        "identity": "0483:0525"
+      },
+      "zeus": {
+        "address": 26,
+        "polling": 1,
+        "identity": "3670:0804"
+      }
+    }
+  ],
+  "case_count": 52,
+  "script_sha256": "c8cecf73e328cb9c40a613fdfe685a4756faa55eb36c74ed3951b75dcb4bc652",
+  "transport_model_sha256": "a11dc92fbd4f47b204d7e8d42d315ad28ca7562395bce0291c4ea0fe40f8e44a",
+  "limitations": [
+    "Synthetic device/configuration descriptors and transport, not physical USB",
+    "Native constructor/driver Init/port events execute; USB control/OUT accepted in the model",
+    "GPIO registers are ordinary emulated RAM; base/pedal data parsing and PS5 are separate checks"
+  ]
+}

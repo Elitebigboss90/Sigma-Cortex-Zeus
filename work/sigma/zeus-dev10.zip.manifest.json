@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "archive": "work/sigma/zeus-dev10.zip",
+  "sha256": "99a91fd2d7914650817c67a318b9926df9e4f8d1360a5a31450ffb3317b2a9ac",
+  "entries": 29,
+  "extracted_bytes_verified": true,
+  "updater_sha256": "df633e0b66b6aa236c94d4e075c547cc486c5c3cb10fbbd3dc90d579de883001"
+}

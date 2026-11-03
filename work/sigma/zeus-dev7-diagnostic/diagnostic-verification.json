@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Four real Init/host enumeration cases record successful status, with SET_IDLE success and STALL models",
+    "Native extra hub constructor preserves seven prior registrations; unbound extra hub polling performs no USB transfers",
+    "Configuration-transfer failure records return code 4 and leaves no allocated wheel address",
+    "Real descriptor-helper trampoline preserves ABI, logs success/failure, and never reads identity from an 8-byte response",
+    "Periodic wrapper calls original host task and marks reports dirty at 100 ticks, including wraparound",
+    "125 distinct Windows control prefixes accepted as 23 and 64 bytes preserve dev3 output 0..55 and expose native length/counters",
+    "Rejected report ID and modulo-256 counters are reported without state-boundary damage",
+    "Other lengths, management report IDs and a null buffer remain rejected",
+    "Discovery page reports descriptor identity/status and distinguishes all four Zeus/extra-hub registry states",
+    "Edited main-loop and merge callsites execute and return with balanced stacks",
+    "Actual dev7 constructor, native hub reset-complete events and real host Init bind Sigma hub 41, Xtend hub 4A and Zeus 11 without consuming the base driver",
+    "After real nested initialization, native HID polling accepts 23/64-byte shift-paddle inputs and merges the expected buttons"
+  ],
+  "distinct_windows_payloads": 125,
+  "image_sha256": "20cfc13b89425554b0ead548d3a006fd5aaafc3a1b532107a0bad78055270c19",
+  "capture_sha256": "9406bf3f79fb27816c3097382bad13e5841fa1f35841b4624d1bf603db71dd30",
+  "verification_script_sha256": "ad574c59ef981b11efbff15dd1f999a879b92acc3d3e28b579eb55a065aa193b",
+  "initialization_model_sha256": "d93b032428cf2753264a191cce29424f2fe5deff44d0c5f6add7d6d86e312417",
+  "nested_entries": [
+    {
+      "phase": "sigma_hub",
+      "routine": "0x802bc64",
+      "object": "0x20002734"
+    },
+    {
+      "phase": "xtend_hub",
+      "routine": "0x802bc64",
+      "object": "0x20005604"
+    },
+    {
+      "phase": "zeus",
+      "routine": "0x804eb44",
+      "object": "0x20005550"
+    },
+    {
+      "phase": "zeus",
+      "routine": "0x80289ac",
+      "object": "0x20005550"
+    }
+  ],
+  "stubs": [
+    "USB control transfer boundary",
+    "delay",
+    "debug logging",
+    "original host task for periodic-wrapper tests",
+    "USB interrupt IN for nested-tree paddle test"
+  ],
+  "limitations": [
+    "No firmware installation or USB hardware model",
+    "Synthetic hub descriptors use observed identities; physical hub interrupt polling, timing and nested-error recovery remain unverified",
+    "Windows ID1 padding removed only for CPU replay; actual bus length remains unmeasured",
+    "Only bytes 0..55 preserve ordinary dev3 output; diagnostic vendor bytes differ"
+  ]
+}

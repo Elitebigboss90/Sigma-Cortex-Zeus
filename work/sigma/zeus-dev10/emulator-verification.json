@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "image_sha256": "56eeec661beacfdf48b3ff009ed2d44d72b97661951edc6de8a409be449d85a0",
+  "checks": [
+    "original scatter routine independently reconstructs exact initialized RAM",
+    "patched original constructor chain preserves six classes and adds Zeus as seventh",
+    "two additional native hub instances register in slots 7/8 within the original reserved RAM slice",
+    "heap reservation changes limit only and preserves original stack bounds",
+    "VID/PID and interface gate rejects unrelated devices including existing handbrake/base",
+    "failed first initialization releases allocated address; busy existing binding is preserved",
+    "without Zeus controls, original console report remains byte identical",
+    "120 single-bit input cases map only declared controls and preserve other report fields",
+    "captured right/left shifts and center clicks reach intended console button positions",
+    "both captured directional maps handle diagonals and opposing inputs without sticky hats",
+    "99 distinct measured frames replay with correct buttons, hats, axes and releases",
+    "axes scale at boundaries; invalid lengths and management report IDs do not alter controls",
+    "original generic poll delivers USB buffer through new vtable and actual fifth-argument ABI",
+    "normal input vtable shim accepts a 64-byte ID1 buffer without changing the 23-byte control prefix",
+    "timeout remains correct across counter wrap and sends button releases",
+    "detach clears independent controls and requests a fresh original report",
+    "patched BL instruction reaches appended merge code",
+    "state boundary canaries remain intact across constructor and all callback cases"
+  ],
+  "capture_replay": {
+    "unique_frames": 99,
+    "sources": [
+      {
+        "path": "reports\\zeus-live-input-003.jsonl",
+        "sha256": "2b5c448434f5cd68c39c5a15c564738f4e668cb8b51dd910dc4ca67e2705b981",
+        "unique_frames": 83
+      },
+      {
+        "path": "reports\\zeus-live-input-005.jsonl",
+        "sha256": "6c5d95ed41c909b750efc34004d071b0bf657942db3167757e8fd15638c277af",
+        "unique_frames": 6
+      },
+      {
+        "path": "reports\\zeus-live-input-007.jsonl",
+        "sha256": "01753493a346b8f168514b408337470e933b8c48028ca6279f5250ada567b900",
+        "unique_frames": 5
+      },
+      {
+        "path": "reports\\zeus-live-input-008.jsonl",
+        "sha256": "233b7cbda4c4d3e1d265cc343a4d309dbff8ec9a45b9e2f8069cb6ca588e5193",
+        "unique_frames": 5
+      }
+    ]
+  },
+  "verification_script_sha256": "872fe695e32b52921e8cbf5a54156fba96871da6bcd0d7528fa6ecdff94fa4cb",
+  "emulation": "Unicorn ARM Thumb M-class Cortex-M4 instruction model; not identification of actual MCU; actual compiled patch and selected original helpers",
+  "stubs": [
+    "Original USB Init transaction boundary 080289AC for wrapper tests",
+    "Original USB Release08028E50 for wrapper tests",
+    "Original USB Poll08028FB0 for timeout tests",
+    "Low-level USB IN0802A36C for real generic-poll callback integration"
+  ],
+  "limitations": [
+    "No bootloader orflashvalidation",
+    "No emulatedUSBcontroller orPS5",
+    "No proof of all targettiming/interleavings",
+    "Physicalusage map remainscapturedependent"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+    "observed_utc":  "2026-11-02T23:23:43.7180588Z",
+    "operation":  "Present HID metadata plus read-only Sigma interrupt input capture; no output or feature reports; no serial numbers",
+    "devices":  [
+                    {
+                        "Identity":  "0EB7:0E07",
+                        "Usage":  "0001:0005",
+                        "Inspection":  "Present; metadata read",
+                        "InputReportBytes":  64,
+                        "OutputReportBytes":  32,
+                        "FeatureReportBytes":  48
+                    },
+                    {
+                        "Identity":  "0EB7:0E07",
+                        "Usage":  "FFF0:0040",
+                        "Inspection":  "Present; metadata read",
+                        "InputReportBytes":  0,
+                        "OutputReportBytes":  0,
+                        "FeatureReportBytes":  64
+                    }
+                ],
+    "limitations":  "Windows report sizes are HID buffer capacities, not actual interrupt transfer lengths. Devices behind Sigma are not visible individually to Windows.",
+    "frames":  [
+
+               ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "build_id": "zeus-dev10",
+  "updater_sha256": "df633e0b66b6aa236c94d4e075c547cc486c5c3cb10fbbd3dc90d579de883001",
+  "image_sha256": "56eeec661beacfdf48b3ff009ed2d44d72b97661951edc6de8a409be449d85a0",
+  "proofs": {
+    "emulator-verification.json": "67bfa17342093fb5a8f0dac4dd17e045b7d73b9e6286321cf218b75eeac5a1d7",
+    "coexistence-verification.json": "e51b861934930bce6e4d484f4908a024d2b2ea1eeb82f593edd4b369731af600",
+    "enumeration-verification.json": "e7cbb6e7efd342fa56945ece5fa15ac0e940bc21a4b1db2fde5bf2e4ea4fbb03",
+    "reconnect-verification.json": "573b743e90b59a14de20e21e54428f215c8b2e0d3389fbf1822d6d93f06d9dab"
+  },
+  "sources": [
+    {
+      "path": "source/patch/sigma118/normal_dev10.s",
+      "sha256": "6e278e807eca2d9a96915b8e8c7ad882f9c9f092e1179d032815487cc8643e9c"
+    },
+    {
+      "path": "source/patch/sigma118/sigma_zeus.c",
+      "sha256": "54866357a47b6f27e93703412b60c551faf43140b31aa5f6884e5f39b8982e7a"
+    },
+    {
+      "path": "source/patch/zeus_profile.h",
+      "sha256": "59e00c03df4e00035aade558c09e7a173ae13162b0caa675ad22a84be3a29b99"
+    },
+    {
+      "path": "source/patch/sigma118/sigma_zeus.ld",
+      "sha256": "37591b4201f8b973af80637d9f6cf80933c8808504ffd9520761e5f2806ecc71"
+    },
+    {
+      "path": "source/scripts/build_sigma118_zeus.py",
+      "sha256": "36e587277e475ade4191cfcf1e124a0f920d743ff6beb63c08f1efb715a42f28"
+    },
+    {
+      "path": "source/scripts/build_sigma118_normal_recovery.py",
+      "sha256": "859a3490e802d703978e7078d5470d16a5baa54eb374d52f34d645c06799c279"
+    },
+    {
+      "path": "source/scripts/package_sigma118_candidate.py",
+      "sha256": "9ceb17d68feea80645f17c1d247e68269e201306b64c7cc21a2600f3fe0910bf"
+    },
+    {
+      "path": "source/scripts/verify_sigma118_normal_recovery.py",
+      "sha256": "872fe695e32b52921e8cbf5a54156fba96871da6bcd0d7528fa6ecdff94fa4cb"
+    },
+    {
+      "path": "source/scripts/verify_sigma118_normal_recovery_coexistence.py",
+      "sha256": "a77e51e441066764d7f6a0c9d88f03347375f3cfab740ca54ae122e1db3c2535"
+    },
+    {
+      "path": "source/scripts/verify_sigma118_normal_enumeration.py",
+      "sha256": "c8cecf73e328cb9c40a613fdfe685a4756faa55eb36c74ed3951b75dcb4bc652"
+    },
+    {
+      "path": "source/scripts/verify_sigma118_reconnect.py",
+      "sha256": "c53ee7bfb69c56d54b7981e9541282fc9755a28345df818adf5ca640073fd473"
+    },
+    {
+      "path": "source/scripts/diagnose_sigma118_unmatched_claims.py",
+      "sha256": "a11dc92fbd4f47b204d7e8d42d315ad28ca7562395bce0291c4ea0fe40f8e44a"
+    },
+    {
+      "path": "source/scripts/diagnose_sigma118_nested_hubs.py",
+      "sha256": "aeea6159e8525226523c0981d6cd6044da9e6c1cfac6270ff336fc9a98755d67"
+    },
+    {
+      "path": "source/scripts/diagnose_sigma118_usb_init.py",
+      "sha256": "d93b032428cf2753264a191cce29424f2fe5deff44d0c5f6add7d6d86e312417"
+    },
+    {
+      "path": "source/scripts/finalize_sigma118_normal_recovery.py",
+      "sha256": "dbf560b8620055e20553e8a0f24fb7a80ea5a5992d8c07f5f17741f175fcb686"
+    }
+  ],
+  "native_updater_code_unchanged": true,
+  "unchanged_other_resources": 749,
+  "hardware_installed": false,
+  "physical_reconnect_verified": false,
+  "ps5_verified": false
+}

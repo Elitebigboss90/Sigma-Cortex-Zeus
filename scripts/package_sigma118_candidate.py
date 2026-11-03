@@ -21,11 +21,19 @@ def resources(pe):
 def main():
     ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--build-id',default='zeus-dev3')
     args=ap.parse_args();build_id=args.build_id
-    if not re.fullmatch(r'zeus-dev[1-9][0-9]*',build_id):ap.error('Expected build ID zeus-devN')
+    if not re.fullmatch(r'zeus-dev[1-9][0-9]*(?:-diagnostic)?',build_id):ap.error('Expected build ID zeus-devN or zeus-devN-diagnostic')
     OUT=ROOT/'work/sigma'/build_id
-    m=json.loads((OUT/'build-manifest.json').read_text());v=json.loads((OUT/'emulator-verification.json').read_text())
+    diagnostic=build_id.endswith('-diagnostic')
+    m=json.loads((OUT/'build-manifest.json').read_text());v=json.loads((OUT/('diagnostic-verification.json' if diagnostic else 'emulator-verification.json')).read_text())
+    if diagnostic:assert m['status']=='OFFLINE_WINDOWS_DIAGNOSTIC_NOT_FOR_FLASHING'
     assert m['base_version']=='1.1.8'
     assert v['status']=='PASS' and v['image_sha256']==m['artifacts']['plaintext']['sha256']
+    if m.get('normal_reports'):
+        required=['coexistence-verification.json','enumeration-verification.json']
+        if m.get('reconnect_cleanup'):required.append('reconnect-verification.json')
+        for name in required:
+            proof=json.loads((OUT/name).read_text())
+            assert proof['status']=='PASS' and proof['image_sha256']==m['artifacts']['plaintext']['sha256'],name
     carrier=(ROOT/m['artifacts']['encoded']['path']).read_bytes();assert sha(carrier)==m['artifacts']['encoded']['sha256']
     original=SOURCE.read_bytes();assert sha(original)==SHA
     pe=pefile.PE(data=original);data=bytearray(original)

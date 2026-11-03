@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "extra_hub": false,
+      "root_result": 0,
+      "root_address": 65,
+      "xtend_result": null,
+      "xtend_hub_address": 0,
+      "entries": [
+        {
+          "phase": "sigma_hub",
+          "routine": "0x802bc64",
+          "object": "0x20002734"
+        },
+        {
+          "phase": "xtend_hub",
+          "routine": "0x80289ac",
+          "object": "0x200008e8"
+        }
+      ],
+      "model_fault": {
+        "error": "Invalid memory read (UC_ERR_READ_UNMAPPED)",
+        "pc": "0x802ad22"
+      }
+    },
+    {
+      "extra_hub": true,
+      "root_result": 0,
+      "root_address": 65,
+      "xtend_result": 0,
+      "xtend_hub_address": 74,
+      "entries": [
+        {
+          "phase": "sigma_hub",
+          "routine": "0x802bc64",
+          "object": "0x20002734"
+        },
+        {
+          "phase": "xtend_hub",
+          "routine": "0x802bc64",
+          "object": "0x20005604"
+        },
+        {
+          "phase": "zeus",
+          "routine": "0x804eb44",
+          "object": "0x20005550"
+        },
+        {
+          "phase": "zeus",
+          "routine": "0x80289ac",
+          "object": "0x20005550"
+        }
+      ],
+      "model_fault": null,
+      "zeus_result": 0,
+      "zeus_address": 17,
+      "zeus_polling": 1
+    }
+  ],
+  "image_sha256": "53bff26a67727e27dd64496e689e99a99a0e6da1cbc7504643ea52413ffe6d50",
+  "script_sha256": "8741bca9867cab5c847079e542c977ea5ead6e01468f4f750419f2cb801f4434",
+  "limitations": [
+    "Synthetic hub descriptors with observed VID/PID; not a physical bus capture",
+    "Control transfers always succeed in this model; real descriptor JERR not reproduced here",
+    "Child enumeration invoked explicitly; hub interrupt polling/reset events not modeled"
+  ]
+}

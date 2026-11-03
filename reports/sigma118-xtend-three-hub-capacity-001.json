@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "build": "zeus-dev7-diagnostic",
+      "image_sha256": "20cfc13b89425554b0ead548d3a006fd5aaafc3a1b532107a0bad78055270c19",
+      "hub_addresses": [
+        65,
+        74,
+        0
+      ],
+      "zeus_address": 0,
+      "zeus_polling": 0,
+      "last_descriptor_return": 13,
+      "discovery_page": "5a71e30510060d03",
+      "native_init_entries": [
+        {
+          "phase": "sigma_hub",
+          "routine": "0x802bc64",
+          "object": "0x20002734"
+        },
+        {
+          "phase": "xtend_hub_1",
+          "routine": "0x802bc64",
+          "object": "0x20005604"
+        },
+        {
+          "phase": "xtend_hub_2",
+          "routine": "0x80289ac",
+          "object": "0x200008e8"
+        },
+        {
+          "phase": "xtend_hub_2",
+          "routine": "0x80289ac",
+          "object": "0x20003ab0"
+        },
+        {
+          "phase": "xtend_hub_2",
+          "routine": "0x80289ac",
+          "object": "0x20003ab0"
+        },
+        {
+          "phase": "xtend_hub_2",
+          "routine": "0x80289ac",
+          "object": "0x20003ab0"
+        },
+        {
+          "phase": "xtend_hub_2",
+          "routine": "0x80289ac",
+          "object": "0x20003ab0"
+        }
+      ]
+    },
+    {
+      "build": "zeus-dev8-diagnostic",
+      "image_sha256": "0974908edf447b210076429401240852b86f2697b7efe63d7ba977c0f4eca5fe",
+      "hub_addresses": [
+        65,
+        74,
+        83
+      ],
+      "zeus_address": 25,
+      "zeus_polling": 1,
+      "last_descriptor_return": 0,
+      "discovery_page": "5a81414a53010003",
+      "native_init_entries": [
+        {
+          "phase": "sigma_hub",
+          "routine": "0x802bc64",
+          "object": "0x20002734"
+        },
+        {
+          "phase": "xtend_hub_1",
+          "routine": "0x802bc64",
+          "object": "0x20005604"
+        },
+        {
+          "phase": "xtend_hub_2",
+          "routine": "0x802bc64",
+          "object": "0x2000561c"
+        },
+        {
+          "phase": "zeus",
+          "routine": "0x804eb44",
+          "object": "0x20005550"
+        },
+        {
+          "phase": "zeus",
+          "routine": "0x80289ac",
+          "object": "0x20005550"
+        }
+      ]
+    }
+  ],
+  "dev7_capture_sha256": "436a7fb659d94dbd45e592bbb925febc2ae90e6750226be2a042d6d591ae0050",
+  "script_sha256": "1223d84c4a0ef3f21d6c8eb5c772c5a1bf3b20a4c90eb72646b27e2bf56040cc",
+  "model_sha256": "aeea6159e8525226523c0981d6cd6044da9e6c1cfac6270ff336fc9a98755d67",
+  "limitations": [
+    "Synthetic descriptors and modeled transport; not physical USB",
+    "Native reset-complete processing runs; physical hub interrupt polling/reset timing and error recovery are unverified"
+  ]
+}

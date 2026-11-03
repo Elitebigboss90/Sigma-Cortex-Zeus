@@ -1,0 +1,143 @@
+{
+  "status": "OFFLINE_NORMAL_REPORT_CANDIDATE",
+  "build_id": "zeus-dev9",
+  "base_version": "1.1.8",
+  "original": {
+    "path": "work/sigma/1.1.8/sigma-decoded.bin",
+    "sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+    "size": 191104
+  },
+  "parent_build": "zeus-dev3",
+  "parent_sha256": "236fdf7580f553352ada033468654ebf3bff1ec70898184e988149d15f34c77c",
+  "artifacts": {
+    "plaintext": {
+      "path": "work/sigma/zeus-dev9/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev9.plaintext.bin",
+      "size": 192288,
+      "sha256": "25cc828ffc1f7f826db04e879144f8e87bd5da7309ddb1d292515b559bcc930c"
+    },
+    "encoded": {
+      "path": "work/sigma/zeus-dev9/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev9.encoded.bin",
+      "size": 192288,
+      "sha256": "d6e105bb6339006e21e781e36fc042d2c1ba3dad36d1f92e3f135ab7032e17c8"
+    }
+  },
+  "symbols": {
+    "zeus_button_usages": "0x804eea0",
+    "zeus_match": "0x804ea81",
+    "zeus_endpoint": "0x804ea97",
+    "zeus_on_init": "0x804ead1",
+    "zeus_release": "0x804eb11",
+    "zeus_init": "0x804eb45",
+    "zeus_input": "0x804ebcd",
+    "zeus_poll": "0x804ec79",
+    "zeus_construct_hook": "0x804eccd",
+    "zeus_vtable": "0x804ee50",
+    "zeus_merge_hook": "0x804ed11"
+  },
+  "profile": {
+    "console_buttons": [
+      1,
+      2,
+      3,
+      4,
+      14,
+      13,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hat_primary": [
+      44,
+      47,
+      46,
+      45
+    ],
+    "hat_secondary": [
+      63,
+      66,
+      65,
+      64
+    ],
+    "center_aliases": [
+      43,
+      48
+    ],
+    "center_console_buttons": [
+      11,
+      12
+    ],
+    "axis_console_bytes": [
+      8,
+      9
+    ]
+  },
+  "source_files": {
+    "patch/sigma118/sigma_zeus.c": "54866357a47b6f27e93703412b60c551faf43140b31aa5f6884e5f39b8982e7a",
+    "patch/zeus_profile.h": "59e00c03df4e00035aade558c09e7a173ae13162b0caa675ad22a84be3a29b99",
+    "patch/sigma118/sigma_zeus.ld": "37591b4201f8b973af80637d9f6cf80933c8808504ffd9520761e5f2806ecc71",
+    "scripts/build_sigma118_zeus.py": "36e587277e475ade4191cfcf1e124a0f920d743ff6beb63c08f1efb715a42f28"
+  },
+  "wrappers": {
+    "construct": {
+      "address": 134540992,
+      "size": 56,
+      "source": "push {r4, lr}\nbl 0x804eccc\nldr r4, =0x20005604\nmov r0, r4\nmovs r1, #0\nmovs r2, #12\nclear_hubs:\nstr r1, [r0], #4\nsubs r2, #1\nbne clear_hubs\nmov r0, r4\nldr r1, =0x20004488\nbl 0x0802bf94\nadd.w r0, r4, #24\nldr r1, =0x20004488\nbl 0x0802bf94\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5fff703ff094c204600210c2240f8041b013afbd120460549ddf75bf804f118000449ddf756f810bd00bf045600208844002088440020"
+    },
+    "input": {
+      "address": 134541048,
+      "size": 12,
+      "source": "cmp r3, #64\nit eq\nmoveq r3, #23\nb.w 0x804ebcc\n.balign 4\n.ltorg\n",
+      "hex": "402b08bf1723fff765be00bf"
+    }
+  },
+  "edits": [
+    {
+      "offset": 18238,
+      "old_hex": "2af0c5ba",
+      "new_hex": "2af0bfbb",
+      "reason": "Preserve original six classes/Zeus then construct two additional hubs"
+    },
+    {
+      "offset": 192144,
+      "old_hex": "cdeb0408",
+      "new_hex": "f9ee0408",
+      "reason": "Normalize 64-byte buffers to the known 23-byte ID1 prefix"
+    },
+    {
+      "offset": 42416,
+      "old_hex": "0020",
+      "new_hex": "67e0",
+      "reason": "Unmatched devices use existing DefaultAddressing instead of consuming a known-device driver"
+    }
+  ],
+  "source_sha256": "fd9ec2fa9ff108ee0c1ef995c6d5d2ba47d33cc78a9b177578ad65ccdc3980ec",
+  "builder_sha256": "0213ad161f834b4d164d58c5129740eee494eced55bc47864612ad9d88bb7e1f",
+  "reserved_state_bytes": 228,
+  "flash_pages": 94,
+  "extra_hubs": [
+    {
+      "address": "0x20005604",
+      "size": 24,
+      "registry_slot": 7
+    },
+    {
+      "address": "0x2000561c",
+      "size": 24,
+      "registry_slot": 8
+    }
+  ],
+  "normal_reports": true,
+  "diagnostic_fields": false,
+  "periodic_heartbeat": false,
+  "limitations": [
+    "Normal report layout restored; physical PS5 behavior is not verified",
+    "Unmatched devices receive an address without acquiring an input driver",
+    "Nested disconnect/error recovery remains unverified"
+  ]
+}

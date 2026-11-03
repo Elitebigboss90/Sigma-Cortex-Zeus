@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "injected_control_result": "0x0d",
+  "host_enumeration_result": 13,
+  "descriptor_attempts": 1,
+  "zeus_init_never_called": true,
+  "registry_and_vtable_intact": true,
+  "emulated_discovery_payload": "5a61e30510060d03",
+  "capture_sha256": "20332b34bef8e463600a8130149e8bc4f122e469006f248dd39a45faac8097c2",
+  "image_sha256": "53bff26a67727e27dd64496e689e99a99a0e6da1cbc7504643ea52413ffe6d50",
+  "limitations": "USB descriptor failure injected, prior cached identity seeded from capture; demonstrates software response, not the electrical cause."
+}

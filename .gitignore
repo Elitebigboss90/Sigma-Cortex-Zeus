@@ -1,8 +1,13 @@
 # Rebuildable local runtimes and compiler caches.
 /work/tools/python/
+/work/tools/windows-analysis/
 /work/tools/swift-module-cache/
 __pycache__/
 *.pyc
+
+# Local packaging draft and executable copies renamed for manual installation.
+/work/sigma/zeus-dev10-packaging-draft/
+/work/sigma/zeus-dev*/NOT_FOR_FLASHING-*.exe
 
 # OS metadata and live Ghidra locks; retain project databases and exports.
 .DS_Store

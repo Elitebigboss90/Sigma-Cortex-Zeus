@@ -1,0 +1,148 @@
+{
+  "status": "OFFLINE_WINDOWS_DIAGNOSTIC_NOT_FOR_FLASHING",
+  "build_id": "zeus-dev6-diagnostic",
+  "base_version": "1.1.8",
+  "original": {
+    "path": "work/sigma/1.1.8/sigma-decoded.bin",
+    "sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+    "size": 191104
+  },
+  "parent_build": "zeus-dev3",
+  "parent_sha256": "236fdf7580f553352ada033468654ebf3bff1ec70898184e988149d15f34c77c",
+  "wrappers": {
+    "construct": {
+      "address": 134540992,
+      "size": 36,
+      "source": "push {r4, lr}\nbl 0x804eccc\nldr r0, =0x200055ec\nmovs r1, #0\nstr r1, [r0]\nstr r1, [r0, #4]\nstr r1, [r0, #8]\nstr r1, [r0, #12]\nstr r1, [r0, #16]\nstr r1, [r0, #20]\nmovs r1, #255\nstrb r1, [r0]\nstrb r1, [r0, #16]\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5fff703ff06480021016041608160c16001614161ff210170017410bd00bfec550020"
+    },
+    "task": {
+      "address": 134541028,
+      "size": 48,
+      "source": "push {r4, lr}\nbl 0x0802affc\nldr r0, =0x200055ec\nldr r1, =0x20002104\nldr r1, [r1]\nldr r2, [r0, #4]\nsubs r2, r1, r2\ncmp r2, #100\nblo task_done\nstr r1, [r0, #4]\nldrb r2, [r0, #8]\nadds r2, #1\nstrb r2, [r0, #8]\nldr r0, =0x20000040\nmovs r1, #1\nstrb r1, [r0]\ntask_done:\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5dcf789f807480749096842688a1a642a06d34160027a0132027203480121017010bdec5500200421002040000020"
+    },
+    "init": {
+      "address": 134541076,
+      "size": 24,
+      "source": "push {r4, lr}\nbl 0x804eb44\nldr r1, =0x200055ec\nstrb r0, [r1]\nldrb r2, [r1, #1]\nadds r2, #1\nstrb r2, [r1, #1]\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5fff715fe034908704a7801324a7010bd00bfec550020"
+    },
+    "merge": {
+      "address": 134541100,
+      "size": 124,
+      "source": "push {r4, lr}\nbl 0x804ed10\nldr r0, =0x20005550\nadd.w r4, r0, #156\nldr r1, =0x20004640\nmovs r2, #90\nstrb r2, [r1]\nldrb r2, [r4, #8]\nand r2, r2, #15\norr r2, r2, #96\nstrb r2, [r1, #1]\ntst r2, #1\nbne discovery_page\nldrb r2, [r0, #12]\nstrb r2, [r1, #2]\nldrb r2, [r0, #57]\nstrb r2, [r1, #3]\nldrb r2, [r4]\nstrb r2, [r1, #4]\nldrb r2, [r4, #2]\nstrb r2, [r1, #5]\nldrb r2, [r0, #124]\nstrb r2, [r1, #6]\nldrb r2, [r0, #128]\nstrb r2, [r1, #7]\nb merge_done\ndiscovery_page:\nldrh r2, [r4, #12]\nstrh r2, [r1, #2]\nldrh r2, [r4, #14]\nstrh r2, [r1, #4]\nldrb r2, [r4, #16]\nstrb r2, [r1, #6]\nldr r2, =0x20004518\nldr r2, [r2]\ncmp r2, r0\nite eq\nmoveq r2, #1\nmovne r2, #0\nldr r3, [r0]\nldr r4, =0x804ee50\ncmp r3, r4\nit eq\norreq r2, r2, #2\nstrb r2, [r1, #7]\nmerge_done:\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5fff7effe194800f19c0418495a220a70227a02f00f0242f060024a7012f0010f0fd1027b8a7090f83920ca7022780a71a2784a7190f87c208a7190f88020ca7112e0a2894a80e2898a80227c8a71084a126882420cbf012200220368064ca34208bf42f00202ca7110bd50550020404600201845002050ee0408"
+    },
+    "input": {
+      "address": 134541224,
+      "size": 24,
+      "source": "ldr r12, =0x200055ee\nstrb r3, [r12]\ncmp r3, #64\nit eq\nmoveq r3, #23\nb.w 0x804ebcc\n.balign 4\n.ltorg\n\n",
+      "hex": "dff810c08cf80030402b08bf1723fff709be00bfee550020"
+    },
+    "descriptor": {
+      "address": 134541248,
+      "size": 44,
+      "source": "push {r4, r5, r6, lr}\nmov r4, r3\nmov r5, r2\nbl descriptor_original\nldr r1, =0x200055ec\nstrb r0, [r1, #16]\ncmp r0, #0\nbne descriptor_done\ncmp r5, #12\nblo descriptor_done\nldrh r2, [r4, #8]\nstrh r2, [r1, #12]\nldrh r2, [r4, #10]\nstrh r2, [r1, #14]\ndescriptor_done:\npop {r4, r5, r6, pc}\ndescriptor_original:\npush {r7, lr}\nsub sp, #48\nb.w 0x0802aa3c\n.balign 4\n.ltorg\n",
+      "hex": "70b51c46154600f00bf807490874002805d10c2d03d322898a816289ca8170bd80b58cb0dbf72abdec550020"
+    }
+  },
+  "edits": [
+    {
+      "offset": 18238,
+      "old_hex": "2af0c5ba",
+      "new_hex": "2af0bfbb",
+      "reason": "b.w to diagnostic wrapper"
+    },
+    {
+      "offset": 146204,
+      "old_hex": "e7f76efa",
+      "new_hex": "0bf0e2f9",
+      "reason": "bl to diagnostic wrapper"
+    },
+    {
+      "offset": 146304,
+      "old_hex": "0bf0c6f8",
+      "new_hex": "0bf0d4f9",
+      "reason": "bl to diagnostic wrapper"
+    },
+    {
+      "offset": 192080,
+      "old_hex": "45eb0408",
+      "new_hex": "15ef0408",
+      "reason": "Diagnostic Init return/attempt recording"
+    },
+    {
+      "offset": 192144,
+      "old_hex": "cdeb0408",
+      "new_hex": "a9ef0408",
+      "reason": "Record native input length/ID; allow 23- or 64-byte ID1 control buffers"
+    },
+    {
+      "offset": 43576,
+      "old_hex": "80b58cb0",
+      "new_hex": "24f0c2ba",
+      "reason": "Observe original device-descriptor helper return/identity through a prologue trampoline"
+    }
+  ],
+  "artifacts": {
+    "plaintext": {
+      "path": "work/sigma/zeus-dev6-diagnostic/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev6-diagnostic.plaintext.bin",
+      "size": 192512,
+      "sha256": "53bff26a67727e27dd64496e689e99a99a0e6da1cbc7504643ea52413ffe6d50"
+    },
+    "encoded": {
+      "path": "work/sigma/zeus-dev6-diagnostic/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev6-diagnostic.encoded.bin",
+      "size": 192512,
+      "sha256": "cab3b591b3c8f4e30cc33cd36bd4229cf3472b665f12bdb5db055d551714ab56"
+    }
+  },
+  "reserved_state_bytes": 180,
+  "flash_pages": 94,
+  "source_sha256": "acfb33619a8b5a25d43e9e4ffbc5680fbad2747d883bc1b77c51313618790f19",
+  "builder_sha256": "0fca9a9cb8ade68485bb0d121023fa1ad9d2105c2426b54f0dfbe5ccede873e2",
+  "symbols": {
+    "zeus_button_usages": "0x804eea0",
+    "zeus_match": "0x804ea81",
+    "zeus_endpoint": "0x804ea97",
+    "zeus_on_init": "0x804ead1",
+    "zeus_release": "0x804eb11",
+    "zeus_init": "0x804eb45",
+    "zeus_input": "0x804ebcd",
+    "zeus_poll": "0x804ec79",
+    "zeus_construct_hook": "0x804eccd",
+    "zeus_vtable": "0x804ee50",
+    "zeus_merge_hook": "0x804ed11"
+  },
+  "diagnostics": {
+    "offset": 56,
+    "length": 8,
+    "version": 6,
+    "pages": {
+      "even_heartbeat": [
+        "5a marker",
+        "6x version and heartbeat",
+        "USB address",
+        "poll-enabled",
+        "last Init return (ff = never attempted)",
+        "last native input length",
+        "accepted ID1 reports modulo 256",
+        "ignored reports modulo 256"
+      ],
+      "odd_heartbeat": [
+        "5a marker",
+        "6x version and heartbeat",
+        "last successful full device-descriptor VID little-endian (2 bytes)",
+        "last successful full device-descriptor PID little-endian (2 bytes)",
+        "last device-descriptor request return (ff = never called)",
+        "bit0: Zeus in expected registry slot 6; bit1: Zeus vtable pointer matches"
+      ]
+    }
+  },
+  "limitations": [
+    "Windows diagnostic only; vendor input bytes 56..63 are overwritten",
+    "23/64-byte handling is a compatibility hypothesis; no hardware fix claimed",
+    "No wheel-icon update; additional bytes in 64-byte ID1 buffers are ignored",
+    "Device-side firmware acceptance and failed-image recovery remain unproven"
+  ]
+}

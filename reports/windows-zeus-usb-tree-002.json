@@ -1,0 +1,43 @@
+{
+    "observed_utc":  "2026-11-03T00:14:25.7591186Z",
+    "operation":  "Read-only present HID and ancestor devnode metadata; no USB commands; paths/serial numbers omitted",
+    "direction":  "Target device toward PC root hub",
+    "trees":  [
+                  {
+                      "TargetIdentity":  "3670:0804",
+                      "Nodes":  [
+                                    {
+                                        "Depth":  1,
+                                        "Kind":  "USB device",
+                                        "Identity":  "3670:0804"
+                                    },
+                                    {
+                                        "Depth":  2,
+                                        "Kind":  "USB device",
+                                        "Identity":  "05E3:0610"
+                                    },
+                                    {
+                                        "Depth":  3,
+                                        "Kind":  "USB device",
+                                        "Identity":  "05E3:0610"
+                                    },
+                                    {
+                                        "Depth":  4,
+                                        "Kind":  "USB device",
+                                        "Identity":  "05E3:0610"
+                                    },
+                                    {
+                                        "Depth":  5,
+                                        "Kind":  "USB device",
+                                        "Identity":  "174C:2174"
+                                    },
+                                    {
+                                        "Depth":  6,
+                                        "Kind":  "USB root hub",
+                                        "Identity":  "root"
+                                    }
+                                ]
+                  }
+              ],
+    "limitations":  "Includes hubs on the PC connection path; use the recorded physical connection to distinguish Xtend hubs from PC-side hubs"
+}

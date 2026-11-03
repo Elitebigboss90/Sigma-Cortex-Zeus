@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "build_id": "zeus-dev10",
+  "image_sha256": "56eeec661beacfdf48b3ff009ed2d44d72b97661951edc6de8a409be449d85a0",
+  "cycle_count": 30,
+  "cases": [
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "whole_xtend",
+      "cycle": 1
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "whole_xtend",
+      "cycle": 2
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "whole_xtend",
+      "cycle": 3
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "whole_xtend",
+      "cycle": 4
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "whole_xtend",
+      "cycle": 5
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "inner_hub",
+      "cycle": 1
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "inner_hub",
+      "cycle": 2
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "inner_hub",
+      "cycle": 3
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "inner_hub",
+      "cycle": 4
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "inner_hub",
+      "cycle": 5
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "wheel_only",
+      "cycle": 1
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "wheel_only",
+      "cycle": 2
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "wheel_only",
+      "cycle": 3
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "wheel_only",
+      "cycle": 4
+    },
+    {
+      "root_port": 1,
+      "inner_port": 1,
+      "level": "wheel_only",
+      "cycle": 5
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "whole_xtend",
+      "cycle": 1
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "whole_xtend",
+      "cycle": 2
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "whole_xtend",
+      "cycle": 3
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "whole_xtend",
+      "cycle": 4
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "whole_xtend",
+      "cycle": 5
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "inner_hub",
+      "cycle": 1
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "inner_hub",
+      "cycle": 2
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "inner_hub",
+      "cycle": 3
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "inner_hub",
+      "cycle": 4
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "inner_hub",
+      "cycle": 5
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "wheel_only",
+      "cycle": 1
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "wheel_only",
+      "cycle": 2
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "wheel_only",
+      "cycle": 3
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "wheel_only",
+      "cycle": 4
+    },
+    {
+      "root_port": 4,
+      "inner_port": 3,
+      "level": "wheel_only",
+      "cycle": 5
+    }
+  ],
+  "script_sha256": "c53ee7bfb69c56d54b7981e9541282fc9755a28345df818adf5ca640073fd473",
+  "fixture_sha256": "c8cecf73e328cb9c40a613fdfe685a4756faa55eb36c74ed3951b75dcb4bc652",
+  "limitations": [
+    "Native hub events, pool allocation/free, class releases and reinitialization execute",
+    "Synthetic descriptors and successful USB control/OUT transport; no physical timing model",
+    "GPIO is emulated RAM; base/pedal report inputs are seeded, not physical inputs",
+    "Physical reconnection, cold startup, force feedback and PS5 remain unverified"
+  ]
+}

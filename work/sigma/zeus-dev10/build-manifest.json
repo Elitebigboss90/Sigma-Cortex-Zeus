@@ -1,0 +1,179 @@
+{
+  "status": "OFFLINE_NORMAL_REPORT_CANDIDATE",
+  "build_id": "zeus-dev10",
+  "base_version": "1.1.8",
+  "original": {
+    "path": "work/sigma/1.1.8/sigma-decoded.bin",
+    "sha256": "6fdef1664030ea9daf965a3b8c0d75e747fd04f3d3572641999bfcc785bb4035",
+    "size": 191104
+  },
+  "parent_build": "zeus-dev3",
+  "parent_sha256": "236fdf7580f553352ada033468654ebf3bff1ec70898184e988149d15f34c77c",
+  "artifacts": {
+    "plaintext": {
+      "path": "work/sigma/zeus-dev10/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev10.plaintext.bin",
+      "size": 192480,
+      "sha256": "56eeec661beacfdf48b3ff009ed2d44d72b97661951edc6de8a409be449d85a0"
+    },
+    "encoded": {
+      "path": "work/sigma/zeus-dev10/NOT_FOR_FLASHING-sigma-1.1.8-zeus-dev10.encoded.bin",
+      "size": 192480,
+      "sha256": "64d57cacc0865a4f0553fea87bf3e8d4a582a71ff46a6282ff63e1577011abee"
+    }
+  },
+  "symbols": {
+    "zeus_button_usages": "0x804eea0",
+    "zeus_match": "0x804ea81",
+    "zeus_endpoint": "0x804ea97",
+    "zeus_on_init": "0x804ead1",
+    "zeus_release": "0x804eb11",
+    "zeus_init": "0x804eb45",
+    "zeus_input": "0x804ebcd",
+    "zeus_poll": "0x804ec79",
+    "zeus_construct_hook": "0x804eccd",
+    "zeus_vtable": "0x804ee50",
+    "zeus_merge_hook": "0x804ed11"
+  },
+  "profile": {
+    "console_buttons": [
+      1,
+      2,
+      3,
+      4,
+      14,
+      13,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hat_primary": [
+      44,
+      47,
+      46,
+      45
+    ],
+    "hat_secondary": [
+      63,
+      66,
+      65,
+      64
+    ],
+    "center_aliases": [
+      43,
+      48
+    ],
+    "center_console_buttons": [
+      11,
+      12
+    ],
+    "axis_console_bytes": [
+      8,
+      9
+    ]
+  },
+  "source_files": {
+    "patch/sigma118/sigma_zeus.c": "54866357a47b6f27e93703412b60c551faf43140b31aa5f6884e5f39b8982e7a",
+    "patch/zeus_profile.h": "59e00c03df4e00035aade558c09e7a173ae13162b0caa675ad22a84be3a29b99",
+    "patch/sigma118/sigma_zeus.ld": "37591b4201f8b973af80637d9f6cf80933c8808504ffd9520761e5f2806ecc71",
+    "scripts/build_sigma118_zeus.py": "36e587277e475ade4191cfcf1e124a0f920d743ff6beb63c08f1efb715a42f28"
+  },
+  "wrappers": {
+    "construct": {
+      "address": 134540992,
+      "size": 56,
+      "source": "push {r4, lr}\nbl 0x804eccc\nldr r4, =0x20005604\nmov r0, r4\nmovs r1, #0\nmovs r2, #12\nclear_hubs:\nstr r1, [r0], #4\nsubs r2, #1\nbne clear_hubs\nmov r0, r4\nldr r1, =0x20004488\nbl 0x0802bf94\nadd.w r0, r4, #24\nldr r1, =0x20004488\nbl 0x0802bf94\npop {r4, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "10b5fff703ff094c204600210c2240f8041b013afbd120460549ddf75bf804f118000449ddf756f810bd00bf045600208844002088440020"
+    },
+    "hub_init": {
+      "address": 134541048,
+      "size": 28,
+      "source": "// Only our two owned objects use bytes 21/22 for parent/physical port.\nldr r12, =0x20005604\ncmp r0, r12\nblo hub_init_original\nadd r12, r12, #24\ncmp r0, r12\nbhi hub_init_original\nstrb r1, [r0, #21]\nstrb r2, [r0, #22]\nhub_init_original:\nb.w 0x0802bc64\n.balign 4\n.ltorg\n\n",
+      "hex": "dff814c0604505d30cf1180c604501d841758275dcf7aabe04560020"
+    },
+    "cleanup": {
+      "address": 134541076,
+      "size": 68,
+      "source": "push {r4, r5, r6, r7, lr}\nsub sp, #4\nldr r0, =0x20004488\nbl 0x0802ade0\nmov r7, r0\nldr r5, =0x20004500\nmovs r4, #16\ncleanup_loop:\nldr r6, [r5], #4\ncbz r6, cleanup_next\nmov r0, r6\nldr r3, [r6]\nldr r3, [r3, #16]\nblx r3\ncbz r0, cleanup_next\nmov r1, r0\nmov r0, r7\nldr r3, [r7]\nldr r3, [r3]\nblx r3\ncbnz r0, cleanup_next\nmov r0, r6\nldr r3, [r6]\nldr r3, [r3, #8]\nblx r3\ncleanup_next:\nsubs r4, #1\nbne cleanup_loop\nadd sp, #4\npop {r4, r5, r6, r7, pc}\n.balign 4\n.ltorg\n\n",
+      "hex": "f0b581b00d48dbf761ff07460c4d102455f8046b76b1304633681b69984748b1014638463b681b68984718b9304633689b689847013cebd101b0f0bd8844002000450020"
+    },
+    "port_event": {
+      "address": 134541144,
+      "size": 100,
+      "source": "push {r4, r5, r6, r7, lr}\nsub sp, #4\nmov r4, r0\nmov r5, r1\nmov r6, r2\ncbz r6, port_original_call\nldr r0, [r6]\nldr r1, =0x00010100\ncmp r0, r1\nbne port_original_call\nldrb r0, [r4, #14]\nand r0, r0, #7\nstr r0, [sp]\nldr r7, =0x20005604\nport_find_hub:\nldrb r0, [r7, #21]\nldr r1, [sp]\ncmp r0, r1\nbne port_next_hub\nldrb r0, [r7, #22]\ncmp r0, r5\nbne port_next_hub\nldrb r1, [r7, #14]\ncbz r1, port_next_hub\nldr r0, [r4, #4]\nbl 0x0802ad40\nport_next_hub:\nadds r7, #24\nldr r0, =0x20005634\ncmp r7, r0\nblo port_find_hub\nbl 0x804ef14\nport_original_call:\nmov r0, r4\nmov r1, r5\nmov r2, r6\nbl port_original\nadd sp, #4\npop {r4, r5, r6, r7, pc}\nport_original:\npush {r4, r5, r7, lr}\nsub sp, #24\nb.w 0x0802baf4\n.balign 4\n.ltorg\n\n",
+      "hex": "f0b581b004460d461646d6b130681249884216d1a07b00f0070000900f4f787d0099884207d1b87da84204d1b97b11b16068dbf7d9fe183709488742efd3fff7bdff20462946324600f002f801b0f0bdb0b586b0dcf7a2bd000101000456002034560020"
+    },
+    "input": {
+      "address": 134541244,
+      "size": 12,
+      "source": "cmp r3, #64\nit eq\nmoveq r3, #23\nb.w 0x804ebcc\n.balign 4\n.ltorg\n",
+      "hex": "402b08bf1723fff703be00bf"
+    }
+  },
+  "edits": [
+    {
+      "offset": 18238,
+      "old_hex": "2af0c5ba",
+      "new_hex": "2af0bfbb",
+      "reason": "Preserve original six classes/Zeus then construct two additional hubs"
+    },
+    {
+      "offset": 192144,
+      "old_hex": "cdeb0408",
+      "new_hex": "bdef0408",
+      "reason": "Normalize 64-byte buffers to the known 23-byte ID1 prefix"
+    },
+    {
+      "offset": 42416,
+      "old_hex": "0020",
+      "new_hex": "67e0",
+      "reason": "Unmatched devices use existing DefaultAddressing instead of consuming a known-device driver"
+    },
+    {
+      "offset": 160692,
+      "old_hex": "65bc0208",
+      "new_hex": "f9ee0408",
+      "reason": "Record parent/port only in the two owned extra-hub objects"
+    },
+    {
+      "offset": 47856,
+      "old_hex": "b0b586b0",
+      "new_hex": "23f032ba",
+      "reason": "Release the correct mapped hub subtree on disconnect; preserve original port-event processing"
+    }
+  ],
+  "source_sha256": "6e278e807eca2d9a96915b8e8c7ad882f9c9f092e1179d032815487cc8643e9c",
+  "builder_sha256": "859a3490e802d703978e7078d5470d16a5baa54eb374d52f34d645c06799c279",
+  "reserved_state_bytes": 228,
+  "flash_pages": 94,
+  "extra_hubs": [
+    {
+      "address": "0x20005604",
+      "size": 24,
+      "registry_slot": 7
+    },
+    {
+      "address": "0x2000561c",
+      "size": 24,
+      "registry_slot": 8
+    }
+  ],
+  "normal_reports": true,
+  "diagnostic_fields": false,
+  "periodic_heartbeat": false,
+  "reconnect_cleanup": true,
+  "extra_hub_parent_port_offsets": [
+    21,
+    22
+  ],
+  "limitations": [
+    "Normal report layout restored; physical PS5 behavior is not verified",
+    "Unmatched devices receive an address without acquiring an input driver",
+    "Parent/port tracking uses padding only in the two owned extra-hub objects",
+    "Physical reconnect timing and PS5 behavior remain unverified"
+  ]
+}

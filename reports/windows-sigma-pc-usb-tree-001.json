@@ -1,0 +1,33 @@
+{
+    "observed_utc":  "2026-11-03T00:15:11.1191407Z",
+    "operation":  "Read-only present HID and ancestor devnode metadata; no USB commands; paths/serial numbers omitted",
+    "direction":  "Target device toward PC root hub",
+    "trees":  [
+                  {
+                      "TargetIdentity":  "0EB7:0E07",
+                      "Nodes":  [
+                                    {
+                                        "Depth":  1,
+                                        "Kind":  "USB device",
+                                        "Identity":  "0EB7:0E07"
+                                    },
+                                    {
+                                        "Depth":  2,
+                                        "Kind":  "USB device",
+                                        "Identity":  "05E3:0610"
+                                    },
+                                    {
+                                        "Depth":  3,
+                                        "Kind":  "USB device",
+                                        "Identity":  "174C:2174"
+                                    },
+                                    {
+                                        "Depth":  4,
+                                        "Kind":  "USB root hub",
+                                        "Identity":  "root"
+                                    }
+                                ]
+                  }
+              ],
+    "limitations":  "Includes hubs on the PC connection path; use the recorded physical connection to distinguish Xtend hubs from PC-side hubs"
+}

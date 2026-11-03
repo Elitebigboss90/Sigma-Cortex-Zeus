@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Four real Init/host enumeration cases record successful status, with SET_IDLE success and STALL models",
+    "Configuration-transfer failure records return code 4 and leaves no allocated wheel address",
+    "Periodic wrapper calls original host task and marks reports dirty at 100 ticks, including wraparound",
+    "125 distinct Windows control prefixes accepted as 23 and 64 bytes preserve dev3 output 0..55 and expose native length/ID",
+    "Rejected report ID and modulo-256 accepted counter are reported without state-boundary damage",
+    "Edited main-loop and merge callsites execute and return with balanced stacks"
+  ],
+  "distinct_windows_payloads": 125,
+  "image_sha256": "7ae64422dff708817f8266397a4e05a30c8b35f1c03556cd77957c442a9a8df6",
+  "capture_sha256": "9406bf3f79fb27816c3097382bad13e5841fa1f35841b4624d1bf603db71dd30",
+  "verification_script_sha256": "d1af310fe403503547c10bf5d714c36caab597dcaab12939fae48385e65feaec",
+  "initialization_model_sha256": "d93b032428cf2753264a191cce29424f2fe5deff44d0c5f6add7d6d86e312417",
+  "stubs": [
+    "USB control transfer boundary",
+    "delay",
+    "debug logging",
+    "original host task for periodic-wrapper tests"
+  ],
+  "limitations": [
+    "No firmware installation or USB hardware model",
+    "Windows ID1 padding removed only for CPU replay; actual bus length remains unmeasured",
+    "Only bytes 0..55 preserve ordinary dev3 output; diagnostic vendor bytes differ"
+  ]
+}

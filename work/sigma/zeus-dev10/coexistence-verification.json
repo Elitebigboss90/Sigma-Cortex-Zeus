@@ -1,0 +1,179 @@
+{
+  "status": "PASS",
+  "build_id": "zeus-dev10",
+  "image_sha256": "56eeec661beacfdf48b3ff009ed2d44d72b97661951edc6de8a409be449d85a0",
+  "script_sha256": "a77e51e441066764d7f6a0c9d88f03347375f3cfab740ca54ae122e1db3c2535",
+  "emulator_script_sha256": "872fe695e32b52921e8cbf5a54156fba96871da6bcd0d7528fa6ecdff94fa4cb",
+  "base_patterns": 8,
+  "report_comparisons": 56,
+  "cases": [
+    {
+      "index": 0,
+      "base_axes": [
+        0,
+        21845,
+        43690,
+        65535
+      ],
+      "base_report_hex": "0180808080080000000000000000000000000000000000000000000000000000000000000000000000000000005555aaaaffff00ffff00000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    },
+    {
+      "index": 1,
+      "base_axes": [
+        8191,
+        30036,
+        51881,
+        8190
+      ],
+      "base_report_hex": "01808080805027490000000000000000000000000000000000000000000000000000000000000000000000ff1f5475a9cafe1f01e0e000000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    },
+    {
+      "index": 2,
+      "base_axes": [
+        16382,
+        38227,
+        60072,
+        16381
+      ],
+      "base_report_hex": "0180808080a24b920000000000000000000000000000000000000000000000000000000000000000000000fe3f5395a8eafd3f02c1c100000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    },
+    {
+      "index": 3,
+      "base_axes": [
+        24573,
+        46418,
+        2727,
+        24572
+      ],
+      "base_report_hex": "0180808080f46fdb0000000000000000000000000000000000000000000000000000000000000000000000fd5f52b5a70afc5f03a2a200000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    },
+    {
+      "index": 4,
+      "base_axes": [
+        32764,
+        54609,
+        10918,
+        32763
+      ],
+      "base_report_hex": "01808080804694240000000000000000000000000000000000000000000000000000000000000000000000fc7f51d5a62afb7f04838300000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    },
+    {
+      "index": 5,
+      "base_axes": [
+        40955,
+        62800,
+        19109,
+        40954
+      ],
+      "base_report_hex": "018080808091b96d0000000000000000000000000000000000000000000000000000000000000000000000fb9f50f5a54afa9f05646400000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    },
+    {
+      "index": 6,
+      "base_axes": [
+        49146,
+        5455,
+        27300,
+        49145
+      ],
+      "base_report_hex": "0180808080e3deb60000000000000000000000000000000000000000000000000000000000000000000000fabf4f15a46af9bf06454500000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    },
+    {
+      "index": 7,
+      "base_axes": [
+        57337,
+        13646,
+        35491,
+        57336
+      ],
+      "base_report_hex": "01808080803703ff0000000000000000000000000000000000000000000000000000000000000000000000f9df4e35a38af8df07262600000000000000000000",
+      "checks": [
+        "inactive equals stock",
+        "right shift, left center, up and analog coexist",
+        "Zeus direction release restores held base hat",
+        "neutral Zeus restores full stock report",
+        "timeout releases Zeus while preserving base",
+        "release wrapper preserves base",
+        "fresh callback accepts inputs after release"
+      ]
+    }
+  ],
+  "candidate_artifacts_unchanged": true,
+  "executed_addresses": {
+    "stock_builder": "080460C0",
+    "constructor": "08024720",
+    "merge": "0x804ed11",
+    "input": "0x804ebcd"
+  },
+  "stubs": [
+    "08028E50 original release boundary",
+    "08028FB0 original poll boundary"
+  ],
+  "limits": [
+    "Synthetic non-neutral base RAM inputs; no physical USB transactions",
+    "Release and reinitialization callback behavior, not physical detach/reattach",
+    "No bootloader acceptance, concurrency, sustained heap or PS5 validation"
+  ]
+}

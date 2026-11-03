@@ -1,0 +1,341 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "entry": "direct_init",
+      "idle_status": 0,
+      "return_code": 0,
+      "address": 1,
+      "interface_count": 1,
+      "endpoint_count": 3,
+      "polling_enabled": 1,
+      "transfers": [
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 8,
+          "capacity": 8,
+          "streaming_parser": false
+        },
+        {
+          "request": 5,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 18,
+          "capacity": 18,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 9,
+          "capacity": 9,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 41,
+          "capacity": 64,
+          "streaming_parser": true
+        },
+        {
+          "request": 9,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 10,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 34,
+          "index": 0,
+          "total": 128,
+          "capacity": 64,
+          "streaming_parser": false
+        }
+      ],
+      "endpoint_and_interface_bytes": "010103000000000000010100403c0140040140040000040000040000040000040000040000040000040000040000010200000000000000000000000000000000"
+    },
+    {
+      "entry": "host_enumeration",
+      "idle_status": 0,
+      "return_code": 0,
+      "address": 1,
+      "interface_count": 1,
+      "endpoint_count": 3,
+      "polling_enabled": 1,
+      "transfers": [
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 18,
+          "capacity": 18,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 8,
+          "capacity": 8,
+          "streaming_parser": false
+        },
+        {
+          "request": 5,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 18,
+          "capacity": 18,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 9,
+          "capacity": 9,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 41,
+          "capacity": 64,
+          "streaming_parser": true
+        },
+        {
+          "request": 9,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 10,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 34,
+          "index": 0,
+          "total": 128,
+          "capacity": 64,
+          "streaming_parser": false
+        }
+      ],
+      "endpoint_and_interface_bytes": "010103000000000000010100403c0140040140040000040000040000040000040000040000040000040000040000010200000000000000000000000000000000"
+    },
+    {
+      "entry": "direct_init",
+      "idle_status": 5,
+      "return_code": 0,
+      "address": 1,
+      "interface_count": 1,
+      "endpoint_count": 3,
+      "polling_enabled": 1,
+      "transfers": [
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 8,
+          "capacity": 8,
+          "streaming_parser": false
+        },
+        {
+          "request": 5,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 18,
+          "capacity": 18,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 9,
+          "capacity": 9,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 41,
+          "capacity": 64,
+          "streaming_parser": true
+        },
+        {
+          "request": 9,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 10,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 34,
+          "index": 0,
+          "total": 128,
+          "capacity": 64,
+          "streaming_parser": false
+        }
+      ],
+      "endpoint_and_interface_bytes": "010103000000000000010100403c0140040140040000040000040000040000040000040000040000040000040000010200000000000000000000000000000000"
+    },
+    {
+      "entry": "host_enumeration",
+      "idle_status": 5,
+      "return_code": 0,
+      "address": 1,
+      "interface_count": 1,
+      "endpoint_count": 3,
+      "polling_enabled": 1,
+      "transfers": [
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 18,
+          "capacity": 18,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 8,
+          "capacity": 8,
+          "streaming_parser": false
+        },
+        {
+          "request": 5,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 1,
+          "index": 0,
+          "total": 18,
+          "capacity": 18,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 9,
+          "capacity": 9,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 2,
+          "index": 0,
+          "total": 41,
+          "capacity": 64,
+          "streaming_parser": true
+        },
+        {
+          "request": 9,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 10,
+          "descriptor_type": 0,
+          "index": 0,
+          "total": 0,
+          "capacity": 0,
+          "streaming_parser": false
+        },
+        {
+          "request": 6,
+          "descriptor_type": 34,
+          "index": 0,
+          "total": 128,
+          "capacity": 64,
+          "streaming_parser": false
+        }
+      ],
+      "endpoint_and_interface_bytes": "010103000000000000010100403c0140040140040000040000040000040000040000040000040000040000040000010200000000000000000000000000000000"
+    }
+  ],
+  "image_sha256": "236fdf7580f553352ada033468654ebf3bff1ec70898184e988149d15f34c77c",
+  "descriptor_sha256": {
+    "1": "00574a94b36b0038c76023f54da3e371e1150b47959162177c5e5111c87fcdb2",
+    "2": "784c2d7b4a3213acd48d132f2658e50151af622f1021bac986f6f01bf6bbed6a",
+    "34": "1a50f848ae66c8b3f5d5841ba39ab34d84815b90d3d198c5d7e70dfb9b7f123d"
+  },
+  "stubs": [
+    "USB control transfer boundary 0802B2E0",
+    "delay 0802EECC",
+    "debug logging 08024744"
+  ],
+  "limitations": [
+    "Bundled descriptors, not current live full USB descriptors",
+    "Assumes successful descriptor, address and configuration transfers",
+    "No USB controller, bus timing, firmware installation or wheel routing model"
+  ]
+}
